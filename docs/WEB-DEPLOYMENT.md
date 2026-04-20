@@ -72,11 +72,15 @@ Add redirect URLs:
 ```text
 https://oraya.ai-divination.com/auth
 https://oraya.ai-divination.com/dashboard
+https://<vercel-project>.vercel.app/auth
+https://<vercel-project>.vercel.app/dashboard
 http://127.0.0.1:3000/auth
 http://127.0.0.1:3000/dashboard
 ```
 
 The admin web login redirects to `/dashboard` after Google auth.
+If testing before the custom domain is live, replace `<vercel-project>` with the
+temporary Vercel deployment hostname shown by Vercel.
 
 ## Google OAuth
 

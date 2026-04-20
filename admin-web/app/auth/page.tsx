@@ -6,6 +6,15 @@ import { useRouter } from 'next/navigation'
 import { getSupabaseBrowser, isUsingLocalSupabase } from '@/lib/supabase-browser'
 import { adminApi } from '@/lib/admin-api'
 
+function formatAuthError(err: unknown) {
+  if (err instanceof Error) return err.message
+  try {
+    return JSON.stringify(err)
+  } catch {
+    return String(err)
+  }
+}
+
 export default function AuthPage() {
   const router = useRouter()
   const [loading, setLoading] = useState(false)
@@ -26,8 +35,11 @@ export default function AuthPage() {
       try {
         await adminApi.dashboard()
         router.replace('/dashboard')
-      } catch (_) {
+      } catch (err) {
         await getSupabaseBrowser().auth.signOut()
+        setError(
+          `Google sign-in worked, but admin access failed: ${formatAuthError(err)}`,
+        )
       }
     })
   }, [router])
@@ -48,14 +60,21 @@ export default function AuthPage() {
               setLoading(true)
               setError(null)
               try {
-                await getSupabaseBrowser().auth.signInWithOAuth({
+                const { data, error: oauthError } =
+                  await getSupabaseBrowser().auth.signInWithOAuth({
                   provider: 'google',
                   options: {
                     redirectTo: `${window.location.origin}/dashboard`,
                   },
                 })
+                if (oauthError) throw oauthError
+                if (data.url) {
+                  window.location.assign(data.url)
+                  return
+                }
+                throw new Error('Google OAuth did not return a redirect URL')
               } catch (err) {
-                setError(String(err))
+                setError(formatAuthError(err))
                 setLoading(false)
               }
             }}
