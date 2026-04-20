@@ -106,9 +106,9 @@ python3 scripts/audit_supabase_rls_isolation.py
 - App name is `Oraya`.
 - App icon and launch assets are final.
 - App Store screenshots are prepared.
-- Privacy Policy URL is live, for example `https://<domain>/privacy`.
-- Terms URL is live, for example `https://<domain>/terms`.
-- Support URL is live, for example `https://<domain>/support`, and the support email on that page is active.
+- Privacy Policy URL is live: `https://oraya.ai-divination.com/privacy`.
+- Terms URL is live: `https://oraya.ai-divination.com/terms`.
+- Support URL is live: `https://oraya.ai-divination.com/support`, and the support email on that page is active.
 - App privacy labels are filled honestly.
 - Age rating and entertainment/self-reflection disclaimer are set.
 - If real Google login is enabled in the iOS app, Sign in with Apple must also be enabled.
