@@ -12,10 +12,11 @@ These are the non-code launch items that need a product/business owner decision 
   - use current cloud project `lckhqitjvnszcojppnnh` as production.
   - clean or archive obvious test data before public launch.
   - keep vector knowledge tables and admin users intact.
-- Create legal/support pages:
-  - Privacy Policy URL
-  - Terms URL
-  - Support URL or support email
+- Legal/support pages are implemented in `admin-web`:
+  - `/privacy`
+  - `/terms`
+  - `/support`
+- Before public launch, deploy these pages to the production domain and activate or replace `support@oraya.app`.
 - Apple Developer setup:
   - final Bundle ID
   - signing team
