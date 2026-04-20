@@ -1,0 +1,63 @@
+{
+  "source_site": "china95.net",
+  "entry_urls": {
+    "legacy_form": "https://www.china95.net/paipan/qimen.asp",
+    "new_form": "https://www.china95.net/paipan/qimen/",
+    "result_endpoint": "https://www.china95.net/paipan/qimen_show.asp"
+  },
+  "observed_engine_traits": {
+    "legacy_transport": "classic_post_form",
+    "time_modes": {
+      "V1": "beijing_time",
+      "V2": "selected_city_true_solar",
+      "V3": "manual_longitude_true_solar"
+    },
+    "ju_field_behavior": {
+      "legacy_auto": "拆补局",
+      "manual_examples": [
+        "阳1",
+        "阳2",
+        "阴1",
+        "阴9"
+      ]
+    },
+    "new_form_profiles": {
+      "PPfangshi": {
+        "1": "转盘奇门",
+        "0": "飞盘奇门"
+      },
+      "PPfanghua": {
+        "0": "拆补无闰法",
+        "1": "超接置闰法"
+      }
+    },
+    "visible_result_fields": [
+      "经度",
+      "真时",
+      "公元",
+      "农历",
+      "立春/惊蛰",
+      "干支",
+      "旬空",
+      "直符",
+      "直使",
+      "旬首",
+      "九宫盘"
+    ]
+  },
+  "alignment_policy": {
+    "primary_use_now": [
+      "true_solar_chai_bu_secondary_oracle",
+      "result_page_field_cross_check",
+      "sample_output_comparison"
+    ],
+    "known_gap": [
+      "new_form_profile_to_result_mapping_not_fully_decoded",
+      "zhi_run_should_not_use_china95_as_primary_oracle_yet"
+    ],
+    "preferred_profile_mapping": {
+      "chai_bu": "legacy_result_endpoint_or_new_form_ppfanghua_0",
+      "zhi_run": "pending_course_confirmation_or_better_oracle_decode"
+    }
+  }
+}

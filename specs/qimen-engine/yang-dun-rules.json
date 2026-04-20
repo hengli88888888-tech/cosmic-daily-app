@@ -1,0 +1,197 @@
+{
+  "version": 1,
+  "mode": "yang_dun",
+  "status": "design_locked",
+  "classification": {
+    "yang_dun_window": {
+      "start": "winter_solstice",
+      "end_exclusive": "summer_solstice"
+    },
+    "yin_dun_window": {
+      "start": "summer_solstice",
+      "end_exclusive": "winter_solstice"
+    },
+    "note": "Yang and Yin windows are both detected. This file is the Yang-specific rule asset; Yin-specific bureau mapping now lives in yin-dun-rules.json."
+  },
+  "board_elements": {
+    "stars": [
+      "天蓬",
+      "天芮",
+      "天冲",
+      "天辅",
+      "天禽",
+      "天心",
+      "天柱",
+      "天任",
+      "天英"
+    ],
+    "gates": [
+      "休门",
+      "生门",
+      "伤门",
+      "杜门",
+      "景门",
+      "死门",
+      "惊门",
+      "开门"
+    ],
+    "deities": [
+      "值符",
+      "腾蛇",
+      "太阴",
+      "六合",
+      "白虎",
+      "玄武",
+      "九地",
+      "九天"
+    ],
+    "heaven_stems": [
+      "乙",
+      "丙",
+      "丁",
+      "戊",
+      "己",
+      "庚",
+      "辛",
+      "壬",
+      "癸"
+    ]
+  },
+  "seasonal_bureau_reference": {
+    "winter_solstice": { "yang": "一七四", "yin": null },
+    "xiaohan": { "yang": "二八五", "yin": null },
+    "dahan": { "yang": "三九六", "yin": null },
+    "lichun": { "yang": "二八五", "yin": null },
+    "yushui": { "yang": "九六三", "yin": null },
+    "jingzhe": { "yang": "一七四", "yin": null },
+    "chunfen": { "yang": "三九六", "yin": null },
+    "qingming": { "yang": "九六三", "yin": null },
+    "guyu": { "yang": "五二八", "yin": null },
+    "lixia": { "yang": "五二八", "yin": null },
+    "xiaoman": { "yang": "五二八", "yin": null },
+    "mangzhong": { "yang": "三六九", "yin": "see_yin_dun_rules" },
+    "xiazhi": { "yang": null, "yin": "see_yin_dun_rules" },
+    "xiaoshu": { "yang": null, "yin": "see_yin_dun_rules" },
+    "dashu": { "yang": null, "yin": "see_yin_dun_rules" },
+    "liqiu": { "yang": null, "yin": "see_yin_dun_rules" },
+    "chushu": { "yang": null, "yin": "see_yin_dun_rules" },
+    "bailu": { "yang": null, "yin": "see_yin_dun_rules" },
+    "qiufen": { "yang": null, "yin": "see_yin_dun_rules" },
+    "hanlu": { "yang": null, "yin": "see_yin_dun_rules" },
+    "shuangjiang": { "yang": null, "yin": "see_yin_dun_rules" },
+    "lidong": { "yang": null, "yin": "see_yin_dun_rules" },
+    "xiaoxue": { "yang": null, "yin": "see_yin_dun_rules" },
+    "daxue": { "yang": "三六九", "yin": "see_yin_dun_rules" }
+  },
+  "bureau_determination": {
+    "strategy": "Use solar-term bucket plus day/hour context to resolve the final bureau number.",
+    "note": "The exact programmable formula still needs to be locked against a trusted oracle. This file stores the design-time mapping and validation targets."
+  },
+  "earth_plate": {
+    "yang_dun_forward": [
+      { "palace": 1, "stem": "戊" },
+      { "palace": 2, "stem": "己" },
+      { "palace": 3, "stem": "庚" },
+      { "palace": 4, "stem": "辛" },
+      { "palace": 5, "stem": "壬" },
+      { "palace": 6, "stem": "癸" },
+      { "palace": 7, "stem": "丁" },
+      { "palace": 8, "stem": "丙" },
+      { "palace": 9, "stem": "乙" }
+    ],
+    "yin_dun_reverse_reference": [
+      { "palace": 9, "stem": "戊" },
+      { "palace": 8, "stem": "己" },
+      { "palace": 7, "stem": "庚" },
+      { "palace": 6, "stem": "辛" },
+      { "palace": 5, "stem": "壬" },
+      { "palace": 4, "stem": "癸" },
+      { "palace": 3, "stem": "丁" },
+      { "palace": 2, "stem": "丙" },
+      { "palace": 1, "stem": "乙" }
+    ]
+  },
+  "value_star_lookup": {
+    "戊": "天蓬",
+    "己": "天芮",
+    "庚": "天冲",
+    "辛": "天辅",
+    "壬": "天禽",
+    "癸": "天心",
+    "丁": "天柱",
+    "丙": "天任",
+    "乙": "天英"
+  },
+  "star_order": [
+    { "palace": 1, "star": "天蓬" },
+    { "palace": 2, "star": "天芮" },
+    { "palace": 3, "star": "天冲" },
+    { "palace": 4, "star": "天辅" },
+    { "palace": 5, "star": "天禽" },
+    { "palace": 6, "star": "天心" },
+    { "palace": 7, "star": "天柱" },
+    { "palace": 8, "star": "天任" },
+    { "palace": 9, "star": "天英" }
+  },
+  "gates": {
+    "original_palaces": [
+      { "gate": "休门", "palace": 1 },
+      { "gate": "生门", "palace": 8 },
+      { "gate": "伤门", "palace": 3 },
+      { "gate": "杜门", "palace": 4 },
+      { "gate": "景门", "palace": 9 },
+      { "gate": "死门", "palace": 2 },
+      { "gate": "惊门", "palace": 7 },
+      { "gate": "开门", "palace": 6 }
+    ],
+    "rotation_order": [
+      "休门",
+      "生门",
+      "伤门",
+      "杜门",
+      "景门",
+      "死门",
+      "惊门",
+      "开门"
+    ],
+    "value_gate_note": "The exact hour-branch to value-gate bridge still needs to be locked against oracle behavior."
+  },
+  "deities": {
+    "sequence": [
+      "值符",
+      "腾蛇",
+      "太阴",
+      "六合",
+      "白虎",
+      "玄武",
+      "九地",
+      "九天"
+    ],
+    "yang_dun_direction": "forward_by_palace"
+  },
+  "heaven_plate": {
+    "strategy": "Follow the value-star flight and carry the linked earth-plate stem with the star."
+  },
+  "markers": {
+    "kong_wang": {
+      "status": "pending_exact_rule_lock"
+    },
+    "horse_star": {
+      "status": "pending_exact_rule_lock",
+      "reference": {
+        "申子辰": "寅",
+        "亥卯未": "巳"
+      }
+    },
+    "middle_palace": {
+      "tianqin_policy": "allow_middle_or_kun_reference",
+      "middle_gate_policy": "中门_exists_but_not_normally_used"
+    }
+  },
+  "implementation_notes": [
+    "Keep calculation logic separate from interpretation.",
+    "Do not silently mix Yin-specific bureau logic into the Yang rule asset.",
+    "Expose boundary and out-of-scope state explicitly in metadata.",
+    "Keep palace-by-palace board data machine-readable."
+  ]
+}

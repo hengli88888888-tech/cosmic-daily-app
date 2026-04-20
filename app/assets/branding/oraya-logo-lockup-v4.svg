@@ -1,0 +1,40 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="orayaRingA" x1="210" y1="210" x2="385" y2="355" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E9CCFF"/>
+      <stop offset="0.45" stop-color="#CFA8FF"/>
+      <stop offset="1" stop-color="#F4C7A8"/>
+    </linearGradient>
+    <linearGradient id="orayaRingB" x1="208" y1="324" x2="380" y2="230" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8F6BE8"/>
+      <stop offset="0.5" stop-color="#C9A4FF"/>
+      <stop offset="1" stop-color="#F1D5FF"/>
+    </linearGradient>
+    <radialGradient id="orayaGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(287 262) rotate(90) scale(92)">
+      <stop stop-color="#FFF8F2"/>
+      <stop offset="0.25" stop-color="#FFDCCF"/>
+      <stop offset="0.55" stop-color="#C9A4FF" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#111A28" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="#F5EFE4"/>
+  <rect x="120" y="110" width="1360" height="680" rx="52" fill="#FFFBF4"/>
+  <rect x="160" y="150" width="220" height="220" rx="56" fill="#201739"/>
+  <ellipse cx="273" cy="260" rx="84" ry="52" transform="rotate(-8 273 260)" fill="url(#orayaGlow)"/>
+  <path d="M189 260C202 221 240 196 291 196C336 196 366 216 381 247C365 224 332 211 292 214C252 217 220 236 209 267C203 283 204 299 211 314C191 301 182 281 189 260Z" fill="url(#orayaRingB)"/>
+  <path d="M201 286C210 317 242 336 288 334C336 333 371 314 387 282C382 317 353 351 295 357C239 361 203 339 193 301C192 296 191 291 191 286H201Z" fill="url(#orayaRingA)"/>
+  <path d="M201 286C212 249 246 226 291 225C335 224 368 243 386 275C375 238 340 209 292 210C243 211 208 238 197 275C196 279 196 282 196 286H201Z" fill="#F8EEFF"/>
+  <circle cx="286" cy="262" r="16" fill="#FFF7F2"/>
+  <circle cx="286" cy="262" r="36" fill="#FFF2EA" fill-opacity="0.3"/>
+  <text x="450" y="280" fill="#1A2130" font-family="Georgia, 'Times New Roman', serif" font-size="128" font-weight="700" letter-spacing="-2">Oraya</text>
+  <text x="456" y="350" fill="#1E3450" font-family="'SF Pro Text', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="500" letter-spacing="0.4">Private guidance for your next move.</text>
+  <line x1="456" y1="398" x2="1038" y2="398" stroke="#D8CEBC" stroke-width="2"/>
+  <text x="456" y="460" fill="#4F5966" font-family="'SF Pro Text', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="500">
+    Personal timing, private insight, and clear next steps.
+  </text>
+  <text x="456" y="520" fill="#4F5966" font-family="'SF Pro Text', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="500">
+    Built for love, work, and the moments that feel too important to guess.
+  </text>
+  <rect x="456" y="588" width="172" height="42" rx="21" fill="#EAD8BB"/>
+  <text x="490" y="616" fill="#1A2130" font-family="'SF Pro Text', 'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="1.4">ORACLE APP</text>
+</svg>

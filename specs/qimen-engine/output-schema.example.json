@@ -1,0 +1,84 @@
+{
+  "input": {
+    "submission_datetime": "2016-12-08T17:04:00",
+    "timezone": "Asia/Shanghai",
+    "source": "question_submit_time",
+    "system_profile": "chai_bu"
+  },
+  "timing": {
+    "utc_datetime": "2016-12-08T09:04:00Z",
+    "local_datetime": "2016-12-08T17:04:00",
+    "dst_applied": false,
+    "timezone_name": "Asia/Shanghai",
+    "casting_time_basis": "local_civil_time"
+  },
+  "calendar_context": {
+    "solar_term": "大雪",
+    "season_id": 21,
+    "current_solar_term": "大雪",
+    "current_season_id": 21,
+    "year_ganzhi": "丙申",
+    "month_ganzhi": "庚子",
+    "day_ganzhi": "甲子",
+    "hour_ganzhi": "癸酉"
+  },
+  "chart": {
+    "mode": "yin_dun",
+    "yin_yang": "阴遁",
+    "bureau_number": 4,
+    "xun_shou": "甲子 (戊)",
+    "zhi_fu": "天辅",
+    "zhi_shi": "杜门",
+    "tian_yi": "天任",
+    "dun_profile": "yin_dun",
+    "solar_term": "大雪",
+    "system_profile": "chai_bu"
+  },
+  "palaces": [
+    {
+      "palace": 1,
+      "label": "坎一宫",
+      "earth_plate_stem": "辛",
+      "heaven_plate_stem": "己",
+      "star": "天冲",
+      "gate": "休门",
+      "deity": "太阴",
+      "original_gate_palace": 1,
+      "original_star_palace": 3,
+      "empty": false,
+      "horse": false,
+      "notes": []
+    }
+  ],
+  "markers": {
+    "kong_wang": [],
+    "horse_star": [],
+    "active_palace_hints": [],
+    "middle_palace_policy": {
+      "tianqin": "middle_or_kun_reference",
+      "middle_gate": "not_normally_used"
+    }
+  },
+  "value_summary": {
+    "zhi_fu": "天辅 (巽四宫)",
+    "zhi_shi": "杜门 (巽四宫)"
+  },
+  "china95_style_layout": "方式：转盘奇门 - 拆补法\n排盘：本地引擎 - 网页盘式样\n时间：2016-12-08T17:04:00 (Asia/Shanghai)\n干支：丙申年 庚子月 甲子日 癸酉时\n旬空：\n大雪：阴遁4局  值符天辅落巽四宫  值使杜门落巽四宫\n旬首：甲子 (戊)\n\n+--------------+--------------+--------------+\n| 腾蛇           | 九地           | 白虎           |\n| 杜门 壬         | 景门 戊         | 死门 庚         |\n| 天辅 辛         | 天英 壬         | 天芮 戊         |\n+--------------+--------------+--------------+\n| 六合           |                | 太阴           |\n| 伤门 辛 马       | 癸            | 生门 丙         |\n| 天冲 乙         |                | 天心 庚         |\n+--------------+--------------+--------------+\n| 值符           | 玄武           | 九天           |\n| 开门 乙         | 休门 辛         | 惊门 丁         |\n| 天任 己         | 天蓬 己         | 天柱 丙         |\n+--------------+--------------+--------------+",
+  "web_style_layout": "方式：转盘奇门 - 拆补法\n排盘：本地引擎 - 网页盘式样\n时间：2016-12-08T17:04:00 (Asia/Shanghai)\n干支：丙申年 庚子月 甲子日 癸酉时\n旬空：\n大雪：阴遁4局  值符天辅落巽四宫  值使杜门落巽四宫\n旬首：甲子 (戊)\n\n+--------------+--------------+--------------+\n| 腾蛇           | 九地           | 白虎           |\n| 杜门 壬         | 景门 戊         | 死门 庚         |\n| 天辅 辛         | 天英 壬         | 天芮 戊         |\n+--------------+--------------+--------------+\n| 六合           |                | 太阴           |\n| 伤门 辛 马       | 癸            | 生门 丙         |\n| 天冲 乙         |                | 天心 庚         |\n+--------------+--------------+--------------+\n| 值符           | 玄武           | 九天           |\n| 开门 乙         | 休门 辛         | 惊门 丁         |\n| 天任 己         | 天蓬 己         | 天柱 丙         |\n+--------------+--------------+--------------+",
+  "engine_metadata": {
+    "engine": "qimen_yang_plugin",
+    "version": 1,
+    "rule_profile": "yin_dun_v1_chai_bu",
+    "source": "verified_engine",
+    "fallback": false,
+    "out_of_scope": false,
+    "compatibility_target": "mQimen.app/chai_bu",
+    "secondary_oracle_target": "china95.net/qimen_show.asp",
+    "oracle_alignment": "structure_and_cycle_logic",
+    "oracle_backed": false,
+    "zhirun_applied": false,
+    "profile_selection_status": "default_until_course_confirmation",
+    "casting_time_basis": "local_civil_time",
+    "layout_profile": "web_style_text_v2"
+  }
+}

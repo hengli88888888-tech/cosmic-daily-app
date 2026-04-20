@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "source_teacher": "文曾",
+  "patterns": [
+    {
+      "id": "travel_movement_and_distance",
+      "category": "travel",
+      "signal_summary": [
+        "movement often follows clashes, especially to year/day branch or yi-ma markers",
+        "year-side activation tends to indicate farther travel",
+        "day-side activation tends to indicate nearer movement"
+      ],
+      "interpretation": "文曾把出行判断建立在动象、驿马、年日位置与冲动上。不是单看一个字，而是看什么位置被引动、被冲，以及这种引动离我本位远近如何。",
+      "product_safe_advice": [
+        "适合转译为移动频率、出差趋势、跨城/近程倾向。",
+        "不要对具体方向做绝对断言。"
+      ],
+      "source_courses": [
+        "19.出行的远近与方位（上）",
+        "20.出行的远近与方位（下）"
+      ]
+    },
+    {
+      "id": "property_buy_sell_move",
+      "category": "property",
+      "signal_summary": [
+        "property is often read through official and resource stars",
+        "chen-xu-chou-wei can reinforce real-estate or multiple-property meanings",
+        "buy/sell timing depends on whether resource becomes useful or gets damaged"
+      ],
+      "interpretation": "文曾把房产主要落在官印体系上，官偏豪华与档次，印偏承载与收纳。买房、卖房、搬家不是同一信号，要结合喜忌、做功方向、官印组合与土性场域来判断。",
+      "product_safe_advice": [
+        "适合转译为居住变化、置产意愿、空间升级或搬迁节点。",
+        "不要把房车地产完全混成一个结论，系统内部应做区分。"
+      ],
+      "source_courses": [
+        "27.买房、卖房与搬家_ev",
+        "28.买房、卖房、搬家案例解析_ev"
+      ]
+    }
+  ]
+}

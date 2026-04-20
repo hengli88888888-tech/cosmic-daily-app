@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "id": "weak_wood",
+      "signal": {
+        "weak_element": "wood"
+      },
+      "interpretation": "Growth and initiative are harder to sustain consistently.",
+      "advice_bias": {
+        "do": ["start smaller", "choose one clear priority", "use external structure"],
+        "avoid": ["forcing momentum", "too many parallel starts"]
+      },
+      "score_effects": {
+        "action": -4,
+        "social": 1,
+        "focus": 0,
+        "stability": 0,
+        "risk": 1
+      }
+    },
+    {
+      "id": "weak_earth",
+      "signal": {
+        "weak_element": "earth"
+      },
+      "interpretation": "Grounding and steadiness need extra support.",
+      "advice_bias": {
+        "do": ["simplify schedule", "leave buffers", "return to routine"],
+        "avoid": ["overcommitting", "rushing transitions"]
+      },
+      "score_effects": {
+        "action": 0,
+        "social": 0,
+        "focus": -1,
+        "stability": -6,
+        "risk": 4
+      }
+    },
+    {
+      "id": "strong_fire",
+      "signal": {
+        "strong_element": "fire"
+      },
+      "interpretation": "Expression and momentum are available, but excess can become impulsive.",
+      "advice_bias": {
+        "do": ["use visibility well", "channel enthusiasm into one outcome"],
+        "avoid": ["reactive replies", "heat-driven decisions"]
+      },
+      "score_effects": {
+        "action": 4,
+        "social": 5,
+        "focus": 0,
+        "stability": -2,
+        "risk": 3
+      }
+    }
+  ]
+}

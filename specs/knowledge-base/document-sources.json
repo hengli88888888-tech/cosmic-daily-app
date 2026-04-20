@@ -1,0 +1,140 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "teacher": "文曾",
+      "title": "文曾易学实操教学",
+      "source_type": "docx",
+      "status": "extracted",
+      "source_path": "/Volumes/Hard Drive/文曾易学实操教学.docx",
+      "text_path": "/Users/liheng/Desktop/cosmic-daily-app/data/raw-documents/文曾/文曾易学实操教学.txt",
+      "notes": "82 集实操班讲义，结构化目录和正文文本已提取，可直接用于规则补录、术语校对和案例追溯。",
+      "coverage": {
+        "chapters": [
+          "第一章 易经基础理论",
+          "第二章 易经基础知识",
+          "第三章 易经基础公式",
+          "第四章 易经应用"
+        ],
+        "high_value_sections": [
+          "格局",
+          "取用的方法",
+          "星宫位案例解析",
+          "大运流年",
+          "看健康",
+          "看婚姻",
+          "看财运",
+          "取用神总结",
+          "看父母",
+          "看子女",
+          "看官运",
+          "看富贵贫贱",
+          "看灾祸",
+          "看寿夭",
+          "看官非牢狱",
+          "看房产",
+          "看学历",
+          "看学业",
+          "看工作事业",
+          "看流年应期"
+        ],
+        "mapped_to": [
+          "teacher-rule-library.json",
+          "occupation-patterns.json",
+          "life-event-patterns.json"
+        ]
+      }
+    },
+    {
+      "teacher": "文曾",
+      "title": "文曾八字高级班上册",
+      "source_type": "pdf_scan",
+      "status": "batched_ocr_extracted",
+      "source_path": "/Volumes/Hard Drive/文曾八字高级班上册_274页(1).pdf",
+      "text_path": "/Users/liheng/Desktop/cosmic-daily-app/data/raw-documents/文曾/文曾八字高级班上册_combined.txt",
+      "notes": "扫描版 PDF，已完成全量分批 OCR，保留分段文本与合并文本，可直接用于规则抽取和来源追溯。",
+      "coverage": {
+        "validated_topics": [
+          "八字哲学本质",
+          "时间概念和空间概念",
+          "克的原理",
+          "克的周期",
+          "五行相生",
+          "五行相克",
+          "一生万物变",
+          "一克万物动",
+          "四绝无情四正不生",
+          "合会力量",
+          "墓库",
+          "通气连支",
+          "格局",
+          "比劫制财",
+          "食伤用法",
+          "制印与坏印",
+          "印禄相随",
+          "官杀生印",
+          "食伤印枭",
+          "找用神",
+          "看健康",
+          "婚姻断法",
+          "学业断法",
+          "看应期",
+          "风水取向"
+        ],
+        "batch_outputs": [
+          "文曾八字高级班上册_pages_1_48.txt",
+          "文曾八字高级班上册_pages_49_96.txt",
+          "文曾八字高级班上册_pages_97_144.txt",
+          "文曾八字高级班上册_pages_145_192.txt",
+          "文曾八字高级班上册_pages_193_240.txt",
+          "文曾八字高级班上册_pages_241_274.txt"
+        ],
+        "mapped_to": [
+          "teacher-rule-library.json"
+        ]
+      }
+    },
+    {
+      "teacher": "文曾",
+      "title": "下册文曾公字高级班",
+      "source_type": "pdf_scan",
+      "status": "batched_ocr_extracted",
+      "source_path": "/Volumes/Hard Drive/下册文曾公字高级班.pdf",
+      "text_path": "/Users/liheng/Desktop/cosmic-daily-app/data/raw-documents/文曾/下册文曾公字高级班_combined.txt",
+      "notes": "扫描版 PDF，已完成全量分批 OCR，保留分段文本与合并文本，可直接用于规则抽取和来源追溯。",
+      "coverage": {
+        "validated_topics": [
+          "会党成势",
+          "宾主体用",
+          "正制反制",
+          "六亲换相与星象定位",
+          "找父母星",
+          "克父母断法",
+          "天干地支对应身体结构",
+          "十神对应身体结构",
+          "富位和健康的关系",
+          "车灾的论法",
+          "牢狱之灾的论法",
+          "丢职破产",
+          "木火局要点",
+          "水土局要点",
+          "水木局要点",
+          "火金局要点",
+          "金木局要点",
+          "火土局要点",
+          "木土局要点"
+        ],
+        "batch_outputs": [
+          "下册文曾公字高级班_pages_1_48.txt",
+          "下册文曾公字高级班_pages_49_96.txt",
+          "下册文曾公字高级班_pages_97_144.txt",
+          "下册文曾公字高级班_pages_145_170.txt"
+        ],
+        "mapped_to": [
+          "teacher-rule-library.json",
+          "life-event-patterns.json"
+        ]
+      }
+    }
+  ]
+}

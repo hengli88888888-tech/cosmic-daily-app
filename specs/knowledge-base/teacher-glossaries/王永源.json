@@ -1,0 +1,50 @@
+{
+  "teacher": "王永源",
+  "whisper_hint_terms": [
+    "奇门遁甲",
+    "伏吟",
+    "反吟",
+    "翻宫",
+    "转宫",
+    "长生",
+    "值符",
+    "值使",
+    "九宫",
+    "八门"
+  ],
+  "canonical_terms": [
+    { "canonical": "奇门遁甲", "aliases": ["秦莫德亚", "奇莫遁甲"] },
+    { "canonical": "伏吟局", "aliases": ["福音局", "小福音局"] },
+    { "canonical": "伏吟格", "aliases": ["福音格"] },
+    { "canonical": "伏吟", "aliases": ["福音"] },
+    { "canonical": "反吟", "aliases": ["反音"] },
+    { "canonical": "翻宫法", "aliases": ["翻弓法", "翻工法"] },
+    { "canonical": "翻宫", "aliases": ["翻工", "翻弓"] },
+    { "canonical": "长生", "aliases": ["掌声"] },
+    { "canonical": "转宫", "aliases": ["转工"] }
+  ],
+  "common_corrections": [
+    { "wrong": "秦莫德亚", "correct": "奇门遁甲" },
+    { "wrong": "奇莫遁甲", "correct": "奇门遁甲" },
+    { "wrong": "小福音局", "correct": "小伏吟局" },
+    { "wrong": "福音局", "correct": "伏吟局" },
+    { "wrong": "福音格", "correct": "伏吟格" },
+    { "wrong": "福音跟反音", "correct": "伏吟跟反吟" },
+    { "wrong": "福音", "correct": "伏吟" },
+    { "wrong": "反音", "correct": "反吟" },
+    { "wrong": "翻弓法", "correct": "翻宫法" },
+    { "wrong": "翻工法", "correct": "翻宫法" },
+    { "wrong": "翻工", "correct": "翻宫" },
+    { "wrong": "翻弓", "correct": "翻宫" },
+    { "wrong": "掌声", "correct": "长生" },
+    { "wrong": "转工", "correct": "转宫" }
+  ],
+  "regex_corrections": [
+    { "pattern": "翻弓法", "replace": "翻宫法" },
+    { "pattern": "转弓", "replace": "转宫" },
+    { "pattern": "翻弓", "replace": "翻宫" },
+    { "pattern": "反音", "replace": "反吟" },
+    { "pattern": "浮音", "replace": "伏吟" },
+    { "pattern": "服音", "replace": "伏吟" }
+  ]
+}

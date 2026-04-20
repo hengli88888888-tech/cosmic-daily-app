@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "mode": "yin_dun",
+  "status": "design_locked_for_chai_bu_v1",
+  "classification": {
+    "window": {
+      "start_inclusive": "summer_solstice",
+      "end_exclusive": "winter_solstice"
+    },
+    "note": "Applies to Yang-pan turnplate QiMen in chai_bu mode."
+  },
+  "bureau_reference": {
+    "summer_solstice": [9, 3, 6],
+    "minor_heat": [8, 2, 5],
+    "major_heat": [7, 1, 4],
+    "start_of_autumn": [2, 5, 8],
+    "limit_of_heat": [1, 4, 7],
+    "white_dew": [9, 3, 6],
+    "autumn_equinox": [7, 1, 4],
+    "cold_dew": [6, 9, 3],
+    "frost_descent": [5, 8, 2],
+    "start_of_winter": [6, 9, 3],
+    "minor_snow": [5, 8, 2],
+    "major_snow": [4, 7, 1]
+  },
+  "chai_bu_rule": {
+    "anchor": "first_jia_or_ji_day_after_term_start",
+    "yuan_buckets": {
+      "upper": [0, 4],
+      "middle": [5, 9],
+      "lower": [10, 14]
+    },
+    "carry_over": "before_anchor_use_previous_term_lower_bureau"
+  },
+  "earth_plate": {
+    "stem_sequence": ["戊", "己", "庚", "辛", "壬", "癸", "丁", "丙", "乙"],
+    "direction": "reverse_by_palace_number",
+    "middle_palace": "proxy_to_kun"
+  },
+  "stars": {
+    "flight": "reuse_turnplate_ring_forward",
+    "tianqin_policy": "follow_tianrui_proxy"
+  },
+  "gates": {
+    "value_gate_counting": "forward_for_both_yin_and_yang",
+    "flight": "reuse_turnplate_ring_forward"
+  },
+  "deities": {
+    "sequence": ["值符", "九天", "九地", "玄武", "白虎", "六合", "太阴", "腾蛇"],
+    "flight": "reverse_from_value_symbol"
+  }
+}

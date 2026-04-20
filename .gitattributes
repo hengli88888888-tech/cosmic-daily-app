@@ -1,0 +1,10 @@
+*.bat text eol=crlf
+*.sh text eol=lf
+*.py text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+*.dart text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.sql text eol=lf
+*.toml text eol=lf

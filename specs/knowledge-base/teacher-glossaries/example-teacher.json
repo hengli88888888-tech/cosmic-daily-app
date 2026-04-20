@@ -1,0 +1,28 @@
+{
+  "teacher": "Example Teacher",
+  "whisper_hint_terms": [
+    "调候为先",
+    "先看月令",
+    "先定格局"
+  ],
+  "canonical_terms": [
+    {
+      "canonical": "调候用神",
+      "aliases": ["调候为先"]
+    },
+    {
+      "canonical": "月令",
+      "aliases": ["先看月令"]
+    }
+  ],
+  "common_corrections": [
+    {
+      "wrong": "调后为先",
+      "correct": "调候为先"
+    },
+    {
+      "wrong": "先看月另",
+      "correct": "先看月令"
+    }
+  ]
+}

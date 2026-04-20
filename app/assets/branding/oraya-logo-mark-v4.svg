@@ -1,0 +1,27 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="markRingA" x1="258" y1="334" x2="770" y2="710" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EACDFF"/>
+      <stop offset="0.45" stop-color="#CDA5FF"/>
+      <stop offset="1" stop-color="#F6C9A8"/>
+    </linearGradient>
+    <linearGradient id="markRingB" x1="248" y1="680" x2="734" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8F6BE8"/>
+      <stop offset="0.5" stop-color="#C9A4FF"/>
+      <stop offset="1" stop-color="#F2D7FF"/>
+    </linearGradient>
+    <radialGradient id="markGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(520 512) rotate(90) scale(220)">
+      <stop stop-color="#FFF8F2"/>
+      <stop offset="0.22" stop-color="#FFDCCF"/>
+      <stop offset="0.5" stop-color="#CCA4FF" stop-opacity="0.58"/>
+      <stop offset="1" stop-color="#201739" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1024" height="1024" rx="232" fill="#201739"/>
+  <ellipse cx="512" cy="512" rx="236" ry="152" transform="rotate(-8 512 512)" fill="url(#markGlow)"/>
+  <path d="M274 504C309 391 414 318 553 320C671 322 763 377 806 473C752 397 652 356 540 358C432 360 340 407 301 485C278 530 279 575 298 614C253 578 239 531 274 504Z" fill="url(#markRingB)"/>
+  <path d="M295 578C319 672 403 726 532 724C666 721 761 665 809 569C799 662 721 769 555 782C398 794 296 730 274 621C271 607 269 593 269 579L295 578Z" fill="url(#markRingA)"/>
+  <path d="M295 578C330 469 423 402 542 398C659 394 753 456 807 547C775 437 683 369 551 372C418 376 321 448 287 548C284 558 282 568 282 578H295Z" fill="#F7EEFF"/>
+  <circle cx="520" cy="512" r="42" fill="#FFF7F2"/>
+  <circle cx="520" cy="512" r="92" fill="#FFF2EA" fill-opacity="0.25"/>
+</svg>

@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Course Ingestion</title>
+    <style>
+      :root {
+        --bg: #0d1321;
+        --panel: #131d33;
+        --panel-2: #1b2744;
+        --line: #2d3b60;
+        --text: #eef3ff;
+        --muted: #8ea0c9;
+        --accent: #90c2ff;
+        --ok: #8be1b0;
+        --warn: #ffd479;
+        --bad: #ff8d8d;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        background:
+          radial-gradient(circle at top left, rgba(111, 149, 255, 0.2), transparent 30%),
+          radial-gradient(circle at bottom right, rgba(73, 217, 170, 0.14), transparent 28%),
+          var(--bg);
+        color: var(--text);
+      }
+      main {
+        max-width: 1120px;
+        margin: 0 auto;
+        padding: 32px 20px 48px;
+      }
+      h1 { margin: 0 0 10px; font-size: 34px; }
+      p { color: var(--muted); line-height: 1.5; }
+      .grid {
+        display: grid;
+        grid-template-columns: 1.1fr 0.9fr;
+        gap: 20px;
+        margin-top: 24px;
+      }
+      .card {
+        background: linear-gradient(180deg, rgba(23, 34, 58, 0.9), rgba(18, 26, 46, 0.96));
+        border: 1px solid var(--line);
+        border-radius: 18px;
+        padding: 18px;
+        backdrop-filter: blur(8px);
+      }
+      .dropzone {
+        border: 2px dashed #5b78bb;
+        border-radius: 18px;
+        padding: 36px 20px;
+        text-align: center;
+        background: rgba(144, 194, 255, 0.05);
+        transition: 120ms ease;
+      }
+      .dropzone.dragover {
+        border-color: var(--accent);
+        background: rgba(144, 194, 255, 0.12);
+      }
+      .row {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+      }
+      label {
+        display: block;
+        font-size: 13px;
+        color: var(--muted);
+        margin-bottom: 6px;
+      }
+      input, select, button, textarea {
+        width: 100%;
+        border-radius: 12px;
+        border: 1px solid var(--line);
+        background: var(--panel-2);
+        color: var(--text);
+        padding: 12px 14px;
+        font-size: 14px;
+      }
+      button {
+        background: linear-gradient(135deg, #8bbdff, #6ce0c9);
+        color: #0b1631;
+        font-weight: 700;
+        border: 0;
+        cursor: pointer;
+      }
+      button.secondary {
+        background: transparent;
+        border: 1px solid var(--line);
+        color: var(--text);
+      }
+      ul.jobs { list-style: none; padding: 0; margin: 0; display: grid; gap: 12px; }
+      .job { border: 1px solid var(--line); border-radius: 14px; padding: 14px; background: rgba(255,255,255,0.02); }
+      .job-head { display: flex; justify-content: space-between; gap: 12px; align-items: center; }
+      .pill { font-size: 12px; padding: 5px 8px; border-radius: 999px; }
+      .queued, .running { background: rgba(255, 212, 121, 0.14); color: var(--warn); }
+      .completed { background: rgba(139, 225, 176, 0.14); color: var(--ok); }
+      .ready_for_review { background: rgba(144, 194, 255, 0.16); color: var(--accent); }
+      .failed { background: rgba(255, 141, 141, 0.14); color: var(--bad); }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 12px; color: var(--muted); }
+      .log { margin-top: 10px; padding-left: 18px; color: #d5def7; }
+      .hint { font-size: 13px; color: var(--muted); }
+      .meta { margin-top: 16px; display: grid; gap: 12px; }
+      .loaded { margin-top: 8px; font-size: 12px; color: var(--muted); }
+      @media (max-width: 900px) {
+        .grid, .row { grid-template-columns: 1fr; }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Metaphysics Course Ingestion</h1>
+      <p>Drop one or more course videos. Use transcript mode for BaZi-style rule extraction, or multimodal mode for QiMen videos where the teacher points to boards, whiteboards, or slides while explaining.</p>
+      <div class="grid">
+        <section class="card">
+          <div id="dropzone" class="dropzone">
+            <strong>Drop videos here</strong>
+            <p class="hint">or choose files manually. Supported by Whisper if FFmpeg can read them.</p>
+            <input id="fileInput" type="file" multiple accept="video/*,audio/*" />
+          </div>
+          <div class="meta">
+            <div class="row">
+              <div>
+                <label for="courseMode">Course mode</label>
+                <select id="courseMode">
+                  <option value="bazi_transcript" selected>BaZi transcript mode</option>
+                  <option value="qimen_multimodal">QiMen multimodal mode</option>
+                </select>
+              </div>
+              <div>
+                <label for="teacher">Teacher</label>
+                <input id="teacher" placeholder="Teacher name" />
+                <div class="loaded" id="teacherGlossaryHint">Shared glossary only</div>
+              </div>
+              <div>
+                <label for="course">Course</label>
+                <input id="course" placeholder="Auto from video filename" />
+              </div>
+            </div>
+            <div class="row">
+              <div>
+                <label for="language">Whisper language</label>
+                <input id="language" value="zh" placeholder="zh, en, auto..." />
+              </div>
+              <div>
+                <label for="whisperModel">Whisper model</label>
+                <select id="whisperModel">
+                  <option value="turbo" selected>turbo (fastest recommended)</option>
+                  <option value="base">base</option>
+                  <option value="small">small</option>
+                </select>
+              </div>
+            </div>
+            <div class="row">
+              <div>
+                <label for="whisperThreads">Whisper threads</label>
+                <input id="whisperThreads" type="number" min="1" value="6" />
+              </div>
+              <div>
+                <label for="extractionWorkers">Extraction workers</label>
+                <input id="extractionWorkers" type="number" min="1" max="8" value="4" />
+              </div>
+            </div>
+            <div class="row">
+              <div>
+                <label for="model">OpenAI model</label>
+                <input id="model" value="gpt-4o-mini" />
+              </div>
+              <div>
+                <label for="speedPreset">Speed preset</label>
+                <select id="speedPreset">
+                  <option value="balanced" selected>Balanced</option>
+                  <option value="faster">Faster</option>
+                  <option value="max">Max speed</option>
+                </select>
+              </div>
+            </div>
+            <div class="row">
+              <div>
+                <label for="preprocessAudio">Speech-audio preprocessing</label>
+                <select id="preprocessAudio">
+                  <option value="true" selected>On (recommended)</option>
+                  <option value="false">Off</option>
+                </select>
+              </div>
+              <div class="hint" style="align-self:end;">
+                Extracts a 16k mono speech track for Whisper and keeps the original video.
+              </div>
+            </div>
+            <div>
+              <label for="apiKey">OpenAI API key</label>
+              <input id="apiKey" type="password" placeholder="sk-..." />
+            </div>
+            <div>
+              <label for="notes">Notes for extraction</label>
+              <textarea id="notes" rows="4" placeholder="Optional: mention the school/style, preferred terminology, or topics to prioritize."></textarea>
+            </div>
+            <div>
+              <label for="glossary">Custom glossary corrections</label>
+              <textarea id="glossary" rows="4" placeholder="One per line, e.g.&#10;天甘=>天干&#10;地枝=>地支"></textarea>
+            </div>
+            <div class="row">
+              <button id="uploadBtn">Run Pipeline</button>
+              <button id="refreshBtn" class="secondary" type="button">Refresh Jobs</button>
+            </div>
+          </div>
+        </section>
+        <section class="card">
+          <h2 style="margin-top:0;">Jobs</h2>
+          <p class="hint">BaZi transcript mode writes transcript chunks and rule-card drafts. QiMen multimodal mode writes transcripts, keyframes, OCR, aligned segment JSON, and editable review packs.</p>
+          <ul id="jobs" class="jobs"></ul>
+        </section>
+      </div>
+    </main>
+    <script>
+      const dropzone = document.getElementById("dropzone");
+      const fileInput = document.getElementById("fileInput");
+      const uploadBtn = document.getElementById("uploadBtn");
+      const refreshBtn = document.getElementById("refreshBtn");
+      const jobsEl = document.getElementById("jobs");
+      let droppedFiles = [];
+
+      function sanitize(value) {
+        return (value || "").trim();
+      }
+
+      function courseFromFilename(filename) {
+        return (filename || "").replace(/\.[^.]+$/, "").trim();
+      }
+
+      function renderJobs(items) {
+        jobsEl.innerHTML = "";
+        if (!items.length) {
+          jobsEl.innerHTML = '<li class="hint">No jobs yet.</li>';
+          return;
+        }
+        items.forEach((job) => {
+          const li = document.createElement("li");
+          li.className = "job";
+          const logs = (job.logs || []).map((line) => `<li>${line}</li>`).join("");
+          const loadedGlossaries = (job.loaded_glossaries || []).length
+            ? `<div class="mono" style="margin-top:6px;">Glossaries: ${(job.loaded_glossaries || []).join(", ")}</div>`
+            : "";
+          const perf = `<div class="mono" style="margin-top:6px;">Mode: ${job.course_mode || "bazi_transcript"} · Whisper: ${job.whisper_model} / ${job.whisper_threads} threads · Extraction workers: ${job.extraction_workers} · Speech preprocess: ${job.preprocess_audio ? "on" : "off"}</div>`;
+          li.innerHTML = `
+            <div class="job-head">
+              <div>
+                <div><strong>${job.filename}</strong></div>
+                <div class="mono">${job.id}</div>
+              </div>
+              <span class="pill ${job.status}">${job.status}</span>
+            </div>
+            <div class="hint" style="margin-top:8px;">${job.message || ""}</div>
+            ${perf}
+            ${loadedGlossaries}
+            <ul class="log">${logs}</ul>
+          `;
+          jobsEl.appendChild(li);
+        });
+      }
+
+      function updateTeacherHint() {
+        const teacher = sanitize(document.getElementById("teacher").value);
+        const hint = document.getElementById("teacherGlossaryHint");
+        if (!teacher) {
+          hint.textContent = "Shared glossary only";
+          return;
+        }
+        hint.textContent = `Will auto-load specs/knowledge-base/teacher-glossaries/${teacher
+          .toLowerCase()
+          .replace(/[^a-z0-9]+/g, "-")
+          .replace(/^-+|-+$/g, "") || "unknown"}.json if it exists`;
+      }
+
+      function updateModeHints() {
+        const mode = document.getElementById("courseMode").value;
+        const notes = document.getElementById("notes");
+        const apiKeyLabel = document.querySelector('label[for="apiKey"]');
+        if (mode === "qimen_multimodal") {
+          notes.placeholder = "Optional: describe the board style, common question types, or how the teacher structures a reading.";
+          apiKeyLabel.textContent = "OpenAI API key (optional for QiMen draft enrichment)";
+        } else {
+          notes.placeholder = "Optional: mention the school/style, preferred terminology, or topics to prioritize.";
+          apiKeyLabel.textContent = "OpenAI API key";
+        }
+      }
+
+      async function fetchJobs() {
+        const res = await fetch("/api/jobs");
+        const data = await res.json();
+        renderJobs(data.jobs || []);
+      }
+
+      function collectFiles() {
+        if (droppedFiles.length) return droppedFiles;
+        return Array.from(fileInput.files || []);
+      }
+
+      async function uploadFiles() {
+        const files = collectFiles();
+        if (!files.length) {
+          alert("Choose at least one video or audio file.");
+          return;
+        }
+
+        const preset = document.getElementById("speedPreset").value;
+        let whisperModel = document.getElementById("whisperModel").value;
+        let whisperThreads = document.getElementById("whisperThreads").value || "6";
+        let extractionWorkers = document.getElementById("extractionWorkers").value || "4";
+        const preprocessAudio = document.getElementById("preprocessAudio").value || "true";
+
+        if (preset === "faster") {
+          whisperModel = "turbo";
+          whisperThreads = "8";
+          extractionWorkers = "4";
+        } else if (preset === "max") {
+          whisperModel = "turbo";
+          whisperThreads = "10";
+          extractionWorkers = "6";
+        }
+
+        const courseMode = document.getElementById("courseMode").value;
+        for (const file of files) {
+          const derivedCourse = courseFromFilename(file.name);
+          const body = await file.arrayBuffer();
+          await fetch("/api/upload", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/octet-stream",
+              "X-Filename": encodeURIComponent(file.name),
+              "X-Teacher": encodeURIComponent(sanitize(document.getElementById("teacher").value)),
+              "X-Course": encodeURIComponent(derivedCourse),
+              "X-Language": encodeURIComponent(sanitize(document.getElementById("language").value || "zh")),
+              "X-Whisper-Model": encodeURIComponent(whisperModel),
+              "X-Whisper-Threads": encodeURIComponent(whisperThreads),
+              "X-Extraction-Workers": encodeURIComponent(extractionWorkers),
+              "X-Preprocess-Audio": encodeURIComponent(preprocessAudio),
+              "X-Course-Mode": encodeURIComponent(courseMode),
+              "X-OpenAI-Model": encodeURIComponent(sanitize(document.getElementById("model").value || "gpt-4o-mini")),
+              "X-OpenAI-Key": encodeURIComponent(document.getElementById("apiKey").value || ""),
+              "X-Notes": encodeURIComponent(document.getElementById("notes").value || ""),
+              "X-Custom-Glossary": encodeURIComponent(document.getElementById("glossary").value || "")
+            },
+            body
+          });
+        }
+
+        droppedFiles = [];
+        fileInput.value = "";
+        await fetchJobs();
+      }
+
+      ["dragenter", "dragover"].forEach((name) => {
+        dropzone.addEventListener(name, (event) => {
+          event.preventDefault();
+          dropzone.classList.add("dragover");
+        });
+      });
+      ["dragleave", "drop"].forEach((name) => {
+        dropzone.addEventListener(name, (event) => {
+          event.preventDefault();
+          dropzone.classList.remove("dragover");
+        });
+      });
+      dropzone.addEventListener("drop", (event) => {
+        droppedFiles = Array.from(event.dataTransfer.files || []);
+      });
+      document.getElementById("teacher").addEventListener("input", updateTeacherHint);
+      document.getElementById("courseMode").addEventListener("change", updateModeHints);
+      uploadBtn.addEventListener("click", uploadFiles);
+      refreshBtn.addEventListener("click", fetchJobs);
+      setInterval(fetchJobs, 3000);
+      updateTeacherHint();
+      updateModeHints();
+      fetchJobs();
+    </script>
+  </body>
+  </html>

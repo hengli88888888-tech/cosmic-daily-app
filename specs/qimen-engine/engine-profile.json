@@ -1,0 +1,69 @@
+{
+  "version": 1,
+  "engine": "qimen_yang_plugin",
+  "scope": "yang_dun_only",
+  "status": "preview_implemented",
+  "defaults": {
+    "timezone_source": "iana_tzdb",
+    "dst_handling": "enabled",
+    "chart_mode": "question_submit_time",
+    "casting_time_basis": "local_civil_time",
+    "location_capture": "not_required",
+    "system_profile": "chai_bu",
+    "fallback_allowed": false,
+    "season_boundary_detection": true,
+    "out_of_scope_yin_inputs": "reject_with_metadata"
+  },
+  "required_outputs": [
+    "local_datetime",
+    "utc_datetime",
+    "casting_time_basis",
+    "yin_yang",
+    "solar_term",
+    "bureau_number",
+    "xun_shou",
+    "zhi_fu",
+    "zhi_shi",
+    "palaces",
+    "kong_wang",
+    "horse_star",
+    "value_summary",
+    "engine_metadata"
+  ],
+  "implemented_now": {
+    "preview_function": "qimen-preview",
+    "hidden_test_route": "/qimen-test",
+    "question_submit_integration": "master-reply-submit",
+    "compatibility_target": "mQimen.app/chai_bu",
+    "secondary_oracle_target": "china95.net/qimen_show.asp",
+    "available_profiles": [
+      "chai_bu",
+      "zhi_run_oracle"
+    ],
+    "oracle_policy": {
+      "primary": "mQimen.app",
+      "secondary": "china95.net",
+      "chai_bu_alignment": [
+        "mQimen.app/chai_bu",
+        "china95.net/qimen_show.asp"
+      ],
+      "zhi_run_alignment": [
+        "mQimen.app/zhi_run"
+      ]
+    },
+    "profile_selection_status": {
+      "current_default": "chai_bu",
+      "course_derived_rule_pending": true,
+      "evidence_terms": [
+        "拆补",
+        "置闰",
+        "超接",
+        "转盘",
+        "飞盘"
+      ]
+    },
+    "not_implemented_yet": [
+      "yin_dun"
+    ]
+  }
+}

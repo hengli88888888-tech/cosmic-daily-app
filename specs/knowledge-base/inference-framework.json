@@ -1,0 +1,216 @@
+{
+  "version": 1,
+  "purpose": "Cross-system inference scaffold for BaZi, Qi Men Dun Jia, Mei Hua Yi Shu, and Feng Shui.",
+  "layers": [
+    {
+      "key": "input_layer",
+      "label_zh": "输入层",
+      "role": "Collect the raw materials required to start a reading.",
+      "questions": [
+        "What is the source input for this system?",
+        "Which inputs are required and which are optional?",
+        "What context belongs to the person, the environment, the time, or the event?"
+      ],
+      "examples": {
+        "bazi": ["birth date", "birth time", "birthplace", "timezone"],
+        "qimen": ["event time", "location", "question intent"],
+        "meihua": ["trigger time", "observed phenomenon", "question frame"],
+        "fengshui": ["floor plan", "orientation", "environmental surroundings", "occupant context"]
+      }
+    },
+    {
+      "key": "foundation_layer",
+      "label_zh": "基础概念层",
+      "role": "Define the system's irreducible building blocks before interpretation begins.",
+      "questions": [
+        "What are the base symbols, categories, and transformations?",
+        "Which concepts are considered foundational and repeated?",
+        "What definitions must be stable across all later inference?"
+      ],
+      "examples": {
+        "bazi": ["yin-yang", "five elements", "ten gods", "stems and branches", "body-use", "host-guest"],
+        "qimen": ["nine palaces", "eight gates", "nine stars", "heaven-earth-human layers"],
+        "meihua": ["trigrams", "mutual generation and control", "moving line logic"],
+        "fengshui": ["orientation", "forms", "qi flow", "mountain-water relationships"]
+      }
+    },
+    {
+      "key": "structure_layer",
+      "label_zh": "结构识别层",
+      "role": "Identify the dominant arrangement, pattern, or battlefield of forces.",
+      "questions": [
+        "What is the main structure or configuration here?",
+        "Which forces are primary, secondary, or interfering?",
+        "Is the structure clean, mixed, broken, hidden, or conditional?"
+      ],
+      "examples": {
+        "bazi": ["party formation", "direct/reverse structure", "grave storage", "special pattern", "function structure"],
+        "qimen": ["palace occupation", "gate-star-deity combination", "attacking/defending layout"],
+        "meihua": ["main hexagram", "transformed hexagram", "mutual hexagram"],
+        "fengshui": ["house form", "qi entry path", "environmental support vs pressure"]
+      }
+    },
+    {
+      "key": "inference_order_layer",
+      "label_zh": "推演顺序层",
+      "role": "Fix the order of reasoning so the system does not jump straight to conclusions.",
+      "questions": [
+        "What must be checked first, second, and third?",
+        "What is the default mainline of reasoning?",
+        "Which steps are mandatory before a conclusion can be trusted?"
+      ],
+      "examples": {
+        "bazi": [
+          "set framework",
+          "identify main structure",
+          "check force direction and completion",
+          "separate mainline from interference",
+          "only then infer topic outcome"
+        ]
+      }
+    },
+    {
+      "key": "branching_layer",
+      "label_zh": "分叉判断层",
+      "role": "Record the conditions that change the reasoning path.",
+      "questions": [
+        "What conditions cause the analysis to switch tracks?",
+        "Which signals downgrade or invalidate a conclusion?",
+        "What counts as a high-confidence path versus a fallback path?"
+      ],
+      "examples": {
+        "bazi": [
+          "pattern formed vs not formed",
+          "body damaged vs body protected",
+          "grave opened vs closed",
+          "mainline intact vs interference dominant"
+        ]
+      }
+    },
+    {
+      "key": "landing_layer",
+      "label_zh": "落点层",
+      "role": "Translate the structure into a concrete topic domain.",
+      "questions": [
+        "Which life topic is being read?",
+        "How does the same structure land differently across health, relationship, career, timing, or space?",
+        "What topic-specific conditions must be checked before output?"
+      ],
+      "examples": {
+        "bazi": ["marriage", "career", "study", "health", "wealth", "children", "timing"],
+        "qimen": ["decision timing", "movement", "conflict", "strategy"],
+        "meihua": ["yes-no tendency", "timing shift", "event direction"],
+        "fengshui": ["space suitability", "occupant support", "environmental pressure"]
+      }
+    },
+    {
+      "key": "expression_layer",
+      "label_zh": "表达层",
+      "role": "Convert internal inference into product-safe user language.",
+      "questions": [
+        "What should stay internal and never be exposed?",
+        "How should certainty, risk, and opportunity be phrased?",
+        "What tone rules or safety policies apply?"
+      ],
+      "examples": {
+        "product_rule": [
+          "Never expose raw metaphysical mechanics by default.",
+          "Turn deterministic claims into directional advice.",
+          "Separate internal confidence from user-facing tone."
+        ]
+      }
+    }
+  ],
+  "core_engine_principles": [
+    "Do not jump from a symbol directly to an outcome.",
+    "Always identify the main structure before topic interpretation.",
+    "Repeated concepts should be treated as foundational or core emphasis, not as noise.",
+    "Each conclusion should be traceable to a reasoning path, not only a matched keyword.",
+    "Different metaphysical systems may use different symbols, but they can share the same inference architecture."
+  ],
+  "shared_reasoning_nodes": [
+    {
+      "key": "mainline_vs_interference",
+      "label_zh": "主线与干扰线",
+      "description": "Separate the long-term dominant structure from local noise, side channels, and temporary branches before making topic conclusions."
+    },
+    {
+      "key": "structure_formed_vs_unformed",
+      "label_zh": "结构已成 / 未成",
+      "description": "Check whether a pattern is genuinely established before applying its dedicated method; if not, fall back to a more basic analysis path."
+    },
+    {
+      "key": "ownership_and_access",
+      "label_zh": "归属与可调用性",
+      "description": "Distinguish between resources that are visible, reachable, shareable, or truly controlled by the subject."
+    },
+    {
+      "key": "completion_and_efficiency",
+      "label_zh": "完成度与效率",
+      "description": "Judge whether the action reached the real target, whether it completed the loop, and whether it should be treated as high, medium, or low effectiveness."
+    },
+    {
+      "key": "timing_scheduler",
+      "label_zh": "时序调度",
+      "description": "Separate long-cycle scheduling from short-cycle triggering so stage background and event trigger are not confused."
+    },
+    {
+      "key": "root_and_source",
+      "label_zh": "根基与出处",
+      "description": "Check whether a signal has real backing, where it comes from, and whether it is truly callable or only superficially visible."
+    },
+    {
+      "key": "internal_vs_external_domain",
+      "label_zh": "内域 / 外域",
+      "description": "Separate what belongs to the subject's controllable inner domain from what remains external, visible, or only partially reachable."
+    },
+    {
+      "key": "body_damage_vs_use_damage",
+      "label_zh": "体伤 / 用伤",
+      "description": "Distinguish whether the core self is being damaged or only the external function/resource line is impaired before landing on topic conclusions."
+    }
+  ],
+  "bazi_core_paths": [
+    {
+      "name": "framework_to_topic",
+      "steps": [
+        "Set the spatial and relational framework.",
+        "Identify the dominant structure and force direction.",
+        "Check whether the structure is formed, completed, and efficient.",
+        "Separate the mainline from interference.",
+        "Only then land the reading into a concrete topic."
+      ]
+    },
+    {
+      "name": "geju_vs_tiyong_switch",
+      "steps": [
+        "Check whether the month commander already gives a clear pattern entry.",
+        "If formed, use pattern analysis first.",
+        "If not formed, fall back to body-use and force-flow analysis."
+      ]
+    },
+    {
+      "name": "timing_path",
+      "steps": [
+        "List the possible mainlines in the natal chart.",
+        "Use long-cycle luck to determine which line is on stage.",
+        "Use annual trigger attribution to decide what manifests concretely and who initiates."
+      ]
+    },
+    {
+      "name": "ownership_and_body_damage_path",
+      "steps": [
+        "Determine whether the relevant signal is in the inner domain or remains external.",
+        "Check whether it is rooted and truly callable.",
+        "Distinguish body damage from use/resource damage before landing on health, relationship, or wealth conclusions."
+      ]
+    }
+  ],
+  "implementation_targets": [
+    "Use this file as the meta-layer above teacher-rule-library.json.",
+    "Add reasoning-path fields to future rule extraction work.",
+    "When building prompts, pass both matched rules and the inferred path order.",
+    "Reuse shared reasoning nodes across BaZi, Qi Men, Mei Hua, and Feng Shui instead of rewriting the same decision logic with new symbols.",
+    "Use root/source, internal/external domain, and body-vs-use damage as reusable decision nodes when matching topic-specific rules."
+  ]
+}

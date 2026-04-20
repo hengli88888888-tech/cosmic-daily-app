@@ -1,0 +1,29 @@
+{
+  "id": "weak_earth_case_001",
+  "source": {
+    "teacher": "Teacher Name",
+    "course": "Course Name",
+    "lesson": "Lesson Name",
+    "source_file": "series-a/module-01/lesson-03.txt",
+    "timestamp": "00:18:24-00:21:10",
+    "chunk_id": "lesson-03-0004"
+  },
+  "topic": "weak_earth",
+  "topic_family": "element_balance",
+  "claim": "Weak earth often reduces steadiness and carrying capacity.",
+  "conditions": [
+    "earth is weak in the chart",
+    "grounding support is limited"
+  ],
+  "interpretation": "The person may need stronger structure and more deliberate pacing.",
+  "product_safe_advice": [
+    "Simplify the day's commitments.",
+    "Add buffer time around transitions."
+  ],
+  "do_not_say": [
+    "Your life will always be unstable.",
+    "Your relationship will definitely fail."
+  ],
+  "confidence": "medium",
+  "review_status": "draft"
+}

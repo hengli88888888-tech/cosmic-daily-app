@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "categories": {
+    "focus": {
+      "driven_by": ["metal", "water", "direct_officer", "direct_resource"],
+      "when_high": ["planning", "editing", "decision-making", "deep work"],
+      "when_low": ["reduce complexity", "avoid over-scheduling", "seek clarity before commitment"]
+    },
+    "social": {
+      "driven_by": ["fire", "wood", "friend", "hurting_officer"],
+      "when_high": ["check-ins", "networking", "meaningful conversations"],
+      "when_low": ["keep communication concise", "avoid emotional overreach"]
+    },
+    "stability": {
+      "driven_by": ["earth", "direct_resource", "proper routine"],
+      "when_high": ["longer planning horizon", "steady execution", "housekeeping"],
+      "when_low": ["buffers", "simpler calendar", "gentler pacing"]
+    },
+    "risk": {
+      "driven_by": ["elemental imbalance", "seven_killings", "excess fire", "weak earth"],
+      "when_high": ["name one caution area only", "recommend delay", "recommend confirmation steps"],
+      "when_low": ["avoid false certainty", "stay measured"]
+    }
+  }
+}

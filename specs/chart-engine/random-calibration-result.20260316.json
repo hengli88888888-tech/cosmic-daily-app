@@ -1,0 +1,1655 @@
+{
+  "summary": {
+    "total": 40,
+    "casesWithExpected": 0,
+    "wzMatchedExpected": 0,
+    "wzMismatchedExpected": 0,
+    "localMatchedWz": 40,
+    "localMismatchedWz": 0,
+    "wzYzs": 0,
+    "wzInputMode": "local_true_solar",
+    "casesPath": "/Users/liheng/Desktop/cosmic-daily-app/specs/chart-engine/random-calibration-cases.json"
+  },
+  "results": [
+    {
+      "id": "R001",
+      "label": "Random calibration sample 1",
+      "input": {
+        "dateTime": "1944-10-30 01:49",
+        "gender": "male",
+        "birthplace": "Guangzhou, Guangdong, China",
+        "timezone": "Asia/Shanghai"
+      },
+      "wzOracle": {
+        "ok": true,
+        "url": "https://bzapi4.iwzbz.com/getbasebz8.php?d=1944-10-30+00%3A38&s=1&today=1944-10-30+00%3A38&vip=0&userguid=&yzs=0",
+        "inputDateTime": "1944-10-30 00:38",
+        "pillars": {
+          "year": "甲申",
+          "month": "甲戌",
+          "day": "丁卯",
+          "hour": "庚子"
+        },
+        "lunarLabel": "1944年九月十四 子时"
+      },
+      "expected": {
+        "pillars": null,
+        "present": false
+      },
+      "mismatches": {
+        "wzVsExpected": [],
+        "localVsWz": []
+      },
+      "localChart": {
+        "source": "verified_engine",
+        "engine": "custom_hybrid",
+        "dayPillarMethod": "formula",
+        "pillars": {
+          "year": "甲申",
+          "month": "甲戌",
+          "day": "丁卯",
+          "hour": "庚子"
+        }
+      }
+    },
+    {
+      "id": "R002",
+      "label": "Random calibration sample 2",
+      "input": {
+        "dateTime": "1943-10-22 16:41",
+        "gender": "male",
+        "birthplace": "Rio de Janeiro, Brazil",
+        "timezone": "America/Sao_Paulo"
+      },
+      "wzOracle": {
+        "ok": true,
+        "url": "https://bzapi4.iwzbz.com/getbasebz8.php?d=1943-10-22+17%3A03&s=1&today=1943-10-22+17%3A03&vip=0&userguid=&yzs=0",
+        "inputDateTime": "1943-10-22 17:03",
+        "pillars": {
+          "year": "癸未",
+          "month": "壬戌",
+          "day": "癸丑",
+          "hour": "辛酉"
+        },
+        "lunarLabel": "1943年九月廿四 酉时"
+      },
+      "expected": {
+        "pillars": null,
+        "present": false
+      },
+      "mismatches": {
+        "wzVsExpected": [],
+        "localVsWz": []
+      },
+      "localChart": {
+        "source": "verified_engine",
+        "engine": "custom_hybrid",
+        "dayPillarMethod": "formula",
+        "pillars": {
+          "year": "癸未",
+          "month": "壬戌",
+          "day": "癸丑",
+          "hour": "辛酉"
+        }
+      }
+    },
+    {
+      "id": "R003",
+      "label": "Random calibration sample 3",
+      "input": {
+        "dateTime": "1985-11-13 16:32",
+        "gender": "female",
+        "birthplace": "Taipei, Taiwan",
+        "timezone": "Asia/Taipei"
+      },
+      "wzOracle": {
+        "ok": true,
+        "url": "https://bzapi4.iwzbz.com/getbasebz8.php?d=1985-11-13+16%3A53&s=0&today=1985-11-13+16%3A53&vip=0&userguid=&yzs=0",
+        "inputDateTime": "1985-11-13 16:53",
+        "pillars": {
+          "year": "乙丑",
+          "month": "丁亥",
+          "day": "丙辰",
+          "hour": "丙申"
+        },
+        "lunarLabel": "1985年十月初二 申时"
+      },
+      "expected": {
+        "pillars": null,
+        "present": false
+      },
+      "mismatches": {
+        "wzVsExpected": [],
+        "localVsWz": []
+      },
+      "localChart": {
+        "source": "verified_engine",
+        "engine": "custom_hybrid",
+        "dayPillarMethod": "formula",
+        "pillars": {
+          "year": "乙丑",
+          "month": "丁亥",
+          "day": "丙辰",
+          "hour": "丙申"
+        }
+      }
+    },
+    {
+      "id": "R004",
+      "label": "Random calibration sample 4",
+      "input": {
+        "dateTime": "1999-04-04 08:16",
+        "gender": "male",
+        "birthplace": "Cape Town, South Africa",
+        "timezone": "Africa/Johannesburg"
+      },
+      "wzOracle": {
+        "ok": true,
+        "url": "https://bzapi4.iwzbz.com/getbasebz8.php?d=1999-04-04+07%3A26&s=1&today=1999-04-04+07%3A26&vip=0&userguid=&yzs=0",
+        "inputDateTime": "1999-04-04 07:26",
+        "pillars": {
+          "year": "己卯",
+          "month": "丁卯",
+          "day": "丙戌",
+          "hour": "壬辰"
+        },
+        "lunarLabel": "1999年二月十八 辰时"
+      },
+      "expected": {
+        "pillars": null,
+        "present": false
+      },
+      "mismatches": {
+        "wzVsExpected": [],
+        "localVsWz": []
+      },
+      "localChart": {
+        "source": "verified_engine",
+        "engine": "custom_hybrid",
+        "dayPillarMethod": "formula",
+        "pillars": {
+          "year": "己卯",
+          "month": "丁卯",
+          "day": "丙戌",
+          "hour": "壬辰"
+        }
+      }
+    },
+    {
+      "id": "R005",
+      "label": "Random calibration sample 5",
+      "input": {
+        "dateTime": "1917-05-28 10:53",
+        "gender": "female",
+        "birthplace": "Taipei, Taiwan",
+        "timezone": "Asia/Taipei"
+      },
+      "wzOracle": {
+        "ok": true,
+        "url": "https://bzapi4.iwzbz.com/getbasebz8.php?d=1917-05-28+11%3A02&s=0&today=1917-05-28+11%3A02&vip=0&userguid=&yzs=0",
+        "inputDateTime": "1917-05-28 11:02",
+        "pillars": {
+          "year": "丁巳",
+          "month": "乙巳",
+          "day": "庚午",
+          "hour": "壬午"
+        },
+        "lunarLabel": "1917年四月初八 午时"
+      },
+      "expected": {
+        "pillars": null,
+        "present": false
+      },
+      "mismatches": {
+        "wzVsExpected": [],
+        "localVsWz": []
+      },
+      "localChart": {
+        "source": "verified_engine",
+        "engine": "custom_hybrid",
+        "dayPillarMethod": "formula",
+        "pillars": {
+          "year": "丁巳",
+          "month": "乙巳",
+          "day": "庚午",
+          "hour": "壬午"
+        }
+      }
+    },
+    {
+      "id": "R006",
+      "label": "Random calibration sample 6",
+      "input": {
+        "dateTime": "2046-06-19 00:18",
+        "gender": "female",
+        "birthplace": "Beijing, China",
+        "timezone": "Asia/Shanghai"
+      },
+      "wzOracle": {
+        "ok": true,
+        "url": "https://bzapi4.iwzbz.com/getbasebz8.php?d=2046-06-19+00%3A02&s=0&today=2046-06-19+00%3A02&vip=0&userguid=&yzs=0",
+        "inputDateTime": "2046-06-19 00:02",
+        "pillars": {
+          "year": "丙寅",
+          "month": "甲午",
+          "day": "己酉",
+          "hour": "甲子"
+        },
+        "lunarLabel": "2046年五月十六 子时"
+      },
+      "expected": {
+        "pillars": null,
+        "present": false
+      },
+      "mismatches": {
+        "wzVsExpected": [],
+        "localVsWz": []
+      },
+      "localChart": {
+        "source": "verified_engine",
+        "engine": "custom_hybrid",
+        "dayPillarMethod": "formula",
+        "pillars": {
+          "year": "丙寅",
+          "month": "甲午",
+          "day": "己酉",
+          "hour": "甲子"
+        }
+      }
+    },
+    {
+      "id": "R007",
+      "label": "Random calibration sample 7",
+      "input": {
+        "dateTime": "1993-02-23 17:57",
+        "gender": "male",
+        "birthplace": "Shanghai, China",
+        "timezone": "Asia/Shanghai"
+      },
+      "wzOracle": {
+        "ok": true,
+        "url": "https://bzapi4.iwzbz.com/getbasebz8.php?d=1993-02-23+17%3A49&s=1&today=1993-02-23+17%3A49&vip=0&userguid=&yzs=0",
+        "inputDateTime": "1993-02-23 17:49",
+        "pillars": {
+          "year": "癸酉",
+          "month": "甲寅",
+          "day": "乙亥",
+          "hour": "乙酉"
+        },
+        "lunarLabel": "1993年二月初三 酉时"
+      },
+      "expected": {
+        "pillars": null,
+        "present": false
+      },
+      "mismatches": {
+        "wzVsExpected": [],
+        "localVsWz": []
+      },
+      "localChart": {
+        "source": "verified_engine",
+        "engine": "custom_hybrid",
+        "dayPillarMethod": "formula",
+        "pillars": {
+          "year": "癸酉",
+          "month": "甲寅",
+          "day": "乙亥",
+          "hour": "乙酉"
+        }
+      }
+    },
+    {
+      "id": "R008",
+      "label": "Random calibration sample 8",
+      "input": {
+        "dateTime": "1962-08-22 05:46",
+        "gender": "male",
+        "birthplace": "New York, New York, USA",
+        "timezone": "America/New_York"
+      },
+      "wzOracle": {
+        "ok": true,
+        "url": "https://bzapi4.iwzbz.com/getbasebz8.php?d=1962-08-22+04%3A46&s=1&today=1962-08-22+04%3A46&vip=0&userguid=&yzs=0",
+        "inputDateTime": "1962-08-22 04:46",
+        "pillars": {
+          "year": "壬寅",
+          "month": "戊申",
+          "day": "壬辰",
+          "hour": "壬寅"
+        },
+        "lunarLabel": "1962年七月廿三 寅时"
+      },
+      "expected": {
+        "pillars": null,
+        "present": false
+      },
+      "mismatches": {
+        "wzVsExpected": [],
+        "localVsWz": []
+      },
+      "localChart": {
+        "source": "verified_engine",
+        "engine": "custom_hybrid",
+        "dayPillarMethod": "formula",
+        "pillars": {
+          "year": "壬寅",
+          "month": "戊申",
+          "day": "壬辰",
+          "hour": "壬寅"
+        }
+      }
+    },
+    {
+      "id": "R009",
+      "label": "Random calibration sample 9",
+      "input": {
+        "dateTime": "2007-12-04 01:49",
+        "gender": "male",
+        "birthplace": "Melbourne, Victoria, Australia",
+        "timezone": "Australia/Melbourne"
+      },
+      "wzOracle": {
+        "ok": true,
+        "url": "https://bzapi4.iwzbz.com/getbasebz8.php?d=2007-12-04+00%3A38&s=1&today=2007-12-04+00%3A38&vip=0&userguid=&yzs=0",
+        "inputDateTime": "2007-12-04 00:38",
+        "pillars": {
+          "year": "丁亥",
+          "month": "辛亥",
+          "day": "壬申",
+          "hour": "庚子"
+        },
+        "lunarLabel": "2007年十月廿五 子时"
+      },
+      "expected": {
+        "pillars": null,
+        "present": false
+      },
+      "mismatches": {
+        "wzVsExpected": [],
+        "localVsWz": []
+      },
+      "localChart": {
+        "source": "verified_engine",
+        "engine": "custom_hybrid",
+        "dayPillarMethod": "formula",
+        "pillars": {
+          "year": "丁亥",
+          "month": "辛亥",
+          "day": "壬申",
+          "hour": "庚子"
+        }
+      }
+    },
+    {
+      "id": "R010",
+      "label": "Random calibration sample 10",
+      "input": {
+        "dateTime": "2053-07-01 09:28",
+        "gender": "female",
+        "birthplace": "Shenzhen, Guangdong, China",
+        "timezone": "Asia/Shanghai"
+      },
+      "wzOracle": {
+        "ok": true,
+        "url": "https://bzapi4.iwzbz.com/getbasebz8.php?d=2053-07-01+09%3A00&s=0&today=2053-07-01+09%3A00&vip=0&userguid=&yzs=0",
+        "inputDateTime": "2053-07-01 09:00",
+        "pillars": {
+          "year": "癸酉",
+          "month": "戊午",
+          "day": "戊戌",
+          "hour": "丁巳"
+        },
+        "lunarLabel": "2053年五月十六 巳时"
+      },
+      "expected": {
+        "pillars": null,
+        "present": false
+      },
+      "mismatches": {
+        "wzVsExpected": [],
+        "localVsWz": []
+      },
+      "localChart": {
+        "source": "verified_engine",
+        "engine": "custom_hybrid",
+        "dayPillarMethod": "formula",
+        "pillars": {
+          "year": "癸酉",
+          "month": "戊午",
+          "day": "戊戌",
+          "hour": "丁巳"
+        }
+      }
+    },
+    {
+      "id": "R011",
+      "label": "Random calibration sample 11",
+      "input": {
+        "dateTime": "2068-06-25 07:09",
+        "gender": "male",
+        "birthplace": "Sydney, NSW, Australia",
+        "timezone": "Australia/Sydney"
+      },
+      "wzOracle": {
+        "ok": true,
+        "url": "https://bzapi4.iwzbz.com/getbasebz8.php?d=2068-06-25+07%3A11&s=1&today=2068-06-25+07%3A11&vip=0&userguid=&yzs=0",
+        "inputDateTime": "2068-06-25 07:11",
+        "pillars": {
+          "year": "戊子",
+          "month": "戊午",
+          "day": "辛亥",
+          "hour": "壬辰"
+        },
+        "lunarLabel": "2068年五月廿六 辰时"
+      },
+      "expected": {
+        "pillars": null,
+        "present": false
+      },
+      "mismatches": {
+        "wzVsExpected": [],
+        "localVsWz": []
+      },
+      "localChart": {
+        "source": "verified_engine",
+        "engine": "custom_hybrid",
+        "dayPillarMethod": "formula",
+        "pillars": {
+          "year": "戊子",
+          "month": "戊午",
+          "day": "辛亥",
+          "hour": "壬辰"
+        }
+      }
+    },
+    {
+      "id": "R012",
+      "label": "Random calibration sample 12",
+      "input": {
+        "dateTime": "2015-10-27 07:35",
+        "gender": "female",
+        "birthplace": "Rio de Janeiro, Brazil",
+        "timezone": "America/Sao_Paulo"
+      },
+      "wzOracle": {
+        "ok": true,
+        "url": "https://bzapi4.iwzbz.com/getbasebz8.php?d=2015-10-27+06%3A58&s=0&today=2015-10-27+06%3A58&vip=0&userguid=&yzs=0",
+        "inputDateTime": "2015-10-27 06:58",
+        "pillars": {
+          "year": "乙未",
+          "month": "丙戌",
+          "day": "丙子",
+          "hour": "辛卯"
+        },
+        "lunarLabel": "2015年九月十五 卯时"
+      },
+      "expected": {
+        "pillars": null,
+        "present": false
+      },
+      "mismatches": {
+        "wzVsExpected": [],
+        "localVsWz": []
+      },
+      "localChart": {
+        "source": "verified_engine",
+        "engine": "custom_hybrid",
+        "dayPillarMethod": "formula",
+        "pillars": {
+          "year": "乙未",
+          "month": "丙戌",
+          "day": "丙子",
+          "hour": "辛卯"
+        }
+      }
+    },
+    {
+      "id": "R013",
+      "label": "Random calibration sample 13",
+      "input": {
+        "dateTime": "1951-12-03 23:46",
+        "gender": "male",
+        "birthplace": "Toronto, Ontario, Canada",
+        "timezone": "America/Toronto"
+      },
+      "wzOracle": {
+        "ok": true,
+        "url": "https://bzapi4.iwzbz.com/getbasebz8.php?d=1951-12-03+23%3A38&s=1&today=1951-12-03+23%3A38&vip=0&userguid=&yzs=0",
+        "inputDateTime": "1951-12-03 23:38",
+        "pillars": {
+          "year": "辛卯",
+          "month": "己亥",
+          "day": "戊寅",
+          "hour": "壬子"
+        },
+        "lunarLabel": "1951年冬月初六 子时"
+      },
+      "expected": {
+        "pillars": null,
+        "present": false
+      },
+      "mismatches": {
+        "wzVsExpected": [],
+        "localVsWz": []
+      },
+      "localChart": {
+        "source": "verified_engine",
+        "engine": "custom_hybrid",
+        "dayPillarMethod": "formula",
+        "pillars": {
+          "year": "辛卯",
+          "month": "己亥",
+          "day": "戊寅",
+          "hour": "壬子"
+        }
+      }
+    },
+    {
+      "id": "R014",
+      "label": "Random calibration sample 14",
+      "input": {
+        "dateTime": "2098-05-12 04:14",
+        "gender": "female",
+        "birthplace": "Taipei, Taiwan",
+        "timezone": "Asia/Taipei"
+      },
+      "wzOracle": {
+        "ok": true,
+        "url": "https://bzapi4.iwzbz.com/getbasebz8.php?d=2098-05-12+04%3A24&s=0&today=2098-05-12+04%3A24&vip=0&userguid=&yzs=0",
+        "inputDateTime": "2098-05-12 04:24",
+        "pillars": {
+          "year": "戊午",
+          "month": "丁巳",
+          "day": "甲辰",
+          "hour": "丙寅"
+        },
+        "lunarLabel": "2098年四月十二 寅时"
+      },
+      "expected": {
+        "pillars": null,
+        "present": false
+      },
+      "mismatches": {
+        "wzVsExpected": [],
+        "localVsWz": []
+      },
+      "localChart": {
+        "source": "verified_engine",
+        "engine": "custom_hybrid",
+        "dayPillarMethod": "formula",
+        "pillars": {
+          "year": "戊午",
+          "month": "丁巳",
+          "day": "甲辰",
+          "hour": "丙寅"
+        }
+      }
+    },
+    {
+      "id": "R015",
+      "label": "Random calibration sample 15",
+      "input": {
+        "dateTime": "2068-12-21 11:12",
+        "gender": "female",
+        "birthplace": "Rio de Janeiro, Brazil",
+        "timezone": "America/Sao_Paulo"
+      },
+      "wzOracle": {
+        "ok": true,
+        "url": "https://bzapi4.iwzbz.com/getbasebz8.php?d=2068-12-21+11%3A21&s=0&today=2068-12-21+11%3A21&vip=0&userguid=&yzs=0",
+        "inputDateTime": "2068-12-21 11:21",
+        "pillars": {
+          "year": "戊子",
+          "month": "甲子",
+          "day": "庚戌",
+          "hour": "壬午"
+        },
+        "lunarLabel": "2068年冬月廿七 午时"
+      },
+      "expected": {
+        "pillars": null,
+        "present": false
+      },
+      "mismatches": {
+        "wzVsExpected": [],
+        "localVsWz": []
+      },
+      "localChart": {
+        "source": "verified_engine",
+        "engine": "custom_hybrid",
+        "dayPillarMethod": "formula",
+        "pillars": {
+          "year": "戊子",
+          "month": "甲子",
+          "day": "庚戌",
+          "hour": "壬午"
+        }
+      }
+    },
+    {
+      "id": "R016",
+      "label": "Random calibration sample 16",
+      "input": {
+        "dateTime": "2064-04-30 07:00",
+        "gender": "female",
+        "birthplace": "Hong Kong, China",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "wzOracle": {
+        "ok": true,
+        "url": "https://bzapi4.iwzbz.com/getbasebz8.php?d=2064-04-30+06%3A39&s=0&today=2064-04-30+06%3A39&vip=0&userguid=&yzs=0",
+        "inputDateTime": "2064-04-30 06:39",
+        "pillars": {
+          "year": "甲申",
+          "month": "戊辰",
+          "day": "甲午",
+          "hour": "丁卯"
+        },
+        "lunarLabel": "2064年三月十四 卯时"
+      },
+      "expected": {
+        "pillars": null,
+        "present": false
+      },
+      "mismatches": {
+        "wzVsExpected": [],
+        "localVsWz": []
+      },
+      "localChart": {
+        "source": "verified_engine",
+        "engine": "custom_hybrid",
+        "dayPillarMethod": "formula",
+        "pillars": {
+          "year": "甲申",
+          "month": "戊辰",
+          "day": "甲午",
+          "hour": "丁卯"
+        }
+      }
+    },
+    {
+      "id": "R017",
+      "label": "Random calibration sample 17",
+      "input": {
+        "dateTime": "2026-11-06 23:16",
+        "gender": "female",
+        "birthplace": "Shanghai, China",
+        "timezone": "Asia/Shanghai"
+      },
+      "wzOracle": {
+        "ok": true,
+        "url": "https://bzapi4.iwzbz.com/getbasebz8.php?d=2026-11-06+23%3A38&s=0&today=2026-11-06+23%3A38&vip=0&userguid=&yzs=0",
+        "inputDateTime": "2026-11-06 23:38",
+        "pillars": {
+          "year": "丙午",
+          "month": "戊戌",
+          "day": "乙酉",
+          "hour": "丙子"
+        },
+        "lunarLabel": "2026年九月廿九 子时"
+      },
+      "expected": {
+        "pillars": null,
+        "present": false
+      },
+      "mismatches": {
+        "wzVsExpected": [],
+        "localVsWz": []
+      },
+      "localChart": {
+        "source": "verified_engine",
+        "engine": "custom_hybrid",
+        "dayPillarMethod": "formula",
+        "pillars": {
+          "year": "丙午",
+          "month": "戊戌",
+          "day": "乙酉",
+          "hour": "丙子"
+        }
+      }
+    },
+    {
+      "id": "R018",
+      "label": "Random calibration sample 18",
+      "input": {
+        "dateTime": "1955-11-17 01:33",
+        "gender": "male",
+        "birthplace": "Hong Kong, China",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "wzOracle": {
+        "ok": true,
+        "url": "https://bzapi4.iwzbz.com/getbasebz8.php?d=1955-11-17+01%3A24&s=1&today=1955-11-17+01%3A24&vip=0&userguid=&yzs=0",
+        "inputDateTime": "1955-11-17 01:24",
+        "pillars": {
+          "year": "乙未",
+          "month": "丁亥",
+          "day": "壬午",
+          "hour": "辛丑"
+        },
+        "lunarLabel": "1955年十月初四 丑时"
+      },
+      "expected": {
+        "pillars": null,
+        "present": false
+      },
+      "mismatches": {
+        "wzVsExpected": [],
+        "localVsWz": []
+      },
+      "localChart": {
+        "source": "verified_engine",
+        "engine": "custom_hybrid",
+        "dayPillarMethod": "formula",
+        "pillars": {
+          "year": "乙未",
+          "month": "丁亥",
+          "day": "壬午",
+          "hour": "辛丑"
+        }
+      }
+    },
+    {
+      "id": "R019",
+      "label": "Random calibration sample 19",
+      "input": {
+        "dateTime": "1992-01-11 11:37",
+        "gender": "female",
+        "birthplace": "Sydney, NSW, Australia",
+        "timezone": "Australia/Sydney"
+      },
+      "wzOracle": {
+        "ok": true,
+        "url": "https://bzapi4.iwzbz.com/getbasebz8.php?d=1992-01-11+10%3A34&s=0&today=1992-01-11+10%3A34&vip=0&userguid=&yzs=0",
+        "inputDateTime": "1992-01-11 10:34",
+        "pillars": {
+          "year": "辛未",
+          "month": "辛丑",
+          "day": "丙戌",
+          "hour": "癸巳"
+        },
+        "lunarLabel": "1991年腊月初七 巳时"
+      },
+      "expected": {
+        "pillars": null,
+        "present": false
+      },
+      "mismatches": {
+        "wzVsExpected": [],
+        "localVsWz": []
+      },
+      "localChart": {
+        "source": "verified_engine",
+        "engine": "custom_hybrid",
+        "dayPillarMethod": "formula",
+        "pillars": {
+          "year": "辛未",
+          "month": "辛丑",
+          "day": "丙戌",
+          "hour": "癸巳"
+        }
+      }
+    },
+    {
+      "id": "R020",
+      "label": "Random calibration sample 20",
+      "input": {
+        "dateTime": "2055-10-26 09:09",
+        "gender": "male",
+        "birthplace": "New York, New York, USA",
+        "timezone": "America/New_York"
+      },
+      "wzOracle": {
+        "ok": true,
+        "url": "https://bzapi4.iwzbz.com/getbasebz8.php?d=2055-10-26+08%3A29&s=1&today=2055-10-26+08%3A29&vip=0&userguid=&yzs=0",
+        "inputDateTime": "2055-10-26 08:29",
+        "pillars": {
+          "year": "乙亥",
+          "month": "丙戌",
+          "day": "乙巳",
+          "hour": "庚辰"
+        },
+        "lunarLabel": "2055年九月初七 辰时"
+      },
+      "expected": {
+        "pillars": null,
+        "present": false
+      },
+      "mismatches": {
+        "wzVsExpected": [],
+        "localVsWz": []
+      },
+      "localChart": {
+        "source": "verified_engine",
+        "engine": "custom_hybrid",
+        "dayPillarMethod": "formula",
+        "pillars": {
+          "year": "乙亥",
+          "month": "丙戌",
+          "day": "乙巳",
+          "hour": "庚辰"
+        }
+      }
+    },
+    {
+      "id": "R021",
+      "label": "Random calibration sample 21",
+      "input": {
+        "dateTime": "2052-04-15 21:16",
+        "gender": "male",
+        "birthplace": "Melbourne, Victoria, Australia",
+        "timezone": "Australia/Melbourne"
+      },
+      "wzOracle": {
+        "ok": true,
+        "url": "https://bzapi4.iwzbz.com/getbasebz8.php?d=2052-04-15+20%3A55&s=1&today=2052-04-15+20%3A55&vip=0&userguid=&yzs=0",
+        "inputDateTime": "2052-04-15 20:55",
+        "pillars": {
+          "year": "壬申",
+          "month": "甲辰",
+          "day": "丙子",
+          "hour": "戊戌"
+        },
+        "lunarLabel": "2052年三月十六 戌时"
+      },
+      "expected": {
+        "pillars": null,
+        "present": false
+      },
+      "mismatches": {
+        "wzVsExpected": [],
+        "localVsWz": []
+      },
+      "localChart": {
+        "source": "verified_engine",
+        "engine": "custom_hybrid",
+        "dayPillarMethod": "formula",
+        "pillars": {
+          "year": "壬申",
+          "month": "甲辰",
+          "day": "丙子",
+          "hour": "戊戌"
+        }
+      }
+    },
+    {
+      "id": "R022",
+      "label": "Random calibration sample 22",
+      "input": {
+        "dateTime": "2045-05-22 07:16",
+        "gender": "female",
+        "birthplace": "Melbourne, Victoria, Australia",
+        "timezone": "Australia/Melbourne"
+      },
+      "wzOracle": {
+        "ok": true,
+        "url": "https://bzapi4.iwzbz.com/getbasebz8.php?d=2045-05-22+06%3A59&s=0&today=2045-05-22+06%3A59&vip=0&userguid=&yzs=0",
+        "inputDateTime": "2045-05-22 06:59",
+        "pillars": {
+          "year": "乙丑",
+          "month": "辛巳",
+          "day": "丙子",
+          "hour": "辛卯"
+        },
+        "lunarLabel": "2045年四月初六 卯时"
+      },
+      "expected": {
+        "pillars": null,
+        "present": false
+      },
+      "mismatches": {
+        "wzVsExpected": [],
+        "localVsWz": []
+      },
+      "localChart": {
+        "source": "verified_engine",
+        "engine": "custom_hybrid",
+        "dayPillarMethod": "formula",
+        "pillars": {
+          "year": "乙丑",
+          "month": "辛巳",
+          "day": "丙子",
+          "hour": "辛卯"
+        }
+      }
+    },
+    {
+      "id": "R023",
+      "label": "Random calibration sample 23",
+      "input": {
+        "dateTime": "1978-03-21 09:15",
+        "gender": "female",
+        "birthplace": "Rio de Janeiro, Brazil",
+        "timezone": "America/Sao_Paulo"
+      },
+      "wzOracle": {
+        "ok": true,
+        "url": "https://bzapi4.iwzbz.com/getbasebz8.php?d=1978-03-21+09%3A14&s=0&today=1978-03-21+09%3A14&vip=0&userguid=&yzs=0",
+        "inputDateTime": "1978-03-21 09:14",
+        "pillars": {
+          "year": "戊午",
+          "month": "乙卯",
+          "day": "壬午",
+          "hour": "乙巳"
+        },
+        "lunarLabel": "1978年二月十三 巳时"
+      },
+      "expected": {
+        "pillars": null,
+        "present": false
+      },
+      "mismatches": {
+        "wzVsExpected": [],
+        "localVsWz": []
+      },
+      "localChart": {
+        "source": "verified_engine",
+        "engine": "custom_hybrid",
+        "dayPillarMethod": "formula",
+        "pillars": {
+          "year": "戊午",
+          "month": "乙卯",
+          "day": "壬午",
+          "hour": "乙巳"
+        }
+      }
+    },
+    {
+      "id": "R024",
+      "label": "Random calibration sample 24",
+      "input": {
+        "dateTime": "1974-02-15 10:06",
+        "gender": "male",
+        "birthplace": "Guangzhou, Guangdong, China",
+        "timezone": "Asia/Shanghai"
+      },
+      "wzOracle": {
+        "ok": true,
+        "url": "https://bzapi4.iwzbz.com/getbasebz8.php?d=1974-02-15+09%3A24&s=1&today=1974-02-15+09%3A24&vip=0&userguid=&yzs=0",
+        "inputDateTime": "1974-02-15 09:24",
+        "pillars": {
+          "year": "甲寅",
+          "month": "丙寅",
+          "day": "丁亥",
+          "hour": "乙巳"
+        },
+        "lunarLabel": "1974年正月廿四 巳时"
+      },
+      "expected": {
+        "pillars": null,
+        "present": false
+      },
+      "mismatches": {
+        "wzVsExpected": [],
+        "localVsWz": []
+      },
+      "localChart": {
+        "source": "verified_engine",
+        "engine": "custom_hybrid",
+        "dayPillarMethod": "formula",
+        "pillars": {
+          "year": "甲寅",
+          "month": "丙寅",
+          "day": "丁亥",
+          "hour": "乙巳"
+        }
+      }
+    },
+    {
+      "id": "R025",
+      "label": "Random calibration sample 25",
+      "input": {
+        "dateTime": "1987-01-02 16:05",
+        "gender": "male",
+        "birthplace": "Guangzhou, Guangdong, China",
+        "timezone": "Asia/Shanghai"
+      },
+      "wzOracle": {
+        "ok": true,
+        "url": "https://bzapi4.iwzbz.com/getbasebz8.php?d=1987-01-02+15%3A34&s=1&today=1987-01-02+15%3A34&vip=0&userguid=&yzs=0",
+        "inputDateTime": "1987-01-02 15:34",
+        "pillars": {
+          "year": "丙寅",
+          "month": "庚子",
+          "day": "辛亥",
+          "hour": "丙申"
+        },
+        "lunarLabel": "1986年腊月初三 申时"
+      },
+      "expected": {
+        "pillars": null,
+        "present": false
+      },
+      "mismatches": {
+        "wzVsExpected": [],
+        "localVsWz": []
+      },
+      "localChart": {
+        "source": "verified_engine",
+        "engine": "custom_hybrid",
+        "dayPillarMethod": "formula",
+        "pillars": {
+          "year": "丙寅",
+          "month": "庚子",
+          "day": "辛亥",
+          "hour": "丙申"
+        }
+      }
+    },
+    {
+      "id": "R026",
+      "label": "Random calibration sample 26",
+      "input": {
+        "dateTime": "2021-03-12 07:08",
+        "gender": "female",
+        "birthplace": "London, England, UK",
+        "timezone": "Europe/London"
+      },
+      "wzOracle": {
+        "ok": true,
+        "url": "https://bzapi4.iwzbz.com/getbasebz8.php?d=2021-03-12+06%3A57&s=0&today=2021-03-12+06%3A57&vip=0&userguid=&yzs=0",
+        "inputDateTime": "2021-03-12 06:57",
+        "pillars": {
+          "year": "辛丑",
+          "month": "辛卯",
+          "day": "己未",
+          "hour": "丁卯"
+        },
+        "lunarLabel": "2021年正月廿九 卯时"
+      },
+      "expected": {
+        "pillars": null,
+        "present": false
+      },
+      "mismatches": {
+        "wzVsExpected": [],
+        "localVsWz": []
+      },
+      "localChart": {
+        "source": "verified_engine",
+        "engine": "custom_hybrid",
+        "dayPillarMethod": "formula",
+        "pillars": {
+          "year": "辛丑",
+          "month": "辛卯",
+          "day": "己未",
+          "hour": "丁卯"
+        }
+      }
+    },
+    {
+      "id": "R027",
+      "label": "Random calibration sample 27",
+      "input": {
+        "dateTime": "1906-01-08 08:24",
+        "gender": "female",
+        "birthplace": "Toronto, Ontario, Canada",
+        "timezone": "America/Toronto"
+      },
+      "wzOracle": {
+        "ok": true,
+        "url": "https://bzapi4.iwzbz.com/getbasebz8.php?d=1906-01-08+08%3A00&s=0&today=1906-01-08+08%3A00&vip=0&userguid=&yzs=0",
+        "inputDateTime": "1906-01-08 08:00",
+        "pillars": {
+          "year": "乙巳",
+          "month": "己丑",
+          "day": "壬子",
+          "hour": "甲辰"
+        },
+        "lunarLabel": "1905年腊月十四 辰时"
+      },
+      "expected": {
+        "pillars": null,
+        "present": false
+      },
+      "mismatches": {
+        "wzVsExpected": [],
+        "localVsWz": []
+      },
+      "localChart": {
+        "source": "verified_engine",
+        "engine": "custom_hybrid",
+        "dayPillarMethod": "formula",
+        "pillars": {
+          "year": "乙巳",
+          "month": "己丑",
+          "day": "壬子",
+          "hour": "甲辰"
+        }
+      }
+    },
+    {
+      "id": "R028",
+      "label": "Random calibration sample 28",
+      "input": {
+        "dateTime": "2050-04-14 06:44",
+        "gender": "male",
+        "birthplace": "Melbourne, Victoria, Australia",
+        "timezone": "Australia/Melbourne"
+      },
+      "wzOracle": {
+        "ok": true,
+        "url": "https://bzapi4.iwzbz.com/getbasebz8.php?d=2050-04-14+06%3A23&s=1&today=2050-04-14+06%3A23&vip=0&userguid=&yzs=0",
+        "inputDateTime": "2050-04-14 06:23",
+        "pillars": {
+          "year": "庚午",
+          "month": "庚辰",
+          "day": "甲子",
+          "hour": "丁卯"
+        },
+        "lunarLabel": "2050年三月廿三 卯时"
+      },
+      "expected": {
+        "pillars": null,
+        "present": false
+      },
+      "mismatches": {
+        "wzVsExpected": [],
+        "localVsWz": []
+      },
+      "localChart": {
+        "source": "verified_engine",
+        "engine": "custom_hybrid",
+        "dayPillarMethod": "formula",
+        "pillars": {
+          "year": "庚午",
+          "month": "庚辰",
+          "day": "甲子",
+          "hour": "丁卯"
+        }
+      }
+    },
+    {
+      "id": "R029",
+      "label": "Random calibration sample 29",
+      "input": {
+        "dateTime": "1932-02-19 00:27",
+        "gender": "male",
+        "birthplace": "Toronto, Ontario, Canada",
+        "timezone": "America/Toronto"
+      },
+      "wzOracle": {
+        "ok": true,
+        "url": "https://bzapi4.iwzbz.com/getbasebz8.php?d=1932-02-18+23%3A55&s=1&today=1932-02-18+23%3A55&vip=0&userguid=&yzs=0",
+        "inputDateTime": "1932-02-18 23:55",
+        "pillars": {
+          "year": "壬申",
+          "month": "壬寅",
+          "day": "庚戌",
+          "hour": "丙子"
+        },
+        "lunarLabel": "1932年正月十四 子时"
+      },
+      "expected": {
+        "pillars": null,
+        "present": false
+      },
+      "mismatches": {
+        "wzVsExpected": [],
+        "localVsWz": []
+      },
+      "localChart": {
+        "source": "verified_engine",
+        "engine": "custom_hybrid",
+        "dayPillarMethod": "formula",
+        "pillars": {
+          "year": "壬申",
+          "month": "壬寅",
+          "day": "庚戌",
+          "hour": "丙子"
+        }
+      }
+    },
+    {
+      "id": "R030",
+      "label": "Random calibration sample 30",
+      "input": {
+        "dateTime": "1981-12-12 09:44",
+        "gender": "female",
+        "birthplace": "Rio de Janeiro, Brazil",
+        "timezone": "America/Sao_Paulo"
+      },
+      "wzOracle": {
+        "ok": true,
+        "url": "https://bzapi4.iwzbz.com/getbasebz8.php?d=1981-12-12+09%3A57&s=0&today=1981-12-12+09%3A57&vip=0&userguid=&yzs=0",
+        "inputDateTime": "1981-12-12 09:57",
+        "pillars": {
+          "year": "辛酉",
+          "month": "庚子",
+          "day": "甲子",
+          "hour": "己巳"
+        },
+        "lunarLabel": "1981年冬月十七 巳时"
+      },
+      "expected": {
+        "pillars": null,
+        "present": false
+      },
+      "mismatches": {
+        "wzVsExpected": [],
+        "localVsWz": []
+      },
+      "localChart": {
+        "source": "verified_engine",
+        "engine": "custom_hybrid",
+        "dayPillarMethod": "formula",
+        "pillars": {
+          "year": "辛酉",
+          "month": "庚子",
+          "day": "甲子",
+          "hour": "己巳"
+        }
+      }
+    },
+    {
+      "id": "R031",
+      "label": "Random calibration sample 31",
+      "input": {
+        "dateTime": "1998-04-19 06:43",
+        "gender": "female",
+        "birthplace": "Hong Kong, China",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "wzOracle": {
+        "ok": true,
+        "url": "https://bzapi4.iwzbz.com/getbasebz8.php?d=1998-04-19+06%3A20&s=0&today=1998-04-19+06%3A20&vip=0&userguid=&yzs=0",
+        "inputDateTime": "1998-04-19 06:20",
+        "pillars": {
+          "year": "戊寅",
+          "month": "丙辰",
+          "day": "丙申",
+          "hour": "辛卯"
+        },
+        "lunarLabel": "1998年三月廿三 卯时"
+      },
+      "expected": {
+        "pillars": null,
+        "present": false
+      },
+      "mismatches": {
+        "wzVsExpected": [],
+        "localVsWz": []
+      },
+      "localChart": {
+        "source": "verified_engine",
+        "engine": "custom_hybrid",
+        "dayPillarMethod": "formula",
+        "pillars": {
+          "year": "戊寅",
+          "month": "丙辰",
+          "day": "丙申",
+          "hour": "辛卯"
+        }
+      }
+    },
+    {
+      "id": "R032",
+      "label": "Random calibration sample 32",
+      "input": {
+        "dateTime": "1949-03-13 16:55",
+        "gender": "female",
+        "birthplace": "Beijing, China",
+        "timezone": "Asia/Shanghai"
+      },
+      "wzOracle": {
+        "ok": true,
+        "url": "https://bzapi4.iwzbz.com/getbasebz8.php?d=1949-03-13+16%3A30&s=0&today=1949-03-13+16%3A30&vip=0&userguid=&yzs=0",
+        "inputDateTime": "1949-03-13 16:30",
+        "pillars": {
+          "year": "己丑",
+          "month": "丁卯",
+          "day": "壬寅",
+          "hour": "戊申"
+        },
+        "lunarLabel": "1949年二月十四 申时"
+      },
+      "expected": {
+        "pillars": null,
+        "present": false
+      },
+      "mismatches": {
+        "wzVsExpected": [],
+        "localVsWz": []
+      },
+      "localChart": {
+        "source": "verified_engine",
+        "engine": "custom_hybrid",
+        "dayPillarMethod": "formula",
+        "pillars": {
+          "year": "己丑",
+          "month": "丁卯",
+          "day": "壬寅",
+          "hour": "戊申"
+        }
+      }
+    },
+    {
+      "id": "R033",
+      "label": "Random calibration sample 33",
+      "input": {
+        "dateTime": "1928-07-29 22:27",
+        "gender": "male",
+        "birthplace": "Hong Kong, China",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "wzOracle": {
+        "ok": true,
+        "url": "https://bzapi4.iwzbz.com/getbasebz8.php?d=1928-07-29+21%3A57&s=1&today=1928-07-29+21%3A57&vip=0&userguid=&yzs=0",
+        "inputDateTime": "1928-07-29 21:57",
+        "pillars": {
+          "year": "戊辰",
+          "month": "己未",
+          "day": "庚午",
+          "hour": "丁亥"
+        },
+        "lunarLabel": "1928年六月十三 亥时"
+      },
+      "expected": {
+        "pillars": null,
+        "present": false
+      },
+      "mismatches": {
+        "wzVsExpected": [],
+        "localVsWz": []
+      },
+      "localChart": {
+        "source": "verified_engine",
+        "engine": "custom_hybrid",
+        "dayPillarMethod": "formula",
+        "pillars": {
+          "year": "戊辰",
+          "month": "己未",
+          "day": "庚午",
+          "hour": "丁亥"
+        }
+      }
+    },
+    {
+      "id": "R034",
+      "label": "Random calibration sample 34",
+      "input": {
+        "dateTime": "2066-03-27 01:38",
+        "gender": "male",
+        "birthplace": "Guangzhou, Guangdong, China",
+        "timezone": "Asia/Shanghai"
+      },
+      "wzOracle": {
+        "ok": true,
+        "url": "https://bzapi4.iwzbz.com/getbasebz8.php?d=2066-03-27+01%3A05&s=1&today=2066-03-27+01%3A05&vip=0&userguid=&yzs=0",
+        "inputDateTime": "2066-03-27 01:05",
+        "pillars": {
+          "year": "丙戌",
+          "month": "辛卯",
+          "day": "庚午",
+          "hour": "丁丑"
+        },
+        "lunarLabel": "2066年三月初二 丑时"
+      },
+      "expected": {
+        "pillars": null,
+        "present": false
+      },
+      "mismatches": {
+        "wzVsExpected": [],
+        "localVsWz": []
+      },
+      "localChart": {
+        "source": "verified_engine",
+        "engine": "custom_hybrid",
+        "dayPillarMethod": "formula",
+        "pillars": {
+          "year": "丙戌",
+          "month": "辛卯",
+          "day": "庚午",
+          "hour": "丁丑"
+        }
+      }
+    },
+    {
+      "id": "R035",
+      "label": "Random calibration sample 35",
+      "input": {
+        "dateTime": "2012-11-02 04:15",
+        "gender": "female",
+        "birthplace": "New York, New York, USA",
+        "timezone": "America/New_York"
+      },
+      "wzOracle": {
+        "ok": true,
+        "url": "https://bzapi4.iwzbz.com/getbasebz8.php?d=2012-11-02+03%3A35&s=0&today=2012-11-02+03%3A35&vip=0&userguid=&yzs=0",
+        "inputDateTime": "2012-11-02 03:35",
+        "pillars": {
+          "year": "壬辰",
+          "month": "庚戌",
+          "day": "丁卯",
+          "hour": "壬寅"
+        },
+        "lunarLabel": "2012年九月十九 寅时"
+      },
+      "expected": {
+        "pillars": null,
+        "present": false
+      },
+      "mismatches": {
+        "wzVsExpected": [],
+        "localVsWz": []
+      },
+      "localChart": {
+        "source": "verified_engine",
+        "engine": "custom_hybrid",
+        "dayPillarMethod": "formula",
+        "pillars": {
+          "year": "壬辰",
+          "month": "庚戌",
+          "day": "丁卯",
+          "hour": "壬寅"
+        }
+      }
+    },
+    {
+      "id": "R036",
+      "label": "Random calibration sample 36",
+      "input": {
+        "dateTime": "1981-06-13 10:21",
+        "gender": "male",
+        "birthplace": "Taipei, Taiwan",
+        "timezone": "Asia/Taipei"
+      },
+      "wzOracle": {
+        "ok": true,
+        "url": "https://bzapi4.iwzbz.com/getbasebz8.php?d=1981-06-13+10%3A27&s=1&today=1981-06-13+10%3A27&vip=0&userguid=&yzs=0",
+        "inputDateTime": "1981-06-13 10:27",
+        "pillars": {
+          "year": "辛酉",
+          "month": "甲午",
+          "day": "壬戌",
+          "hour": "乙巳"
+        },
+        "lunarLabel": "1981年五月十二 巳时"
+      },
+      "expected": {
+        "pillars": null,
+        "present": false
+      },
+      "mismatches": {
+        "wzVsExpected": [],
+        "localVsWz": []
+      },
+      "localChart": {
+        "source": "verified_engine",
+        "engine": "custom_hybrid",
+        "dayPillarMethod": "formula",
+        "pillars": {
+          "year": "辛酉",
+          "month": "甲午",
+          "day": "壬戌",
+          "hour": "乙巳"
+        }
+      }
+    },
+    {
+      "id": "R037",
+      "label": "Random calibration sample 37",
+      "input": {
+        "dateTime": "1956-06-12 17:35",
+        "gender": "female",
+        "birthplace": "Beijing, China",
+        "timezone": "Asia/Shanghai"
+      },
+      "wzOracle": {
+        "ok": true,
+        "url": "https://bzapi4.iwzbz.com/getbasebz8.php?d=1956-06-12+17%3A21&s=0&today=1956-06-12+17%3A21&vip=0&userguid=&yzs=0",
+        "inputDateTime": "1956-06-12 17:21",
+        "pillars": {
+          "year": "丙申",
+          "month": "甲午",
+          "day": "庚戌",
+          "hour": "乙酉"
+        },
+        "lunarLabel": "1956年五月初四 酉时"
+      },
+      "expected": {
+        "pillars": null,
+        "present": false
+      },
+      "mismatches": {
+        "wzVsExpected": [],
+        "localVsWz": []
+      },
+      "localChart": {
+        "source": "verified_engine",
+        "engine": "custom_hybrid",
+        "dayPillarMethod": "formula",
+        "pillars": {
+          "year": "丙申",
+          "month": "甲午",
+          "day": "庚戌",
+          "hour": "乙酉"
+        }
+      }
+    },
+    {
+      "id": "R038",
+      "label": "Random calibration sample 38",
+      "input": {
+        "dateTime": "2052-11-11 08:12",
+        "gender": "female",
+        "birthplace": "London, England, UK",
+        "timezone": "Europe/London"
+      },
+      "wzOracle": {
+        "ok": true,
+        "url": "https://bzapi4.iwzbz.com/getbasebz8.php?d=2052-11-11+08%3A27&s=0&today=2052-11-11+08%3A27&vip=0&userguid=&yzs=0",
+        "inputDateTime": "2052-11-11 08:27",
+        "pillars": {
+          "year": "壬申",
+          "month": "辛亥",
+          "day": "丙午",
+          "hour": "壬辰"
+        },
+        "lunarLabel": "2052年九月廿一 辰时"
+      },
+      "expected": {
+        "pillars": null,
+        "present": false
+      },
+      "mismatches": {
+        "wzVsExpected": [],
+        "localVsWz": []
+      },
+      "localChart": {
+        "source": "verified_engine",
+        "engine": "custom_hybrid",
+        "dayPillarMethod": "formula",
+        "pillars": {
+          "year": "壬申",
+          "month": "辛亥",
+          "day": "丙午",
+          "hour": "壬辰"
+        }
+      }
+    },
+    {
+      "id": "R039",
+      "label": "Random calibration sample 39",
+      "input": {
+        "dateTime": "2051-10-21 23:26",
+        "gender": "male",
+        "birthplace": "Rio de Janeiro, Brazil",
+        "timezone": "America/Sao_Paulo"
+      },
+      "wzOracle": {
+        "ok": true,
+        "url": "https://bzapi4.iwzbz.com/getbasebz8.php?d=2051-10-21+23%3A48&s=1&today=2051-10-21+23%3A48&vip=0&userguid=&yzs=0",
+        "inputDateTime": "2051-10-21 23:48",
+        "pillars": {
+          "year": "辛未",
+          "month": "戊戌",
+          "day": "庚辰",
+          "hour": "丙子"
+        },
+        "lunarLabel": "2051年九月十八 子时"
+      },
+      "expected": {
+        "pillars": null,
+        "present": false
+      },
+      "mismatches": {
+        "wzVsExpected": [],
+        "localVsWz": []
+      },
+      "localChart": {
+        "source": "verified_engine",
+        "engine": "custom_hybrid",
+        "dayPillarMethod": "formula",
+        "pillars": {
+          "year": "辛未",
+          "month": "戊戌",
+          "day": "庚辰",
+          "hour": "丙子"
+        }
+      }
+    },
+    {
+      "id": "R040",
+      "label": "Random calibration sample 40",
+      "input": {
+        "dateTime": "2096-01-28 08:37",
+        "gender": "male",
+        "birthplace": "Melbourne, Victoria, Australia",
+        "timezone": "Australia/Melbourne"
+      },
+      "wzOracle": {
+        "ok": true,
+        "url": "https://bzapi4.iwzbz.com/getbasebz8.php?d=2096-01-28+07%3A04&s=1&today=2096-01-28+07%3A04&vip=0&userguid=&yzs=0",
+        "inputDateTime": "2096-01-28 07:04",
+        "pillars": {
+          "year": "乙卯",
+          "month": "己丑",
+          "day": "己酉",
+          "hour": "戊辰"
+        },
+        "lunarLabel": "2096年正月初四 辰时"
+      },
+      "expected": {
+        "pillars": null,
+        "present": false
+      },
+      "mismatches": {
+        "wzVsExpected": [],
+        "localVsWz": []
+      },
+      "localChart": {
+        "source": "verified_engine",
+        "engine": "custom_hybrid",
+        "dayPillarMethod": "formula",
+        "pillars": {
+          "year": "乙卯",
+          "month": "己丑",
+          "day": "己酉",
+          "hour": "戊辰"
+        }
+      }
+    }
+  ]
+}

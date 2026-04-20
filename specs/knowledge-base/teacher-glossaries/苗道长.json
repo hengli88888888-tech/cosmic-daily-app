@@ -1,0 +1,37 @@
+{
+  "teacher": "苗道长",
+  "whisper_hint_terms": [
+    "奇门遁甲",
+    "伏吟",
+    "反吟",
+    "长生",
+    "值符",
+    "值使",
+    "九宫",
+    "八门"
+  ],
+  "canonical_terms": [
+    { "canonical": "奇门遁甲", "aliases": ["秦莫德亚", "奇莫遁甲"] },
+    { "canonical": "伏吟局", "aliases": ["福音局", "小福音局"] },
+    { "canonical": "伏吟格", "aliases": ["福音格"] },
+    { "canonical": "伏吟", "aliases": ["福音"] },
+    { "canonical": "反吟", "aliases": ["反音"] },
+    { "canonical": "长生", "aliases": ["掌声"] }
+  ],
+  "common_corrections": [
+    { "wrong": "秦莫德亚", "correct": "奇门遁甲" },
+    { "wrong": "奇莫遁甲", "correct": "奇门遁甲" },
+    { "wrong": "小福音局", "correct": "小伏吟局" },
+    { "wrong": "福音局", "correct": "伏吟局" },
+    { "wrong": "福音格", "correct": "伏吟格" },
+    { "wrong": "福音跟反音", "correct": "伏吟跟反吟" },
+    { "wrong": "福音", "correct": "伏吟" },
+    { "wrong": "反音", "correct": "反吟" },
+    { "wrong": "掌声", "correct": "长生" }
+  ],
+  "regex_corrections": [
+    { "pattern": "反音", "replace": "反吟" },
+    { "pattern": "浮音", "replace": "伏吟" },
+    { "pattern": "服音", "replace": "伏吟" }
+  ]
+}

@@ -1,0 +1,305 @@
+{
+  "version": 1,
+  "scope": "yangpan_qimen_documents",
+  "generated_at": "2026-03-23T02:28:50.593320+00:00",
+  "source_root": "/Volumes/Hard Drive/阳盘奇门",
+  "sources": [
+    {
+      "source_rel_path": "文艺复兴 阳盘奇门/文易复兴奇门案例/文易复兴2023第七期实战特训营/01、第七期课表.html",
+      "teacher": "文艺复兴",
+      "course": "文易复兴奇门案例 / 文易复兴2023第七期实战特训营",
+      "copied_path": "data/raw-documents/qimen/文艺复兴 阳盘奇门/文易复兴奇门案例/文易复兴2023第七期实战特训营/01、第七期课表.html",
+      "source_size": 190,
+      "status": "copied",
+      "copied_at": "2026-03-17T18:24:32.390752+00:00"
+    },
+    {
+      "source_rel_path": "文艺复兴 阳盘奇门/文易复兴奇门案例/文易复兴2023第七期实战特训营/08、【实战案例】第一卦.html",
+      "teacher": "文艺复兴",
+      "course": "文易复兴奇门案例 / 文易复兴2023第七期实战特训营",
+      "copied_path": "data/raw-documents/qimen/文艺复兴 阳盘奇门/文易复兴奇门案例/文易复兴2023第七期实战特训营/08、【实战案例】第一卦.html",
+      "source_size": 6780,
+      "status": "copied",
+      "copied_at": "2026-03-17T18:24:32.391536+00:00"
+    },
+    {
+      "source_rel_path": "文艺复兴 阳盘奇门/文易复兴奇门案例/文易复兴2023第七期实战特训营/09、【实战案例】第二卦.html",
+      "teacher": "文艺复兴",
+      "course": "文易复兴奇门案例 / 文易复兴2023第七期实战特训营",
+      "copied_path": "data/raw-documents/qimen/文艺复兴 阳盘奇门/文易复兴奇门案例/文易复兴2023第七期实战特训营/09、【实战案例】第二卦.html",
+      "source_size": 2630,
+      "status": "copied",
+      "copied_at": "2026-03-17T18:24:32.392033+00:00"
+    },
+    {
+      "source_rel_path": "文艺复兴 阳盘奇门/文易复兴奇门案例/文易复兴2023第七期实战特训营/10、第一卦【三连问】.html",
+      "teacher": "文艺复兴",
+      "course": "文易复兴奇门案例 / 文易复兴2023第七期实战特训营",
+      "copied_path": "data/raw-documents/qimen/文艺复兴 阳盘奇门/文易复兴奇门案例/文易复兴2023第七期实战特训营/10、第一卦【三连问】.html",
+      "source_size": 1493,
+      "status": "copied",
+      "copied_at": "2026-03-17T18:24:32.392501+00:00"
+    },
+    {
+      "source_rel_path": "文艺复兴 阳盘奇门/文易复兴奇门案例/文易复兴2023第七期实战特训营/11、第二卦【三连问】.html",
+      "teacher": "文艺复兴",
+      "course": "文易复兴奇门案例 / 文易复兴2023第七期实战特训营",
+      "copied_path": "data/raw-documents/qimen/文艺复兴 阳盘奇门/文易复兴奇门案例/文易复兴2023第七期实战特训营/11、第二卦【三连问】.html",
+      "source_size": 3389,
+      "status": "copied",
+      "copied_at": "2026-03-17T18:24:32.393005+00:00"
+    },
+    {
+      "source_rel_path": "文艺复兴 阳盘奇门/文易复兴奇门案例/文易复兴2023第七期实战特训营/12、【实战案例】第三卦.html",
+      "teacher": "文艺复兴",
+      "course": "文易复兴奇门案例 / 文易复兴2023第七期实战特训营",
+      "copied_path": "data/raw-documents/qimen/文艺复兴 阳盘奇门/文易复兴奇门案例/文易复兴2023第七期实战特训营/12、【实战案例】第三卦.html",
+      "source_size": 3795,
+      "status": "copied",
+      "copied_at": "2026-03-17T18:24:32.393479+00:00"
+    },
+    {
+      "source_rel_path": "文艺复兴 阳盘奇门/文易复兴奇门案例/文易复兴2023第七期实战特训营/13、【实战案例】第四卦.html",
+      "teacher": "文艺复兴",
+      "course": "文易复兴奇门案例 / 文易复兴2023第七期实战特训营",
+      "copied_path": "data/raw-documents/qimen/文艺复兴 阳盘奇门/文易复兴奇门案例/文易复兴2023第七期实战特训营/13、【实战案例】第四卦.html",
+      "source_size": 4346,
+      "status": "copied",
+      "copied_at": "2026-03-17T18:24:32.393925+00:00"
+    },
+    {
+      "source_rel_path": "文艺复兴 阳盘奇门/文易复兴奇门案例/文易复兴2023第七期实战特训营/14、第三卦【三连问】.html",
+      "teacher": "文艺复兴",
+      "course": "文易复兴奇门案例 / 文易复兴2023第七期实战特训营",
+      "copied_path": "data/raw-documents/qimen/文艺复兴 阳盘奇门/文易复兴奇门案例/文易复兴2023第七期实战特训营/14、第三卦【三连问】.html",
+      "source_size": 1408,
+      "status": "copied",
+      "copied_at": "2026-03-17T18:24:32.394389+00:00"
+    },
+    {
+      "source_rel_path": "文艺复兴 阳盘奇门/文易复兴奇门案例/文易复兴2023第七期实战特训营/15、第四卦【三连问】.html",
+      "teacher": "文艺复兴",
+      "course": "文易复兴奇门案例 / 文易复兴2023第七期实战特训营",
+      "copied_path": "data/raw-documents/qimen/文艺复兴 阳盘奇门/文易复兴奇门案例/文易复兴2023第七期实战特训营/15、第四卦【三连问】.html",
+      "source_size": 1448,
+      "status": "copied",
+      "copied_at": "2026-03-17T18:24:32.394970+00:00"
+    },
+    {
+      "source_rel_path": "文艺复兴 阳盘奇门/文易复兴奇门案例/文易复兴2023第七期实战特训营/16、【实战案例】第五卦.html",
+      "teacher": "文艺复兴",
+      "course": "文易复兴奇门案例 / 文易复兴2023第七期实战特训营",
+      "copied_path": "data/raw-documents/qimen/文艺复兴 阳盘奇门/文易复兴奇门案例/文易复兴2023第七期实战特训营/16、【实战案例】第五卦.html",
+      "source_size": 5761,
+      "status": "copied",
+      "copied_at": "2026-03-17T18:24:32.395582+00:00"
+    },
+    {
+      "source_rel_path": "文艺复兴 阳盘奇门/文易复兴奇门案例/文易复兴2023第七期实战特训营/17、【实战案例】第六卦.html",
+      "teacher": "文艺复兴",
+      "course": "文易复兴奇门案例 / 文易复兴2023第七期实战特训营",
+      "copied_path": "data/raw-documents/qimen/文艺复兴 阳盘奇门/文易复兴奇门案例/文易复兴2023第七期实战特训营/17、【实战案例】第六卦.html",
+      "source_size": 5261,
+      "status": "copied",
+      "copied_at": "2026-03-17T18:24:32.396148+00:00"
+    },
+    {
+      "source_rel_path": "文艺复兴 阳盘奇门/文易复兴奇门案例/文易复兴2023第七期实战特训营/18、第五卦【三连问】.html",
+      "teacher": "文艺复兴",
+      "course": "文易复兴奇门案例 / 文易复兴2023第七期实战特训营",
+      "copied_path": "data/raw-documents/qimen/文艺复兴 阳盘奇门/文易复兴奇门案例/文易复兴2023第七期实战特训营/18、第五卦【三连问】.html",
+      "source_size": 1386,
+      "status": "copied",
+      "copied_at": "2026-03-17T18:24:32.396653+00:00"
+    },
+    {
+      "source_rel_path": "文艺复兴 阳盘奇门/文易复兴奇门案例/文易复兴2023第七期实战特训营/19、第六卦【三连问】.html",
+      "teacher": "文艺复兴",
+      "course": "文易复兴奇门案例 / 文易复兴2023第七期实战特训营",
+      "copied_path": "data/raw-documents/qimen/文艺复兴 阳盘奇门/文易复兴奇门案例/文易复兴2023第七期实战特训营/19、第六卦【三连问】.html",
+      "source_size": 1382,
+      "status": "copied",
+      "copied_at": "2026-03-17T18:24:32.397128+00:00"
+    },
+    {
+      "source_rel_path": "文艺复兴 阳盘奇门/文易复兴奇门案例/文易复兴2023第七期实战特训营/20、【实战案例】第七卦.html",
+      "teacher": "文艺复兴",
+      "course": "文易复兴奇门案例 / 文易复兴2023第七期实战特训营",
+      "copied_path": "data/raw-documents/qimen/文艺复兴 阳盘奇门/文易复兴奇门案例/文易复兴2023第七期实战特训营/20、【实战案例】第七卦.html",
+      "source_size": 4903,
+      "status": "copied",
+      "copied_at": "2026-03-17T18:24:32.397638+00:00"
+    },
+    {
+      "source_rel_path": "文艺复兴 阳盘奇门/文易复兴奇门案例/文易复兴2023第七期实战特训营/21、【实战案例】第八卦.html",
+      "teacher": "文艺复兴",
+      "course": "文易复兴奇门案例 / 文易复兴2023第七期实战特训营",
+      "copied_path": "data/raw-documents/qimen/文艺复兴 阳盘奇门/文易复兴奇门案例/文易复兴2023第七期实战特训营/21、【实战案例】第八卦.html",
+      "source_size": 3946,
+      "status": "copied",
+      "copied_at": "2026-03-17T18:24:32.398064+00:00"
+    },
+    {
+      "source_rel_path": "文艺复兴 阳盘奇门/文易复兴奇门案例/文易复兴2023第七期实战特训营/22、第七卦【三连问】.html",
+      "teacher": "文艺复兴",
+      "course": "文易复兴奇门案例 / 文易复兴2023第七期实战特训营",
+      "copied_path": "data/raw-documents/qimen/文艺复兴 阳盘奇门/文易复兴奇门案例/文易复兴2023第七期实战特训营/22、第七卦【三连问】.html",
+      "source_size": 1494,
+      "status": "copied",
+      "copied_at": "2026-03-17T18:24:32.398478+00:00"
+    },
+    {
+      "source_rel_path": "文艺复兴 阳盘奇门/文易复兴奇门案例/文易复兴2023第七期实战特训营/23、第八卦【三连问】.html",
+      "teacher": "文艺复兴",
+      "course": "文易复兴奇门案例 / 文易复兴2023第七期实战特训营",
+      "copied_path": "data/raw-documents/qimen/文艺复兴 阳盘奇门/文易复兴奇门案例/文易复兴2023第七期实战特训营/23、第八卦【三连问】.html",
+      "source_size": 1502,
+      "status": "copied",
+      "copied_at": "2026-03-17T18:24:32.398934+00:00"
+    },
+    {
+      "source_rel_path": "文艺复兴 阳盘奇门/文易复兴奇门案例/文易复兴2023第七期实战特训营/24、【实战案例】第九卦.html",
+      "teacher": "文艺复兴",
+      "course": "文易复兴奇门案例 / 文易复兴2023第七期实战特训营",
+      "copied_path": "data/raw-documents/qimen/文艺复兴 阳盘奇门/文易复兴奇门案例/文易复兴2023第七期实战特训营/24、【实战案例】第九卦.html",
+      "source_size": 4248,
+      "status": "copied",
+      "copied_at": "2026-03-17T18:24:32.399386+00:00"
+    },
+    {
+      "source_rel_path": "文艺复兴 阳盘奇门/文易复兴奇门案例/文易复兴2023第七期实战特训营/25、【实战案例】第十卦.html",
+      "teacher": "文艺复兴",
+      "course": "文易复兴奇门案例 / 文易复兴2023第七期实战特训营",
+      "copied_path": "data/raw-documents/qimen/文艺复兴 阳盘奇门/文易复兴奇门案例/文易复兴2023第七期实战特训营/25、【实战案例】第十卦.html",
+      "source_size": 2968,
+      "status": "copied",
+      "copied_at": "2026-03-17T18:24:32.399840+00:00"
+    },
+    {
+      "source_rel_path": "文艺复兴 阳盘奇门/文易复兴奇门案例/文易复兴2023第七期实战特训营/26、第九卦【三连问】.html",
+      "teacher": "文艺复兴",
+      "course": "文易复兴奇门案例 / 文易复兴2023第七期实战特训营",
+      "copied_path": "data/raw-documents/qimen/文艺复兴 阳盘奇门/文易复兴奇门案例/文易复兴2023第七期实战特训营/26、第九卦【三连问】.html",
+      "source_size": 348,
+      "status": "copied",
+      "copied_at": "2026-03-17T18:24:32.400271+00:00"
+    },
+    {
+      "source_rel_path": "文艺复兴 阳盘奇门/文易复兴奇门案例/文易复兴2023第七期实战特训营/27、第十卦【三连问】.html",
+      "teacher": "文艺复兴",
+      "course": "文易复兴奇门案例 / 文易复兴2023第七期实战特训营",
+      "copied_path": "data/raw-documents/qimen/文艺复兴 阳盘奇门/文易复兴奇门案例/文易复兴2023第七期实战特训营/27、第十卦【三连问】.html",
+      "source_size": 358,
+      "status": "copied",
+      "copied_at": "2026-03-17T18:24:32.400736+00:00"
+    },
+    {
+      "source_rel_path": "王兴兵 阳盘奇门/易于山人王兴兵奇门遁甲34.5/2020年9月易宇山人奇门公益直播课8集加资料/20200921奇门遁甲直播公益课.pdf",
+      "teacher": "王兴兵",
+      "course": "易于山人王兴兵奇门遁甲34.5 / 2020年9月易宇山人奇门公益直播课8集加资料",
+      "copied_path": "data/raw-documents/qimen/王兴兵 阳盘奇门/易于山人王兴兵奇门遁甲34.5/2020年9月易宇山人奇门公益直播课8集加资料/20200921奇门遁甲直播公益课.pdf",
+      "source_size": 2133113,
+      "status": "copied",
+      "copied_at": "2026-03-17T18:24:32.404484+00:00"
+    },
+    {
+      "source_rel_path": "王兴兵 阳盘奇门/易于山人王兴兵奇门遁甲34.5/2021.01.22奇门预测内部课程重点总结回放3集/yijing9995.jpg",
+      "teacher": "王兴兵",
+      "course": "易于山人王兴兵奇门遁甲34.5 / 2021.01.22奇门预测内部课程重点总结回放3集",
+      "copied_path": "data/raw-documents/qimen/王兴兵 阳盘奇门/易于山人王兴兵奇门遁甲34.5/2021.01.22奇门预测内部课程重点总结回放3集/yijing9995.jpg",
+      "source_size": 477729,
+      "status": "copied",
+      "copied_at": "2026-03-17T18:24:32.405737+00:00"
+    },
+    {
+      "source_rel_path": "王兴兵 阳盘奇门/易于山人王兴兵奇门遁甲34.5/易学资料目录.pdf",
+      "teacher": "王兴兵",
+      "course": "易于山人王兴兵奇门遁甲34.5",
+      "copied_path": "data/raw-documents/qimen/王兴兵 阳盘奇门/易于山人王兴兵奇门遁甲34.5/易学资料目录.pdf",
+      "source_size": 1343357,
+      "status": "copied",
+      "copied_at": "2026-03-17T18:24:32.408407+00:00"
+    },
+    {
+      "source_rel_path": "王兴兵 阳盘奇门/易于山人王兴兵奇门遁甲34.5/易宇山人讲解2021年流年九星风水21集/2021年九宫飞星图.jpg",
+      "teacher": "王兴兵",
+      "course": "易于山人王兴兵奇门遁甲34.5 / 易宇山人讲解2021年流年九星风水21集",
+      "copied_path": "data/raw-documents/qimen/王兴兵 阳盘奇门/易于山人王兴兵奇门遁甲34.5/易宇山人讲解2021年流年九星风水21集/2021年九宫飞星图.jpg",
+      "source_size": 44514,
+      "status": "copied",
+      "copied_at": "2026-03-17T18:24:32.409124+00:00"
+    },
+    {
+      "source_rel_path": "王兴兵 阳盘奇门/易于山人王兴兵奇门遁甲34.5/易宇山人讲解2021年流年九星风水21集/户型图-案例.jpg",
+      "teacher": "王兴兵",
+      "course": "易于山人王兴兵奇门遁甲34.5 / 易宇山人讲解2021年流年九星风水21集",
+      "copied_path": "data/raw-documents/qimen/王兴兵 阳盘奇门/易于山人王兴兵奇门遁甲34.5/易宇山人讲解2021年流年九星风水21集/户型图-案例.jpg",
+      "source_size": 3295279,
+      "status": "copied",
+      "copied_at": "2026-03-17T18:24:32.414221+00:00"
+    },
+    {
+      "source_rel_path": "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵 奇门风水调理与时空转运布局.pdf",
+      "teacher": "王兴兵",
+      "course": "王兴兵-易宇山人",
+      "copied_path": "data/raw-documents/qimen/王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵 奇门风水调理与时空转运布局.pdf",
+      "source_size": 24689582,
+      "status": "copied",
+      "copied_at": "2026-03-17T18:24:32.445083+00:00"
+    },
+    {
+      "source_rel_path": "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+      "teacher": "王兴兵",
+      "course": "王兴兵-易宇山人",
+      "copied_path": "data/raw-documents/qimen/王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+      "source_size": 19479000,
+      "status": "copied",
+      "copied_at": "2026-03-17T18:24:32.470225+00:00"
+    },
+    {
+      "source_rel_path": "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测应用》300页--彩扫--400线.pdf",
+      "teacher": "王兴兵",
+      "course": "王兴兵-易宇山人",
+      "copied_path": "data/raw-documents/qimen/王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测应用》300页--彩扫--400线.pdf",
+      "source_size": 79958219,
+      "status": "copied",
+      "copied_at": "2026-03-17T18:24:32.561197+00:00"
+    },
+    {
+      "source_rel_path": "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+      "teacher": "王兴兵",
+      "course": "王兴兵-易宇山人",
+      "copied_path": "data/raw-documents/qimen/王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+      "source_size": 238279985,
+      "status": "copied",
+      "copied_at": "2026-03-17T18:24:32.938606+00:00"
+    },
+    {
+      "source_rel_path": "神奇之门+开悟之门/《奇门遁甲入门教程-开悟之门》张志春.pdf",
+      "teacher": "神奇之门+开悟之门",
+      "course": "《奇门遁甲入门教程-开悟之门》张志春",
+      "copied_path": "data/raw-documents/qimen/神奇之门+开悟之门/《奇门遁甲入门教程-开悟之门》张志春.pdf",
+      "source_size": 14401494,
+      "status": "copied",
+      "copied_at": "2026-03-17T19:28:45.606929+00:00"
+    },
+    {
+      "source_rel_path": "神奇之门+开悟之门/《奇门遁甲入门教程-神奇之门》张志春.pdf",
+      "teacher": "神奇之门+开悟之门",
+      "course": "《奇门遁甲入门教程-神奇之门》张志春",
+      "copied_path": "data/raw-documents/qimen/神奇之门+开悟之门/《奇门遁甲入门教程-神奇之门》张志春.pdf",
+      "source_size": 7876090,
+      "status": "copied",
+      "copied_at": "2026-03-17T19:28:45.621166+00:00"
+    },
+    {
+      "source_rel_path": "钟波 阳盘奇门/钟波时末圈合集/钟波奇门直通课/奇门资料/001.时未书院奇门遁甲导学.pdf",
+      "teacher": "钟波",
+      "course": "钟波时末圈合集 / 钟波奇门直通课 / 奇门资料",
+      "copied_path": "data/raw-documents/qimen/钟波 阳盘奇门/钟波时末圈合集/钟波奇门直通课/奇门资料/001.时未书院奇门遁甲导学.pdf",
+      "source_size": 622029,
+      "status": "copied",
+      "copied_at": "2026-03-17T18:24:32.940277+00:00"
+    }
+  ]
+}

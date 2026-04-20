@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "locked_rules": {
+    "zi_hour_boundary": "23:00_next_day",
+    "true_solar_time_pipeline": [
+      "local_civil_time",
+      "dst_correction",
+      "utc_time",
+      "longitude_correction",
+      "equation_of_time",
+      "true_solar_time"
+    ],
+    "dayun_start": {
+      "direction_rule": {
+        "yang_male_yin_female": "forward_to_next_jie",
+        "yin_male_yang_female": "backward_to_previous_jie"
+      },
+      "base_conversion": {
+        "3_days": "1_year",
+        "1_day": "4_months"
+      },
+      "rounding": {
+        "start_age_years": "floor(total_days / 3)",
+        "remaining_months": "floor((total_days - start_age_years * 3) * 4)"
+      },
+      "display": "X岁Y个月"
+    }
+  },
+  "true_solar_time": {
+    "timezone_source": "IANA_tzdb",
+    "birth_timezone_scope": "use_birthplace_timezone_not_current_device_timezone",
+    "utc_formula": "utc = local_time - timezone_offset - dst_offset",
+    "longitude_formula": "longitude_correction_hours = ((local_longitude - central_meridian) * 4) / 60",
+    "equation_of_time_formula_minutes": "229.2 * (0.000075 + 0.001868 * cos(beta) - 0.032077 * sin(beta) - 0.014615 * cos(2 * beta) - 0.04089 * sin(2 * beta))",
+    "beta_formula": "2 * pi * (day_of_year - 1) / 365",
+    "notes": [
+      "Apply DST first, then convert to UTC, then apply longitude and equation-of-time corrections.",
+      "Use timezone central meridian instead of a hard-coded 120E assumption.",
+      "If timezone rules are unavailable for a historical date, warn and fall back to standard time."
+    ]
+  },
+  "dst_handling": {
+    "primary_strategy": "use_timezone_database_transition_rules",
+    "secondary_strategy": "allow_custom_historical_overrides_for_regions_with_incomplete_or_ambiguous_records",
+    "historical_attention_regions": [
+      "China_1986_1991",
+      "Russia_1981_2014",
+      "US_state_exceptions",
+      "Australia_state_exceptions",
+      "EU_transition_rules"
+    ],
+    "special_cases": {
+      "cross_timezone_birth": "always_use_birthplace_timezone",
+      "southern_hemisphere": "dst_window_can_span_year_boundary",
+      "permanent_dst_or_standard_time": "use_fixed_offset_period_rules"
+    }
+  }
+}

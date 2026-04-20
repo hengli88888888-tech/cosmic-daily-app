@@ -1,0 +1,67 @@
+# OS/editor
+.DS_Store
+*.swp
+*.log
+.idea/
+.vscode/
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+!.env.cloud.example
+!.env.knowledge-import.example
+admin-web/.env.local
+
+# Node / Next.js
+admin-web/node_modules/
+admin-web/.next/
+admin-web/.next.*/
+admin-web/tsconfig.tsbuildinfo
+
+# Flutter / Dart
+app/build/
+app/.dart_tool/
+app/.flutter-plugins-dependencies
+app/.pub-cache/
+app/.pub/
+app/coverage/
+app/**/*.iml
+app/flutter_*.log
+
+# iOS generated dependencies
+app/ios/Pods/
+app/ios/.symlinks/
+app/ios/Flutter/Generated.xcconfig
+app/ios/Flutter/Flutter.podspec
+app/ios/Flutter/flutter_export_environment.sh
+app/ios/Flutter/ephemeral/
+app/ios/Runner.xcworkspace/xcuserdata/
+
+# Android local/generated files
+app/android/local.properties
+app/android/.gradle/
+app/android/app/debug/
+app/android/app/profile/
+app/android/app/release/
+
+# Python/local tooling
+.venv*/
+__pycache__/
+*.py[cod]
+
+# Supabase local metadata
+backend/supabase/.branches/
+backend/supabase/.temp/
+
+# Browser automation / scratch output
+.playwright-cli/
+.codex_tmp_*
+tmp/
+
+# Raw/imported knowledge source files are too large and not needed for release builds.
+data/**
+!data/
+!data/**/
+!data/**/.gitkeep
+!data/reviewed-rules/README.md

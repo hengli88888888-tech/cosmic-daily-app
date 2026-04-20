@@ -1,0 +1,1648 @@
+{
+  "summary": {
+    "total": 30,
+    "wzMatchedExpected": 1,
+    "wzMismatchedExpected": 29,
+    "localMatchedWz": 29,
+    "localMismatchedWz": 1,
+    "wzYzs": 0,
+    "wzInputMode": "local_true_solar"
+  },
+  "results": [
+    {
+      "id": "001",
+      "label": "普通男命（2024）",
+      "input": {
+        "dateTime": "2024-02-10 12:00",
+        "gender": "male",
+        "birthplace": "Beijing, China",
+        "timezone": "Asia/Shanghai"
+      },
+      "wzOracle": {
+        "ok": true,
+        "url": "https://bzapi4.iwzbz.com/getbasebz8.php?d=2024-02-10+11%3A31&s=1&today=2024-02-10+11%3A31&vip=0&userguid=&yzs=0",
+        "inputDateTime": "2024-02-10 11:31",
+        "pillars": {
+          "year": "甲辰",
+          "month": "丙寅",
+          "day": "甲辰",
+          "hour": "庚午"
+        },
+        "lunarLabel": "2024年正月初一 午时"
+      },
+      "expected": {
+        "pillars": {
+          "year": "甲辰",
+          "month": "丙寅",
+          "day": "己卯",
+          "hour": "庚午"
+        }
+      },
+      "mismatches": {
+        "wzVsExpected": [
+          {
+            "field": "pillars.day",
+            "expected": "己卯",
+            "actual": "甲辰"
+          }
+        ],
+        "localVsWz": []
+      },
+      "localChart": {
+        "source": "verified_engine",
+        "engine": "custom_hybrid",
+        "dayPillarMethod": "formula",
+        "pillars": {
+          "year": "甲辰",
+          "month": "丙寅",
+          "day": "甲辰",
+          "hour": "庚午"
+        }
+      }
+    },
+    {
+      "id": "002",
+      "label": "普通女命（2023）",
+      "input": {
+        "dateTime": "2023-08-15 14:30",
+        "gender": "female",
+        "birthplace": "Shanghai, China",
+        "timezone": "Asia/Shanghai"
+      },
+      "wzOracle": {
+        "ok": true,
+        "url": "https://bzapi4.iwzbz.com/getbasebz8.php?d=2023-08-15+14%3A31&s=0&today=2023-08-15+14%3A31&vip=0&userguid=&yzs=0",
+        "inputDateTime": "2023-08-15 14:31",
+        "pillars": {
+          "year": "癸卯",
+          "month": "庚申",
+          "day": "乙巳",
+          "hour": "癸未"
+        },
+        "lunarLabel": "2023年六月廿九 未时"
+      },
+      "expected": {
+        "pillars": {
+          "year": "癸卯",
+          "month": "庚申",
+          "day": "乙亥",
+          "hour": "癸未"
+        }
+      },
+      "mismatches": {
+        "wzVsExpected": [
+          {
+            "field": "pillars.day",
+            "expected": "乙亥",
+            "actual": "乙巳"
+          }
+        ],
+        "localVsWz": []
+      },
+      "localChart": {
+        "source": "verified_engine",
+        "engine": "custom_hybrid",
+        "dayPillarMethod": "formula",
+        "pillars": {
+          "year": "癸卯",
+          "month": "庚申",
+          "day": "乙巳",
+          "hour": "癸未"
+        }
+      }
+    },
+    {
+      "id": "003",
+      "label": "立春前",
+      "input": {
+        "dateTime": "2024-02-03 08:00",
+        "gender": "male",
+        "birthplace": "Guangzhou, China",
+        "timezone": "Asia/Shanghai"
+      },
+      "wzOracle": {
+        "ok": true,
+        "url": "https://bzapi4.iwzbz.com/getbasebz8.php?d=2024-02-03+07%3A19&s=1&today=2024-02-03+07%3A19&vip=0&userguid=&yzs=0",
+        "inputDateTime": "2024-02-03 07:19",
+        "pillars": {
+          "year": "癸卯",
+          "month": "乙丑",
+          "day": "丁酉",
+          "hour": "甲辰"
+        },
+        "lunarLabel": "2023年腊月廿四 辰时"
+      },
+      "expected": {
+        "pillars": {
+          "year": "癸卯",
+          "month": "乙丑",
+          "day": "壬申",
+          "hour": "甲辰"
+        }
+      },
+      "mismatches": {
+        "wzVsExpected": [
+          {
+            "field": "pillars.day",
+            "expected": "壬申",
+            "actual": "丁酉"
+          }
+        ],
+        "localVsWz": []
+      },
+      "localChart": {
+        "source": "verified_engine",
+        "engine": "custom_hybrid",
+        "dayPillarMethod": "formula",
+        "pillars": {
+          "year": "癸卯",
+          "month": "乙丑",
+          "day": "丁酉",
+          "hour": "甲辰"
+        }
+      }
+    },
+    {
+      "id": "004",
+      "label": "立春后",
+      "input": {
+        "dateTime": "2024-02-05 08:00",
+        "gender": "female",
+        "birthplace": "Chengdu, China",
+        "timezone": "Asia/Shanghai"
+      },
+      "wzOracle": {
+        "ok": true,
+        "url": "https://bzapi4.iwzbz.com/getbasebz8.php?d=2024-02-05+06%3A42&s=0&today=2024-02-05+06%3A42&vip=0&userguid=&yzs=0",
+        "inputDateTime": "2024-02-05 06:42",
+        "pillars": {
+          "year": "甲辰",
+          "month": "丙寅",
+          "day": "己亥",
+          "hour": "丁卯"
+        },
+        "lunarLabel": "2023年腊月廿六 卯时"
+      },
+      "expected": {
+        "pillars": {
+          "year": "甲辰",
+          "month": "丙寅",
+          "day": "甲戌",
+          "hour": "戊辰"
+        }
+      },
+      "mismatches": {
+        "wzVsExpected": [
+          {
+            "field": "pillars.day",
+            "expected": "甲戌",
+            "actual": "己亥"
+          },
+          {
+            "field": "pillars.hour",
+            "expected": "戊辰",
+            "actual": "丁卯"
+          }
+        ],
+        "localVsWz": []
+      },
+      "localChart": {
+        "source": "verified_engine",
+        "engine": "custom_hybrid",
+        "dayPillarMethod": "formula",
+        "pillars": {
+          "year": "甲辰",
+          "month": "丙寅",
+          "day": "己亥",
+          "hour": "丁卯"
+        }
+      }
+    },
+    {
+      "id": "005",
+      "label": "23:30 子时换日",
+      "input": {
+        "dateTime": "2024-03-05 23:30",
+        "gender": "male",
+        "birthplace": "Hong Kong, China",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "wzOracle": {
+        "ok": true,
+        "url": "https://bzapi4.iwzbz.com/getbasebz8.php?d=2024-03-05+22%3A54&s=1&today=2024-03-05+22%3A54&vip=0&userguid=&yzs=0",
+        "inputDateTime": "2024-03-05 22:54",
+        "pillars": {
+          "year": "甲辰",
+          "month": "丁卯",
+          "day": "戊辰",
+          "hour": "癸亥"
+        },
+        "lunarLabel": "2024年正月廿五 亥时"
+      },
+      "expected": {
+        "pillars": {
+          "year": "甲辰",
+          "month": "丁卯",
+          "day": "癸卯",
+          "hour": "壬子"
+        }
+      },
+      "mismatches": {
+        "wzVsExpected": [
+          {
+            "field": "pillars.day",
+            "expected": "癸卯",
+            "actual": "戊辰"
+          },
+          {
+            "field": "pillars.hour",
+            "expected": "壬子",
+            "actual": "癸亥"
+          }
+        ],
+        "localVsWz": []
+      },
+      "localChart": {
+        "source": "verified_engine",
+        "engine": "custom_hybrid",
+        "dayPillarMethod": "formula",
+        "pillars": {
+          "year": "甲辰",
+          "month": "丁卯",
+          "day": "戊辰",
+          "hour": "癸亥"
+        }
+      }
+    },
+    {
+      "id": "006",
+      "label": "00:15 子时",
+      "input": {
+        "dateTime": "2024-04-01 00:15",
+        "gender": "female",
+        "birthplace": "Taipei, Taiwan",
+        "timezone": "Asia/Taipei"
+      },
+      "wzOracle": {
+        "ok": true,
+        "url": "https://bzapi4.iwzbz.com/getbasebz8.php?d=2024-04-01+00%3A17&s=0&today=2024-04-01+00%3A17&vip=0&userguid=&yzs=0",
+        "inputDateTime": "2024-04-01 00:17",
+        "pillars": {
+          "year": "甲辰",
+          "month": "丁卯",
+          "day": "乙未",
+          "hour": "丙子"
+        },
+        "lunarLabel": "2024年二月廿三 子时"
+      },
+      "expected": {
+        "pillars": {
+          "year": "甲辰",
+          "month": "丁卯",
+          "day": "庚午",
+          "hour": "丙子"
+        }
+      },
+      "mismatches": {
+        "wzVsExpected": [
+          {
+            "field": "pillars.day",
+            "expected": "庚午",
+            "actual": "乙未"
+          }
+        ],
+        "localVsWz": []
+      },
+      "localChart": {
+        "source": "verified_engine",
+        "engine": "custom_hybrid",
+        "dayPillarMethod": "formula",
+        "pillars": {
+          "year": "甲辰",
+          "month": "丁卯",
+          "day": "乙未",
+          "hour": "丙子"
+        }
+      }
+    },
+    {
+      "id": "007",
+      "label": "春节当日",
+      "input": {
+        "dateTime": "2024-02-10 10:00",
+        "gender": "male",
+        "birthplace": "Beijing, China",
+        "timezone": "Asia/Shanghai"
+      },
+      "wzOracle": {
+        "ok": true,
+        "url": "https://bzapi4.iwzbz.com/getbasebz8.php?d=2024-02-10+09%3A31&s=1&today=2024-02-10+09%3A31&vip=0&userguid=&yzs=0",
+        "inputDateTime": "2024-02-10 09:31",
+        "pillars": {
+          "year": "甲辰",
+          "month": "丙寅",
+          "day": "甲辰",
+          "hour": "己巳"
+        },
+        "lunarLabel": "2024年正月初一 巳时"
+      },
+      "expected": {
+        "pillars": {
+          "year": "甲辰",
+          "month": "丙寅",
+          "day": "己卯",
+          "hour": "己巳"
+        }
+      },
+      "mismatches": {
+        "wzVsExpected": [
+          {
+            "field": "pillars.day",
+            "expected": "己卯",
+            "actual": "甲辰"
+          }
+        ],
+        "localVsWz": []
+      },
+      "localChart": {
+        "source": "verified_engine",
+        "engine": "custom_hybrid",
+        "dayPillarMethod": "formula",
+        "pillars": {
+          "year": "甲辰",
+          "month": "丙寅",
+          "day": "甲辰",
+          "hour": "己巳"
+        }
+      }
+    },
+    {
+      "id": "008",
+      "label": "除夕当日",
+      "input": {
+        "dateTime": "2024-02-09 20:00",
+        "gender": "female",
+        "birthplace": "Shanghai, China",
+        "timezone": "Asia/Shanghai"
+      },
+      "wzOracle": {
+        "ok": true,
+        "url": "https://bzapi4.iwzbz.com/getbasebz8.php?d=2024-02-09+19%3A51&s=0&today=2024-02-09+19%3A51&vip=0&userguid=&yzs=0",
+        "inputDateTime": "2024-02-09 19:51",
+        "pillars": {
+          "year": "甲辰",
+          "month": "丙寅",
+          "day": "癸卯",
+          "hour": "壬戌"
+        },
+        "lunarLabel": "2023年腊月卅十 戌时"
+      },
+      "expected": {
+        "pillars": {
+          "year": "甲辰",
+          "month": "丙寅",
+          "day": "戊寅",
+          "hour": "壬戌"
+        }
+      },
+      "mismatches": {
+        "wzVsExpected": [
+          {
+            "field": "pillars.day",
+            "expected": "戊寅",
+            "actual": "癸卯"
+          }
+        ],
+        "localVsWz": []
+      },
+      "localChart": {
+        "source": "verified_engine",
+        "engine": "custom_hybrid",
+        "dayPillarMethod": "formula",
+        "pillars": {
+          "year": "甲辰",
+          "month": "丙寅",
+          "day": "癸卯",
+          "hour": "壬戌"
+        }
+      }
+    },
+    {
+      "id": "009",
+      "label": "闰月出生",
+      "input": {
+        "dateTime": "2023-03-22 15:00",
+        "gender": "male",
+        "birthplace": "Guangzhou, China",
+        "timezone": "Asia/Shanghai"
+      },
+      "wzOracle": {
+        "ok": true,
+        "url": "https://bzapi4.iwzbz.com/getbasebz8.php?d=2023-03-22+14%3A25&s=1&today=2023-03-22+14%3A25&vip=0&userguid=&yzs=0",
+        "inputDateTime": "2023-03-22 14:25",
+        "pillars": {
+          "year": "癸卯",
+          "month": "乙卯",
+          "day": "己卯",
+          "hour": "辛未"
+        },
+        "lunarLabel": "2023年闰二月初一 未时"
+      },
+      "expected": {
+        "pillars": {
+          "year": "癸卯",
+          "month": "乙卯",
+          "day": "辛亥",
+          "hour": "丙申"
+        }
+      },
+      "mismatches": {
+        "wzVsExpected": [
+          {
+            "field": "pillars.day",
+            "expected": "辛亥",
+            "actual": "己卯"
+          },
+          {
+            "field": "pillars.hour",
+            "expected": "丙申",
+            "actual": "辛未"
+          }
+        ],
+        "localVsWz": []
+      },
+      "localChart": {
+        "source": "verified_engine",
+        "engine": "custom_hybrid",
+        "dayPillarMethod": "formula",
+        "pillars": {
+          "year": "癸卯",
+          "month": "乙卯",
+          "day": "己卯",
+          "hour": "辛未"
+        }
+      }
+    },
+    {
+      "id": "010",
+      "label": "月末最后一天",
+      "input": {
+        "dateTime": "2024-01-31 09:00",
+        "gender": "female",
+        "birthplace": "Chengdu, China",
+        "timezone": "Asia/Shanghai"
+      },
+      "wzOracle": {
+        "ok": true,
+        "url": "https://bzapi4.iwzbz.com/getbasebz8.php?d=2024-01-31+07%3A43&s=0&today=2024-01-31+07%3A43&vip=0&userguid=&yzs=0",
+        "inputDateTime": "2024-01-31 07:43",
+        "pillars": {
+          "year": "癸卯",
+          "month": "乙丑",
+          "day": "甲午",
+          "hour": "戊辰"
+        },
+        "lunarLabel": "2023年腊月廿一 辰时"
+      },
+      "expected": {
+        "pillars": {
+          "year": "癸卯",
+          "month": "乙丑",
+          "day": "壬寅",
+          "hour": "乙巳"
+        }
+      },
+      "mismatches": {
+        "wzVsExpected": [
+          {
+            "field": "pillars.day",
+            "expected": "壬寅",
+            "actual": "甲午"
+          },
+          {
+            "field": "pillars.hour",
+            "expected": "乙巳",
+            "actual": "戊辰"
+          }
+        ],
+        "localVsWz": []
+      },
+      "localChart": {
+        "source": "verified_engine",
+        "engine": "custom_hybrid",
+        "dayPillarMethod": "formula",
+        "pillars": {
+          "year": "癸卯",
+          "month": "乙丑",
+          "day": "甲午",
+          "hour": "戊辰"
+        }
+      }
+    },
+    {
+      "id": "011",
+      "label": "立春前 16:00",
+      "input": {
+        "dateTime": "2024-02-04 16:00",
+        "gender": "male",
+        "birthplace": "Beijing, China",
+        "timezone": "Asia/Shanghai"
+      },
+      "wzOracle": {
+        "ok": true,
+        "url": "https://bzapi4.iwzbz.com/getbasebz8.php?d=2024-02-04+15%3A32&s=1&today=2024-02-04+15%3A32&vip=0&userguid=&yzs=0",
+        "inputDateTime": "2024-02-04 15:32",
+        "pillars": {
+          "year": "癸卯",
+          "month": "乙丑",
+          "day": "戊戌",
+          "hour": "庚申"
+        },
+        "lunarLabel": "2023年腊月廿五 申时"
+      },
+      "expected": {
+        "pillars": {
+          "year": "癸卯",
+          "month": "乙丑",
+          "day": "甲戌",
+          "hour": "壬申"
+        }
+      },
+      "mismatches": {
+        "wzVsExpected": [
+          {
+            "field": "pillars.day",
+            "expected": "甲戌",
+            "actual": "戊戌"
+          },
+          {
+            "field": "pillars.hour",
+            "expected": "壬申",
+            "actual": "庚申"
+          }
+        ],
+        "localVsWz": []
+      },
+      "localChart": {
+        "source": "verified_engine",
+        "engine": "custom_hybrid",
+        "dayPillarMethod": "formula",
+        "pillars": {
+          "year": "癸卯",
+          "month": "乙丑",
+          "day": "戊戌",
+          "hour": "庚申"
+        }
+      }
+    },
+    {
+      "id": "012",
+      "label": "立春后 16:30",
+      "input": {
+        "dateTime": "2024-02-04 16:30",
+        "gender": "female",
+        "birthplace": "Beijing, China",
+        "timezone": "Asia/Shanghai"
+      },
+      "wzOracle": {
+        "ok": true,
+        "url": "https://bzapi4.iwzbz.com/getbasebz8.php?d=2024-02-04+16%3A02&s=0&today=2024-02-04+16%3A02&vip=0&userguid=&yzs=0",
+        "inputDateTime": "2024-02-04 16:02",
+        "pillars": {
+          "year": "癸卯",
+          "month": "乙丑",
+          "day": "戊戌",
+          "hour": "庚申"
+        },
+        "lunarLabel": "2023年腊月廿五 申时"
+      },
+      "expected": {
+        "pillars": {
+          "year": "甲辰",
+          "month": "丙寅",
+          "day": "甲戌",
+          "hour": "壬申"
+        }
+      },
+      "mismatches": {
+        "wzVsExpected": [
+          {
+            "field": "pillars.year",
+            "expected": "甲辰",
+            "actual": "癸卯"
+          },
+          {
+            "field": "pillars.month",
+            "expected": "丙寅",
+            "actual": "乙丑"
+          },
+          {
+            "field": "pillars.day",
+            "expected": "甲戌",
+            "actual": "戊戌"
+          },
+          {
+            "field": "pillars.hour",
+            "expected": "壬申",
+            "actual": "庚申"
+          }
+        ],
+        "localVsWz": []
+      },
+      "localChart": {
+        "source": "verified_engine",
+        "engine": "custom_hybrid",
+        "dayPillarMethod": "formula",
+        "pillars": {
+          "year": "癸卯",
+          "month": "乙丑",
+          "day": "戊戌",
+          "hour": "庚申"
+        }
+      }
+    },
+    {
+      "id": "013",
+      "label": "惊蛰前 10:00",
+      "input": {
+        "dateTime": "2024-03-05 10:00",
+        "gender": "male",
+        "birthplace": "Shanghai, China",
+        "timezone": "Asia/Shanghai"
+      },
+      "wzOracle": {
+        "ok": true,
+        "url": "https://bzapi4.iwzbz.com/getbasebz8.php?d=2024-03-05+09%3A53&s=1&today=2024-03-05+09%3A53&vip=0&userguid=&yzs=0",
+        "inputDateTime": "2024-03-05 09:53",
+        "pillars": {
+          "year": "甲辰",
+          "month": "丙寅",
+          "day": "戊辰",
+          "hour": "丁巳"
+        },
+        "lunarLabel": "2024年正月廿五 巳时"
+      },
+      "expected": {
+        "pillars": {
+          "year": "甲辰",
+          "month": "丙寅",
+          "day": "癸卯",
+          "hour": "丁巳"
+        }
+      },
+      "mismatches": {
+        "wzVsExpected": [
+          {
+            "field": "pillars.day",
+            "expected": "癸卯",
+            "actual": "戊辰"
+          }
+        ],
+        "localVsWz": []
+      },
+      "localChart": {
+        "source": "verified_engine",
+        "engine": "custom_hybrid",
+        "dayPillarMethod": "formula",
+        "pillars": {
+          "year": "甲辰",
+          "month": "丙寅",
+          "day": "戊辰",
+          "hour": "丁巳"
+        }
+      }
+    },
+    {
+      "id": "014",
+      "label": "惊蛰后 10:30",
+      "input": {
+        "dateTime": "2024-03-05 10:30",
+        "gender": "female",
+        "birthplace": "Shanghai, China",
+        "timezone": "Asia/Shanghai"
+      },
+      "wzOracle": {
+        "ok": true,
+        "url": "https://bzapi4.iwzbz.com/getbasebz8.php?d=2024-03-05+10%3A23&s=0&today=2024-03-05+10%3A23&vip=0&userguid=&yzs=0",
+        "inputDateTime": "2024-03-05 10:23",
+        "pillars": {
+          "year": "甲辰",
+          "month": "丁卯",
+          "day": "戊辰",
+          "hour": "丁巳"
+        },
+        "lunarLabel": "2024年正月廿五 巳时"
+      },
+      "expected": {
+        "pillars": {
+          "year": "甲辰",
+          "month": "丁卯",
+          "day": "癸卯",
+          "hour": "丁巳"
+        }
+      },
+      "mismatches": {
+        "wzVsExpected": [
+          {
+            "field": "pillars.day",
+            "expected": "癸卯",
+            "actual": "戊辰"
+          }
+        ],
+        "localVsWz": []
+      },
+      "localChart": {
+        "source": "verified_engine",
+        "engine": "custom_hybrid",
+        "dayPillarMethod": "formula",
+        "pillars": {
+          "year": "甲辰",
+          "month": "丁卯",
+          "day": "戊辰",
+          "hour": "丁巳"
+        }
+      }
+    },
+    {
+      "id": "015",
+      "label": "23:59 子时换日",
+      "input": {
+        "dateTime": "2024-06-01 23:59",
+        "gender": "male",
+        "birthplace": "Guangzhou, China",
+        "timezone": "Asia/Shanghai"
+      },
+      "wzOracle": {
+        "ok": true,
+        "url": "https://bzapi4.iwzbz.com/getbasebz8.php?d=2024-06-01+23%3A34&s=1&today=2024-06-01+23%3A34&vip=0&userguid=&yzs=0",
+        "inputDateTime": "2024-06-01 23:34",
+        "pillars": {
+          "year": "甲辰",
+          "month": "己巳",
+          "day": "丁酉",
+          "hour": "庚子"
+        },
+        "lunarLabel": "2024年四月廿六 子时"
+      },
+      "expected": {
+        "pillars": {
+          "year": "甲辰",
+          "month": "己巳",
+          "day": "壬寅",
+          "hour": "庚子"
+        }
+      },
+      "mismatches": {
+        "wzVsExpected": [
+          {
+            "field": "pillars.day",
+            "expected": "壬寅",
+            "actual": "丁酉"
+          }
+        ],
+        "localVsWz": []
+      },
+      "localChart": {
+        "source": "verified_engine",
+        "engine": "custom_hybrid",
+        "dayPillarMethod": "formula",
+        "pillars": {
+          "year": "甲辰",
+          "month": "己巳",
+          "day": "丁酉",
+          "hour": "庚子"
+        }
+      }
+    },
+    {
+      "id": "016",
+      "label": "夏至当日",
+      "input": {
+        "dateTime": "2024-06-21 12:00",
+        "gender": "female",
+        "birthplace": "Beijing, China",
+        "timezone": "Asia/Shanghai"
+      },
+      "wzOracle": {
+        "ok": true,
+        "url": "https://bzapi4.iwzbz.com/getbasebz8.php?d=2024-06-21+11%3A44&s=0&today=2024-06-21+11%3A44&vip=0&userguid=&yzs=0",
+        "inputDateTime": "2024-06-21 11:44",
+        "pillars": {
+          "year": "甲辰",
+          "month": "庚午",
+          "day": "丙辰",
+          "hour": "甲午"
+        },
+        "lunarLabel": "2024年五月十六 午时"
+      },
+      "expected": {
+        "pillars": {
+          "year": "甲辰",
+          "month": "庚午",
+          "day": "癸丑",
+          "hour": "戊午"
+        }
+      },
+      "mismatches": {
+        "wzVsExpected": [
+          {
+            "field": "pillars.day",
+            "expected": "癸丑",
+            "actual": "丙辰"
+          },
+          {
+            "field": "pillars.hour",
+            "expected": "戊午",
+            "actual": "甲午"
+          }
+        ],
+        "localVsWz": []
+      },
+      "localChart": {
+        "source": "verified_engine",
+        "engine": "custom_hybrid",
+        "dayPillarMethod": "formula",
+        "pillars": {
+          "year": "甲辰",
+          "month": "庚午",
+          "day": "丙辰",
+          "hour": "甲午"
+        }
+      }
+    },
+    {
+      "id": "017",
+      "label": "冬至当日",
+      "input": {
+        "dateTime": "2023-12-22 08:00",
+        "gender": "male",
+        "birthplace": "Chengdu, China",
+        "timezone": "Asia/Shanghai"
+      },
+      "wzOracle": {
+        "ok": true,
+        "url": "https://bzapi4.iwzbz.com/getbasebz8.php?d=2023-12-22+06%3A57&s=1&today=2023-12-22+06%3A57&vip=0&userguid=&yzs=0",
+        "inputDateTime": "2023-12-22 06:57",
+        "pillars": {
+          "year": "癸卯",
+          "month": "甲子",
+          "day": "甲寅",
+          "hour": "丁卯"
+        },
+        "lunarLabel": "2023年冬月初十 卯时"
+      },
+      "expected": {
+        "pillars": {
+          "year": "癸卯",
+          "month": "甲子",
+          "day": "乙酉",
+          "hour": "庚辰"
+        }
+      },
+      "mismatches": {
+        "wzVsExpected": [
+          {
+            "field": "pillars.day",
+            "expected": "乙酉",
+            "actual": "甲寅"
+          },
+          {
+            "field": "pillars.hour",
+            "expected": "庚辰",
+            "actual": "丁卯"
+          }
+        ],
+        "localVsWz": []
+      },
+      "localChart": {
+        "source": "verified_engine",
+        "engine": "custom_hybrid",
+        "dayPillarMethod": "formula",
+        "pillars": {
+          "year": "癸卯",
+          "month": "甲子",
+          "day": "甲寅",
+          "hour": "丁卯"
+        }
+      }
+    },
+    {
+      "id": "018",
+      "label": "秋分当日",
+      "input": {
+        "dateTime": "2023-09-23 14:00",
+        "gender": "female",
+        "birthplace": "Shanghai, China",
+        "timezone": "Asia/Shanghai"
+      },
+      "wzOracle": {
+        "ok": true,
+        "url": "https://bzapi4.iwzbz.com/getbasebz8.php?d=2023-09-23+14%3A13&s=0&today=2023-09-23+14%3A13&vip=0&userguid=&yzs=0",
+        "inputDateTime": "2023-09-23 14:13",
+        "pillars": {
+          "year": "癸卯",
+          "month": "辛酉",
+          "day": "甲申",
+          "hour": "辛未"
+        },
+        "lunarLabel": "2023年八月初九 未时"
+      },
+      "expected": {
+        "pillars": {
+          "year": "癸卯",
+          "month": "辛酉",
+          "day": "戊申",
+          "hour": "己未"
+        }
+      },
+      "mismatches": {
+        "wzVsExpected": [
+          {
+            "field": "pillars.day",
+            "expected": "戊申",
+            "actual": "甲申"
+          },
+          {
+            "field": "pillars.hour",
+            "expected": "己未",
+            "actual": "辛未"
+          }
+        ],
+        "localVsWz": []
+      },
+      "localChart": {
+        "source": "verified_engine",
+        "engine": "custom_hybrid",
+        "dayPillarMethod": "formula",
+        "pillars": {
+          "year": "癸卯",
+          "month": "辛酉",
+          "day": "甲申",
+          "hour": "辛未"
+        }
+      }
+    },
+    {
+      "id": "019",
+      "label": "春分当日",
+      "input": {
+        "dateTime": "2024-03-20 10:00",
+        "gender": "male",
+        "birthplace": "Guangzhou, China",
+        "timezone": "Asia/Shanghai"
+      },
+      "wzOracle": {
+        "ok": true,
+        "url": "https://bzapi4.iwzbz.com/getbasebz8.php?d=2024-03-20+09%3A25&s=1&today=2024-03-20+09%3A25&vip=0&userguid=&yzs=0",
+        "inputDateTime": "2024-03-20 09:25",
+        "pillars": {
+          "year": "甲辰",
+          "month": "丁卯",
+          "day": "癸未",
+          "hour": "丁巳"
+        },
+        "lunarLabel": "2024年二月十一 巳时"
+      },
+      "expected": {
+        "pillars": {
+          "year": "甲辰",
+          "month": "丁卯",
+          "day": "戊午",
+          "hour": "丁巳"
+        }
+      },
+      "mismatches": {
+        "wzVsExpected": [
+          {
+            "field": "pillars.day",
+            "expected": "戊午",
+            "actual": "癸未"
+          }
+        ],
+        "localVsWz": []
+      },
+      "localChart": {
+        "source": "verified_engine",
+        "engine": "custom_hybrid",
+        "dayPillarMethod": "formula",
+        "pillars": {
+          "year": "甲辰",
+          "month": "丁卯",
+          "day": "癸未",
+          "hour": "丁巳"
+        }
+      }
+    },
+    {
+      "id": "020",
+      "label": "立冬当日",
+      "input": {
+        "dateTime": "2023-11-08 16:00",
+        "gender": "female",
+        "birthplace": "Beijing, China",
+        "timezone": "Asia/Shanghai"
+      },
+      "wzOracle": {
+        "ok": true,
+        "url": "https://bzapi4.iwzbz.com/getbasebz8.php?d=2023-11-08+16%3A01&s=0&today=2023-11-08+16%3A01&vip=0&userguid=&yzs=0",
+        "inputDateTime": "2023-11-08 16:01",
+        "pillars": {
+          "year": "癸卯",
+          "month": "癸亥",
+          "day": "庚午",
+          "hour": "甲申"
+        },
+        "lunarLabel": "2023年九月廿五 申时"
+      },
+      "expected": {
+        "pillars": {
+          "year": "癸卯",
+          "month": "癸亥",
+          "day": "壬申",
+          "hour": "戊申"
+        }
+      },
+      "mismatches": {
+        "wzVsExpected": [
+          {
+            "field": "pillars.day",
+            "expected": "壬申",
+            "actual": "庚午"
+          },
+          {
+            "field": "pillars.hour",
+            "expected": "戊申",
+            "actual": "甲申"
+          }
+        ],
+        "localVsWz": []
+      },
+      "localChart": {
+        "source": "verified_engine",
+        "engine": "custom_hybrid",
+        "dayPillarMethod": "formula",
+        "pillars": {
+          "year": "癸卯",
+          "month": "癸亥",
+          "day": "庚午",
+          "hour": "甲申"
+        }
+      }
+    },
+    {
+      "id": "021",
+      "label": "魁罡格（庚辰日）",
+      "input": {
+        "dateTime": "2024-05-15 08:00",
+        "gender": "male",
+        "birthplace": "Hong Kong, China",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "wzOracle": {
+        "ok": true,
+        "url": "https://bzapi4.iwzbz.com/getbasebz8.php?d=2024-05-15+07%3A40&s=1&today=2024-05-15+07%3A40&vip=0&userguid=&yzs=0",
+        "inputDateTime": "2024-05-15 07:40",
+        "pillars": {
+          "year": "甲辰",
+          "month": "己巳",
+          "day": "己卯",
+          "hour": "戊辰"
+        },
+        "lunarLabel": "2024年四月初八 辰时"
+      },
+      "expected": {
+        "pillars": {
+          "year": "甲辰",
+          "month": "己巳",
+          "day": "庚辰",
+          "hour": "庚辰"
+        }
+      },
+      "mismatches": {
+        "wzVsExpected": [
+          {
+            "field": "pillars.day",
+            "expected": "庚辰",
+            "actual": "己卯"
+          },
+          {
+            "field": "pillars.hour",
+            "expected": "庚辰",
+            "actual": "戊辰"
+          }
+        ],
+        "localVsWz": []
+      },
+      "localChart": {
+        "source": "verified_engine",
+        "engine": "custom_hybrid",
+        "dayPillarMethod": "formula",
+        "pillars": {
+          "year": "甲辰",
+          "month": "己巳",
+          "day": "己卯",
+          "hour": "戊辰"
+        }
+      }
+    },
+    {
+      "id": "022",
+      "label": "魁罡格（戊戌日）",
+      "input": {
+        "dateTime": "2023-11-20 14:00",
+        "gender": "female",
+        "birthplace": "Taipei, Taiwan",
+        "timezone": "Asia/Taipei"
+      },
+      "wzOracle": {
+        "ok": true,
+        "url": "https://bzapi4.iwzbz.com/getbasebz8.php?d=2023-11-20+14%3A20&s=0&today=2023-11-20+14%3A20&vip=0&userguid=&yzs=0",
+        "inputDateTime": "2023-11-20 14:20",
+        "pillars": {
+          "year": "癸卯",
+          "month": "癸亥",
+          "day": "壬午",
+          "hour": "丁未"
+        },
+        "lunarLabel": "2023年十月初八 未时"
+      },
+      "expected": {
+        "pillars": {
+          "year": "癸卯",
+          "month": "癸亥",
+          "day": "戊戌",
+          "hour": "己未"
+        }
+      },
+      "mismatches": {
+        "wzVsExpected": [
+          {
+            "field": "pillars.day",
+            "expected": "戊戌",
+            "actual": "壬午"
+          },
+          {
+            "field": "pillars.hour",
+            "expected": "己未",
+            "actual": "丁未"
+          }
+        ],
+        "localVsWz": []
+      },
+      "localChart": {
+        "source": "verified_engine",
+        "engine": "custom_hybrid",
+        "dayPillarMethod": "formula",
+        "pillars": {
+          "year": "癸卯",
+          "month": "癸亥",
+          "day": "壬午",
+          "hour": "丁未"
+        }
+      }
+    },
+    {
+      "id": "023",
+      "label": "十恶大败（甲辰日）",
+      "input": {
+        "dateTime": "2024-02-10 12:00",
+        "gender": "male",
+        "birthplace": "Beijing, China",
+        "timezone": "Asia/Shanghai"
+      },
+      "wzOracle": {
+        "ok": true,
+        "url": "https://bzapi4.iwzbz.com/getbasebz8.php?d=2024-02-10+11%3A31&s=1&today=2024-02-10+11%3A31&vip=0&userguid=&yzs=0",
+        "inputDateTime": "2024-02-10 11:31",
+        "pillars": {
+          "year": "甲辰",
+          "month": "丙寅",
+          "day": "甲辰",
+          "hour": "庚午"
+        },
+        "lunarLabel": "2024年正月初一 午时"
+      },
+      "expected": {
+        "pillars": {
+          "year": "甲辰",
+          "month": "丙寅",
+          "day": "甲辰",
+          "hour": "庚午"
+        }
+      },
+      "mismatches": {
+        "wzVsExpected": [],
+        "localVsWz": []
+      },
+      "localChart": {
+        "source": "verified_engine",
+        "engine": "custom_hybrid",
+        "dayPillarMethod": "formula",
+        "pillars": {
+          "year": "甲辰",
+          "month": "丙寅",
+          "day": "甲辰",
+          "hour": "庚午"
+        }
+      }
+    },
+    {
+      "id": "024",
+      "label": "十恶大败（乙巳日）",
+      "input": {
+        "dateTime": "2023-09-18 10:00",
+        "gender": "female",
+        "birthplace": "Shanghai, China",
+        "timezone": "Asia/Shanghai"
+      },
+      "wzOracle": {
+        "ok": true,
+        "url": "https://bzapi4.iwzbz.com/getbasebz8.php?d=2023-09-18+10%3A11&s=0&today=2023-09-18+10%3A11&vip=0&userguid=&yzs=0",
+        "inputDateTime": "2023-09-18 10:11",
+        "pillars": {
+          "year": "癸卯",
+          "month": "辛酉",
+          "day": "己卯",
+          "hour": "己巳"
+        },
+        "lunarLabel": "2023年八月初四 巳时"
+      },
+      "expected": {
+        "pillars": {
+          "year": "癸卯",
+          "month": "辛酉",
+          "day": "乙巳",
+          "hour": "辛巳"
+        }
+      },
+      "mismatches": {
+        "wzVsExpected": [
+          {
+            "field": "pillars.day",
+            "expected": "乙巳",
+            "actual": "己卯"
+          },
+          {
+            "field": "pillars.hour",
+            "expected": "辛巳",
+            "actual": "己巳"
+          }
+        ],
+        "localVsWz": []
+      },
+      "localChart": {
+        "source": "verified_engine",
+        "engine": "custom_hybrid",
+        "dayPillarMethod": "formula",
+        "pillars": {
+          "year": "癸卯",
+          "month": "辛酉",
+          "day": "己卯",
+          "hour": "己巳"
+        }
+      }
+    },
+    {
+      "id": "025",
+      "label": "三奇贵人（甲戊庚）",
+      "input": {
+        "dateTime": "2024-03-15 08:00",
+        "gender": "male",
+        "birthplace": "Chengdu, China",
+        "timezone": "Asia/Shanghai"
+      },
+      "wzOracle": {
+        "ok": true,
+        "url": "https://bzapi4.iwzbz.com/getbasebz8.php?d=2024-03-15+06%3A46&s=1&today=2024-03-15+06%3A46&vip=0&userguid=&yzs=0",
+        "inputDateTime": "2024-03-15 06:46",
+        "pillars": {
+          "year": "甲辰",
+          "month": "丁卯",
+          "day": "戊寅",
+          "hour": "乙卯"
+        },
+        "lunarLabel": "2024年二月初六 卯时"
+      },
+      "expected": {
+        "pillars": {
+          "year": "甲辰",
+          "month": "丁卯",
+          "day": "戊戌",
+          "hour": "庚申"
+        }
+      },
+      "mismatches": {
+        "wzVsExpected": [
+          {
+            "field": "pillars.day",
+            "expected": "戊戌",
+            "actual": "戊寅"
+          },
+          {
+            "field": "pillars.hour",
+            "expected": "庚申",
+            "actual": "乙卯"
+          }
+        ],
+        "localVsWz": []
+      },
+      "localChart": {
+        "source": "verified_engine",
+        "engine": "custom_hybrid",
+        "dayPillarMethod": "formula",
+        "pillars": {
+          "year": "甲辰",
+          "month": "丁卯",
+          "day": "戊寅",
+          "hour": "乙卯"
+        }
+      }
+    },
+    {
+      "id": "026",
+      "label": "美国纽约（夏令时）",
+      "input": {
+        "dateTime": "2024-06-01 12:00",
+        "gender": "male",
+        "birthplace": "New York, New York, USA",
+        "timezone": "America/New_York"
+      },
+      "wzOracle": {
+        "ok": true,
+        "url": "https://bzapi4.iwzbz.com/getbasebz8.php?d=2024-06-01+11%3A06&s=1&today=2024-06-01+11%3A06&vip=0&userguid=&yzs=0",
+        "inputDateTime": "2024-06-01 11:06",
+        "pillars": {
+          "year": "甲辰",
+          "month": "己巳",
+          "day": "丙申",
+          "hour": "甲午"
+        },
+        "lunarLabel": "2024年四月廿五 午时"
+      },
+      "expected": {
+        "pillars": {
+          "year": "甲辰",
+          "month": "己巳",
+          "day": "癸巳",
+          "hour": "戊午"
+        }
+      },
+      "mismatches": {
+        "wzVsExpected": [
+          {
+            "field": "pillars.day",
+            "expected": "癸巳",
+            "actual": "丙申"
+          },
+          {
+            "field": "pillars.hour",
+            "expected": "戊午",
+            "actual": "甲午"
+          }
+        ],
+        "localVsWz": []
+      },
+      "localChart": {
+        "source": "verified_engine",
+        "engine": "custom_hybrid",
+        "dayPillarMethod": "formula",
+        "pillars": {
+          "year": "甲辰",
+          "month": "己巳",
+          "day": "丙申",
+          "hour": "甲午"
+        }
+      }
+    },
+    {
+      "id": "027",
+      "label": "英国伦敦",
+      "input": {
+        "dateTime": "2023-12-25 10:00",
+        "gender": "female",
+        "birthplace": "London, England, UK",
+        "timezone": "Europe/London"
+      },
+      "wzOracle": {
+        "ok": true,
+        "url": "https://bzapi4.iwzbz.com/getbasebz8.php?d=2023-12-25+09%3A59&s=0&today=2023-12-25+09%3A59&vip=0&userguid=&yzs=0",
+        "inputDateTime": "2023-12-25 09:59",
+        "pillars": {
+          "year": "癸卯",
+          "month": "甲子",
+          "day": "丁巳",
+          "hour": "乙巳"
+        },
+        "lunarLabel": "2023年冬月十三 巳时"
+      },
+      "expected": {
+        "pillars": {
+          "year": "癸卯",
+          "month": "甲子",
+          "day": "戊午",
+          "hour": "丁巳"
+        }
+      },
+      "mismatches": {
+        "wzVsExpected": [
+          {
+            "field": "pillars.day",
+            "expected": "戊午",
+            "actual": "丁巳"
+          },
+          {
+            "field": "pillars.hour",
+            "expected": "丁巳",
+            "actual": "乙巳"
+          }
+        ],
+        "localVsWz": []
+      },
+      "localChart": {
+        "source": "verified_engine",
+        "engine": "custom_hybrid",
+        "dayPillarMethod": "formula",
+        "pillars": {
+          "year": "癸卯",
+          "month": "甲子",
+          "day": "丁巳",
+          "hour": "乙巳"
+        }
+      }
+    },
+    {
+      "id": "028",
+      "label": "澳大利亚悉尼（夏令时）",
+      "input": {
+        "dateTime": "2024-01-15 14:00",
+        "gender": "male",
+        "birthplace": "Sydney, NSW, Australia",
+        "timezone": "Australia/Sydney"
+      },
+      "wzOracle": {
+        "ok": true,
+        "url": "https://bzapi4.iwzbz.com/getbasebz8.php?d=2024-01-15+12%3A56&s=1&today=2024-01-15+12%3A56&vip=0&userguid=&yzs=0",
+        "inputDateTime": "2024-01-15 12:56",
+        "pillars": {
+          "year": "癸卯",
+          "month": "乙丑",
+          "day": "戊寅",
+          "hour": "戊午"
+        },
+        "lunarLabel": "2023年腊月初五 午时"
+      },
+      "expected": {
+        "pillars": {
+          "year": "癸卯",
+          "month": "乙丑",
+          "day": "丁巳",
+          "hour": "丁未"
+        }
+      },
+      "mismatches": {
+        "wzVsExpected": [
+          {
+            "field": "pillars.day",
+            "expected": "丁巳",
+            "actual": "戊寅"
+          },
+          {
+            "field": "pillars.hour",
+            "expected": "丁未",
+            "actual": "戊午"
+          }
+        ],
+        "localVsWz": []
+      },
+      "localChart": {
+        "source": "verified_engine",
+        "engine": "custom_hybrid",
+        "dayPillarMethod": "formula",
+        "pillars": {
+          "year": "癸卯",
+          "month": "乙丑",
+          "day": "戊寅",
+          "hour": "戊午"
+        }
+      }
+    },
+    {
+      "id": "029",
+      "label": "巴西里约",
+      "input": {
+        "dateTime": "2023-07-07 08:00",
+        "gender": "female",
+        "birthplace": "Rio de Janeiro, Brazil",
+        "timezone": "America/Sao_Paulo"
+      },
+      "wzOracle": {
+        "ok": true,
+        "url": "https://bzapi4.iwzbz.com/getbasebz8.php?d=2023-07-07+08%3A02&s=0&today=2023-07-07+08%3A02&vip=0&userguid=&yzs=0",
+        "inputDateTime": "2023-07-07 08:02",
+        "pillars": {
+          "year": "癸卯",
+          "month": "戊午",
+          "day": "丙寅",
+          "hour": "壬辰"
+        },
+        "lunarLabel": "2023年五月廿十 辰时"
+      },
+      "expected": {
+        "pillars": {
+          "year": "癸卯",
+          "month": "戊午",
+          "day": "壬戌",
+          "hour": "甲辰"
+        }
+      },
+      "mismatches": {
+        "wzVsExpected": [
+          {
+            "field": "pillars.day",
+            "expected": "壬戌",
+            "actual": "丙寅"
+          },
+          {
+            "field": "pillars.hour",
+            "expected": "甲辰",
+            "actual": "壬辰"
+          }
+        ],
+        "localVsWz": [
+          {
+            "field": "pillars.month",
+            "expected": "戊午",
+            "actual": "己未"
+          }
+        ]
+      },
+      "localChart": {
+        "source": "verified_engine",
+        "engine": "custom_hybrid",
+        "dayPillarMethod": "formula",
+        "pillars": {
+          "year": "癸卯",
+          "month": "己未",
+          "day": "丙寅",
+          "hour": "壬辰"
+        }
+      }
+    },
+    {
+      "id": "030",
+      "label": "南非开普敦",
+      "input": {
+        "dateTime": "2024-08-08 16:00",
+        "gender": "male",
+        "birthplace": "Cape Town, South Africa",
+        "timezone": "Africa/Johannesburg"
+      },
+      "wzOracle": {
+        "ok": true,
+        "url": "https://bzapi4.iwzbz.com/getbasebz8.php?d=2024-08-08+15%3A07&s=1&today=2024-08-08+15%3A07&vip=0&userguid=&yzs=0",
+        "inputDateTime": "2024-08-08 15:07",
+        "pillars": {
+          "year": "甲辰",
+          "month": "壬申",
+          "day": "甲辰",
+          "hour": "壬申"
+        },
+        "lunarLabel": "2024年七月初五 申时"
+      },
+      "expected": {
+        "pillars": {
+          "year": "甲辰",
+          "month": "壬申",
+          "day": "辛亥",
+          "hour": "丙申"
+        }
+      },
+      "mismatches": {
+        "wzVsExpected": [
+          {
+            "field": "pillars.day",
+            "expected": "辛亥",
+            "actual": "甲辰"
+          },
+          {
+            "field": "pillars.hour",
+            "expected": "丙申",
+            "actual": "壬申"
+          }
+        ],
+        "localVsWz": []
+      },
+      "localChart": {
+        "source": "verified_engine",
+        "engine": "custom_hybrid",
+        "dayPillarMethod": "formula",
+        "pillars": {
+          "year": "甲辰",
+          "month": "壬申",
+          "day": "甲辰",
+          "hour": "壬申"
+        }
+      }
+    }
+  ]
+}

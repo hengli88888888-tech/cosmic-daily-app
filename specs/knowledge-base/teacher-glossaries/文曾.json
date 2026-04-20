@@ -1,0 +1,763 @@
+{
+  "teacher": "文曾",
+  "whisper_hint_terms": [
+    "盲派",
+    "成势",
+    "做功",
+    "制",
+    "无制",
+    "会党",
+    "成势做功",
+    "叛党",
+    "变性",
+    "墓库",
+    "辰戌丑未",
+    "巳火",
+    "戌土",
+    "辰土",
+    "丑土",
+    "未土",
+    "木火燥土",
+    "湿土金水",
+    "主位",
+    "宾位",
+    "贼捕结构",
+    "贼神",
+    "捕神",
+    "工神",
+    "辅神",
+    "废神",
+    "正向做功",
+    "反向做功",
+    "格局清纯",
+    "流通",
+    "泄制",
+    "化制",
+    "克制",
+    "化官生印",
+    "食伤生财",
+    "月令同党",
+    "正局",
+    "反局",
+    "正用",
+    "反用",
+    "制用结构",
+    "合制效率",
+    "刑冲穿制",
+    "冲制",
+    "刑制",
+    "穿制",
+    "用神",
+    "月令",
+    "司令",
+    "取气",
+    "藏气",
+    "四墓库",
+    "辰是万物之库",
+    "戌是天门",
+    "辰是地库",
+    "无克不为贵",
+    "无制不成格局",
+    "月令是司令",
+    "体用库",
+    "刑冲破害",
+    "财官比劫",
+    "财格",
+    "财格配官",
+    "财格配印",
+    "伤官生财",
+    "伤官生财配印",
+    "伤官生财克印",
+    "建禄格",
+    "官印格",
+    "财库",
+    "官库",
+    "一格二用",
+    "吃皇粮",
+    "公务员"
+  ],
+  "canonical_terms": [
+    {
+      "canonical": "成势",
+      "aliases": ["有势", "势大"]
+    },
+    {
+      "canonical": "做功",
+      "aliases": ["做工"]
+    },
+    {
+      "canonical": "制",
+      "aliases": ["制服"]
+    },
+    {
+      "canonical": "无制",
+      "aliases": []
+    },
+    {
+      "canonical": "会党",
+      "aliases": ["会成党"]
+    },
+    {
+      "canonical": "叛党",
+      "aliases": []
+    },
+    {
+      "canonical": "变性",
+      "aliases": []
+    },
+    {
+      "canonical": "贼捕结构",
+      "aliases": ["贼捕"]
+    },
+    {
+      "canonical": "贼神",
+      "aliases": ["贼"]
+    },
+    {
+      "canonical": "捕神",
+      "aliases": ["捕"]
+    },
+    {
+      "canonical": "工神",
+      "aliases": []
+    },
+    {
+      "canonical": "辅神",
+      "aliases": []
+    },
+    {
+      "canonical": "废神",
+      "aliases": []
+    },
+    {
+      "canonical": "正向做功",
+      "aliases": []
+    },
+    {
+      "canonical": "反向做功",
+      "aliases": []
+    },
+    {
+      "canonical": "格局清纯",
+      "aliases": ["清纯"]
+    },
+    {
+      "canonical": "流通",
+      "aliases": []
+    },
+    {
+      "canonical": "化官生印",
+      "aliases": []
+    },
+    {
+      "canonical": "泄制",
+      "aliases": []
+    },
+    {
+      "canonical": "化制",
+      "aliases": []
+    },
+    {
+      "canonical": "克制",
+      "aliases": []
+    },
+    {
+      "canonical": "正局",
+      "aliases": []
+    },
+    {
+      "canonical": "反局",
+      "aliases": []
+    },
+    {
+      "canonical": "正用",
+      "aliases": []
+    },
+    {
+      "canonical": "反用",
+      "aliases": []
+    },
+    {
+      "canonical": "制用结构",
+      "aliases": []
+    },
+    {
+      "canonical": "合制效率",
+      "aliases": ["做功效率"]
+    },
+    {
+      "canonical": "刑冲穿制",
+      "aliases": []
+    },
+    {
+      "canonical": "用神",
+      "aliases": []
+    },
+    {
+      "canonical": "月令",
+      "aliases": []
+    },
+    {
+      "canonical": "司令",
+      "aliases": []
+    },
+    {
+      "canonical": "取气",
+      "aliases": []
+    },
+    {
+      "canonical": "藏气",
+      "aliases": []
+    },
+    {
+      "canonical": "四墓库",
+      "aliases": ["墓库"]
+    },
+    {
+      "canonical": "体用库",
+      "aliases": []
+    },
+    {
+      "canonical": "刑冲破害",
+      "aliases": []
+    },
+    {
+      "canonical": "财官比劫",
+      "aliases": []
+    },
+    {
+      "canonical": "财格",
+      "aliases": []
+    },
+    {
+      "canonical": "一格二用",
+      "aliases": []
+    },
+    {
+      "canonical": "财库",
+      "aliases": []
+    },
+    {
+      "canonical": "官库",
+      "aliases": []
+    }
+  ],
+  "common_corrections": [
+    {
+      "wrong": "感谢观看",
+      "correct": ""
+    },
+    {
+      "wrong": "中文字幕志愿者 李宗盛",
+      "correct": ""
+    },
+    {
+      "wrong": "李宗盛",
+      "correct": ""
+    },
+    {
+      "wrong": "黄菱",
+      "correct": ""
+    },
+    {
+      "wrong": "德雷",
+      "correct": ""
+    },
+    {
+      "wrong": "Work勢",
+      "correct": ""
+    },
+    {
+      "wrong": "lookin�",
+      "correct": ""
+    },
+    {
+      "wrong": "nota你",
+      "correct": ""
+    },
+    {
+      "wrong": "高一帮开播了",
+      "correct": ""
+    },
+    {
+      "wrong": "禁止肢和屌外行財",
+      "correct": ""
+    },
+    {
+      "wrong": "高一帮",
+      "correct": ""
+    },
+    {
+      "wrong": "外行財",
+      "correct": ""
+    },
+    {
+      "wrong": "感性 感性",
+      "correct": ""
+    },
+    {
+      "wrong": "感性",
+      "correct": ""
+    },
+    {
+      "wrong": "是是",
+      "correct": "势"
+    },
+    {
+      "wrong": "成是",
+      "correct": "成势"
+    },
+    {
+      "wrong": "有氏",
+      "correct": "有势"
+    },
+    {
+      "wrong": "氏越大",
+      "correct": "势越大"
+    },
+    {
+      "wrong": "这个克有金就是公",
+      "correct": "这个克酉金就是功"
+    },
+    {
+      "wrong": "做工点",
+      "correct": "做功点"
+    },
+    {
+      "wrong": "做不了功",
+      "correct": "做不了功"
+    },
+    {
+      "wrong": "出现智",
+      "correct": "出现制"
+    },
+    {
+      "wrong": "无智",
+      "correct": "无制"
+    },
+    {
+      "wrong": "没有质",
+      "correct": "没有制"
+    },
+    {
+      "wrong": "会党的",
+      "correct": "会党的"
+    },
+    {
+      "wrong": "尸土",
+      "correct": "湿土"
+    },
+    {
+      "wrong": "造土",
+      "correct": "燥土"
+    },
+    {
+      "wrong": "陈旭丑位",
+      "correct": "辰戌丑未"
+    },
+    {
+      "wrong": "虚土",
+      "correct": "戌土"
+    },
+    {
+      "wrong": "尘土",
+      "correct": "辰土"
+    },
+    {
+      "wrong": "已火",
+      "correct": "巳火"
+    },
+    {
+      "wrong": "已土",
+      "correct": "己土"
+    },
+    {
+      "wrong": "极土",
+      "correct": "己土"
+    },
+    {
+      "wrong": "冰火",
+      "correct": "丙火"
+    },
+    {
+      "wrong": "撕火",
+      "correct": "巳火"
+    },
+    {
+      "wrong": "五虎",
+      "correct": "午火"
+    },
+    {
+      "wrong": "耕金",
+      "correct": "庚金"
+    },
+    {
+      "wrong": "人水",
+      "correct": "壬水"
+    },
+    {
+      "wrong": "于水",
+      "correct": "壬水"
+    },
+    {
+      "wrong": "王水",
+      "correct": "壬水"
+    },
+    {
+      "wrong": "有金",
+      "correct": "酉金"
+    },
+    {
+      "wrong": "元金",
+      "correct": "酉金"
+    },
+    {
+      "wrong": "神",
+      "correct": "申"
+    },
+    {
+      "wrong": "忠",
+      "correct": "申"
+    },
+    {
+      "wrong": "会党成事了",
+      "correct": "会党成势了"
+    },
+    {
+      "wrong": "有志了",
+      "correct": "有制了"
+    },
+    {
+      "wrong": "适多有治",
+      "correct": "势多有制"
+    },
+    {
+      "wrong": "有和治",
+      "correct": "有合制"
+    },
+    {
+      "wrong": "有谢治",
+      "correct": "有泄制"
+    },
+    {
+      "wrong": "化官圣印",
+      "correct": "化官生印"
+    },
+    {
+      "wrong": "史上生财",
+      "correct": "食伤生财"
+    },
+    {
+      "wrong": "政治反治",
+      "correct": "正制反制"
+    },
+    {
+      "wrong": "卑制的",
+      "correct": "被制的"
+    },
+    {
+      "wrong": "补神",
+      "correct": "捕神"
+    },
+    {
+      "wrong": "公神",
+      "correct": "工神"
+    },
+    {
+      "wrong": "升伏这个公神",
+      "correct": "生扶这个工神"
+    },
+    {
+      "wrong": "费神",
+      "correct": "废神"
+    },
+    {
+      "wrong": "工家蹦出个人水",
+      "correct": "中间蹦出个壬水"
+    },
+    {
+      "wrong": "正向做工",
+      "correct": "正向做功"
+    },
+    {
+      "wrong": "反向做工",
+      "correct": "反向做功"
+    },
+    {
+      "wrong": "治月令",
+      "correct": "制月令"
+    },
+    {
+      "wrong": "商官",
+      "correct": "伤官"
+    },
+    {
+      "wrong": "笔节",
+      "correct": "比劫"
+    },
+    {
+      "wrong": "言派",
+      "correct": "盲派"
+    },
+    {
+      "wrong": "谋派",
+      "correct": "盲派"
+    },
+    {
+      "wrong": "赋神",
+      "correct": "贼神"
+    },
+    {
+      "wrong": "本 辅神",
+      "correct": "辅神"
+    },
+    {
+      "wrong": "南位",
+      "correct": "宾位"
+    },
+    {
+      "wrong": "有偏有制",
+      "correct": "有病有制"
+    },
+    {
+      "wrong": "财死印",
+      "correct": "财制印"
+    },
+    {
+      "wrong": "区印",
+      "correct": "制印"
+    },
+    {
+      "wrong": "制忠",
+      "correct": "制中"
+    },
+    {
+      "wrong": "有党、妥的局面",
+      "correct": "有党、有势的局面"
+    },
+    {
+      "wrong": "感党",
+      "correct": "感觉"
+    },
+    {
+      "wrong": "有油制",
+      "correct": "有泄制"
+    },
+    {
+      "wrong": "无死不成格局",
+      "correct": "无制不成格局"
+    },
+    {
+      "wrong": "殉谁",
+      "correct": "制谁"
+    },
+    {
+      "wrong": "正居",
+      "correct": "正局"
+    },
+    {
+      "wrong": "反居",
+      "correct": "反局"
+    },
+    {
+      "wrong": "正角与反角",
+      "correct": "正局与反局"
+    },
+    {
+      "wrong": "正月与反局",
+      "correct": "正局与反局"
+    },
+    {
+      "wrong": "正月与反用",
+      "correct": "正用与反用"
+    },
+    {
+      "wrong": "正勇与反用",
+      "correct": "正用与反用"
+    },
+    {
+      "wrong": "制用结沟",
+      "correct": "制用结构"
+    },
+    {
+      "wrong": "合治效率",
+      "correct": "合制效率"
+    },
+    {
+      "wrong": "冲治",
+      "correct": "冲制"
+    },
+    {
+      "wrong": "穿治",
+      "correct": "穿制"
+    },
+    {
+      "wrong": "刑神穿破",
+      "correct": "刑冲穿破"
+    },
+    {
+      "wrong": "用神怕见面",
+      "correct": "用神怕见"
+    },
+    {
+      "wrong": "月令是整个作字中的灵魂",
+      "correct": "月令是整个八字中的灵魂"
+    },
+    {
+      "wrong": "月令是司今",
+      "correct": "月令是司令"
+    },
+    {
+      "wrong": "体用分额",
+      "correct": "体用份额"
+    },
+    {
+      "wrong": "形状传破",
+      "correct": "刑冲穿破"
+    },
+    {
+      "wrong": "形冲传破",
+      "correct": "刑冲穿破"
+    },
+    {
+      "wrong": "时人生财",
+      "correct": "食伤生财"
+    },
+    {
+      "wrong": "石人生财",
+      "correct": "食伤生财"
+    },
+    {
+      "wrong": "上官生财配音",
+      "correct": "伤官生财配印"
+    },
+    {
+      "wrong": "财客运",
+      "correct": "财克印"
+    },
+    {
+      "wrong": "吃荒粮",
+      "correct": "吃皇粮"
+    },
+    {
+      "wrong": "画官生印",
+      "correct": "化官生印"
+    },
+    {
+      "wrong": "时商",
+      "correct": "食伤"
+    },
+    {
+      "wrong": "食申",
+      "correct": "食神"
+    },
+    {
+      "wrong": "时申",
+      "correct": "食神"
+    },
+    {
+      "wrong": "时伤",
+      "correct": "食伤"
+    },
+    {
+      "wrong": "硬格",
+      "correct": "印格"
+    },
+    {
+      "wrong": "建印",
+      "correct": "建禄"
+    },
+    {
+      "wrong": "报官生印",
+      "correct": "化官生印"
+    },
+    {
+      "wrong": "财作财库",
+      "correct": "财坐财库"
+    },
+    {
+      "wrong": "硬作财库",
+      "correct": "印坐财库"
+    },
+    {
+      "wrong": "财格配时商",
+      "correct": "财格配食伤"
+    },
+    {
+      "wrong": "硬格用材",
+      "correct": "印格用财"
+    },
+    {
+      "wrong": "硬格用官",
+      "correct": "印格用官"
+    },
+    {
+      "wrong": "募库",
+      "correct": "墓库"
+    },
+    {
+      "wrong": "莫库",
+      "correct": "墓库"
+    },
+    {
+      "wrong": "幕库",
+      "correct": "墓库"
+    },
+    {
+      "wrong": "辰是万物之母",
+      "correct": "辰是万物之库"
+    },
+    {
+      "wrong": "成是天门",
+      "correct": "戌是天门"
+    },
+    {
+      "wrong": "展是地库",
+      "correct": "辰是地库"
+    },
+    {
+      "wrong": "西成相穿",
+      "correct": "酉戌相穿"
+    },
+    {
+      "wrong": "申本成会金局",
+      "correct": "申酉戌会金局"
+    },
+    {
+      "wrong": "算命者",
+      "correct": "算命的"
+    },
+    {
+      "wrong": "我很牛逼",
+      "correct": "我很厉害"
+    },
+    {
+      "wrong": "wm13132",
+      "correct": "wxm13132"
+    },
+    {
+      "wrong": "黄金白水清洁",
+      "correct": ""
+    },
+    {
+      "wrong": "黄金白水清津",
+      "correct": ""
+    },
+    {
+      "wrong": "黄金白水",
+      "correct": ""
+    },
+    {
+      "wrong": "大学院",
+      "correct": ""
+    },
+    {
+      "wrong": "上一节课咱们讲到哪儿了",
+      "correct": ""
+    },
+    {
+      "wrong": "玉玉玉玉",
+      "correct": ""
+    }
+  ]
+}

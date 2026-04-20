@@ -1,0 +1,490 @@
+{
+  "meta": {
+    "generatedAt": "2026-03-17T00:05:20.958Z",
+    "seed": 20260316,
+    "sampleSize": 40,
+    "purpose": "Random product-mode calibration against 问真八字 oracle"
+  },
+  "cases": [
+    {
+      "id": "R001",
+      "type": "random_calibration",
+      "label": "Random calibration sample 1",
+      "input": {
+        "dob": "1944-10-30",
+        "tob": "01:49",
+        "gender": "male",
+        "birthplace": "Guangzhou, Guangdong, China",
+        "timezone": "Asia/Shanghai"
+      }
+    },
+    {
+      "id": "R002",
+      "type": "random_calibration",
+      "label": "Random calibration sample 2",
+      "input": {
+        "dob": "1943-10-22",
+        "tob": "16:41",
+        "gender": "male",
+        "birthplace": "Rio de Janeiro, Brazil",
+        "timezone": "America/Sao_Paulo"
+      }
+    },
+    {
+      "id": "R003",
+      "type": "random_calibration",
+      "label": "Random calibration sample 3",
+      "input": {
+        "dob": "1985-11-13",
+        "tob": "16:32",
+        "gender": "female",
+        "birthplace": "Taipei, Taiwan",
+        "timezone": "Asia/Taipei"
+      }
+    },
+    {
+      "id": "R004",
+      "type": "random_calibration",
+      "label": "Random calibration sample 4",
+      "input": {
+        "dob": "1999-04-04",
+        "tob": "08:16",
+        "gender": "male",
+        "birthplace": "Cape Town, South Africa",
+        "timezone": "Africa/Johannesburg"
+      }
+    },
+    {
+      "id": "R005",
+      "type": "random_calibration",
+      "label": "Random calibration sample 5",
+      "input": {
+        "dob": "1917-05-28",
+        "tob": "10:53",
+        "gender": "female",
+        "birthplace": "Taipei, Taiwan",
+        "timezone": "Asia/Taipei"
+      }
+    },
+    {
+      "id": "R006",
+      "type": "random_calibration",
+      "label": "Random calibration sample 6",
+      "input": {
+        "dob": "2046-06-19",
+        "tob": "00:18",
+        "gender": "female",
+        "birthplace": "Beijing, China",
+        "timezone": "Asia/Shanghai"
+      }
+    },
+    {
+      "id": "R007",
+      "type": "random_calibration",
+      "label": "Random calibration sample 7",
+      "input": {
+        "dob": "1993-02-23",
+        "tob": "17:57",
+        "gender": "male",
+        "birthplace": "Shanghai, China",
+        "timezone": "Asia/Shanghai"
+      }
+    },
+    {
+      "id": "R008",
+      "type": "random_calibration",
+      "label": "Random calibration sample 8",
+      "input": {
+        "dob": "1962-08-22",
+        "tob": "05:46",
+        "gender": "male",
+        "birthplace": "New York, New York, USA",
+        "timezone": "America/New_York"
+      }
+    },
+    {
+      "id": "R009",
+      "type": "random_calibration",
+      "label": "Random calibration sample 9",
+      "input": {
+        "dob": "2007-12-04",
+        "tob": "01:49",
+        "gender": "male",
+        "birthplace": "Melbourne, Victoria, Australia",
+        "timezone": "Australia/Melbourne"
+      }
+    },
+    {
+      "id": "R010",
+      "type": "random_calibration",
+      "label": "Random calibration sample 10",
+      "input": {
+        "dob": "2053-07-01",
+        "tob": "09:28",
+        "gender": "female",
+        "birthplace": "Shenzhen, Guangdong, China",
+        "timezone": "Asia/Shanghai"
+      }
+    },
+    {
+      "id": "R011",
+      "type": "random_calibration",
+      "label": "Random calibration sample 11",
+      "input": {
+        "dob": "2068-06-25",
+        "tob": "07:09",
+        "gender": "male",
+        "birthplace": "Sydney, NSW, Australia",
+        "timezone": "Australia/Sydney"
+      }
+    },
+    {
+      "id": "R012",
+      "type": "random_calibration",
+      "label": "Random calibration sample 12",
+      "input": {
+        "dob": "2015-10-27",
+        "tob": "07:35",
+        "gender": "female",
+        "birthplace": "Rio de Janeiro, Brazil",
+        "timezone": "America/Sao_Paulo"
+      }
+    },
+    {
+      "id": "R013",
+      "type": "random_calibration",
+      "label": "Random calibration sample 13",
+      "input": {
+        "dob": "1951-12-03",
+        "tob": "23:46",
+        "gender": "male",
+        "birthplace": "Toronto, Ontario, Canada",
+        "timezone": "America/Toronto"
+      }
+    },
+    {
+      "id": "R014",
+      "type": "random_calibration",
+      "label": "Random calibration sample 14",
+      "input": {
+        "dob": "2098-05-12",
+        "tob": "04:14",
+        "gender": "female",
+        "birthplace": "Taipei, Taiwan",
+        "timezone": "Asia/Taipei"
+      }
+    },
+    {
+      "id": "R015",
+      "type": "random_calibration",
+      "label": "Random calibration sample 15",
+      "input": {
+        "dob": "2068-12-21",
+        "tob": "11:12",
+        "gender": "female",
+        "birthplace": "Rio de Janeiro, Brazil",
+        "timezone": "America/Sao_Paulo"
+      }
+    },
+    {
+      "id": "R016",
+      "type": "random_calibration",
+      "label": "Random calibration sample 16",
+      "input": {
+        "dob": "2064-04-30",
+        "tob": "07:00",
+        "gender": "female",
+        "birthplace": "Hong Kong, China",
+        "timezone": "Asia/Hong_Kong"
+      }
+    },
+    {
+      "id": "R017",
+      "type": "random_calibration",
+      "label": "Random calibration sample 17",
+      "input": {
+        "dob": "2026-11-06",
+        "tob": "23:16",
+        "gender": "female",
+        "birthplace": "Shanghai, China",
+        "timezone": "Asia/Shanghai"
+      }
+    },
+    {
+      "id": "R018",
+      "type": "random_calibration",
+      "label": "Random calibration sample 18",
+      "input": {
+        "dob": "1955-11-17",
+        "tob": "01:33",
+        "gender": "male",
+        "birthplace": "Hong Kong, China",
+        "timezone": "Asia/Hong_Kong"
+      }
+    },
+    {
+      "id": "R019",
+      "type": "random_calibration",
+      "label": "Random calibration sample 19",
+      "input": {
+        "dob": "1992-01-11",
+        "tob": "11:37",
+        "gender": "female",
+        "birthplace": "Sydney, NSW, Australia",
+        "timezone": "Australia/Sydney"
+      }
+    },
+    {
+      "id": "R020",
+      "type": "random_calibration",
+      "label": "Random calibration sample 20",
+      "input": {
+        "dob": "2055-10-26",
+        "tob": "09:09",
+        "gender": "male",
+        "birthplace": "New York, New York, USA",
+        "timezone": "America/New_York"
+      }
+    },
+    {
+      "id": "R021",
+      "type": "random_calibration",
+      "label": "Random calibration sample 21",
+      "input": {
+        "dob": "2052-04-15",
+        "tob": "21:16",
+        "gender": "male",
+        "birthplace": "Melbourne, Victoria, Australia",
+        "timezone": "Australia/Melbourne"
+      }
+    },
+    {
+      "id": "R022",
+      "type": "random_calibration",
+      "label": "Random calibration sample 22",
+      "input": {
+        "dob": "2045-05-22",
+        "tob": "07:16",
+        "gender": "female",
+        "birthplace": "Melbourne, Victoria, Australia",
+        "timezone": "Australia/Melbourne"
+      }
+    },
+    {
+      "id": "R023",
+      "type": "random_calibration",
+      "label": "Random calibration sample 23",
+      "input": {
+        "dob": "1978-03-21",
+        "tob": "09:15",
+        "gender": "female",
+        "birthplace": "Rio de Janeiro, Brazil",
+        "timezone": "America/Sao_Paulo"
+      }
+    },
+    {
+      "id": "R024",
+      "type": "random_calibration",
+      "label": "Random calibration sample 24",
+      "input": {
+        "dob": "1974-02-15",
+        "tob": "10:06",
+        "gender": "male",
+        "birthplace": "Guangzhou, Guangdong, China",
+        "timezone": "Asia/Shanghai"
+      }
+    },
+    {
+      "id": "R025",
+      "type": "random_calibration",
+      "label": "Random calibration sample 25",
+      "input": {
+        "dob": "1987-01-02",
+        "tob": "16:05",
+        "gender": "male",
+        "birthplace": "Guangzhou, Guangdong, China",
+        "timezone": "Asia/Shanghai"
+      }
+    },
+    {
+      "id": "R026",
+      "type": "random_calibration",
+      "label": "Random calibration sample 26",
+      "input": {
+        "dob": "2021-03-12",
+        "tob": "07:08",
+        "gender": "female",
+        "birthplace": "London, England, UK",
+        "timezone": "Europe/London"
+      }
+    },
+    {
+      "id": "R027",
+      "type": "random_calibration",
+      "label": "Random calibration sample 27",
+      "input": {
+        "dob": "1906-01-08",
+        "tob": "08:24",
+        "gender": "female",
+        "birthplace": "Toronto, Ontario, Canada",
+        "timezone": "America/Toronto"
+      }
+    },
+    {
+      "id": "R028",
+      "type": "random_calibration",
+      "label": "Random calibration sample 28",
+      "input": {
+        "dob": "2050-04-14",
+        "tob": "06:44",
+        "gender": "male",
+        "birthplace": "Melbourne, Victoria, Australia",
+        "timezone": "Australia/Melbourne"
+      }
+    },
+    {
+      "id": "R029",
+      "type": "random_calibration",
+      "label": "Random calibration sample 29",
+      "input": {
+        "dob": "1932-02-19",
+        "tob": "00:27",
+        "gender": "male",
+        "birthplace": "Toronto, Ontario, Canada",
+        "timezone": "America/Toronto"
+      }
+    },
+    {
+      "id": "R030",
+      "type": "random_calibration",
+      "label": "Random calibration sample 30",
+      "input": {
+        "dob": "1981-12-12",
+        "tob": "09:44",
+        "gender": "female",
+        "birthplace": "Rio de Janeiro, Brazil",
+        "timezone": "America/Sao_Paulo"
+      }
+    },
+    {
+      "id": "R031",
+      "type": "random_calibration",
+      "label": "Random calibration sample 31",
+      "input": {
+        "dob": "1998-04-19",
+        "tob": "06:43",
+        "gender": "female",
+        "birthplace": "Hong Kong, China",
+        "timezone": "Asia/Hong_Kong"
+      }
+    },
+    {
+      "id": "R032",
+      "type": "random_calibration",
+      "label": "Random calibration sample 32",
+      "input": {
+        "dob": "1949-03-13",
+        "tob": "16:55",
+        "gender": "female",
+        "birthplace": "Beijing, China",
+        "timezone": "Asia/Shanghai"
+      }
+    },
+    {
+      "id": "R033",
+      "type": "random_calibration",
+      "label": "Random calibration sample 33",
+      "input": {
+        "dob": "1928-07-29",
+        "tob": "22:27",
+        "gender": "male",
+        "birthplace": "Hong Kong, China",
+        "timezone": "Asia/Hong_Kong"
+      }
+    },
+    {
+      "id": "R034",
+      "type": "random_calibration",
+      "label": "Random calibration sample 34",
+      "input": {
+        "dob": "2066-03-27",
+        "tob": "01:38",
+        "gender": "male",
+        "birthplace": "Guangzhou, Guangdong, China",
+        "timezone": "Asia/Shanghai"
+      }
+    },
+    {
+      "id": "R035",
+      "type": "random_calibration",
+      "label": "Random calibration sample 35",
+      "input": {
+        "dob": "2012-11-02",
+        "tob": "04:15",
+        "gender": "female",
+        "birthplace": "New York, New York, USA",
+        "timezone": "America/New_York"
+      }
+    },
+    {
+      "id": "R036",
+      "type": "random_calibration",
+      "label": "Random calibration sample 36",
+      "input": {
+        "dob": "1981-06-13",
+        "tob": "10:21",
+        "gender": "male",
+        "birthplace": "Taipei, Taiwan",
+        "timezone": "Asia/Taipei"
+      }
+    },
+    {
+      "id": "R037",
+      "type": "random_calibration",
+      "label": "Random calibration sample 37",
+      "input": {
+        "dob": "1956-06-12",
+        "tob": "17:35",
+        "gender": "female",
+        "birthplace": "Beijing, China",
+        "timezone": "Asia/Shanghai"
+      }
+    },
+    {
+      "id": "R038",
+      "type": "random_calibration",
+      "label": "Random calibration sample 38",
+      "input": {
+        "dob": "2052-11-11",
+        "tob": "08:12",
+        "gender": "female",
+        "birthplace": "London, England, UK",
+        "timezone": "Europe/London"
+      }
+    },
+    {
+      "id": "R039",
+      "type": "random_calibration",
+      "label": "Random calibration sample 39",
+      "input": {
+        "dob": "2051-10-21",
+        "tob": "23:26",
+        "gender": "male",
+        "birthplace": "Rio de Janeiro, Brazil",
+        "timezone": "America/Sao_Paulo"
+      }
+    },
+    {
+      "id": "R040",
+      "type": "random_calibration",
+      "label": "Random calibration sample 40",
+      "input": {
+        "dob": "2096-01-28",
+        "tob": "08:37",
+        "gender": "male",
+        "birthplace": "Melbourne, Victoria, Australia",
+        "timezone": "Australia/Melbourne"
+      }
+    }
+  ]
+}

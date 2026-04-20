@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "elements": [
+    {
+      "key": "wood",
+      "label_zh": "木",
+      "themes": ["growth", "direction", "initiative"],
+      "supportive_states": ["planning", "starting", "reframing"],
+      "excess_signals": ["impatience", "over-pushing", "restlessness"],
+      "deficiency_signals": ["stagnation", "low initiative", "indecision"],
+      "when_dominant": ["expansion", "self-driven motion", "future orientation"],
+      "when_mainline": ["growth pressure defines the whole situation", "direction-setting is the first problem to solve"],
+      "when_background": ["supports planning but does not decide the outcome", "shows up as momentum support for another stronger line"],
+      "when_supported": ["steady growth", "clear direction", "constructive action"],
+      "when_disrupted": ["directional confusion", "strained effort", "growth without structure"],
+      "restoring_actions": ["break large goals into clear steps", "move the body before forcing decisions", "pair initiative with feedback"]
+    },
+    {
+      "key": "fire",
+      "label_zh": "火",
+      "themes": ["expression", "visibility", "enthusiasm"],
+      "supportive_states": ["social connection", "presentation", "celebration"],
+      "excess_signals": ["reactivity", "drama", "impulse"],
+      "deficiency_signals": ["flat mood", "low warmth", "low confidence"],
+      "when_dominant": ["visibility", "momentum", "strong emotional coloration"],
+      "when_mainline": ["expression and exposure decide success or failure", "the chart/event turns on being seen, felt, or activated"],
+      "when_background": ["adds warmth or visibility to an already-formed path", "colors tone without owning the structure"],
+      "when_supported": ["healthy expression", "confidence", "warm leadership"],
+      "when_disrupted": ["burnout", "attention scattering", "emotion running ahead of judgment"],
+      "restoring_actions": ["reduce performative pressure", "channel energy into one visible priority", "cool down before reacting"]
+    },
+    {
+      "key": "earth",
+      "label_zh": "土",
+      "themes": ["stability", "grounding", "containment"],
+      "supportive_states": ["routine", "recovery", "organization"],
+      "excess_signals": ["heaviness", "slowness", "mental stuckness"],
+      "deficiency_signals": ["instability", "poor pacing", "worry"],
+      "when_dominant": ["holding", "buffering", "carrying responsibility"],
+      "when_mainline": ["containment and load-bearing decide whether anything holds", "the core issue is support, pacing, or structural capacity"],
+      "when_background": ["provides ballast for another active line", "shows up as support, recovery, or buffering rather than direction"],
+      "when_supported": ["consistency", "good pacing", "reliable follow-through"],
+      "when_disrupted": ["drag", "over-containment", "difficulty changing course"],
+      "restoring_actions": ["simplify commitments", "restore routine", "trade intensity for steadiness"]
+    },
+    {
+      "key": "metal",
+      "label_zh": "金",
+      "themes": ["clarity", "standards", "structure"],
+      "supportive_states": ["editing", "decisions", "boundaries"],
+      "excess_signals": ["harshness", "over-criticism", "coldness"],
+      "deficiency_signals": ["blurred priorities", "weak discipline", "hesitation"],
+      "when_dominant": ["cutting through noise", "judgment", "enforcement of standards"],
+      "when_mainline": ["clarity, standards, and selection decide the outcome", "the key task is cutting, editing, or enforcing order"],
+      "when_background": ["adds structure to another dominant movement", "works as refinement, boundary, or quality control support"],
+      "when_supported": ["precision", "healthy boundaries", "clean execution"],
+      "when_disrupted": ["rigidity", "friction", "overcorrection"],
+      "restoring_actions": ["narrow priorities", "say no earlier", "replace criticism with criteria"]
+    },
+    {
+      "key": "water",
+      "label_zh": "水",
+      "themes": ["reflection", "adaptation", "intuition"],
+      "supportive_states": ["research", "strategy", "restoration"],
+      "excess_signals": ["avoidance", "overthinking", "drift"],
+      "deficiency_signals": ["poor intuition", "mental dryness", "stress rigidity"],
+      "when_dominant": ["flexibility", "observation", "deep processing"],
+      "when_mainline": ["timing, adaptation, and hidden movement decide the path", "the key task is reading flow before acting"],
+      "when_background": ["supports strategy behind a more visible line", "appears as timing sense, buffering, or reflective depth"],
+      "when_supported": ["good timing sense", "inner steadiness", "strategic patience"],
+      "when_disrupted": ["indirectness", "emotional flooding", "loss of traction"],
+      "restoring_actions": ["slow the pace before choosing", "write down emerging patterns", "pair reflection with one concrete move"]
+    }
+  ]
+}

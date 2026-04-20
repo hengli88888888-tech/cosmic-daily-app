@@ -1,0 +1,1985 @@
+{
+  "version": 1,
+  "updated_at": "2026-03-26T00:06:18.452696+00:00",
+  "primary_teacher": "钟波",
+  "notes": [
+    {
+      "id": "qimen-term-3f065fcd3d",
+      "title": "翻宫",
+      "question_type": "general",
+      "source_type": "video_segment",
+      "source_teacher": "文艺复兴",
+      "source_course_or_book": "文易复兴奇门案例 / 文易复兴2022年第五期奇门遁甲实战训练营",
+      "source_lesson_title": "09、【实战特训营第五期第八卦直播】韩狮虎.mp4",
+      "source_ref": "data/reviewed-rules/qimen-ingestion-drafts/文艺复兴/文易复兴奇门案例--文易复兴2022年第五期奇门遁甲实战训练营/20260317-161237-bfe957-09实战特训营第五期第八卦直播韩狮虎/0016.json",
+      "evidence_refs": [
+        "data/reviewed-rules/qimen-ingestion-drafts/文艺复兴/文易复兴奇门案例--文易复兴2022年第五期奇门遁甲实战训练营/20260317-161237-bfe957-09实战特训营第五期第八卦直播韩狮虎/0016.json",
+        "data/reviewed-rules/qimen-ingestion-drafts/文艺复兴/文易复兴奇门案例--文易复兴2022年第五期奇门遁甲实战训练营/20260317-161237-bfe957-09实战特训营第五期第八卦直播韩狮虎/0009.json",
+        "/Users/liheng/Desktop/cosmic-daily-app/data/extracted-notes/keyframes/qimen/文艺复兴/文易复兴奇门案例--文易复兴2022年第五期奇门遁甲实战训练营/20260317-161237-bfe957-09实战特训营第五期第八卦直播韩狮虎/interval/interval-00018.jpg",
+        "/Users/liheng/Desktop/cosmic-daily-app/data/extracted-notes/keyframes/qimen/文艺复兴/文易复兴奇门案例--文易复兴2022年第五期奇门遁甲实战训练营/20260317-161237-bfe957-09实战特训营第五期第八卦直播韩狮虎/scene/scene-00006.jpg",
+        "/Users/liheng/Desktop/cosmic-daily-app/data/extracted-notes/keyframes/qimen/文艺复兴/文易复兴奇门案例--文易复兴2022年第五期奇门遁甲实战训练营/20260317-161237-bfe957-09实战特训营第五期第八卦直播韩狮虎/interval/interval-00019.jpg"
+      ],
+      "teacher_priority": 0.62,
+      "confidence": 0.66,
+      "knowledge_tier": "reference",
+      "term": "翻宫",
+      "normalized_term": "翻宫",
+      "aliases": [],
+      "term_note": "gers 是有这种可能性的 我觉得这个想法挺好 是值得参考的 然后紧接着 这个我们来看一下 空王的话 我当时还是看了先天工位的 有个小福音嘛 这个小反应嘛 小反应能量不够大 我看先天工位 你看 物为沐浴 不切实际的想法是吧 又跟钱相关的 跟 跟银子相关的 不切实际的想法 正好又是",
+      "usage_note": "视频用于保留老师的口语用法，文档用于稳定术语写法。",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "qimen-term-a6b0a1317f",
+      "title": "地盘",
+      "question_type": "general",
+      "source_type": "document",
+      "source_teacher": "王兴兵",
+      "source_course_or_book": "王兴兵-易宇山人",
+      "source_lesson_title": "王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+      "source_ref": "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+      "evidence_refs": [
+        "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+        "extract:page_ocr_cache"
+      ],
+      "teacher_priority": 0.62,
+      "confidence": 0.78,
+      "knowledge_tier": "support",
+      "term": "地盘",
+      "normalized_term": "地盘",
+      "aliases": [],
+      "term_note": "如果地盘宫克天盘星；天和郴为天芮星；如地条为震三宫",
+      "usage_note": "视频用于保留老师的口语用法，文档用于稳定术语写法。",
+      "tags": [
+        "general"
+      ],
+      "source_section_title": "王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+      "source_section_anchor": "full-document"
+    },
+    {
+      "id": "qimen-term-9138a68090",
+      "title": "天盘",
+      "question_type": "general",
+      "source_type": "document",
+      "source_teacher": "王兴兵",
+      "source_course_or_book": "王兴兵-易宇山人",
+      "source_lesson_title": "王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+      "source_ref": "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+      "evidence_refs": [
+        "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+        "extract:page_ocr_cache"
+      ],
+      "teacher_priority": 0.62,
+      "confidence": 0.78,
+      "knowledge_tier": "support",
+      "term": "天盘",
+      "normalized_term": "天盘",
+      "aliases": [],
+      "term_note": "如果地盘宫克天盘星；天和郴为天芮星；如地条为震三宫",
+      "usage_note": "视频用于保留老师的口语用法，文档用于稳定术语写法。",
+      "tags": [
+        "general"
+      ],
+      "source_section_title": "王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+      "source_section_anchor": "full-document"
+    },
+    {
+      "id": "qimen-term-f9f848c4c6",
+      "title": "时干",
+      "question_type": "general",
+      "source_type": "document",
+      "source_teacher": "王兴兵",
+      "source_course_or_book": "王兴兵-易宇山人",
+      "source_lesson_title": "王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+      "source_ref": "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+      "evidence_refs": [
+        "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+        "extract:page_ocr_cache"
+      ],
+      "teacher_priority": 0.62,
+      "confidence": 0.78,
+      "knowledge_tier": "support",
+      "term": "时干",
+      "normalized_term": "时干",
+      "aliases": [],
+      "term_note": "日于落 离宫；如果不是外出而是做事；了时干(或对方) 落坎富",
+      "usage_note": "视频用于保留老师的口语用法，文档用于稳定术语写法。",
+      "tags": [
+        "general"
+      ],
+      "source_section_title": "王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+      "source_section_anchor": "full-document"
+    },
+    {
+      "id": "qimen-term-6c04dc5ceb",
+      "title": "空亡",
+      "question_type": "general",
+      "source_type": "document",
+      "source_teacher": "王兴兵",
+      "source_course_or_book": "王兴兵-易宇山人",
+      "source_lesson_title": "王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+      "source_ref": "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+      "evidence_refs": [
+        "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+        "extract:page_ocr_cache"
+      ],
+      "teacher_priority": 0.62,
+      "confidence": 0.78,
+      "knowledge_tier": "support",
+      "term": "空亡",
+      "normalized_term": "空亡",
+      "aliases": [],
+      "term_note": "如果地郴宫落空亡；此人的确不在；当然也不可能见到",
+      "usage_note": "视频用于保留老师的口语用法，文档用于稳定术语写法。",
+      "tags": [
+        "general"
+      ],
+      "source_section_title": "王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+      "source_section_anchor": "full-document"
+    },
+    {
+      "id": "qimen-term-da790ad52b",
+      "title": "九宫",
+      "question_type": "general",
+      "source_type": "document",
+      "source_teacher": "王兴兵",
+      "source_course_or_book": "王兴兵-易宇山人",
+      "source_lesson_title": "王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+      "source_ref": "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+      "evidence_refs": [
+        "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+        "extract:page_ocr_cache"
+      ],
+      "teacher_priority": 0.62,
+      "confidence": 0.72,
+      "knowledge_tier": "support",
+      "term": "九宫",
+      "normalized_term": "九宫",
+      "aliases": [],
+      "term_note": "例如天攻星加离九宫；恰值对间是十一月亥日；北方有 黑色云气而素",
+      "usage_note": "视频用于保留老师的口语用法，文档用于稳定术语写法。",
+      "tags": [
+        "general"
+      ],
+      "source_section_title": "王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+      "source_section_anchor": "full-document"
+    },
+    {
+      "id": "qimen-term-f5a596723d",
+      "title": "九宫",
+      "question_type": "general",
+      "source_type": "document",
+      "source_teacher": "王兴兵",
+      "source_course_or_book": "王兴兵-易宇山人",
+      "source_lesson_title": "王兴兵-易宇山人《奇门遁甲预测应用》300页--彩扫--400线.pdf",
+      "source_ref": "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测应用》300页--彩扫--400线.pdf",
+      "evidence_refs": [
+        "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测应用》300页--彩扫--400线.pdf",
+        "extract:page_ocr_cache"
+      ],
+      "teacher_priority": 0.62,
+      "confidence": 0.72,
+      "knowledge_tier": "support",
+      "term": "九宫",
+      "normalized_term": "九宫",
+      "aliases": [],
+      "term_note": "SER；AM；f mAs LRERA-SAE",
+      "usage_note": "视频用于保留老师的口语用法，文档用于稳定术语写法。",
+      "tags": [
+        "general"
+      ],
+      "source_section_title": "分类预测",
+      "source_section_anchor": "classification-methods"
+    },
+    {
+      "id": "qimen-term-1bbafd46ff",
+      "title": "九宫",
+      "question_type": "general",
+      "source_type": "document",
+      "source_teacher": "王兴兵",
+      "source_course_or_book": "王兴兵-易宇山人",
+      "source_lesson_title": "王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+      "source_ref": "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+      "evidence_refs": [
+        "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+        "extract:page_ocr_cache"
+      ],
+      "teacher_priority": 0.62,
+      "confidence": 0.72,
+      "knowledge_tier": "support",
+      "term": "九宫",
+      "normalized_term": "九宫",
+      "aliases": [],
+      "term_note": "上元第1天 BENATAR Bene ”值符天英落四宫 值使景门落九宫 电话；2014 £06 Al 06 B02 At 32 BE；20144067 218 19# 214 本节气上元第一天为",
+      "usage_note": "视频用于保留老师的口语用法，文档用于稳定术语写法。",
+      "tags": [
+        "general"
+      ],
+      "source_section_title": "王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+      "source_section_anchor": "full-document"
+    },
+    {
+      "id": "qimen-term-eb7ca010e0",
+      "title": "人盘",
+      "question_type": "general",
+      "source_type": "document",
+      "source_teacher": "王兴兵",
+      "source_course_or_book": "王兴兵-易宇山人",
+      "source_lesson_title": "王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+      "source_ref": "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+      "evidence_refs": [
+        "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+        "extract:page_ocr_cache"
+      ],
+      "teacher_priority": 0.62,
+      "confidence": 0.72,
+      "knowledge_tier": "support",
+      "term": "人盘",
+      "normalized_term": "人盘",
+      "aliases": [],
+      "term_note": "大人盘九星反吟；八门伏吟；反吟不太稳定",
+      "usage_note": "视频用于保留老师的口语用法，文档用于稳定术语写法。",
+      "tags": [
+        "general"
+      ],
+      "source_section_title": "王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+      "source_section_anchor": "full-document"
+    },
+    {
+      "id": "qimen-term-a91c8219f6",
+      "title": "伏吟",
+      "question_type": "general",
+      "source_type": "document",
+      "source_teacher": "王兴兵",
+      "source_course_or_book": "王兴兵-易宇山人",
+      "source_lesson_title": "王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+      "source_ref": "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+      "evidence_refs": [
+        "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+        "extract:page_ocr_cache"
+      ],
+      "teacher_priority": 0.62,
+      "confidence": 0.72,
+      "knowledge_tier": "support",
+      "term": "伏吟",
+      "normalized_term": "伏吟",
+      "aliases": [],
+      "term_note": "生着生 日、旺头旺日、需克选克日、受克选通关、伏吟选冲日、反吟选合日",
+      "usage_note": "视频用于保留老师的口语用法，文档用于稳定术语写法。",
+      "tags": [
+        "general"
+      ],
+      "source_section_title": "王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+      "source_section_anchor": "full-document"
+    },
+    {
+      "id": "qimen-term-47e6222fe1",
+      "title": "伏吟",
+      "question_type": "general",
+      "source_type": "document",
+      "source_teacher": "王兴兵",
+      "source_course_or_book": "王兴兵-易宇山人",
+      "source_lesson_title": "王兴兵-易宇山人《奇门遁甲预测应用》300页--彩扫--400线.pdf",
+      "source_ref": "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测应用》300页--彩扫--400线.pdf",
+      "evidence_refs": [
+        "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测应用》300页--彩扫--400线.pdf",
+        "extract:page_ocr_cache"
+      ],
+      "teacher_priority": 0.62,
+      "confidence": 0.72,
+      "knowledge_tier": "support",
+      "term": "伏吟",
+      "normalized_term": "伏吟",
+      "aliases": [],
+      "term_note": "伏吟和买货；TAD；AFERLY-BOAEAMA. 买货有有",
+      "usage_note": "视频用于保留老师的口语用法，文档用于稳定术语写法。",
+      "tags": [
+        "general"
+      ],
+      "source_section_title": "分类预测",
+      "source_section_anchor": "classification-methods"
+    },
+    {
+      "id": "qimen-term-d9c35d2ab5",
+      "title": "伏吟",
+      "question_type": "general",
+      "source_type": "document",
+      "source_teacher": "王兴兵",
+      "source_course_or_book": "王兴兵-易宇山人",
+      "source_lesson_title": "王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+      "source_ref": "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+      "evidence_refs": [
+        "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+        "extract:page_ocr_cache"
+      ],
+      "teacher_priority": 0.62,
+      "confidence": 0.72,
+      "knowledge_tier": "support",
+      "term": "伏吟",
+      "normalized_term": "伏吟",
+      "aliases": [],
+      "term_note": "八门伏吟；日于落外盘；主慢",
+      "usage_note": "视频用于保留老师的口语用法，文档用于稳定术语写法。",
+      "tags": [
+        "general"
+      ],
+      "source_section_title": "王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+      "source_section_anchor": "full-document"
+    },
+    {
+      "id": "qimen-term-df64b56333",
+      "title": "休门",
+      "question_type": "general",
+      "source_type": "document",
+      "source_teacher": "王兴兵",
+      "source_course_or_book": "王兴兵-易宇山人",
+      "source_lesson_title": "王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+      "source_ref": "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+      "evidence_refs": [
+        "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+        "extract:page_ocr_cache"
+      ],
+      "teacher_priority": 0.62,
+      "confidence": 0.72,
+      "knowledge_tier": "support",
+      "term": "休门",
+      "normalized_term": "休门",
+      "aliases": [],
+      "term_note": "分析拓二(或悦二、必神)富天费干、地毁于五行生克；八门当中；伤门、开门剩客",
+      "usage_note": "视频用于保留老师的口语用法，文档用于稳定术语写法。",
+      "tags": [
+        "general"
+      ],
+      "source_section_title": "王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+      "source_section_anchor": "full-document"
+    },
+    {
+      "id": "qimen-term-9b29019ecf",
+      "title": "休门",
+      "question_type": "general",
+      "source_type": "document",
+      "source_teacher": "王兴兵",
+      "source_course_or_book": "王兴兵-易宇山人",
+      "source_lesson_title": "王兴兵-易宇山人《奇门遁甲预测应用》300页--彩扫--400线.pdf",
+      "source_ref": "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测应用》300页--彩扫--400线.pdf",
+      "evidence_refs": [
+        "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测应用》300页--彩扫--400线.pdf",
+        "extract:page_ocr_cache"
+      ],
+      "teacher_priority": 0.62,
+      "confidence": 0.72,
+      "knowledge_tier": "support",
+      "term": "休门",
+      "normalized_term": "休门",
+      "aliases": [],
+      "term_note": "//w. zyamdj. com AVP Ae ERA BB AFA 休门为人豪部门；120472834eqq.com idk；http",
+      "usage_note": "视频用于保留老师的口语用法，文档用于稳定术语写法。",
+      "tags": [
+        "general"
+      ],
+      "source_section_title": "分类预测",
+      "source_section_anchor": "classification-methods"
+    },
+    {
+      "id": "qimen-term-7fcdcb7ac3",
+      "title": "休门",
+      "question_type": "general",
+      "source_type": "document",
+      "source_teacher": "王兴兵",
+      "source_course_or_book": "王兴兵-易宇山人",
+      "source_lesson_title": "王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+      "source_ref": "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+      "evidence_refs": [
+        "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+        "extract:page_ocr_cache"
+      ],
+      "teacher_priority": 0.62,
+      "confidence": 0.72,
+      "knowledge_tier": "support",
+      "term": "休门",
+      "normalized_term": "休门",
+      "aliases": [],
+      "term_note": "转盘奇门 - PERAK Bt le]；方式；2014 #05 A 08 B10 By 22 农历",
+      "usage_note": "视频用于保留老师的口语用法，文档用于稳定术语写法。",
+      "tags": [
+        "general"
+      ],
+      "source_section_title": "王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+      "source_section_anchor": "full-document"
+    },
+    {
+      "id": "qimen-term-918dc52709",
+      "title": "伤门",
+      "question_type": "general",
+      "source_type": "document",
+      "source_teacher": "王兴兵",
+      "source_course_or_book": "王兴兵-易宇山人",
+      "source_lesson_title": "王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+      "source_ref": "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+      "evidence_refs": [
+        "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+        "extract:page_ocr_cache"
+      ],
+      "teacher_priority": 0.62,
+      "confidence": 0.72,
+      "knowledge_tier": "support",
+      "term": "伤门",
+      "normalized_term": "伤门",
+      "aliases": [],
+      "term_note": "伤门；站门有隐藏的意思；适合隐身藏形、躲灾避难",
+      "usage_note": "视频用于保留老师的口语用法，文档用于稳定术语写法。",
+      "tags": [
+        "general"
+      ],
+      "source_section_title": "王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+      "source_section_anchor": "full-document"
+    },
+    {
+      "id": "qimen-term-186a8eb1ac",
+      "title": "伤门",
+      "question_type": "general",
+      "source_type": "document",
+      "source_teacher": "王兴兵",
+      "source_course_or_book": "王兴兵-易宇山人",
+      "source_lesson_title": "王兴兵-易宇山人《奇门遁甲预测应用》300页--彩扫--400线.pdf",
+      "source_ref": "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测应用》300页--彩扫--400线.pdf",
+      "evidence_refs": [
+        "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测应用》300页--彩扫--400线.pdf",
+        "extract:page_ocr_cache"
+      ],
+      "teacher_priority": 0.62,
+      "confidence": 0.72,
+      "knowledge_tier": "support",
+      "term": "伤门",
+      "normalized_term": "伤门",
+      "aliases": [],
+      "term_note": "天黄星落跨宫；有伤门或庚一般是 动脑筋多；若着击刑别动脑筋太劳尼了",
+      "usage_note": "视频用于保留老师的口语用法，文档用于稳定术语写法。",
+      "tags": [
+        "general"
+      ],
+      "source_section_title": "分类预测",
+      "source_section_anchor": "classification-methods"
+    },
+    {
+      "id": "qimen-term-2644d0f6a9",
+      "title": "伤门",
+      "question_type": "general",
+      "source_type": "document",
+      "source_teacher": "王兴兵",
+      "source_course_or_book": "王兴兵-易宇山人",
+      "source_lesson_title": "王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+      "source_ref": "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+      "evidence_refs": [
+        "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+        "extract:page_ocr_cache"
+      ],
+      "teacher_priority": 0.62,
+      "confidence": 0.72,
+      "knowledge_tier": "support",
+      "term": "伤门",
+      "normalized_term": "伤门",
+      "aliases": [],
+      "term_note": "= fee |Z 值符 IT 九天@〇马| | RE KI 天冲 al 天办 mK | |天 伤门 成|地 #N ELA 景门 KI 普-一-一|一 |一| |x 太阴 OIF |己 AMO | | RE #| | 天英 £| |符 生门 al 乙|白 死门 丁| —— |X K",
+      "usage_note": "视频用于保留老师的口语用法，文档用于稳定术语写法。",
+      "tags": [
+        "general"
+      ],
+      "source_section_title": "王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+      "source_section_anchor": "full-document"
+    },
+    {
+      "id": "qimen-term-bca133b0f2",
+      "title": "值使",
+      "question_type": "general",
+      "source_type": "document",
+      "source_teacher": "王兴兵",
+      "source_course_or_book": "王兴兵-易宇山人",
+      "source_lesson_title": "王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+      "source_ref": "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+      "evidence_refs": [
+        "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+        "extract:page_ocr_cache"
+      ],
+      "teacher_priority": 0.62,
+      "confidence": 0.72,
+      "knowledge_tier": "support",
+      "term": "值使",
+      "normalized_term": "值使",
+      "aliases": [],
+      "term_note": "值使为与这吉有关的直接执行者",
+      "usage_note": "视频用于保留老师的口语用法，文档用于稳定术语写法。",
+      "tags": [
+        "general"
+      ],
+      "source_section_title": "王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+      "source_section_anchor": "full-document"
+    },
+    {
+      "id": "qimen-term-b71d4d407a",
+      "title": "值使",
+      "question_type": "general",
+      "source_type": "document",
+      "source_teacher": "王兴兵",
+      "source_course_or_book": "王兴兵-易宇山人",
+      "source_lesson_title": "王兴兵-易宇山人《奇门遁甲预测应用》300页--彩扫--400线.pdf",
+      "source_ref": "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测应用》300页--彩扫--400线.pdf",
+      "evidence_refs": [
+        "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测应用》300页--彩扫--400线.pdf",
+        "extract:page_ocr_cache"
+      ],
+      "teacher_priority": 0.62,
+      "confidence": 0.72,
+      "knowledge_tier": "support",
+      "term": "值使",
+      "normalized_term": "值使",
+      "aliases": [],
+      "term_note": "值符代表他的计划、方向、思想精神；不要分不清到底是值符、还是什 使代表他；值使伐表笔的执行能力",
+      "usage_note": "视频用于保留老师的口语用法，文档用于稳定术语写法。",
+      "tags": [
+        "general"
+      ],
+      "source_section_title": "分类预测",
+      "source_section_anchor": "classification-methods"
+    },
+    {
+      "id": "qimen-term-47bba23c9f",
+      "title": "值使",
+      "question_type": "general",
+      "source_type": "document",
+      "source_teacher": "王兴兵",
+      "source_course_or_book": "王兴兵-易宇山人",
+      "source_lesson_title": "王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+      "source_ref": "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+      "evidence_refs": [
+        "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+        "extract:page_ocr_cache"
+      ],
+      "teacher_priority": 0.62,
+      "confidence": 0.72,
+      "knowledge_tier": "support",
+      "term": "值使",
+      "normalized_term": "值使",
+      "aliases": [],
+      "term_note": "下元第2天 丁亥时名首为庚 Fae 值符天芮落六宫“”值使死门落五宫 rr”和Tv Il | 白虎 | 玄武 | AM | | HI] Z| #1 =| 死门 £] | Ke £| 天冲 上成| Kem 庚| 站 | 六合 | | 九天 | | 伤门 al | 惊门 成| | K",
+      "usage_note": "视频用于保留老师的口语用法，文档用于稳定术语写法。",
+      "tags": [
+        "general"
+      ],
+      "source_section_title": "王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+      "source_section_anchor": "full-document"
+    },
+    {
+      "id": "qimen-term-3f6746b044",
+      "title": "值符",
+      "question_type": "general",
+      "source_type": "document",
+      "source_teacher": "王兴兵",
+      "source_course_or_book": "王兴兵-易宇山人",
+      "source_lesson_title": "王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+      "source_ref": "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+      "evidence_refs": [
+        "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+        "extract:page_ocr_cache"
+      ],
+      "teacher_priority": 0.62,
+      "confidence": 0.72,
+      "knowledge_tier": "support",
+      "term": "值符",
+      "normalized_term": "值符",
+      "aliases": [],
+      "term_note": "和急则从神组从门 《烟波钓中歌》写到；“和急则从神缓从门”；《奇门通甲统宗》说",
+      "usage_note": "视频用于保留老师的口语用法，文档用于稳定术语写法。",
+      "tags": [
+        "general"
+      ],
+      "source_section_title": "王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+      "source_section_anchor": "full-document"
+    },
+    {
+      "id": "qimen-term-a2e8cb8778",
+      "title": "值符",
+      "question_type": "general",
+      "source_type": "document",
+      "source_teacher": "王兴兵",
+      "source_course_or_book": "王兴兵-易宇山人",
+      "source_lesson_title": "王兴兵-易宇山人《奇门遁甲预测应用》300页--彩扫--400线.pdf",
+      "source_ref": "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测应用》300页--彩扫--400线.pdf",
+      "evidence_refs": [
+        "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测应用》300页--彩扫--400线.pdf",
+        "extract:page_ocr_cache"
+      ],
+      "teacher_priority": 0.62,
+      "confidence": 0.72,
+      "knowledge_tier": "support",
+      "term": "值符",
+      "normalized_term": "值符",
+      "aliases": [],
+      "term_note": "//w. zyqmdj.com 奇门通甲教程 王兴兵 bb；200 'RiG；18786686361 i274",
+      "usage_note": "视频用于保留老师的口语用法，文档用于稳定术语写法。",
+      "tags": [
+        "general",
+        "year_ming_anchor"
+      ],
+      "source_section_title": "分类预测",
+      "source_section_anchor": "classification-methods"
+    },
+    {
+      "id": "qimen-term-964ae200fb",
+      "title": "值符",
+      "question_type": "general",
+      "source_type": "document",
+      "source_teacher": "王兴兵",
+      "source_course_or_book": "王兴兵-易宇山人",
+      "source_lesson_title": "王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+      "source_ref": "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+      "evidence_refs": [
+        "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+        "extract:page_ocr_cache"
+      ],
+      "teacher_priority": 0.62,
+      "confidence": 0.72,
+      "knowledge_tier": "support",
+      "term": "值符",
+      "normalized_term": "值符",
+      "aliases": [],
+      "term_note": "FRE FE BS PHS 值符；对50分41秒了4局 Fx；ALS *#BA ZEA 壬午时 Qe",
+      "usage_note": "视频用于保留老师的口语用法，文档用于稳定术语写法。",
+      "tags": [
+        "general"
+      ],
+      "source_section_title": "王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+      "source_section_anchor": "full-document"
+    },
+    {
+      "id": "qimen-term-72cc76e604",
+      "title": "击刑",
+      "question_type": "general",
+      "source_type": "document",
+      "source_teacher": "王兴兵",
+      "source_course_or_book": "王兴兵-易宇山人",
+      "source_lesson_title": "王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+      "source_ref": "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+      "evidence_refs": [
+        "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+        "extract:page_ocr_cache"
+      ],
+      "teacher_priority": 0.62,
+      "confidence": 0.72,
+      "knowledge_tier": "support",
+      "term": "击刑",
+      "normalized_term": "击刑",
+      "aliases": [],
+      "term_note": "还 是以值符为原告落坤宫；克天乙为被告落坎宫为例；这种情况除了可以使用乾宫 竞宫来盘关之外",
+      "usage_note": "视频用于保留老师的口语用法，文档用于稳定术语写法。",
+      "tags": [
+        "general"
+      ],
+      "source_section_title": "王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+      "source_section_anchor": "full-document"
+    },
+    {
+      "id": "qimen-term-ed92571707",
+      "title": "击刑",
+      "question_type": "general",
+      "source_type": "document",
+      "source_teacher": "王兴兵",
+      "source_course_or_book": "王兴兵-易宇山人",
+      "source_lesson_title": "王兴兵-易宇山人《奇门遁甲预测应用》300页--彩扫--400线.pdf",
+      "source_ref": "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测应用》300页--彩扫--400线.pdf",
+      "evidence_refs": [
+        "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测应用》300页--彩扫--400线.pdf",
+        "extract:page_ocr_cache"
+      ],
+      "teacher_priority": 0.62,
+      "confidence": 0.72,
+      "knowledge_tier": "support",
+      "term": "击刑",
+      "normalized_term": "击刑",
+      "aliases": [],
+      "term_note": "天黄星落跨宫；有伤门或庚一般是 动脑筋多；若着击刑别动脑筋太劳尼了",
+      "usage_note": "视频用于保留老师的口语用法，文档用于稳定术语写法。",
+      "tags": [
+        "general"
+      ],
+      "source_section_title": "分类预测",
+      "source_section_anchor": "classification-methods"
+    },
+    {
+      "id": "qimen-term-11c7689b84",
+      "title": "击刑",
+      "question_type": "general",
+      "source_type": "document",
+      "source_teacher": "王兴兵",
+      "source_course_or_book": "王兴兵-易宇山人",
+      "source_lesson_title": "王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+      "source_ref": "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+      "evidence_refs": [
+        "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+        "extract:page_ocr_cache"
+      ],
+      "teacher_priority": 0.62,
+      "confidence": 0.72,
+      "knowledge_tier": "support",
+      "term": "击刑",
+      "normalized_term": "击刑",
+      "aliases": [],
+      "term_note": "你的落宫击刑；说明你现在因为这个事；有不少烦恼",
+      "usage_note": "视频用于保留老师的口语用法，文档用于稳定术语写法。",
+      "tags": [
+        "general"
+      ],
+      "source_section_title": "王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+      "source_section_anchor": "full-document"
+    },
+    {
+      "id": "qimen-term-e481de483e",
+      "title": "反吟",
+      "question_type": "general",
+      "source_type": "document",
+      "source_teacher": "王兴兵",
+      "source_course_or_book": "王兴兵-易宇山人",
+      "source_lesson_title": "王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+      "source_ref": "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+      "evidence_refs": [
+        "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+        "extract:page_ocr_cache"
+      ],
+      "teacher_priority": 0.62,
+      "confidence": 0.72,
+      "knowledge_tier": "support",
+      "term": "反吟",
+      "normalized_term": "反吟",
+      "aliases": [],
+      "term_note": "生着生 日、旺头旺日、需克选克日、受克选通关、伏吟选冲日、反吟选合日",
+      "usage_note": "视频用于保留老师的口语用法，文档用于稳定术语写法。",
+      "tags": [
+        "general"
+      ],
+      "source_section_title": "王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+      "source_section_anchor": "full-document"
+    },
+    {
+      "id": "qimen-term-1664139f88",
+      "title": "反吟",
+      "question_type": "general",
+      "source_type": "document",
+      "source_teacher": "王兴兵",
+      "source_course_or_book": "王兴兵-易宇山人",
+      "source_lesson_title": "王兴兵-易宇山人《奇门遁甲预测应用》300页--彩扫--400线.pdf",
+      "source_ref": "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测应用》300页--彩扫--400线.pdf",
+      "evidence_refs": [
+        "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测应用》300页--彩扫--400线.pdf",
+        "extract:page_ocr_cache"
+      ],
+      "teacher_priority": 0.62,
+      "confidence": 0.72,
+      "knowledge_tier": "support",
+      "term": "反吟",
+      "normalized_term": "反吟",
+      "aliases": [],
+      "term_note": "特殊格局 RO；新病反吟易愈；久病反吟礁爷",
+      "usage_note": "视频用于保留老师的口语用法，文档用于稳定术语写法。",
+      "tags": [
+        "general"
+      ],
+      "source_section_title": "分类预测",
+      "source_section_anchor": "classification-methods"
+    },
+    {
+      "id": "qimen-term-b3e4fed305",
+      "title": "反吟",
+      "question_type": "general",
+      "source_type": "document",
+      "source_teacher": "王兴兵",
+      "source_course_or_book": "王兴兵-易宇山人",
+      "source_lesson_title": "王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+      "source_ref": "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+      "evidence_refs": [
+        "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+        "extract:page_ocr_cache"
+      ],
+      "teacher_priority": 0.62,
+      "confidence": 0.72,
+      "knowledge_tier": "support",
+      "term": "反吟",
+      "normalized_term": "反吟",
+      "aliases": [],
+      "term_note": "反吟局；4；失物易归",
+      "usage_note": "视频用于保留老师的口语用法，文档用于稳定术语写法。",
+      "tags": [
+        "general"
+      ],
+      "source_section_title": "王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+      "source_section_anchor": "full-document"
+    },
+    {
+      "id": "qimen-term-523ae17f2b",
+      "title": "地盘",
+      "question_type": "general",
+      "source_type": "document",
+      "source_teacher": "王兴兵",
+      "source_course_or_book": "王兴兵-易宇山人",
+      "source_lesson_title": "王兴兵-易宇山人《奇门遁甲预测应用》300页--彩扫--400线.pdf",
+      "source_ref": "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测应用》300页--彩扫--400线.pdf",
+      "evidence_refs": [
+        "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测应用》300页--彩扫--400线.pdf",
+        "extract:page_ocr_cache"
+      ],
+      "teacher_priority": 0.62,
+      "confidence": 0.72,
+      "knowledge_tier": "support",
+      "term": "地盘",
+      "normalized_term": "地盘",
+      "aliases": [],
+      "term_note": "分人次找我合作；以上乘天慢之二为合伙之人(此 FHPREER MBAS). RAAF EMRITS；二者相克则不成",
+      "usage_note": "视频用于保留老师的口语用法，文档用于稳定术语写法。",
+      "tags": [
+        "general"
+      ],
+      "source_section_title": "分类预测",
+      "source_section_anchor": "classification-methods"
+    },
+    {
+      "id": "qimen-term-6e0b76ff35",
+      "title": "地盘",
+      "question_type": "general",
+      "source_type": "document",
+      "source_teacher": "王兴兵",
+      "source_course_or_book": "王兴兵-易宇山人",
+      "source_lesson_title": "王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+      "source_ref": "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+      "evidence_refs": [
+        "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+        "extract:page_ocr_cache"
+      ],
+      "teacher_priority": 0.62,
+      "confidence": 0.72,
+      "knowledge_tier": "support",
+      "term": "地盘",
+      "normalized_term": "地盘",
+      "aliases": [],
+      "term_note": "景门为试卷落离宫；为考生年命；4",
+      "usage_note": "视频用于保留老师的口语用法，文档用于稳定术语写法。",
+      "tags": [
+        "general",
+        "year_ming_anchor"
+      ],
+      "source_section_title": "王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+      "source_section_anchor": "full-document"
+    },
+    {
+      "id": "qimen-term-0b3ea45e4e",
+      "title": "天盘",
+      "question_type": "general",
+      "source_type": "document",
+      "source_teacher": "王兴兵",
+      "source_course_or_book": "王兴兵-易宇山人",
+      "source_lesson_title": "王兴兵-易宇山人《奇门遁甲预测应用》300页--彩扫--400线.pdf",
+      "source_ref": "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测应用》300页--彩扫--400线.pdf",
+      "evidence_refs": [
+        "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测应用》300页--彩扫--400线.pdf",
+        "extract:page_ocr_cache"
+      ],
+      "teacher_priority": 0.62,
+      "confidence": 0.72,
+      "knowledge_tier": "support",
+      "term": "天盘",
+      "normalized_term": "天盘",
+      "aliases": [],
+      "term_note": "或天盘虑为实际的价格；地级虑为你想出的价格或对方叫价",
+      "usage_note": "视频用于保留老师的口语用法，文档用于稳定术语写法。",
+      "tags": [
+        "general"
+      ],
+      "source_section_title": "分类预测",
+      "source_section_anchor": "classification-methods"
+    },
+    {
+      "id": "qimen-term-e901c57122",
+      "title": "天盘",
+      "question_type": "general",
+      "source_type": "document",
+      "source_teacher": "王兴兵",
+      "source_course_or_book": "王兴兵-易宇山人",
+      "source_lesson_title": "王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+      "source_ref": "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+      "evidence_refs": [
+        "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+        "extract:page_ocr_cache"
+      ],
+      "teacher_priority": 0.62,
+      "confidence": 0.72,
+      "knowledge_tier": "support",
+      "term": "天盘",
+      "normalized_term": "天盘",
+      "aliases": [],
+      "term_note": "电话；18786688361 MS；yiyu30 ens",
+      "usage_note": "视频用于保留老师的口语用法，文档用于稳定术语写法。",
+      "tags": [
+        "general"
+      ],
+      "source_section_title": "王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+      "source_section_anchor": "full-document"
+    },
+    {
+      "id": "qimen-term-a2c26499a3",
+      "title": "年命",
+      "question_type": "general",
+      "source_type": "document",
+      "source_teacher": "王兴兵",
+      "source_course_or_book": "王兴兵-易宇山人",
+      "source_lesson_title": "王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+      "source_ref": "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+      "evidence_refs": [
+        "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+        "extract:page_ocr_cache"
+      ],
+      "teacher_priority": 0.62,
+      "confidence": 0.72,
+      "knowledge_tier": "support",
+      "term": "年命",
+      "normalized_term": "年命",
+      "aliases": [],
+      "term_note": "年命法 运等所床的宫伍含有谁的年命(或生肖)；谁人选",
+      "usage_note": "视频用于保留老师的口语用法，文档用于稳定术语写法。",
+      "tags": [
+        "general",
+        "year_ming_anchor"
+      ],
+      "source_section_title": "王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+      "source_section_anchor": "full-document"
+    },
+    {
+      "id": "qimen-term-11831a4de0",
+      "title": "年命",
+      "question_type": "general",
+      "source_type": "document",
+      "source_teacher": "王兴兵",
+      "source_course_or_book": "王兴兵-易宇山人",
+      "source_lesson_title": "王兴兵-易宇山人《奇门遁甲预测应用》300页--彩扫--400线.pdf",
+      "source_ref": "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测应用》300页--彩扫--400线.pdf",
+      "evidence_refs": [
+        "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测应用》300页--彩扫--400线.pdf",
+        "extract:page_ocr_cache"
+      ],
+      "teacher_priority": 0.62,
+      "confidence": 0.72,
+      "knowledge_tier": "support",
+      "term": "年命",
+      "normalized_term": "年命",
+      "aliases": [],
+      "term_note": "//w. zyqmdj.com 奇门通甲教程 王兴兵 bb；200 'RiG；18786686361 i274",
+      "usage_note": "视频用于保留老师的口语用法，文档用于稳定术语写法。",
+      "tags": [
+        "general",
+        "year_ming_anchor"
+      ],
+      "source_section_title": "分类预测",
+      "source_section_anchor": "classification-methods"
+    },
+    {
+      "id": "qimen-term-09d2b5714f",
+      "title": "年命",
+      "question_type": "general",
+      "source_type": "document",
+      "source_teacher": "王兴兵",
+      "source_course_or_book": "王兴兵-易宇山人",
+      "source_lesson_title": "王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+      "source_ref": "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+      "evidence_refs": [
+        "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+        "extract:page_ocr_cache"
+      ],
+      "teacher_priority": 0.62,
+      "confidence": 0.72,
+      "knowledge_tier": "support",
+      "term": "年命",
+      "normalized_term": "年命",
+      "aliases": [],
+      "term_note": "对方已已年 你的年命甲子皮落宫所临之星与她年命已落宫所临之星相生；2；你是甲子年",
+      "usage_note": "视频用于保留老师的口语用法，文档用于稳定术语写法。",
+      "tags": [
+        "general",
+        "year_ming_anchor"
+      ],
+      "source_section_title": "王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+      "source_section_anchor": "full-document"
+    },
+    {
+      "id": "qimen-term-5e3394fbf8",
+      "title": "开门",
+      "question_type": "general",
+      "source_type": "document",
+      "source_teacher": "王兴兵",
+      "source_course_or_book": "王兴兵-易宇山人",
+      "source_lesson_title": "王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+      "source_ref": "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+      "evidence_refs": [
+        "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+        "extract:page_ocr_cache"
+      ],
+      "teacher_priority": 0.62,
+      "confidence": 0.72,
+      "knowledge_tier": "support",
+      "term": "开门",
+      "normalized_term": "开门",
+      "aliases": [],
+      "term_note": "伤门；站门有隐藏的意思；适合隐身藏形、躲灾避难",
+      "usage_note": "视频用于保留老师的口语用法，文档用于稳定术语写法。",
+      "tags": [
+        "general"
+      ],
+      "source_section_title": "王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+      "source_section_anchor": "full-document"
+    },
+    {
+      "id": "qimen-term-17e56832e3",
+      "title": "开门",
+      "question_type": "general",
+      "source_type": "document",
+      "source_teacher": "王兴兵",
+      "source_course_or_book": "王兴兵-易宇山人",
+      "source_lesson_title": "王兴兵-易宇山人《奇门遁甲预测应用》300页--彩扫--400线.pdf",
+      "source_ref": "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测应用》300页--彩扫--400线.pdf",
+      "evidence_refs": [
+        "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测应用》300页--彩扫--400线.pdf",
+        "extract:page_ocr_cache"
+      ],
+      "teacher_priority": 0.62,
+      "confidence": 0.72,
+      "knowledge_tier": "support",
+      "term": "开门",
+      "normalized_term": "开门",
+      "aliases": [],
+      "term_note": "开刀、开门入墓开刀效果不好",
+      "usage_note": "视频用于保留老师的口语用法，文档用于稳定术语写法。",
+      "tags": [
+        "general"
+      ],
+      "source_section_title": "分类预测",
+      "source_section_anchor": "classification-methods"
+    },
+    {
+      "id": "qimen-term-d0ea4031c7",
+      "title": "开门",
+      "question_type": "general",
+      "source_type": "document",
+      "source_teacher": "王兴兵",
+      "source_course_or_book": "王兴兵-易宇山人",
+      "source_lesson_title": "王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+      "source_ref": "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+      "evidence_refs": [
+        "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+        "extract:page_ocr_cache"
+      ],
+      "teacher_priority": 0.62,
+      "confidence": 0.72,
+      "knowledge_tier": "support",
+      "term": "开门",
+      "normalized_term": "开门",
+      "aliases": [],
+      "term_note": "= fee |Z 值符 IT 九天@〇马| | RE KI 天冲 al 天办 mK | |天 伤门 成|地 #N ELA 景门 KI 普-一-一|一 |一| |x 太阴 OIF |己 AMO | | RE #| | 天英 £| |符 生门 al 乙|白 死门 丁| —— |X K",
+      "usage_note": "视频用于保留老师的口语用法，文档用于稳定术语写法。",
+      "tags": [
+        "general"
+      ],
+      "source_section_title": "王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+      "source_section_anchor": "full-document"
+    },
+    {
+      "id": "qimen-term-d72de00f5a",
+      "title": "惊门",
+      "question_type": "general",
+      "source_type": "document",
+      "source_teacher": "王兴兵",
+      "source_course_or_book": "王兴兵-易宇山人",
+      "source_lesson_title": "王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+      "source_ref": "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+      "evidence_refs": [
+        "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+        "extract:page_ocr_cache"
+      ],
+      "teacher_priority": 0.62,
+      "confidence": 0.72,
+      "knowledge_tier": "support",
+      "term": "惊门",
+      "normalized_term": "惊门",
+      "aliases": [],
+      "term_note": "如在得景门、惊门更好；TR ALL. AT. RAO. RAIA. 九天利于宣传；广告",
+      "usage_note": "视频用于保留老师的口语用法，文档用于稳定术语写法。",
+      "tags": [
+        "general"
+      ],
+      "source_section_title": "王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+      "source_section_anchor": "full-document"
+    },
+    {
+      "id": "qimen-term-b240c1d835",
+      "title": "惊门",
+      "question_type": "general",
+      "source_type": "document",
+      "source_teacher": "王兴兵",
+      "source_course_or_book": "王兴兵-易宇山人",
+      "source_lesson_title": "王兴兵-易宇山人《奇门遁甲预测应用》300页--彩扫--400线.pdf",
+      "source_ref": "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测应用》300页--彩扫--400线.pdf",
+      "evidence_refs": [
+        "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测应用》300页--彩扫--400线.pdf",
+        "extract:page_ocr_cache"
+      ],
+      "teacher_priority": 0.62,
+      "confidence": 0.72,
+      "knowledge_tier": "support",
+      "term": "惊门",
+      "normalized_term": "惊门",
+      "aliases": [],
+      "term_note": "跨宫有惊门、杜门或九地为精神压力大",
+      "usage_note": "视频用于保留老师的口语用法，文档用于稳定术语写法。",
+      "tags": [
+        "general"
+      ],
+      "source_section_title": "分类预测",
+      "source_section_anchor": "classification-methods"
+    },
+    {
+      "id": "qimen-term-a145f90360",
+      "title": "惊门",
+      "question_type": "general",
+      "source_type": "document",
+      "source_teacher": "王兴兵",
+      "source_course_or_book": "王兴兵-易宇山人",
+      "source_lesson_title": "王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+      "source_ref": "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+      "evidence_refs": [
+        "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+        "extract:page_ocr_cache"
+      ],
+      "teacher_priority": 0.62,
+      "confidence": 0.72,
+      "knowledge_tier": "support",
+      "term": "惊门",
+      "normalized_term": "惊门",
+      "aliases": [],
+      "term_note": "易宇山人 20140502 刘先生房屋怪异 Ax；转盘奇门 - 超接置兰法 at ie]；2 电话",
+      "usage_note": "视频用于保留老师的口语用法，文档用于稳定术语写法。",
+      "tags": [
+        "general"
+      ],
+      "source_section_title": "王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+      "source_section_anchor": "full-document"
+    },
+    {
+      "id": "qimen-term-4deb4258ad",
+      "title": "拆补",
+      "question_type": "general",
+      "source_type": "document",
+      "source_teacher": "王兴兵",
+      "source_course_or_book": "王兴兵-易宇山人",
+      "source_lesson_title": "王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+      "source_ref": "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+      "evidence_refs": [
+        "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+        "extract:page_ocr_cache"
+      ],
+      "teacher_priority": 0.62,
+      "confidence": 0.72,
+      "knowledge_tier": "support",
+      "term": "拆补",
+      "normalized_term": "拆补",
+      "aliases": [],
+      "term_note": "AeA；18 iG；18786688361 ALLS",
+      "usage_note": "视频用于保留老师的口语用法，文档用于稳定术语写法。",
+      "tags": [
+        "general"
+      ],
+      "source_section_title": "王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+      "source_section_anchor": "full-document"
+    },
+    {
+      "id": "qimen-term-975fcf4ce2",
+      "title": "拆补",
+      "question_type": "general",
+      "source_type": "document",
+      "source_teacher": "王兴兵",
+      "source_course_or_book": "王兴兵-易宇山人",
+      "source_lesson_title": "王兴兵-易宇山人《奇门遁甲预测应用》300页--彩扫--400线.pdf",
+      "source_ref": "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测应用》300页--彩扫--400线.pdf",
+      "evidence_refs": [
+        "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测应用》300页--彩扫--400线.pdf",
+        "extract:page_ocr_cache"
+      ],
+      "teacher_priority": 0.62,
+      "confidence": 0.72,
+      "knowledge_tier": "support",
+      "term": "拆补",
+      "normalized_term": "拆补",
+      "aliases": [],
+      "term_note": "对于排组问题；我经过长期案例积累；党得不管昨拆补、置半还是茅山",
+      "usage_note": "视频用于保留老师的口语用法，文档用于稳定术语写法。",
+      "tags": [
+        "general"
+      ],
+      "source_section_title": "分类预测",
+      "source_section_anchor": "classification-methods"
+    },
+    {
+      "id": "qimen-term-d0c6bcc50a",
+      "title": "拆补",
+      "question_type": "general",
+      "source_type": "document",
+      "source_teacher": "王兴兵",
+      "source_course_or_book": "王兴兵-易宇山人",
+      "source_lesson_title": "王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+      "source_ref": "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+      "evidence_refs": [
+        "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+        "extract:page_ocr_cache"
+      ],
+      "teacher_priority": 0.62,
+      "confidence": 0.72,
+      "knowledge_tier": "support",
+      "term": "拆补",
+      "normalized_term": "拆补",
+      "aliases": [],
+      "term_note": "20160329 汪先生相亲 AK；上元 ER ARAN 阳盘三局 ”值符天畏落六宫“值使杜门落二宫 r 四 | 白虎 | 玄武 | 九地…；BRST] - 拆补无半法 时间",
+      "usage_note": "视频用于保留老师的口语用法，文档用于稳定术语写法。",
+      "tags": [
+        "general"
+      ],
+      "source_section_title": "王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+      "source_section_anchor": "full-document"
+    },
+    {
+      "id": "qimen-term-1693f9aa14",
+      "title": "日干",
+      "question_type": "general",
+      "source_type": "document",
+      "source_teacher": "王兴兵",
+      "source_course_or_book": "王兴兵-易宇山人",
+      "source_lesson_title": "王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+      "source_ref": "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+      "evidence_refs": [
+        "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+        "extract:page_ocr_cache"
+      ],
+      "teacher_priority": 0.62,
+      "confidence": 0.72,
+      "knowledge_tier": "support",
+      "term": "日干",
+      "normalized_term": "日干",
+      "aliases": [],
+      "term_note": "八卦对应家庭成员法 如日干在乾宫；坤宫、民宫生乾宫；可以选择坤宫",
+      "usage_note": "视频用于保留老师的口语用法，文档用于稳定术语写法。",
+      "tags": [
+        "general"
+      ],
+      "source_section_title": "王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+      "source_section_anchor": "full-document"
+    },
+    {
+      "id": "qimen-term-e7a3676fa9",
+      "title": "日干",
+      "question_type": "general",
+      "source_type": "document",
+      "source_teacher": "王兴兵",
+      "source_course_or_book": "王兴兵-易宇山人",
+      "source_lesson_title": "王兴兵-易宇山人《奇门遁甲预测应用》300页--彩扫--400线.pdf",
+      "source_ref": "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测应用》300页--彩扫--400线.pdf",
+      "evidence_refs": [
+        "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测应用》300页--彩扫--400线.pdf",
+        "extract:page_ocr_cache"
+      ],
+      "teacher_priority": 0.62,
+      "confidence": 0.72,
+      "knowledge_tier": "support",
+      "term": "日干",
+      "normalized_term": "日干",
+      "aliases": [],
+      "term_note": "日干生时 FRAG RFEAFHZA",
+      "usage_note": "视频用于保留老师的口语用法，文档用于稳定术语写法。",
+      "tags": [
+        "general"
+      ],
+      "source_section_title": "分类预测",
+      "source_section_anchor": "classification-methods"
+    },
+    {
+      "id": "qimen-term-ddd147102d",
+      "title": "日干",
+      "question_type": "general",
+      "source_type": "document",
+      "source_teacher": "王兴兵",
+      "source_course_or_book": "王兴兵-易宇山人",
+      "source_lesson_title": "王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+      "source_ref": "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+      "evidence_refs": [
+        "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+        "extract:page_ocr_cache"
+      ],
+      "teacher_priority": 0.62,
+      "confidence": 0.72,
+      "knowledge_tier": "support",
+      "term": "日干",
+      "normalized_term": "日干",
+      "aliases": [],
+      "term_note": "日干乙在乾宫；分析；1 HFEARKMS",
+      "usage_note": "视频用于保留老师的口语用法，文档用于稳定术语写法。",
+      "tags": [
+        "general"
+      ],
+      "source_section_title": "王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+      "source_section_anchor": "full-document"
+    },
+    {
+      "id": "qimen-term-1a1161c278",
+      "title": "旬首",
+      "question_type": "general",
+      "source_type": "document",
+      "source_teacher": "王兴兵",
+      "source_course_or_book": "王兴兵-易宇山人",
+      "source_lesson_title": "王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+      "source_ref": "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+      "evidence_refs": [
+        "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+        "extract:page_ocr_cache"
+      ],
+      "teacher_priority": 0.62,
+      "confidence": 0.72,
+      "knowledge_tier": "support",
+      "term": "旬首",
+      "normalized_term": "旬首",
+      "aliases": [],
+      "term_note": "Ax；BRA - BREWS 时间；20184 12 F 13 H 12 26 > KA",
+      "usage_note": "视频用于保留老师的口语用法，文档用于稳定术语写法。",
+      "tags": [
+        "general"
+      ],
+      "source_section_title": "王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+      "source_section_anchor": "full-document"
+    },
+    {
+      "id": "qimen-term-a458f587c5",
+      "title": "旬首",
+      "question_type": "general",
+      "source_type": "document",
+      "source_teacher": "王兴兵",
+      "source_course_or_book": "王兴兵-易宇山人",
+      "source_lesson_title": "王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+      "source_ref": "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+      "evidence_refs": [
+        "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+        "extract:page_ocr_cache"
+      ],
+      "teacher_priority": 0.62,
+      "confidence": 0.72,
+      "knowledge_tier": "support",
+      "term": "旬首",
+      "normalized_term": "旬首",
+      "aliases": [],
+      "term_note": "易宇山人 20140502 刘先生房屋怪异 Ax；转盘奇门 - 超接置兰法 at ie]；2 电话",
+      "usage_note": "视频用于保留老师的口语用法，文档用于稳定术语写法。",
+      "tags": [
+        "general"
+      ],
+      "source_section_title": "王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+      "source_section_anchor": "full-document"
+    },
+    {
+      "id": "qimen-term-422d058671",
+      "title": "时干",
+      "question_type": "general",
+      "source_type": "document",
+      "source_teacher": "王兴兵",
+      "source_course_or_book": "王兴兵-易宇山人",
+      "source_lesson_title": "王兴兵-易宇山人《奇门遁甲预测应用》300页--彩扫--400线.pdf",
+      "source_ref": "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测应用》300页--彩扫--400线.pdf",
+      "evidence_refs": [
+        "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测应用》300页--彩扫--400线.pdf",
+        "extract:page_ocr_cache"
+      ],
+      "teacher_priority": 0.62,
+      "confidence": 0.72,
+      "knowledge_tier": "support",
+      "term": "时干",
+      "normalized_term": "时干",
+      "aliases": [],
+      "term_note": "经营求财 用神 HPT(SS) 落宫为求测人；时干、用神落宫为货物；生门为 ABM",
+      "usage_note": "视频用于保留老师的口语用法，文档用于稳定术语写法。",
+      "tags": [
+        "general"
+      ],
+      "source_section_title": "分类预测",
+      "source_section_anchor": "classification-methods"
+    },
+    {
+      "id": "qimen-term-9d69243b03",
+      "title": "时干",
+      "question_type": "general",
+      "source_type": "document",
+      "source_teacher": "王兴兵",
+      "source_course_or_book": "王兴兵-易宇山人",
+      "source_lesson_title": "王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+      "source_ref": "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+      "evidence_refs": [
+        "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+        "extract:page_ocr_cache"
+      ],
+      "teacher_priority": 0.62,
+      "confidence": 0.72,
+      "knowledge_tier": "support",
+      "term": "时干",
+      "normalized_term": "时干",
+      "aliases": [],
+      "term_note": "值符宫又克日干乙在乾宫；克时干在竞宫",
+      "usage_note": "视频用于保留老师的口语用法，文档用于稳定术语写法。",
+      "tags": [
+        "general"
+      ],
+      "source_section_title": "王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+      "source_section_anchor": "full-document"
+    },
+    {
+      "id": "qimen-term-62b9b6add4",
+      "title": "星",
+      "question_type": "general",
+      "source_type": "document",
+      "source_teacher": "王兴兵",
+      "source_course_or_book": "王兴兵-易宇山人",
+      "source_lesson_title": "王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+      "source_ref": "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+      "evidence_refs": [
+        "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+        "extract:page_ocr_cache"
+      ],
+      "teacher_priority": 0.62,
+      "confidence": 0.72,
+      "knowledge_tier": "support",
+      "term": "星",
+      "normalized_term": "星",
+      "aliases": [],
+      "term_note": "九星代表天 体代表大环境；大事看星小事重门 十人在如售趋吉避凶有“大事看星”之说；因为在奇门通甲中",
+      "usage_note": "视频用于保留老师的口语用法，文档用于稳定术语写法。",
+      "tags": [
+        "general"
+      ],
+      "source_section_title": "王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+      "source_section_anchor": "full-document"
+    },
+    {
+      "id": "qimen-term-34472d348a",
+      "title": "星",
+      "question_type": "general",
+      "source_type": "document",
+      "source_teacher": "王兴兵",
+      "source_course_or_book": "王兴兵-易宇山人",
+      "source_lesson_title": "王兴兵-易宇山人《奇门遁甲预测应用》300页--彩扫--400线.pdf",
+      "source_ref": "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测应用》300页--彩扫--400线.pdf",
+      "evidence_refs": [
+        "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测应用》300页--彩扫--400线.pdf",
+        "extract:page_ocr_cache"
+      ],
+      "teacher_priority": 0.62,
+      "confidence": 0.72,
+      "knowledge_tier": "support",
+      "term": "星",
+      "normalized_term": "星",
+      "aliases": [],
+      "term_note": "乙奇、天心星克天芮但遇反吟局；Awa SBR；RG. RS",
+      "usage_note": "视频用于保留老师的口语用法，文档用于稳定术语写法。",
+      "tags": [
+        "general"
+      ],
+      "source_section_title": "分类预测",
+      "source_section_anchor": "classification-methods"
+    },
+    {
+      "id": "qimen-term-6f06e3d470",
+      "title": "星",
+      "question_type": "general",
+      "source_type": "document",
+      "source_teacher": "王兴兵",
+      "source_course_or_book": "王兴兵-易宇山人",
+      "source_lesson_title": "王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+      "source_ref": "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+      "evidence_refs": [
+        "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+        "extract:page_ocr_cache"
+      ],
+      "teacher_priority": 0.62,
+      "confidence": 0.72,
+      "knowledge_tier": "support",
+      "term": "星",
+      "normalized_term": "星",
+      "aliases": [],
+      "term_note": "值符为领导；临天冲星；在离 9宫",
+      "usage_note": "视频用于保留老师的口语用法，文档用于稳定术语写法。",
+      "tags": [
+        "general"
+      ],
+      "source_section_title": "王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+      "source_section_anchor": "full-document"
+    },
+    {
+      "id": "qimen-term-af8119f972",
+      "title": "景门",
+      "question_type": "general",
+      "source_type": "document",
+      "source_teacher": "王兴兵",
+      "source_course_or_book": "王兴兵-易宇山人",
+      "source_lesson_title": "王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+      "source_ref": "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+      "evidence_refs": [
+        "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+        "extract:page_ocr_cache"
+      ],
+      "teacher_priority": 0.62,
+      "confidence": 0.72,
+      "knowledge_tier": "support",
+      "term": "景门",
+      "normalized_term": "景门",
+      "aliases": [],
+      "term_note": "如值符 落坤宫克天乙落坎宫；想选乾宫亲通关；但乾宫临景门门人氨",
+      "usage_note": "视频用于保留老师的口语用法，文档用于稳定术语写法。",
+      "tags": [
+        "general"
+      ],
+      "source_section_title": "王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+      "source_section_anchor": "full-document"
+    },
+    {
+      "id": "qimen-term-eda5960dd1",
+      "title": "景门",
+      "question_type": "general",
+      "source_type": "document",
+      "source_teacher": "王兴兵",
+      "source_course_or_book": "王兴兵-易宇山人",
+      "source_lesson_title": "王兴兵-易宇山人《奇门遁甲预测应用》300页--彩扫--400线.pdf",
+      "source_ref": "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测应用》300页--彩扫--400线.pdf",
+      "evidence_refs": [
+        "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测应用》300页--彩扫--400线.pdf",
+        "extract:page_ocr_cache"
+      ],
+      "teacher_priority": 0.62,
+      "confidence": 0.72,
+      "knowledge_tier": "support",
+      "term": "景门",
+      "normalized_term": "景门",
+      "aliases": [],
+      "term_note": "伤门为陆上运输、你门为水上和运输、开门为航空运 Fit © 娱乐行业；以景门为行业 FF #0 AK EULA S KA. 中介公司看六合；ie hb",
+      "usage_note": "视频用于保留老师的口语用法，文档用于稳定术语写法。",
+      "tags": [
+        "general"
+      ],
+      "source_section_title": "分类预测",
+      "source_section_anchor": "classification-methods"
+    },
+    {
+      "id": "qimen-term-1e8cf47186",
+      "title": "景门",
+      "question_type": "general",
+      "source_type": "document",
+      "source_teacher": "王兴兵",
+      "source_course_or_book": "王兴兵-易宇山人",
+      "source_lesson_title": "王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+      "source_ref": "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+      "evidence_refs": [
+        "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+        "extract:page_ocr_cache"
+      ],
+      "teacher_priority": 0.62,
+      "confidence": 0.72,
+      "knowledge_tier": "support",
+      "term": "景门",
+      "normalized_term": "景门",
+      "aliases": [],
+      "term_note": "= fee |Z 值符 IT 九天@〇马| | RE KI 天冲 al 天办 mK | |天 伤门 成|地 #N ELA 景门 KI 普-一-一|一 |一| |x 太阴 OIF |己 AMO | | RE #| | 天英 £| |符 生门 al 乙|白 死门 丁| —— |X K",
+      "usage_note": "视频用于保留老师的口语用法，文档用于稳定术语写法。",
+      "tags": [
+        "general"
+      ],
+      "source_section_title": "王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+      "source_section_anchor": "full-document"
+    },
+    {
+      "id": "qimen-term-5ce193d1b6",
+      "title": "杜门",
+      "question_type": "general",
+      "source_type": "document",
+      "source_teacher": "王兴兵",
+      "source_course_or_book": "王兴兵-易宇山人",
+      "source_lesson_title": "王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+      "source_ref": "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+      "evidence_refs": [
+        "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+        "extract:page_ocr_cache"
+      ],
+      "teacher_priority": 0.62,
+      "confidence": 0.72,
+      "knowledge_tier": "support",
+      "term": "杜门",
+      "normalized_term": "杜门",
+      "aliases": [],
+      "term_note": "看杜门；2；队长为武官",
+      "usage_note": "视频用于保留老师的口语用法，文档用于稳定术语写法。",
+      "tags": [
+        "general"
+      ],
+      "source_section_title": "王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+      "source_section_anchor": "full-document"
+    },
+    {
+      "id": "qimen-term-7969c3ca34",
+      "title": "杜门",
+      "question_type": "general",
+      "source_type": "document",
+      "source_teacher": "王兴兵",
+      "source_course_or_book": "王兴兵-易宇山人",
+      "source_lesson_title": "王兴兵-易宇山人《奇门遁甲预测应用》300页--彩扫--400线.pdf",
+      "source_ref": "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测应用》300页--彩扫--400线.pdf",
+      "evidence_refs": [
+        "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测应用》300页--彩扫--400线.pdf",
+        "extract:page_ocr_cache"
+      ],
+      "teacher_priority": 0.62,
+      "confidence": 0.72,
+      "knowledge_tier": "support",
+      "term": "杜门",
+      "normalized_term": "杜门",
+      "aliases": [],
+      "term_note": "跨宫有惊门、杜门或九地为精神压力大",
+      "usage_note": "视频用于保留老师的口语用法，文档用于稳定术语写法。",
+      "tags": [
+        "general"
+      ],
+      "source_section_title": "分类预测",
+      "source_section_anchor": "classification-methods"
+    },
+    {
+      "id": "qimen-term-ad01aa597a",
+      "title": "杜门",
+      "question_type": "general",
+      "source_type": "document",
+      "source_teacher": "王兴兵",
+      "source_course_or_book": "王兴兵-易宇山人",
+      "source_lesson_title": "王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+      "source_ref": "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+      "evidence_refs": [
+        "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+        "extract:page_ocr_cache"
+      ],
+      "teacher_priority": 0.62,
+      "confidence": 0.72,
+      "knowledge_tier": "support",
+      "term": "杜门",
+      "normalized_term": "杜门",
+      "aliases": [],
+      "term_note": "转盘奇门 - PERAK Bt le]；方式；2014 #05 A 08 B10 By 22 农历",
+      "usage_note": "视频用于保留老师的口语用法，文档用于稳定术语写法。",
+      "tags": [
+        "general"
+      ],
+      "source_section_title": "王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+      "source_section_anchor": "full-document"
+    },
+    {
+      "id": "qimen-term-8797fc296f",
+      "title": "死门",
+      "question_type": "general",
+      "source_type": "document",
+      "source_teacher": "王兴兵",
+      "source_course_or_book": "王兴兵-易宇山人",
+      "source_lesson_title": "王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+      "source_ref": "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+      "evidence_refs": [
+        "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+        "extract:page_ocr_cache"
+      ],
+      "teacher_priority": 0.62,
+      "confidence": 0.72,
+      "knowledge_tier": "support",
+      "term": "死门",
+      "normalized_term": "死门",
+      "aliases": [],
+      "term_note": "伤门；站门有隐藏的意思；适合隐身藏形、躲灾避难",
+      "usage_note": "视频用于保留老师的口语用法，文档用于稳定术语写法。",
+      "tags": [
+        "general"
+      ],
+      "source_section_title": "王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+      "source_section_anchor": "full-document"
+    },
+    {
+      "id": "qimen-term-66260cebca",
+      "title": "死门",
+      "question_type": "general",
+      "source_type": "document",
+      "source_teacher": "王兴兵",
+      "source_course_or_book": "王兴兵-易宇山人",
+      "source_lesson_title": "王兴兵-易宇山人《奇门遁甲预测应用》300页--彩扫--400线.pdf",
+      "source_ref": "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测应用》300页--彩扫--400线.pdf",
+      "evidence_refs": [
+        "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测应用》300页--彩扫--400线.pdf",
+        "extract:page_ocr_cache"
+      ],
+      "teacher_priority": 0.62,
+      "confidence": 0.72,
+      "knowledge_tier": "support",
+      "term": "死门",
+      "normalized_term": "死门",
+      "aliases": [],
+      "term_note": "BoB. CTR Re) HE. 死门；I. MM. HIRE. 八神 a；il",
+      "usage_note": "视频用于保留老师的口语用法，文档用于稳定术语写法。",
+      "tags": [
+        "general"
+      ],
+      "source_section_title": "分类预测",
+      "source_section_anchor": "classification-methods"
+    },
+    {
+      "id": "qimen-term-635a5637f7",
+      "title": "死门",
+      "question_type": "general",
+      "source_type": "document",
+      "source_teacher": "王兴兵",
+      "source_course_or_book": "王兴兵-易宇山人",
+      "source_lesson_title": "王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+      "source_ref": "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+      "evidence_refs": [
+        "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+        "extract:page_ocr_cache"
+      ],
+      "teacher_priority": 0.62,
+      "confidence": 0.72,
+      "knowledge_tier": "support",
+      "term": "死门",
+      "normalized_term": "死门",
+      "aliases": [],
+      "term_note": "= fee |Z 值符 IT 九天@〇马| | RE KI 天冲 al 天办 mK | |天 伤门 成|地 #N ELA 景门 KI 普-一-一|一 |一| |x 太阴 OIF |己 AMO | | RE #| | 天英 £| |符 生门 al 乙|白 死门 丁| —— |X K",
+      "usage_note": "视频用于保留老师的口语用法，文档用于稳定术语写法。",
+      "tags": [
+        "general"
+      ],
+      "source_section_title": "王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+      "source_section_anchor": "full-document"
+    },
+    {
+      "id": "qimen-term-659ba6d2b3",
+      "title": "生门",
+      "question_type": "general",
+      "source_type": "document",
+      "source_teacher": "王兴兵",
+      "source_course_or_book": "王兴兵-易宇山人",
+      "source_lesson_title": "王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+      "source_ref": "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+      "evidence_refs": [
+        "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+        "extract:page_ocr_cache"
+      ],
+      "teacher_priority": 0.62,
+      "confidence": 0.72,
+      "knowledge_tier": "support",
+      "term": "生门",
+      "normalized_term": "生门",
+      "aliases": [],
+      "term_note": "谋对、求职、作生意、远行、婚姻嫁取等诸吉皆宣；生门",
+      "usage_note": "视频用于保留老师的口语用法，文档用于稳定术语写法。",
+      "tags": [
+        "general"
+      ],
+      "source_section_title": "王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+      "source_section_anchor": "full-document"
+    },
+    {
+      "id": "qimen-term-d4859bcf54",
+      "title": "生门",
+      "question_type": "general",
+      "source_type": "document",
+      "source_teacher": "王兴兵",
+      "source_course_or_book": "王兴兵-易宇山人",
+      "source_lesson_title": "王兴兵-易宇山人《奇门遁甲预测应用》300页--彩扫--400线.pdf",
+      "source_ref": "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测应用》300页--彩扫--400线.pdf",
+      "evidence_refs": [
+        "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测应用》300页--彩扫--400线.pdf",
+        "extract:page_ocr_cache"
+      ],
+      "teacher_priority": 0.62,
+      "confidence": 0.72,
+      "knowledge_tier": "support",
+      "term": "生门",
+      "normalized_term": "生门",
+      "aliases": [],
+      "term_note": "生门；恢复能力强",
+      "usage_note": "视频用于保留老师的口语用法，文档用于稳定术语写法。",
+      "tags": [
+        "general"
+      ],
+      "source_section_title": "分类预测",
+      "source_section_anchor": "classification-methods"
+    },
+    {
+      "id": "qimen-term-40298516f9",
+      "title": "生门",
+      "question_type": "general",
+      "source_type": "document",
+      "source_teacher": "王兴兵",
+      "source_course_or_book": "王兴兵-易宇山人",
+      "source_lesson_title": "王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+      "source_ref": "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+      "evidence_refs": [
+        "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+        "extract:page_ocr_cache"
+      ],
+      "teacher_priority": 0.62,
+      "confidence": 0.72,
+      "knowledge_tier": "support",
+      "term": "生门",
+      "normalized_term": "生门",
+      "aliases": [],
+      "term_note": "= fee |Z 值符 IT 九天@〇马| | RE KI 天冲 al 天办 mK | |天 伤门 成|地 #N ELA 景门 KI 普-一-一|一 |一| |x 太阴 OIF |己 AMO | | RE #| | 天英 £| |符 生门 al 乙|白 死门 丁| —— |X K",
+      "usage_note": "视频用于保留老师的口语用法，文档用于稳定术语写法。",
+      "tags": [
+        "general"
+      ],
+      "source_section_title": "王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+      "source_section_anchor": "full-document"
+    },
+    {
+      "id": "qimen-term-c8c4322bbe",
+      "title": "用神",
+      "question_type": "general",
+      "source_type": "document",
+      "source_teacher": "王兴兵",
+      "source_course_or_book": "王兴兵-易宇山人",
+      "source_lesson_title": "王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+      "source_ref": "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+      "evidence_refs": [
+        "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+        "extract:page_ocr_cache"
+      ],
+      "teacher_priority": 0.62,
+      "confidence": 0.72,
+      "knowledge_tier": "support",
+      "term": "用神",
+      "normalized_term": "用神",
+      "aliases": [],
+      "term_note": "即找出其对 应用神；得先明白什么符号代表什么人群；运等策划",
+      "usage_note": "视频用于保留老师的口语用法，文档用于稳定术语写法。",
+      "tags": [
+        "general"
+      ],
+      "source_section_title": "王兴兵-易宇山人《奇门遁甲运筹策划.pdf",
+      "source_section_anchor": "full-document"
+    },
+    {
+      "id": "qimen-term-a19ab29d6a",
+      "title": "用神",
+      "question_type": "general",
+      "source_type": "document",
+      "source_teacher": "王兴兵",
+      "source_course_or_book": "王兴兵-易宇山人",
+      "source_lesson_title": "王兴兵-易宇山人《奇门遁甲预测应用》300页--彩扫--400线.pdf",
+      "source_ref": "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测应用》300页--彩扫--400线.pdf",
+      "evidence_refs": [
+        "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测应用》300页--彩扫--400线.pdf",
+        "extract:page_ocr_cache"
+      ],
+      "teacher_priority": 0.62,
+      "confidence": 0.72,
+      "knowledge_tier": "support",
+      "term": "用神",
+      "normalized_term": "用神",
+      "aliases": [],
+      "term_note": "公司性质用神 开门为公司、企业、工厂等的总体情况；六 @HAFS；REM CEESERORMA). 二",
+      "usage_note": "视频用于保留老师的口语用法，文档用于稳定术语写法。",
+      "tags": [
+        "general"
+      ],
+      "source_section_title": "分类预测",
+      "source_section_anchor": "classification-methods"
+    },
+    {
+      "id": "qimen-term-30e137ac57",
+      "title": "用神",
+      "question_type": "general",
+      "source_type": "document",
+      "source_teacher": "王兴兵",
+      "source_course_or_book": "王兴兵-易宇山人",
+      "source_lesson_title": "王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+      "source_ref": "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+      "evidence_refs": [
+        "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+        "extract:page_ocr_cache"
+      ],
+      "teacher_priority": 0.62,
+      "confidence": 0.72,
+      "knowledge_tier": "support",
+      "term": "用神",
+      "normalized_term": "用神",
+      "aliases": [],
+      "term_note": "“到用神所在宫位的时 空为应期”；还符合一条",
+      "usage_note": "视频用于保留老师的口语用法，文档用于稳定术语写法。",
+      "tags": [
+        "general",
+        "timing_overlay"
+      ],
+      "source_section_title": "王兴兵-易宇山人《奇门遁甲预测案例解析》清楚.pdf",
+      "source_section_anchor": "full-document"
+    },
+    {
+      "id": "qimen-term-927f37d714",
+      "title": "神",
+      "question_type": "general",
+      "source_type": "document",
+      "source_teacher": "王兴兵",
+      "source_course_or_book": "王兴兵-易宇山人",
+      "source_lesson_title": "王兴兵-易宇山人《奇门遁甲预测应用》300页--彩扫--400线.pdf",
+      "source_ref": "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测应用》300页--彩扫--400线.pdf",
+      "evidence_refs": [
+        "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测应用》300页--彩扫--400线.pdf",
+        "extract:page_ocr_cache"
+      ],
+      "teacher_priority": 0.62,
+      "confidence": 0.72,
+      "knowledge_tier": "support",
+      "term": "神",
+      "normalized_term": "神",
+      "aliases": [],
+      "term_note": "BoB. CTR Re) HE. 死门；I. MM. HIRE. 八神 a；il",
+      "usage_note": "视频用于保留老师的口语用法，文档用于稳定术语写法。",
+      "tags": [
+        "general"
+      ],
+      "source_section_title": "分类预测",
+      "source_section_anchor": "classification-methods"
+    },
+    {
+      "id": "qimen-term-98c33bd8a1",
+      "title": "空亡",
+      "question_type": "general",
+      "source_type": "document",
+      "source_teacher": "王兴兵",
+      "source_course_or_book": "王兴兵-易宇山人",
+      "source_lesson_title": "王兴兵-易宇山人《奇门遁甲预测应用》300页--彩扫--400线.pdf",
+      "source_ref": "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测应用》300页--彩扫--400线.pdf",
+      "evidence_refs": [
+        "王兴兵 阳盘奇门/王兴兵-易宇山人/王兴兵-易宇山人《奇门遁甲预测应用》300页--彩扫--400线.pdf",
+        "extract:page_ocr_cache"
+      ],
+      "teacher_priority": 0.62,
+      "confidence": 0.72,
+      "knowledge_tier": "support",
+      "term": "空亡",
+      "normalized_term": "空亡",
+      "aliases": [],
+      "term_note": "TRAE. 哪信宫仔空亡；也许目前还疫发生；(庚是难以解决的问 A WH ROARS",
+      "usage_note": "视频用于保留老师的口语用法，文档用于稳定术语写法。",
+      "tags": [
+        "general"
+      ],
+      "source_section_title": "分类预测",
+      "source_section_anchor": "classification-methods"
+    }
+  ]
+}

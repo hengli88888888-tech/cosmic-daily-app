@@ -1,0 +1,3580 @@
+{
+  "version": 1,
+  "teachers": [
+    {
+      "teacher": "文曾",
+      "status": "active",
+      "notes": "Rules are normalized from OCRed PDF notes and should be refined with future video transcripts.",
+      "rules": [
+        {
+          "id": "wenzeng-core-concepts-sample-001",
+          "topic": "blind_school_core_concepts",
+          "topic_family": "teacher_framework",
+          "claim": "文曾的盲派框架把看局重点放在势、党、制、做功与主宾关系的清晰度上。",
+          "conditions": [
+            "分析盲派课程内容",
+            "讨论看局基础定义",
+            "需要概括讲师的底层方法论"
+          ],
+          "reasoning_path": [
+            "先把看局基础定义收拢到成势、会党、叛党、做功这些核心词",
+            "再按主位参与和做功路径判断主线能否成立",
+            "最后才决定某条课程内容该归方法论、结构规则还是专题落点"
+          ],
+          "branch_conditions": [
+            "如果只是术语出现而未形成主线，就先归为基础概念，不上升到断法规则",
+            "如果主位未参与或做功路径不清，则从可断结论降为需复核的方法提示"
+          ],
+          "interpretation": "在该体系中，先判断哪一方成势、是否会党、能否形成制，再看是否有清晰做功路径和主位参与。",
+          "product_safe_advice": [
+            "将此类内容优先归为方法论规则，而不是直接下断语。",
+            "后续提取时优先识别成势、会党、叛党、做功、主位、宾位这些高频结构词。"
+          ],
+          "do_not_say": [
+            "只凭一个术语就判定命运吉凶。",
+            "把讲师的方法论直接包装成绝对结论。"
+          ],
+          "confidence": "high",
+          "source": {
+            "lesson": "001文曾盲派独立绝技内部资料.pdf",
+            "source_file": "data/wenzeng-sample-1-50.txt",
+            "chunk_id": "pages-1-10"
+          }
+        },
+        {
+          "id": "wenzeng-rule-formation-of-shi-001",
+          "topic": "formation_of_shi",
+          "topic_family": "blind_school_rules",
+          "knowledge_priority": "foundational",
+          "repetition_signal": {
+            "status": "repeated",
+            "meaning": "成势是讲师体系的基础入口，在后续定层次、做功、取用中反复出现",
+            "weight": "high"
+          },
+          "claim": "势强调力量集中和数量优势，只有势偏向一方时才更容易形成制。",
+          "conditions": [
+            "同类五行或同党力量集中",
+            "一方数量或强度明显大于另一方",
+            "双方不是势均力敌"
+          ],
+          "reasoning_path": [
+            "先按五行或同党归类力量",
+            "比较双方是否存在明显集中度差异",
+            "只有在明显偏向一方时，才进入后续制与层级判断"
+          ],
+          "branch_conditions": [
+            "如果双方势均力敌，则降级为胶着结构，不直接判成势",
+            "如果一方数量虽多但主线分散，也不能按高质量成势处理"
+          ],
+          "interpretation": "如果双方力量过于均衡，即便存在对立，也可能难以形成有效制约，因此有势不等于一定有制，但无明显势差通常更难有制。",
+          "product_safe_advice": [
+            "用户表达中可转译为一方力量更集中、更容易推动结果。",
+            "遇到势均力敌时，建议表达为推进阻力更大、结果不够干脆。"
+          ],
+          "do_not_say": [
+            "只要有势就一定成功。",
+            "势弱的一方一定彻底失败。"
+          ],
+          "confidence": "high",
+          "source": {
+            "lesson": "001文曾盲派独立绝技内部资料.pdf",
+            "source_file": "data/wenzeng-sample-1-50.txt",
+            "chunk_id": "pages-5-7"
+          }
+        },
+        {
+          "id": "wenzeng-rule-party-and-betrayal-001",
+          "topic": "party_and_betrayal",
+          "topic_family": "blind_school_rules",
+          "knowledge_priority": "foundational",
+          "repetition_signal": {
+            "status": "repeated",
+            "meaning": "讲师在多份资料和课程中反复强调，属于基础主干概念",
+            "weight": "high"
+          },
+          "claim": "会党强调同一阵营的协同，叛党则指原本应支持制的一方转而生扶对立方，导致制不清、格局变浊。",
+          "conditions": [
+            "先判断哪些五行能归为同党",
+            "再判断同党内部是否出现转向生扶敌方的结构",
+            "尤其关注墓库和巳火等变性节点"
+          ],
+          "reasoning_path": [
+            "先定党派边界，而不是先看吉凶",
+            "再看同党内部是否都在服务主攻方向",
+            "最后检查是否有人转向生扶敌方，形成叛党"
+          ],
+          "branch_conditions": [
+            "如果同党内部只是分工不同，但仍服务主线，不按叛党处理",
+            "如果出现转向生敌、续气或拖慢制的节点，则把结构质量下调"
+          ],
+          "interpretation": "当叛党出现时，结构容易从清晰转为纠缠，做功路径变乱，格局质量下降。",
+          "product_safe_advice": [
+            "在用户层面可转译为原本支持你的条件开始分流或内耗。",
+            "建议输出时强调局面不够干净、推进过程容易反复。"
+          ],
+          "do_not_say": [
+            "出现叛党就一定失败。",
+            "出现叛党就是灾祸注定。"
+          ],
+          "confidence": "high",
+          "source": {
+            "lesson": "001文曾盲派独立绝技内部资料.pdf",
+            "source_file": "data/wenzeng-sample-1-50.txt",
+            "chunk_id": "pages-5-8"
+          }
+        },
+        {
+          "id": "wenzeng-rule-zhize-and-trade-001",
+          "topic": "zhi_as_transaction",
+          "topic_family": "blind_school_rules",
+          "claim": "文曾把制看成格局成立的关键，并将克进一步解释为交易、价值创造和交换能力的体现。",
+          "conditions": [
+            "讨论做功为何成立",
+            "需要解释克在讲师体系中的现实含义",
+            "分析格局与财富、事业关联时"
+          ],
+          "reasoning_path": [
+            "先确认局里有没有真实制点让格局成立",
+            "再把这个制点翻译成现实里的交换、交易和价值创造能力",
+            "最后再判断它能不能稳定转成财富或事业结果"
+          ],
+          "branch_conditions": [
+            "如果没有制点成立，就不把结果上升到可交换价值层面",
+            "如果有制但不能稳定落地，则只按阶段性结果处理，不按长期成格处理"
+          ],
+          "interpretation": "在这套讲法里，没有制就难成格局；而有制意味着能力被转化为可交换的结果。",
+          "product_safe_advice": [
+            "面向用户时可转译为把能力转成结果或收益的能力。",
+            "描述财富和事业时优先强调价值交换，而不是宿命论。"
+          ],
+          "do_not_say": [
+            "只要有克就一定发财。",
+            "交易能力完全由命局决定且无法改变。"
+          ],
+          "confidence": "medium",
+          "source": {
+            "lesson": "001文曾盲派独立绝技内部资料.pdf",
+            "source_file": "data/wenzeng-sample-1-50.txt",
+            "chunk_id": "pages-6-8"
+          }
+        },
+        {
+          "id": "wenzeng-rule-zhengfan-zuogong-001",
+          "topic": "zhengfan_zuogong",
+          "topic_family": "blind_school_rules",
+          "claim": "正向做功与反向做功的区别，在于制的方向和我方是否站在有势一边参与其中；反向做功成立条件更严格。",
+          "conditions": [
+            "判断制发生在家外还是家内",
+            "确认我方是否参与有势一方",
+            "尤其核查月令藏干是否含食伤、印、比等我的体"
+          ],
+          "reasoning_path": [
+            "先看制发生在家外还是家内，确认方向",
+            "再核我方是否真正站进有势一边参与做功",
+            "最后检查月令和藏干里的我体有没有被保住"
+          ],
+          "branch_conditions": [
+            "如果我方没参与势大一边，就不能按有效反向做功处理",
+            "如果我体被伤，则从做功成立转到失主导或受代价判断"
+          ],
+          "interpretation": "文曾体系强调，反向做功不能只看受制表象，还要看我是否真正参与了有势一方，否则容易误判。",
+          "product_safe_advice": [
+            "做自动分析时不要仅凭受制位置判断反向做功。",
+            "遇到边界情况时应标记为需人工复核，不直接下结论。"
+          ],
+          "do_not_say": [
+            "看到家里受制就一定是反向做功。",
+            "反向做功一定比正向做功更好。"
+          ],
+          "confidence": "high",
+          "source": {
+            "lesson": "001文曾盲派独立绝技内部资料.pdf",
+            "source_file": "data/wenzeng-sample-1-50.txt",
+            "chunk_id": "pages-9-10"
+          }
+        },
+        {
+          "id": "wenzeng-rule-zhengju-fanju-001",
+          "topic": "zhengju_fanju",
+          "topic_family": "blind_school_rules",
+          "knowledge_priority": "core_emphasis",
+          "repetition_signal": {
+            "status": "repeated",
+            "meaning": "正局反局在方法课与案例课中多次回讲，属于重点判断框架",
+            "weight": "high"
+          },
+          "claim": "正局强调日主表达与原局整体方向一致；反局强调天地表达相悖、我欲制人反被制，且原局反局与运年反局的风险级别不同。",
+          "conditions": [
+            "同时核查天干与地支是否在表达同一件事",
+            "确认我方所合所制之物在地支是否反向制我",
+            "区分原局反局与大运流年触发的反局"
+          ],
+          "reasoning_path": [
+            "先检查天干与地支表达是否一致",
+            "再看我方主线是在制人还是反被制",
+            "最后区分是原局长期反局，还是运年阶段性反局"
+          ],
+          "branch_conditions": [
+            "如果天地表达一致，则保留正局判断入口",
+            "如果天地相悖或我欲制人反被制，则转入反局路径并下调稳定度"
+          ],
+          "interpretation": "文曾体系把正局与反局当作做功成立与否的底层过滤器。原局反局偏向长期困顿，运年反局偏向阶段性重挫；两者都不能直接简化成单一吉凶口号，而要回到表达是否一致。",
+          "product_safe_advice": [
+            "自动分析时先判断表达一致性，再进入富贵层级推断。",
+            "把反局解释为节奏失衡、阻力骤增，不直接输出灾祸断语。"
+          ],
+          "do_not_say": [
+            "反局一定对应具体灾祸事件。",
+            "只看一处受制就能判定反局。"
+          ],
+          "confidence": "high",
+          "source": {
+            "lesson": "001文曾盲派独立绝技内部资料.pdf",
+            "source_file": "data/wenzeng-full.txt",
+            "chunk_id": "lines-866-1132"
+          }
+        },
+        {
+          "id": "wenzeng-rule-zhengyong-fanyong-001",
+          "topic": "zhengyong_fanyong",
+          "topic_family": "blind_school_rules",
+          "knowledge_priority": "core_emphasis",
+          "repetition_signal": {
+            "status": "repeated",
+            "meaning": "正用反用被反复用来解释主导权和参与度，是重点框架",
+            "weight": "high"
+          },
+          "claim": "正用是主位的体制宾位的用，反用是宾位的体制主位的用；关键不是名字本身，而是我方是否参与有势一边并掌握主导。",
+          "conditions": [
+            "先区分主位体、主位用、宾位体、宾位用",
+            "判断主位印比是否受伤",
+            "确认我是否参与势大的一方并具备主导力"
+          ],
+          "reasoning_path": [
+            "先把主位、宾位、体、用四个位置拆清楚",
+            "再查主位之体有没有被误伤，以及我站在哪一边",
+            "最后按主导权和参与度判断是正用、反用还是低层反制"
+          ],
+          "branch_conditions": [
+            "如果主位之体受伤，则优先转入低层或失主导判断",
+            "如果我方虽在势大一边但不掌主导，则从成格降为借势或附势"
+          ],
+          "interpretation": "文曾并不把反用简单等同于差局。只要表达清楚、主位之体不伤、我方站在势大一边，反用同样能成格；真正低层的是宾位之用反制主位之体，导致能力位被打坏。",
+          "product_safe_advice": [
+            "知识库落地时，把正用反用作为结构标签，不作为直接文案结论。",
+            "生成建议时，可转译为主动掌控型或借平台放大型两种模式。"
+          ],
+          "do_not_say": [
+            "反用一定不好。",
+            "所有主位财官都不能被制。"
+          ],
+          "confidence": "high",
+          "source": {
+            "lesson": "001文曾盲派独立绝技内部资料.pdf",
+            "source_file": "data/wenzeng-full.txt",
+            "chunk_id": "lines-1133-1315"
+          }
+        },
+        {
+          "id": "wenzeng-rule-simuku-001",
+          "topic": "si_mu_ku",
+          "topic_family": "blind_school_rules",
+          "knowledge_priority": "foundational",
+          "repetition_signal": {
+            "status": "repeated",
+            "meaning": "四墓库贯穿讲师大量课程和文档，属于基础结构模块",
+            "weight": "high"
+          },
+          "claim": "文曾对四墓库的讲法偏重象法与动态来源，尤其强调辰不简单当土库看，而是万物之库；戌则兼具火库、平台、能量消耗与不稳定结构特征。",
+          "conditions": [
+            "区分辰与戌在库性、象义和来源链上的不同",
+            "判断某五行是从辰、戌、丑、未何处而来，是否入墓",
+            "结合驿马、冲合与同五行同入墓规则理解动态变化"
+          ],
+          "reasoning_path": [
+            "先分清辰戌丑未各自对应的库性和场域含义",
+            "再追五行来源、去向与是否已经入墓",
+            "最后结合冲合驿马判断这个库是封存、转运还是被打开"
+          ],
+          "branch_conditions": [
+            "如果只看到墓库名号却没有来源链，就不要直接落静态象义",
+            "如果库被冲开或被动引动，则从封存判断转到流动和落地方向"
+          ],
+          "interpretation": "四墓库在文曾体系里不是静态名词，而是带有场域、产业、宗教与技术发展等象义的动态容器。尤其辰与戌，既承担藏纳，也影响来源、去向和表达方式。",
+          "product_safe_advice": [
+            "知识库里把四墓库单独存成象义与结构规则两层，不要混成一句判断。",
+            "面向用户时可转译为空间、平台、资源沉淀或能量收束。"
+          ],
+          "do_not_say": [
+            "辰就是普通土库。",
+            "见墓库就一定是坏。"
+          ],
+          "confidence": "medium",
+          "source": {
+            "lesson": "001文曾盲派独立绝技内部资料.pdf",
+            "source_file": "data/wenzeng-full.txt",
+            "chunk_id": "lines-1773-1945"
+          }
+        },
+        {
+          "id": "wenzeng-rule-hezhi-xiaolv-001",
+          "topic": "hezhi_xiaolv",
+          "topic_family": "blind_school_rules",
+          "claim": "合制不仅看有没有做功，还要看做功效率；效率高低取决于是否制住整体、是否只碰到弱藏干，以及周边是否有助势或干扰因素。",
+          "conditions": [
+            "区分高效率、中效率、低效率与不做功组合",
+            "判断制的是整体还是藏干碎点",
+            "结合周边会党、化火、助克、泄力等外部条件"
+          ],
+          "reasoning_path": [
+            "先给这组合作定效率等级，不急着下层次结论",
+            "再确认制到的是整体、主气还是碎点藏干",
+            "最后把周边助势和干扰一起纳入完成度判断"
+          ],
+          "branch_conditions": [
+            "如果只碰到碎点而非主目标，则从高效率降级",
+            "如果外围会党或化火改写了作用方向，则重算效率，不沿原判断直推"
+          ],
+          "interpretation": "文曾把合制效率当作层次放大器。即便同为合制，如果只是碰到弱藏干或被中途干扰，层次就会显著下调；反过来，若能形成整体验收或顺势放大，原局层次会上一个台阶。",
+          "product_safe_advice": [
+            "产品侧可把效率转译为资源转化效率或成果兑现效率。",
+            "不要仅凭出现六合三合就判定高层级。"
+          ],
+          "do_not_say": [
+            "看到合就一定有大功。",
+            "高效率组合一定对应巨富高位。"
+          ],
+          "confidence": "high",
+          "source": {
+            "lesson": "001文曾盲派独立绝技内部资料.pdf",
+            "source_file": "data/wenzeng-full.txt",
+            "chunk_id": "lines-3498-3705"
+          }
+        },
+        {
+          "id": "wenzeng-rule-xingchongchuanzhi-xiaolv-001",
+          "topic": "xing_chong_chuan_zhi_xiaolv",
+          "topic_family": "blind_school_rules",
+          "claim": "刑冲穿制存在明确的效率梯度：一般以冲最高、刑次之、穿再次之，且必须满足力量对比和成局条件，破通常不算做功。",
+          "conditions": [
+            "确认是否形成一方明显强于另一方的结构",
+            "优先识别墓库冲刑、丑戌刑、丑未冲等高能级组合",
+            "把破与生穿从有效做功中剔除"
+          ],
+          "reasoning_path": [
+            "先确认双方有没有明显力量差而不是只有形式接触",
+            "再识别这种冲刑穿落在高能级墓库还是普通关系位",
+            "最后把破和生穿剔出，只保留真正有效的效率判断"
+          ],
+          "branch_conditions": [
+            "如果没有明显强弱差，只记结构接触，不上升到高效率做功",
+            "如果属于破或生穿，则退出高效做功主线"
+          ],
+          "interpretation": "这套规则的重点不是死记百分比，而是建立强弱与完成度意识。冲刑穿若只是形式存在、没有力量差或没有制尽感，不能直接按高效率处理。",
+          "product_safe_advice": [
+            "在结构分析层把冲刑穿制记为强干预事件，不直接映射成坏结果。",
+            "把效率高理解成变化力度大，而不是简单好坏。"
+          ],
+          "do_not_say": [
+            "所有冲都比合强。",
+            "出现穿就一定算成事。"
+          ],
+          "confidence": "high",
+          "source": {
+            "lesson": "001文曾盲派独立绝技内部资料.pdf",
+            "source_file": "data/wenzeng-full.txt",
+            "chunk_id": "lines-3706-3857"
+          }
+        },
+        {
+          "id": "wenzeng-rule-yongshen-001",
+          "topic": "yongshen_logic",
+          "topic_family": "blind_school_rules",
+          "knowledge_priority": "foundational",
+          "repetition_signal": {
+            "status": "repeated",
+            "meaning": "用神逻辑在讲师体系中多次回讲，属于基础框架而非单次技巧",
+            "weight": "high"
+          },
+          "claim": "文曾把用神建立在五行喜忌、格局表达、会党成势、变性虚实和救应链条之上；用神不必固定在格局内，也可能随结构受伤与救应而转移。",
+          "conditions": [
+            "先从五行本质与喜忌判断事物要平衡、制尽还是调候",
+            "再看格局是否有明确克点和会党成势",
+            "最后检查变性、合化、虚实与救应用神是否改位"
+          ],
+          "reasoning_path": [
+            "先判断原局到底缺平衡、缺制尽还是缺调候",
+            "再确认主线格局和会党成势是否成立",
+            "最后检查变性、合化、虚实和救应会不会让用神改位"
+          ],
+          "branch_conditions": [
+            "如果主线格局未成立，则不要直接固定用神",
+            "如果救应链条改变了着力点，则允许用神转移，不固守原结论"
+          ],
+          "interpretation": "这套体系反对把用神教条化成月令或单一十神。更重要的是找到原局真正的着力点，以及该着力点有没有被伤、有没有被救、是否在不同运势下发生角色转移。",
+          "product_safe_advice": [
+            "系统落地时，把用神作为内部推理字段，不直接展示给用户。",
+            "若关键字段存在冲突，应输出低置信度并保留人工复核入口。"
+          ],
+          "do_not_say": [
+            "月令就是用神。",
+            "用神一定在原局里。",
+            "一种五行永远只喜同一种处理方式。"
+          ],
+          "confidence": "high",
+          "source": {
+            "lesson": "001文曾盲派独立绝技内部资料.pdf",
+            "source_file": "data/wenzeng-full.txt",
+            "chunk_id": "lines-3858-4124"
+          }
+        },
+        {
+          "id": "wenzeng-rule-yueling-001",
+          "topic": "yueling_logic",
+          "topic_family": "blind_school_rules",
+          "knowledge_priority": "foundational",
+          "repetition_signal": {
+            "status": "repeated",
+            "meaning": "月令/司令是讲师反复强调的环境底色规则",
+            "weight": "high"
+          },
+          "claim": "月令被视为司令与全局节气背景，不能因受制就当作失效；取气时需区分四正、四墓库、寅申巳亥，并理解水火、金木、土的作用范围差异。",
+          "conditions": [
+            "先判断月令属于四正、四墓库还是寅申巳亥",
+            "按当令藏气和官杀财食伤优先级取气",
+            "不要把月令受制直接等同于节气消失"
+          ],
+          "reasoning_path": [
+            "先给月令定类，分清四正、四墓库还是寅申巳亥",
+            "再按当令主气和藏气排序环境底色",
+            "最后再看哪股气被透出、被引动、被真正放大"
+          ],
+          "branch_conditions": [
+            "如果月令受制但节气背景还在，则保留环境底色，不按失效处理",
+            "如果月令类型不同，则取气顺序和判断重心一起切换"
+          ],
+          "interpretation": "文曾把月令当作原局不容忽略的底色。它像季节一样主导环境，不会因为局部冲克而被抹掉；真正要看的，是在这个大背景下哪种气被透出、被引动、被放大。",
+          "product_safe_advice": [
+            "产品侧可把月令转译成环境底色或阶段主气。",
+            "避免向用户输出过于硬性的季节式宿命论。"
+          ],
+          "do_not_say": [
+            "月令被制尽了就没有气了。",
+            "所有月令都只看月令本气。"
+          ],
+          "confidence": "high",
+          "source": {
+            "lesson": "001文曾盲派独立绝技内部资料.pdf",
+            "source_file": "data/wenzeng-full.txt",
+            "chunk_id": "lines-4125-4160"
+          }
+        },
+        {
+          "id": "wenzeng-rule-zhiyong-structure-001",
+          "topic": "zhiyong_structure",
+          "topic_family": "blind_school_rules",
+          "knowledge_priority": "core_emphasis",
+          "repetition_signal": {
+            "status": "repeated",
+            "meaning": "制用结构是讲师做功体系核心模块，反复出现",
+            "weight": "high"
+          },
+          "claim": "制用结构被文曾视为盲派做功的核心，关键看谁制谁、是否制尽，以及是否出现双制结构来放大层级。",
+          "conditions": [
+            "确认体与用的方向关系",
+            "检查是否制到对象本身、原神或库",
+            "优先识别双制结构与制墓库结构"
+          ],
+          "reasoning_path": [
+            "先定体和用谁在主导、谁在被处理",
+            "再看制点落在对象本身、原神还是库上",
+            "最后按双制、制库、制年月的完整度给层级排序"
+          ],
+          "branch_conditions": [
+            "如果只是碰到边缘点而没有制到主目标，则降为低完成度做功",
+            "如果出现双制或制库成立，则转入高层级结构判断"
+          ],
+          "interpretation": "制用结构不仅决定有没有功，还决定层级大小。文曾尤其强调双制结构，例如制官同时制官库、制财同时制食伤原神，会显著抬高格局；制年月与制墓库通常比制家内更有能级。",
+          "product_safe_advice": [
+            "内部推理时把双制、制库、制年月作为层级加权信号。",
+            "对外表达可转译为资源掌控更完整、结果兑现更彻底。"
+          ],
+          "do_not_say": [
+            "所有制用结构都能成大格局。",
+            "制家里的印比一定比制外部更好。"
+          ],
+          "confidence": "high",
+          "source": {
+            "lesson": "12.盲派做功方式-制用结构..mp4",
+            "source_file": "data/raw-transcripts/文曾/12盲派做功方式-制用结构/20260307-005925-4693a2-12盲派做功方式-制用结构.txt",
+            "chunk_id": "course-summary"
+          }
+        },
+        {
+          "id": "wenzeng-rule-shenghua-structure-001",
+          "topic": "shenghua_structure",
+          "topic_family": "blind_school_rules",
+          "knowledge_priority": "core_emphasis",
+          "repetition_signal": {
+            "status": "repeated",
+            "meaning": "生化结构是做功结构主干之一，在多门课程中反复强调",
+            "weight": "high"
+          },
+          "claim": "生化结构主要落在化官生印、化杀生印与食伤生财等链路上，本质是把压力、名位或表达转成可用资源与财富结果。",
+          "conditions": [
+            "识别官杀到印、食伤到财的流通链条",
+            "检查关键节点是否被伤，如财破印、伤官伤官杀、比劫夺财",
+            "区分化杀生印与化官生印的层级差"
+          ],
+          "reasoning_path": [
+            "先画出生到化的主链，确认官杀、印、食伤、财如何流通",
+            "再检查关键节点有没有被破坏或截断",
+            "最后比较链路纯度和是否叠加其他做功结构来定层级"
+          ],
+          "branch_conditions": [
+            "如果关键节点受伤，则从富贵流通链降为普通有路或断链结构",
+            "如果生化链同时叠加制用成立，则转入更高层级判断"
+          ],
+          "interpretation": "文曾把生化结构视为与子平格局法高度相通的富贵结构。核心不是背名词，而是看链路是否通、关键节点是否受伤，以及是否还叠加了制用结构来把层级再往上推。",
+          "product_safe_advice": [
+            "内部上把生化结构当成流通与转化效率信号。",
+            "对外可表达为把压力、专业或输出转成机会与回报的能力。"
+          ],
+          "do_not_say": [
+            "出现化官生印就一定大贵。",
+            "食伤生财完全不用看身弱身旺和门户。"
+          ],
+          "confidence": "high",
+          "source": {
+            "lesson": "13.盲派做功方式-生化结构..mp4",
+            "source_file": "data/raw-transcripts/文曾/13盲派做功方式-生化结构/20260307-005925-e134e2-13盲派做功方式-生化结构.txt",
+            "chunk_id": "course-summary"
+          }
+        },
+        {
+          "id": "wenzeng-rule-hezhi-structure-001",
+          "topic": "hezhi_structure",
+          "topic_family": "blind_school_rules",
+          "knowledge_priority": "core_emphasis",
+          "repetition_signal": {
+            "status": "repeated",
+            "meaning": "合制结构是做功主干模块，属于讲师重点内容",
+            "weight": "high"
+          },
+          "claim": "合制结构强调先论合、再论克，合代表主动追求与较容易得到，但仍然必须回到担不担财、官真不真、能否合住而不化去等落点。",
+          "conditions": [
+            "先区分合财型与合官型",
+            "检查身弱身旺、财通门户、财库、比劫帮身等承载条件",
+            "判断官是否被化、是否真旺、是否被干扰"
+          ],
+          "reasoning_path": [
+            "先定这是合财还是合官路径",
+            "再核承载力、门户和资源质量是否跟得上",
+            "最后判断合住的是机会、实物还是被化走的空象"
+          ],
+          "branch_conditions": [
+            "如果身弱而承载不足，则从主动获取转成求而难得或得而不稳",
+            "如果官被化去或财路不通，则终止高层级合制判断"
+          ],
+          "interpretation": "文曾并不把合制神秘化，而是把它视为一种更偏‘主动获取’的做功路径。合财重承载与财路，合官重官星质量与是否能稳定承接；一旦身弱硬求、官被化去或结构受扰，合制反而容易转成坎坷。",
+          "product_safe_advice": [
+            "系统里把合财与合官分开建模，不共用同一判断模板。",
+            "对外可以写成主动争取资源或位置，但要看自身承接度。"
+          ],
+          "do_not_say": [
+            "有合就一定轻松得财得位。",
+            "合官时身弱完全没有影响。"
+          ],
+          "confidence": "high",
+          "source": {
+            "lesson": "14.盲派做功方式-合制结构..mp4",
+            "source_file": "data/raw-transcripts/文曾/14盲派做功方式-合制结构/20260307-005925-dd3a67-14盲派做功方式-合制结构.txt",
+            "chunk_id": "course-summary"
+          }
+        },
+        {
+          "id": "wenzeng-rule-muzhi-structure-001",
+          "topic": "muzhi_structure",
+          "topic_family": "blind_school_rules",
+          "knowledge_priority": "core_emphasis",
+          "repetition_signal": {
+            "status": "repeated",
+            "meaning": "墓制结构和墓库模块高度关联，是重点做功方式之一",
+            "weight": "high"
+          },
+          "claim": "墓制结构在文曾体系中至少有开库、收纳、分配三种做功方式，其中开库级别最高，收纳其次，分配最偏‘有份额’而非彻底独得。",
+          "conditions": [
+            "先判断库在何处，外库还是家库",
+            "识别是否满足开库条件，尤其冲为钥匙、刑为破门",
+            "区分收纳、分配与反向入墓回流"
+          ],
+          "reasoning_path": [
+            "先定库是外库、家库还是回流库",
+            "再看有没有冲刑等钥匙把库真正打开",
+            "最后区分结果是独得、收纳分配还是重新回墓"
+          ],
+          "branch_conditions": [
+            "如果库没开，只能按封存或有份无权处理",
+            "如果是外库被我有效打开，则转入开发独得的高层级判断"
+          ],
+          "interpretation": "墓制不是简单地看到库就论财，而是要看人与库的关系。外库被我制开更像开发与独得；家里有库、外面有库中之物更偏收纳；库在外、我只分得其中一份则偏分配。不同模式决定了所得的完整度和稳定度。",
+          "product_safe_advice": [
+            "内部应把墓制拆成三类信号，不要混成一个分数。",
+            "对外可转译成资源开发、资源回收、平台分润三种模式。"
+          ],
+          "do_not_say": [
+            "见库就一定发财。",
+            "开家里的库一定是好事。"
+          ],
+          "confidence": "high",
+          "source": {
+            "lesson": "15.盲派做功方式-墓制结构..mp4",
+            "source_file": "data/raw-transcripts/文曾/15盲派做功方式-墓制结构/20260307-005925-73e9f6-15盲派做功方式-墓制结构.txt",
+            "chunk_id": "course-summary"
+          }
+        },
+        {
+          "id": "wenzeng-rule-fuhe-structure-001",
+          "topic": "fuhe_structure",
+          "topic_family": "blind_school_rules",
+          "knowledge_priority": "core_emphasis",
+          "repetition_signal": {
+            "status": "repeated",
+            "meaning": "复合结构是讲师用来解释复杂命局的重点模块",
+            "weight": "medium"
+          },
+          "claim": "复合结构不是单看某一个做功点，而是判断多种结构之间是串联、并联还是相悖；结构关系会直接决定层级、双收入模式与阶段性换行业。",
+          "conditions": [
+            "列出局中所有成立的做功结构",
+            "判断这些结构之间是顺流串联、并联共存还是互相打架",
+            "再结合大运流年看哪个结构被引动"
+          ],
+          "reasoning_path": [
+            "先把局中已成立的结构全部列出来",
+            "再判断它们是串联放大、并联共存还是彼此冲突",
+            "最后结合运势看当前由哪条结构主导现实结果"
+          ],
+          "branch_conditions": [
+            "如果多结构相悖，则先按冲突降层再谈结果",
+            "如果运势只引动其中一条，则阶段结论以被引动结构为主"
+          ],
+          "interpretation": "文曾把复合结构当成看职业与人生阶段切换的关键工具。串联通常意味着一条路径越走越顺，并联常对应双收入或多身份，相悖则意味着结构互相掣肘、层级下降；不同运势引动不同结构时，也会带来阶段性换行业。",
+          "product_safe_advice": [
+            "系统里应支持多规则同时命中，并判断它们是加成还是冲突。",
+            "对外可表达为当前更适合单线深耕、双线并行，或先处理结构冲突。"
+          ],
+          "do_not_say": [
+            "一个八字只能对应一种职业结构。",
+            "复合结构出现就一定更好。"
+          ],
+          "confidence": "high",
+          "source": {
+            "lesson": "16.盲派做功方式-复合结构..mp4",
+            "source_file": "data/raw-transcripts/文曾/16盲派做功方式-复合结构/20260307-005925-4ca325-16盲派做功方式-复合结构.txt",
+            "chunk_id": "course-summary"
+          }
+        },
+        {
+          "id": "wenzeng-rule-hezhi-efficiency-002",
+          "topic": "hezhi_efficiency",
+          "topic_family": "blind_school_rules",
+          "knowledge_priority": "core_emphasis",
+          "repetition_signal": {
+            "status": "repeated",
+            "meaning": "合制效率用于做功强弱排序，属于重点补充模块",
+            "weight": "medium"
+          },
+          "claim": "合制效率取决于制得完整不完整、制的是整体还是弱藏干，以及组合是否顺应原局特质；高效率合制能直接抬高层级。",
+          "conditions": [
+            "先确认合中是否真有克点",
+            "区分高、中、低与无效率组合",
+            "判断所制对象是整体、主气还是仅少量藏干"
+          ],
+          "reasoning_path": [
+            "先确认这组合同里是否真的存在有效克点",
+            "再看制到的是整体、主气还是边角藏干",
+            "最后按完成度和顺势程度给效率高低排序"
+          ],
+          "branch_conditions": [
+            "如果只是相生相合而没有真正制点，则退出合制效率判断",
+            "如果只碰到弱藏干，则从高效率降到低效率或无效率"
+          ],
+          "interpretation": "文曾把合制效率当作层级放大器。并非所有六合三合暗合都能成高层次，真正的高效率通常来自制得完整、金火或木火等高价值做功点明确，而只碰到弱藏干或只是相生关系的组合，效率会明显下滑甚至不作功。",
+          "product_safe_advice": [
+            "在内部评估里，把是否制到主气与是否形成完整闭环作为效率判断核心。",
+            "面向用户可转译为成果转化效率高低，而不是直接说命格高低。"
+          ],
+          "do_not_say": [
+            "看到合就一定有大功。",
+            "有三合六合就一定会升层级。"
+          ],
+          "confidence": "high",
+          "source": {
+            "lesson": "17.做功效率-合制效率..mp4",
+            "source_file": "data/raw-transcripts/文曾/17做功效率-合制效率/20260307-005925-5418b1-17做功效率-合制效率.txt",
+            "chunk_id": "course-summary"
+          }
+        },
+        {
+          "id": "wenzeng-rule-xingchongchuanzhi-efficiency-002",
+          "topic": "xingchongchuanzhi_efficiency",
+          "topic_family": "blind_school_rules",
+          "knowledge_priority": "core_emphasis",
+          "repetition_signal": {
+            "status": "repeated",
+            "meaning": "刑冲穿制效率是做功力度排序的重点补充",
+            "weight": "medium"
+          },
+          "claim": "刑冲穿制的效率通常按冲、刑、穿递减，但真正能不能成高效率，还取决于力量对比、墓库级别、顺逆方向与是否制尽。",
+          "conditions": [
+            "确认一方力量明显强于另一方",
+            "优先识别墓库冲刑与丑戌刑等高能级关系",
+            "把破、生穿和无力相冲从有效做功中剔除"
+          ],
+          "reasoning_path": [
+            "先比双方力量，确认是不是一边能压住另一边",
+            "再看冲刑穿落在墓库、主气还是普通表层关系",
+            "最后按顺制、制尽和完成度给效率排序"
+          ],
+          "branch_conditions": [
+            "如果没有明显强弱差，只能按形式关系记，不直接判高效率",
+            "如果属于破、生穿或无力相冲，则剔出有效做功主线"
+          ],
+          "interpretation": "文曾不是单纯按名称论强弱，而是把刑冲穿放进成局条件里看。墓库冲刑、三打一、顺制、制尽会显著提高效率；反过来，破、不成局、相生相穿、力量不够的形式关系，不能直接按高效率处理。",
+          "product_safe_advice": [
+            "系统可把冲刑穿当成变化强度与资源重组强度的内部指标。",
+            "对外表达尽量转成变化力度和掌控成本，不直接说灾祸。"
+          ],
+          "do_not_say": [
+            "所有冲都比合强。",
+            "出现刑冲穿就必然是大事。",
+            "破也算高效率做功。"
+          ],
+          "confidence": "high",
+          "source": {
+            "lesson": "18.做功效率-刑冲穿制效率..mp4",
+            "source_file": "data/raw-transcripts/文曾/18做功效率-刑冲穿制效率/20260307-005925-b45c8a-18做功效率-刑冲穿制效率.txt",
+            "chunk_id": "course-summary"
+          }
+        },
+        {
+          "id": "wenzeng-rule-muku-base-symbolism-001",
+          "topic": "muku_base_symbolism",
+          "topic_family": "teacher_framework",
+          "knowledge_priority": "foundational",
+          "repetition_signal": {
+            "status": "repeated",
+            "meaning": "墓库基础象法属于反复使用的底层素材库",
+            "weight": "high"
+          },
+          "claim": "墓库在文曾体系里不能只当仓库看，而要先区分比劫库、财库、官库、印库、食伤库，再据此推组织类型、群体属性和应用场景。",
+          "conditions": [
+            "先识别该库对应的是哪一类十神资源",
+            "再结合格局层次判断是政府、企业、学校、财务部门还是娱乐场域",
+            "最后看我与该库是控制、进入还是分润关系"
+          ],
+          "reasoning_path": [
+            "先给墓库定十神属性，分清它装的是什么资源",
+            "再把这个资源映射到组织、平台和行业场域",
+            "最后判断我与该库的关系是控制、进入还是分润"
+          ],
+          "branch_conditions": [
+            "如果库的十神属性没定清，就不要直接落行业象义",
+            "如果我只是参与分润而不掌控库，则结论从拥有资源降为共享资源"
+          ],
+          "interpretation": "库不是单纯的财务容器，而是组织化资源的集合点。比劫库偏群体与平台，官库偏管理与品牌，印库偏知识与行政，食伤库偏孩子、娱乐场所和研发场域，财库反而未必层级最高。",
+          "product_safe_advice": [
+            "内部可把库先映射成组织类型，再映射成行业场域。",
+            "避免对外直接说某库一定等于某单位。"
+          ],
+          "do_not_say": [
+            "见财库就是大财。",
+            "所有墓库只代表同一种事。"
+          ],
+          "confidence": "high",
+          "source": {
+            "lesson": "7.墓库的高级象法..mp4",
+            "source_file": "data/raw-transcripts/文曾/7墓库的高级象法/20260307-005925-a2ad81-7墓库的高级象法.txt",
+            "chunk_id": "course-summary"
+          }
+        },
+        {
+          "id": "wenzeng-rule-simuku-yinyang-001",
+          "topic": "si_mu_ku_yinyang",
+          "topic_family": "teacher_framework",
+          "knowledge_priority": "foundational",
+          "repetition_signal": {
+            "status": "repeated",
+            "meaning": "四墓库阴阳湿燥是讲师体系中的基础辨别维度",
+            "weight": "high"
+          },
+          "claim": "四墓库需要先分阴阳、湿燥与地貌感：辰戌偏阳、丑未偏阴；辰丑偏湿，戌未偏燥，这会直接影响库的场景象与生克方式。",
+          "conditions": [
+            "先区分辰戌与丑未的地貌差异",
+            "再看湿土与燥土对金木水火的支持或消耗方向",
+            "结合开库、闭库、入墓、出库来判断动态"
+          ],
+          "reasoning_path": [
+            "先分辰戌与丑未的阴阳、地貌和材质差异",
+            "再看湿燥属性怎样改变金木水火的生克支持",
+            "最后把这种场景感带回开库、闭库和出入墓判断"
+          ],
+          "branch_conditions": [
+            "如果只按土论而不分湿燥阴阳，则暂停细象落地",
+            "如果库的开闭状态变化，则同步重算场景和资源表达方式"
+          ],
+          "interpretation": "文曾把四墓库当成有地貌、温度、材质和资源属性的场景容器。辰戌更高大坚硬，丑未更田园平展；湿燥不同，会改变生金、藏木、护火、耗金的实际结果。",
+          "product_safe_advice": [
+            "内部建模时把四墓库的物理场景感和五行功能分开存。",
+            "对外只转成环境气质和资源形态，不直接灌输术语。"
+          ],
+          "do_not_say": [
+            "四墓库都一样。",
+            "只靠一个墓库字就能断完场景。"
+          ],
+          "confidence": "high",
+          "source": {
+            "lesson": "10.墓库用法总结篇..mp4",
+            "source_file": "data/raw-transcripts/文曾/10墓库用法总结篇/20260307-005925-e96741-10墓库用法总结篇.txt",
+            "chunk_id": "course-summary"
+          }
+        },
+        {
+          "id": "wenzeng-rule-travel-logic-001",
+          "topic": "travel_logic",
+          "topic_family": "teacher_framework",
+          "claim": "出行远近与动向的判断，要优先看冲、驿马、年日位置和被引动的宫位层级，而不是死背单一方位口诀。",
+          "conditions": [
+            "优先检查年支、日支、驿马星是否被冲动",
+            "区分年上引动与日上引动的远近差异",
+            "再结合具体做功关系判断是短动还是远行"
+          ],
+          "reasoning_path": [
+            "先找年支、日支和驿马有没有被真正引动",
+            "再区分引动发生在年上还是日上，判断远近层级",
+            "最后结合做功关系落到短动、远行或普通环境变动"
+          ],
+          "branch_conditions": [
+            "如果只有驿马名号而无冲动，不直接上出行动象",
+            "如果引动只在近身位，则按短动处理，不外推远行"
+          ],
+          "interpretation": "文曾把出行动象视为一种被引动的结构变化。年上多偏远、日上多偏近，驿马与冲象同时出现时出行动能更强；但方向本身仍然属于高难度推断，不宜机械化。",
+          "product_safe_advice": [
+            "适合在系统里作为动静与远近的辅助信号。",
+            "不要用它生成过度具体的地理断语。"
+          ],
+          "do_not_say": [
+            "一定去某个具体方向。",
+            "有冲就百分之百出远门。"
+          ],
+          "confidence": "medium",
+          "source": {
+            "lesson": "19-20.出行的远近与方位",
+            "source_file": "data/raw-transcripts/文曾/19出行的远近与方位上/20260307-005925-d29217-19出行的远近与方位上.txt",
+            "chunk_id": "course-summary"
+          }
+        },
+        {
+          "id": "wenzeng-rule-stem-branch-imagery-001",
+          "topic": "stem_branch_imagery",
+          "topic_family": "teacher_framework",
+          "claim": "干支象法依赖联想力和场景映射，一个干支组合可以直接对应职业、器物、动作和生活场景，但必须放回原局关系中验证。",
+          "conditions": [
+            "识别单柱或干支组合的直观意象",
+            "把象意与原局中十神、五行和位置关系叠加",
+            "避免离开原局单独硬断职业"
+          ],
+          "reasoning_path": [
+            "先取单柱或干支组合给出的直观象意",
+            "再叠加十神、五行和位置关系筛掉不合主线的象",
+            "最后只把与结构一致的象意落到职业或场景提示"
+          ],
+          "branch_conditions": [
+            "如果象意和主结构冲突，则以结构为先，不单独硬断",
+            "如果只有单柱意象而无全局承接，则降为候选标签而非结论"
+          ],
+          "interpretation": "文曾把干支象法当作高阶补充能力，而非脱离格局单独使用的主方法。它的价值在于提供具体职业、行为和器物联想，但前提是与结构规则一致。",
+          "product_safe_advice": [
+            "适合作为候选标签增强器，而不是唯一判断来源。",
+            "对外只提炼成风格与场景，不直接暴露技术词。"
+          ],
+          "do_not_say": [
+            "看到某个干支就一定是某个职业。",
+            "象法可以脱离格局独立使用。"
+          ],
+          "confidence": "medium",
+          "source": {
+            "lesson": "22.干支象法_ev.mp4",
+            "source_file": "data/raw-transcripts/文曾/22干支象法-ev/20260307-005926-a43605-22干支象法-ev.txt",
+            "chunk_id": "course-summary"
+          }
+        },
+        {
+          "id": "wenzeng-rule-shensha-caution-001",
+          "topic": "shensha_caution",
+          "topic_family": "teacher_framework",
+          "claim": "神煞在文曾体系中不是主判断轴，更适合作为加分项、修正项或救应项，不能压过格局、喜忌和做功主线。",
+          "conditions": [
+            "先完成格局、体用和做功判断",
+            "再把神煞当作辅助信息看是否加重或缓解",
+            "尤其关注天乙等贵人类的缓冲作用"
+          ],
+          "reasoning_path": [
+            "先把格局、体用和做功主线判断完",
+            "再看神煞是在加重、缓和还是修饰主线",
+            "最后仅把神煞作为修正项纳入结论"
+          ],
+          "branch_conditions": [
+            "如果主结构未定，就不允许神煞抢占主线解释权",
+            "如果神煞只起轻微修饰作用，则不单独生成结论"
+          ],
+          "interpretation": "文曾明确反对把神煞挂在嘴边替代结构分析。神煞能用，但位置在后面；例如天乙贵人能缓冲某些事件，却不等于自动富贵。",
+          "product_safe_advice": [
+            "系统里把神煞权重放低，只作为修正项。",
+            "用户输出里避免神煞堆砌。"
+          ],
+          "do_not_say": [
+            "有贵人星就一定发达。",
+            "神煞比格局更重要。"
+          ],
+          "confidence": "high",
+          "source": {
+            "lesson": "23.重要神煞_ev.mp4",
+            "source_file": "data/raw-transcripts/文曾/23重要神煞-ev/20260307-005926-760d0e-23重要神煞-ev.txt",
+            "chunk_id": "course-summary"
+          }
+        },
+        {
+          "id": "wenzeng-rule-special-imagery-001",
+          "topic": "special_imagery_methods",
+          "topic_family": "teacher_framework",
+          "claim": "特殊象法包括一柱多象、多柱一象、明象与暗象，核心是承认同一结构在不同阶段、不同对象上会承载多个角色含义。",
+          "conditions": [
+            "检查单柱是否同时承载父母、伴侣、子女或事业多个像",
+            "检查多柱是否共同汇到同一目标对象",
+            "把藏干互动视作暗象，不忽略内部关系"
+          ],
+          "reasoning_path": [
+            "先确认一个位置承载了多少角色和像",
+            "再看多柱是否把这些角色汇向同一对象",
+            "最后把藏干暗象补进来，决定是角色叠加还是关系串联"
+          ],
+          "branch_conditions": [
+            "如果只有单层角色而无多柱汇流，就不按复杂叠像处理",
+            "如果暗象改写了表层角色，则优先按暗象校正最终结论"
+          ],
+          "interpretation": "文曾把特殊象法当成复杂命局的拆解工具。它不是为了增加神秘感，而是防止把多层角色压扁成单一结论，尤其在婚姻、事业与家庭事件判断里特别重要。",
+          "product_safe_advice": [
+            "适合作为复杂案例的内部解释层。",
+            "对外只用来支持‘角色叠加’和‘关系复杂’这类表达。"
+          ],
+          "do_not_say": [
+            "一个位置永远只代表一个对象。",
+            "藏干关系可以忽略。"
+          ],
+          "confidence": "high",
+          "source": {
+            "lesson": "24.特殊象法_ev.mp4",
+            "source_file": "data/raw-transcripts/文曾/24特殊象法-ev/20260307-005926-176ec9-24特殊象法-ev.txt",
+            "chunk_id": "course-summary"
+          }
+        },
+        {
+          "id": "wenzeng-rule-property-logic-001",
+          "topic": "property_logic",
+          "topic_family": "teacher_framework",
+          "claim": "房产在文曾体系里优先看官印，其次再看墓库和其他承载星；买、卖、搬不是一个点，需要结合喜忌与官印是否得用分别判断。",
+          "conditions": [
+            "优先检查官印是否能代表房产",
+            "再看辰戌丑未是否构成房产增量或多套房象",
+            "区分买房、卖房、搬家与买车的不同触发"
+          ],
+          "reasoning_path": [
+            "先判断官印能否在当前局里承接房产主题",
+            "再看辰戌丑未是形成增量、不动产转换还是居住调整",
+            "最后把事件分到买房、卖房、搬家或车辆相关"
+          ],
+          "branch_conditions": [
+            "如果官印不承接房产主题，则不把土库类信号硬断成房产",
+            "如果更贴近车象而非居住承载，则切到车辆或机械环境判断"
+          ],
+          "interpretation": "官偏豪华与档次，印偏收纳与居住承载。财破印、印制食伤、化官生印、土水金火不同组合会分别对应置业、搬迁、卖房或车辆，而不是统一成一个不动产结论。",
+          "product_safe_advice": [
+            "系统里应把居住变化和资产变化分开建模。",
+            "面向用户时转成居住升级、置产窗口、空间调整更稳妥。"
+          ],
+          "do_not_say": [
+            "所有印都只代表房子。",
+            "房与车不需要区分。"
+          ],
+          "confidence": "high",
+          "source": {
+            "lesson": "27-28.买房、卖房、搬家",
+            "source_file": "data/raw-transcripts/文曾/27买房卖房与搬家-ev/20260307-005926-818181-27买房卖房与搬家-ev.txt",
+            "chunk_id": "course-summary"
+          }
+        },
+        {
+          "id": "wenzeng-rule-career-industry-distinction-001",
+          "topic": "career_industry_distinction",
+          "topic_family": "teacher_framework",
+          "claim": "行业更偏局中的事业性与用神方向，职业更偏体与能力性；判断时要先区分行业领域，再区分在这个领域里扮演的角色与职务层级。",
+          "conditions": [
+            "先看用神与做功点落在哪个领域",
+            "再看体的能力如何决定岗位角色",
+            "遇到复合格局时用左右切分与主线判断法"
+          ],
+          "reasoning_path": [
+            "先定事业性结构落在哪个领域或行业",
+            "再用体的能力结构判断具体岗位和角色",
+            "最后在复合格局里按主线和阶段切分职业路径"
+          ],
+          "branch_conditions": [
+            "如果行业线和能力线冲突，则先保留双路径，不急着压成单一职业",
+            "如果复合格局阶段切换明显，则按阶段输出，不给唯一职业结论"
+          ],
+          "interpretation": "文曾在专论职业与行业里，把‘做什么领域’和‘在里面干什么角色’明确分开。行业由事业性决定，职业由能力性决定；复合格局则要判断哪条主线更顺、哪条被破坏、哪个阶段被引动。",
+          "product_safe_advice": [
+            "适合作为职业推荐层的总控规则。",
+            "不要在没有主线判断前直接输出单一职业。"
+          ],
+          "do_not_say": [
+            "行业和职业是一回事。",
+            "看到一个信号就能直接断职业。"
+          ],
+          "confidence": "high",
+          "source": {
+            "lesson": "40.专论职业与行业_ev_ev.mp4",
+            "source_file": "data/raw-transcripts/文曾/40专论职业与行业-ev-ev/20260307-005927-0a4ae8-40专论职业与行业-ev-ev.txt",
+            "chunk_id": "course-summary"
+          }
+        },
+        {
+          "id": "wenzeng-rule-case-reading-method-001",
+          "topic": "case_reading_method",
+          "topic_family": "teacher_framework",
+          "claim": "文曾在案例课里强调，看局先找会党成势、叛党、月令出力点和制点，再判断我方是否真正站在有势一边参与做功。",
+          "conditions": [
+            "先以月令为中心找哪一方更当令、更集中",
+            "识别叛党节点是否在给敌方续气或制造纠纷",
+            "确认我方是在直接制敌还是只在外围帮忙"
+          ],
+          "reasoning_path": [
+            "先从月令起手，判断哪一边真正更当令、更集中",
+            "再找叛党和续气点，看主线有没有被内部打断",
+            "最后判断我方是在主攻位还是外围助攻位"
+          ],
+          "branch_conditions": [
+            "如果叛党未净，则优先保留争议和反复，不直接给满结论",
+            "如果我方只是外围帮忙，则下调做功完成度和结果归属"
+          ],
+          "interpretation": "这类案例课的底层方法不是逐个十神平铺解释，而是先抓整盘的主攻方向和内部干扰点。即使原局有富贵潜力，只要叛党未制干净或做功路径不清，结果就会带争议、反复或不彻底。",
+          "product_safe_advice": [
+            "系统生成时先输出结构清晰度，再输出结果强弱。",
+            "遇到叛党未净的局，优先转译为推进中有争议和反复，不直接下吉凶断语。"
+          ],
+          "do_not_say": [
+            "看见某个十神就能直接断完整格局。",
+            "只要是富贵例子就没有内部纠纷。"
+          ],
+          "confidence": "high",
+          "source": {
+            "lesson": "2.盲派思路看局案例..mp4",
+            "source_file": "data/raw-transcripts/文曾/2盲派思路看局案例/20260307-005924-87a352-2盲派思路看局案例.txt",
+            "chunk_id": "course-summary"
+          }
+        },
+        {
+          "id": "wenzeng-rule-level-determination-001",
+          "topic": "level_determination",
+          "topic_family": "blind_school_rules",
+          "knowledge_priority": "core_emphasis",
+          "repetition_signal": {
+            "status": "repeated",
+            "meaning": "层次判断在案例课和方法课中反复出现，属于重点判断维度",
+            "weight": "high"
+          },
+          "claim": "层次在文曾体系里主要由势大小、做功大小和制尽程度共同决定；大人物通常要同时满足势大、有功、制尽三个条件。",
+          "conditions": [
+            "先看哪一方的势更大、更集中",
+            "再看做功发生在天干还是地支，以及做功次数和力度",
+            "最后判断是否制尽，还是仍有反抗、坎坷和反复"
+          ],
+          "reasoning_path": [
+            "先比较哪一边势更大、更集中",
+            "再看做功落在天干还是地支以及完成了多少次",
+            "最后用制尽程度判断结果稳定度和最终层次"
+          ],
+          "branch_conditions": [
+            "如果有势有功但未制尽，则保留成就但降稳定度",
+            "如果势小功小或无功，则直接下调层次，不靠局部亮点硬撑"
+          ],
+          "interpretation": "有势有功但未制尽，仍可能富贵，只是人生起伏更多；有势无功或势小功小，则层次明显下调。文曾还强调，制地支通常比制天干工更大，因为地支更有根气和源头。",
+          "product_safe_advice": [
+            "内部可以把层次拆成势、功、完成度三个评分维度。",
+            "对外转译成影响力、执行力和结果稳定度，不直接套用等级标签。"
+          ],
+          "do_not_say": [
+            "只看一个克就能判定层次高低。",
+            "没制尽的人一定没有成就。"
+          ],
+          "confidence": "high",
+          "source": {
+            "lesson": "3.盲派八字定层次（加案例）..mp4",
+            "source_file": "data/raw-transcripts/文曾/3盲派八字定层次加案例/20260307-005924-c70a62-3盲派八字定层次加案例.txt",
+            "chunk_id": "course-summary"
+          }
+        },
+        {
+          "id": "wenzeng-rule-low-level-markers-001",
+          "topic": "low_level_chart_markers",
+          "topic_family": "blind_school_rules",
+          "claim": "低层次八字常见的结构标记包括废神多、叛党、势均力敌、天地相悖，以及穿导致做功不完整、破直接不做功。",
+          "conditions": [
+            "检查是否存在明显叛党和废神堆积",
+            "判断天地表达是否相反，表面我制人、实则人反制我",
+            "区分冲刑克的完整做功与穿、破造成的效率下降或失效"
+          ],
+          "reasoning_path": [
+            "先排查叛党、废神和力量分流点",
+            "再看天干地支是不是在表达同一方向，还是天地相悖",
+            "最后把穿、破从完整做功里单独降权处理"
+          ],
+          "branch_conditions": [
+            "如果主线被叛党持续打断，则优先按低层局处理",
+            "如果只是局部好看但天地相悖，则不按高层组合直推结果"
+          ],
+          "interpretation": "文曾把低层次局理解为结构不清、力量分流和方向相反。即便局部组合看起来不错，只要主线做功被叛党打断或天地相悖，整体层次就难起来；其中破最弱，通常不按有效做功处理。",
+          "product_safe_advice": [
+            "产品里可转译为资源分散、内耗明显、推进时容易事与愿违。",
+            "对效率做分层判断时，给穿单独降权，不把破计为有效功。"
+          ],
+          "do_not_say": [
+            "低层次就等于人生没有翻盘空间。",
+            "只要有穿就和冲刑一样有效。"
+          ],
+          "confidence": "high",
+          "source": {
+            "lesson": "4.盲派低层次八字论法（加案例）..mp4",
+            "source_file": "data/raw-transcripts/文曾/4盲派低层次八字论法加案例/20260307-005924-a6f78b-4盲派低层次八字论法加案例.txt",
+            "chunk_id": "course-summary"
+          }
+        },
+        {
+          "id": "wenzeng-rule-chou-wei-advanced-001",
+          "topic": "chou_wei_advanced_symbolism",
+          "topic_family": "teacher_framework",
+          "claim": "丑未的高级象法不能只按普通土看，文曾更强调其中的藏干结构、分身引动和阴阳异象；尤其丑常连到土地、司法、金融、珠宝、养殖和隐秘玄学场域。",
+          "conditions": [
+            "先拆开丑中己土、辛金、癸水等内部资源关系",
+            "判断原局或岁运里哪些分身会把丑引动出来",
+            "结合层次和做功方式，区分它落在司法、商业、养殖还是玄学场域"
+          ],
+          "reasoning_path": [
+            "先拆丑未内部的藏干资源和阴阳气质",
+            "再看哪些分身或岁运把它的某一面引出来",
+            "最后结合做功方式落到具体场域和角色变化"
+          ],
+          "branch_conditions": [
+            "如果只是库存在而无分身引动，就不落具体行业象",
+            "如果引动的是不同分身，则切换对应场域，不沿单一标签直推"
+          ],
+          "interpretation": "这门课的重点不是给丑未贴单一标签，而是承认一个墓库会在不同阶段借不同分身表达。分身引动后，可能表现为工作内容切换、角色换样、感情对象进入，或者某类行业场景被激活；丑还带较强的阴冷、隐秘和不可见领域象。",
+          "product_safe_advice": [
+            "内部建模时，把墓库本体与分身触发分开存储。",
+            "对外只转译成资源场域、工作形态或环境气质，不直接堆术语。"
+          ],
+          "do_not_say": [
+            "丑未只代表土或仓库。",
+            "一个分身引动就能离开原局独立断事。"
+          ],
+          "confidence": "medium",
+          "source": {
+            "lesson": "8.四墓库高级象法（丑、未）..mp4",
+            "source_file": "data/raw-transcripts/文曾/8四墓库高级象法丑未/20260307-005925-804645-8四墓库高级象法丑未.txt",
+            "chunk_id": "course-summary"
+          }
+        },
+        {
+          "id": "wenzeng-rule-chen-xu-advanced-001",
+          "topic": "chen_xu_advanced_symbolism",
+          "topic_family": "teacher_framework",
+          "claim": "辰戌不能被简化成普通土库。文曾把辰讲成万物之库、地户和大型平台，常连到教育、医疗、养殖、果园、创新与理学；戌则更偏火库、能量场和工业平台。",
+          "conditions": [
+            "先区分辰与戌的场域气质，而不是笼统归土",
+            "判断水木是否入辰、丑是否入辰，以及是否有驿马等引动因素",
+            "再结合课程场景去映射平台、产业或学术理路"
+          ],
+          "reasoning_path": [
+            "先把辰和戌拆成不同的场域与平台气质",
+            "再看水木、丑土和驿马等因素如何改写其表达方向",
+            "最后把结果落到平台、产业、理路或能量场"
+          ],
+          "branch_conditions": [
+            "如果只是普通土位而无场域增强因素，则不硬上高级象法",
+            "如果引动因素改变了主气，就按新主气重算平台属性"
+          ],
+          "interpretation": "辰在这套体系里更偏生成、容纳和平台化表达，所以常连接大型社区、厂房、教育医疗、技术创新与易学理路；戌则更偏火库、能量消耗和工业承载。两者都属于动态容器，不宜只按一个土字处理。",
+          "product_safe_advice": [
+            "适合在知识库里作为场域增强器使用，帮助补职业和环境标签。",
+            "用户侧只转成平台型环境、理性研究型环境或高能耗工业型环境。"
+          ],
+          "do_not_say": [
+            "辰戌和其他土支没有区别。",
+            "见辰就一定做教育，见戌就一定做工业。"
+          ],
+          "confidence": "medium",
+          "source": {
+            "lesson": "9.四墓库高级象法（辰、戌）..mp4",
+            "source_file": "data/raw-transcripts/文曾/9四墓库高级象法辰戌/20260307-005925-aec3c9-9四墓库高级象法辰戌.txt",
+            "chunk_id": "course-summary"
+          }
+        },
+        {
+          "id": "wenzeng-rule-muku-case-application-001",
+          "topic": "muku_case_application",
+          "topic_family": "blind_school_rules",
+          "claim": "墓库高级用法要动态看入墓和出墓：原局里已经透出、已存在的财官食伤，在大运流年被逼回墓库时，往往对应工作、钱财、关系或健康的阶段性失去。",
+          "conditions": [
+            "先判断某个财官食伤在原局是透出状态还是库内状态",
+            "再看当前岁运是否让它回墓、换墓或被冲开",
+            "结合身强身弱，区分是亏财、失职、病灾还是家庭事件"
+          ],
+          "reasoning_path": [
+            "先分清目标资源原本是在外显状态还是库内封存状态",
+            "再看岁运是把它拖回墓里、换库，还是重新冲开",
+            "最后结合体感受和资源类型落到失财、失职、病灾或家庭事件"
+          ],
+          "branch_conditions": [
+            "如果资源原本就在库内，就不直接按失去处理，而先看能否被调出",
+            "如果岁运是冲开而非逼回墓库，则从损失判断转到显化和重新调用判断"
+          ],
+          "interpretation": "文曾在案例里反复用入墓出墓解释输钱、失业、身体出问题和家庭变故。关键不是看到墓库就说凶，而是看原本在外的资源是否被拖回墓里，或者原本能用的财官是否在运里突然消失、难以调用。",
+          "product_safe_advice": [
+            "做事件分析时，把入墓理解成资源回收、岗位失联或可用性下降。",
+            "需要和当前大运流年联动，不要脱离时间维度单独断。"
+          ],
+          "do_not_say": [
+            "财官入墓就一定一生失败。",
+            "只凭一个墓库就能断定所有事件类型。"
+          ],
+          "confidence": "high",
+          "source": {
+            "lesson": "11.墓库高级用法案例..mp4",
+            "source_file": "data/raw-transcripts/文曾/11墓库高级用法案例/20260307-005925-f479c4-11墓库高级用法案例.txt",
+            "chunk_id": "course-summary"
+          }
+        },
+        {
+          "id": "wenzeng-rule-high-risk-intimacy-markers-001",
+          "topic": "high_risk_transactional_intimacy_markers",
+          "topic_family": "sensitive_internal_rules",
+          "claim": "文曾把重食伤尤其伤官、金水或水火欲望旺、偏财、官杀混杂、多重合、桃花和路合财等组合，视为高风险交易型亲密关系的内部识别信号。",
+          "conditions": [
+            "食伤或伤官明显偏重，且缺少印或其他约束",
+            "金水旺、水火欲望强、偏财重或官杀混杂并见",
+            "同时出现多重合、桃花、路合财等把身体和利益绑定的结构"
+          ],
+          "reasoning_path": [
+            "先识别欲望、竞争和身体利益绑定的高风险组合是否同时存在",
+            "再检查有没有印或其他约束结构把边界拉回来",
+            "最后只在多条高风险信号共振时进入内部复核，而不直接下身份结论"
+          ],
+          "branch_conditions": [
+            "如果只有单一欲望信号而无边界失守和资源绑定，则不升级为高风险标签",
+            "如果约束结构仍强，则降为关系边界风险，不进入敏感内部判定"
+          ],
+          "interpretation": "这类规则只适合内部风险识别，不适合直接作为用户标签。文曾自己也强调，这种判断涉及职业操守，真实应用时更应转译成关系边界松动、欲望驱动强、资源交换色彩重，而不是给当事人贴侮辱性身份。",
+          "product_safe_advice": [
+            "仅用于内部风险备注或敏感案例复核，不进入用户可见的职业分类。",
+            "对外只可转成关系边界、情欲驱动和资源交换风险，不做身份命名。"
+          ],
+          "do_not_say": [
+            "你就是某类敏感职业。",
+            "只凭这些结构就直接给用户贴羞辱性标签。"
+          ],
+          "confidence": "high",
+          "source": {
+            "lesson": "32.职业象法—小姐_ev.mp4",
+            "source_file": "data/raw-transcripts/文曾/32职业象法小姐-ev/20260307-005927-2527a9-32职业象法小姐-ev.txt",
+            "chunk_id": "course-summary"
+          }
+        },
+        {
+          "id": "wenzeng-rule-zhengju-fanju-cases-002",
+          "topic": "zhengju_fanju_case_application",
+          "topic_family": "blind_school_rules",
+          "claim": "正局与反局的案例判断，关键不在术语名目，而在天干和地支是否围绕同一目标表达；一旦天要我制人、地反来制我，就属于典型反局落地。",
+          "conditions": [
+            "先看日主在天干的表达是克、合还是借别人做功",
+            "再看地支是否顺着同一目标推进，还是反向保护敌方或回头制我",
+            "检查岁运是否放大原局矛盾，把潜在反局推成事件级反局"
+          ],
+          "reasoning_path": [
+            "先看天干这一层我在做什么，是主动克、合还是借力",
+            "再看地支是否顺着同一目标落地，还是回头护敌",
+            "最后再用岁运确认这种反向矛盾会不会被放大成事件"
+          ],
+          "branch_conditions": [
+            "如果天地两层表达一致，则不轻易判反局",
+            "如果岁运放大了原局矛盾，则从潜在反局升级为事件级反局"
+          ],
+          "interpretation": "这门案例课补充了理论课的落地方法。文曾会把财印相合、伤官配官、比劫克财这类结构放进具体案例里，看天干与地支是不是在说同一件事；若两层表达互相打架，哪怕局部组合好看，也会转成坎坷、官非、牢狱或重大挫败的触发点。",
+          "product_safe_advice": [
+            "在自动分析里，把正局反局做成结构一致性检查，而不是只看标签命中。",
+            "岁运里遇到反局时，转译成重大阻滞、冲突升级或计划反噬，不直接输出灾祸断言。"
+          ],
+          "do_not_say": [
+            "只凭一个合或一个克就能判定反局。",
+            "所有反局都会落到同一种灾。"
+          ],
+          "confidence": "high",
+          "source": {
+            "lesson": "5.正局与反局（加案例）..mp4",
+            "source_file": "data/raw-transcripts/文曾/5正局与反局加案例/20260307-005924-5b9a0b-5正局与反局加案例.txt",
+            "chunk_id": "course-summary"
+          }
+        },
+        {
+          "id": "wenzeng-rule-zhengyong-fanyong-cases-002",
+          "topic": "zhengyong_fanyong_case_application",
+          "topic_family": "blind_school_rules",
+          "claim": "正用与反用的案例判断，要落回主位体、主位用、宾位体、宾位用四个位置，并重点核查主位之体是否被伤、我是否参与势大且主导的一方。",
+          "conditions": [
+            "先区分主位和宾位的体、用分别落在哪些十神和位置",
+            "确认被制的是宾位体用，还是误伤主位印比之体",
+            "判断我方是否真的参与并主导了势大的一方，而不是被动挂靠"
+          ],
+          "reasoning_path": [
+            "先把主位、宾位、体、用在案例里一一落位",
+            "再确认这次制打到的是宾位目标，还是误伤主位之体",
+            "最后判断我方是主导参与，还是只是挂靠在势大一边"
+          ],
+          "branch_conditions": [
+            "如果主位之体受损，则从成局转向失主导或降层判断",
+            "如果我方只是挂靠而非主导，则不按高层正用反用成立处理"
+          ],
+          "interpretation": "这门案例课强调，正用和反用不是抽象概念，而是看谁在制谁、我站在哪边、有没有主导权。只要能制尽宾位、主位之体不坏，反用也可以成局；但若宾位之用反制主位之体，或我根本没参与势大一方，就会从富贵结构退成贫困或低层局。",
+          "product_safe_advice": [
+            "系统实现时把主位体受损设成高风险信号，把主导参与度设成单独维度。",
+            "面向用户可转成主动掌控型、借平台放大型或容易失去主导权三类表达。"
+          ],
+          "do_not_say": [
+            "反用一定不如正用。",
+            "只要看见制就说明自己在主导。"
+          ],
+          "confidence": "high",
+          "source": {
+            "lesson": "6.正用与反用（加案例）..mp4",
+            "source_file": "data/raw-transcripts/文曾/6正用与反用加案例/20260307-005925-e7186a-6正用与反用加案例.txt",
+            "chunk_id": "course-summary"
+          }
+        },
+        {
+          "id": "wenzeng-rule-bazi-information-code-001",
+          "topic": "bazi_information_code",
+          "topic_family": "teacher_framework",
+          "knowledge_priority": "foundational",
+          "repetition_signal": {
+            "status": "repeated",
+            "meaning": "属于讲师反复拿来定框架的世界观入口",
+            "weight": "medium"
+          },
+          "claim": "文曾把八字定义成一种生日信息密码或人生数据代码，强调先理解体系之道，再学习技术之术，才能让后续规则真正连成系统。",
+          "conditions": [
+            "需要概括讲师的底层世界观和方法论入口",
+            "讨论为何八字能被当成结构化信息来研究",
+            "为后续规则系统提供统一的解释框架"
+          ],
+          "reasoning_path": [
+            "先把出生信息视作可解析的结构化代码",
+            "再确认这套代码必须通过方法论而不是口诀堆砌来解",
+            "最后把后续规则都挂回同一套信息解析框架"
+          ],
+          "branch_conditions": [
+            "如果只背技巧而没有结构框架，则不进入高阶推演结论",
+            "如果新规则无法回挂到底层信息模型，就先不把它当主干规则"
+          ],
+          "interpretation": "这门课的重点不是具体断法，而是给整套知识定基调。文曾用信息代码、DNA、区块链这类比喻说明：出生信息可以被视作一套可解析的结构密码，而学习者如果只背技巧、不理解方法论，会在复杂局面里很快碰到天花板。",
+          "product_safe_advice": [
+            "内部可把它视为知识库的元规则，用来约束后续提示词和检索逻辑。",
+            "对外不要直接讲技术比喻，只保留“基于个人能量图谱做长期观察”的包装。"
+          ],
+          "do_not_say": [
+            "八字能机械地决定一生每个细节。",
+            "只要知道生日信息就能绝对精准预测所有事件。"
+          ],
+          "confidence": "medium",
+          "source": {
+            "lesson": "1.八字哲学本质.mp4_ev.mp4",
+            "source_file": "data/raw-transcripts/文曾/1八字哲学本质mp4-ev/20260308-213621-d2db49-1八字哲学本质mp4-ev.txt",
+            "chunk_id": "course-summary"
+          }
+        },
+        {
+          "id": "wenzeng-rule-sheng-ke-information-model-001",
+          "topic": "sheng_ke_information_model",
+          "topic_family": "teacher_framework",
+          "knowledge_priority": "foundational",
+          "repetition_signal": {
+            "status": "repeated",
+            "meaning": "生克模型在讲师课程中被反复作为底层解释语言使用",
+            "weight": "high"
+          },
+          "claim": "文曾把生与克视为八字中的两类核心信息：克对应驾驭、统御、能力与获得，生对应质变、新事物生成；克过头会毁灭，克不足会反噬。",
+          "conditions": [
+            "需要解释文曾体系里生克为何不是简单吉凶词",
+            "分析结构里谁在驾驭谁、谁在被统御、是否存在反克",
+            "需要把结构变化映射到时间、空间和事件触发时"
+          ],
+          "reasoning_path": [
+            "先把生和克还原成作用关系，而不是先贴吉凶标签",
+            "再分析谁在驾驭谁、谁能得到谁、是否出现反克失衡",
+            "最后把这种作用关系延展到时间、空间和事件触发"
+          ],
+          "branch_conditions": [
+            "如果克能驾驭并制衡，则按掌控力处理，不直接判凶",
+            "如果出现克绝、克不住或反被克，则转入失衡和反噬判断"
+          ],
+          "interpretation": "在这套模型里，克本身代表一种可调用的控制力和得到能力，不该被简单翻成坏事；但如果力量失衡，就会出现克绝、克不住、反被克等不同结果。生则代表在作用条件下产生新事物和质变。文曾还把运动、时间、空间和事件归到这种生克关系的展开之中，用来解释为什么结构一动就能推时段、方位和人物关系。",
+          "product_safe_advice": [
+            "后端生成时，把克解释成掌控力、执行力、约束力，把生解释成转化、生成和延展。",
+            "不要把生克直接翻成好坏，而应先判断作用方向、强弱和是否失衡。"
+          ],
+          "do_not_say": [
+            "有克就一定凶，有生就一定吉。",
+            "任何生克关系都可以脱离强弱和平衡单独解释。"
+          ],
+          "confidence": "high",
+          "source": {
+            "lesson": "1.八字哲学本质.mp4_ev.mp4",
+            "source_file": "data/raw-transcripts/文曾/1八字哲学本质mp4-ev/20260308-213621-d2db49-1八字哲学本质mp4-ev.txt",
+            "chunk_id": "course-summary"
+          }
+        },
+        {
+          "id": "wenzeng-rule-time-space-hierarchy-001",
+          "topic": "time_space_hierarchy",
+          "topic_family": "teacher_framework",
+          "claim": "文曾把八字拆成时间与空间的层级结构：日时更贴近我能支配和已得到的部分，年月更贴近我知道、想得到但未必归我的外部世界。",
+          "conditions": [
+            "需要解释年月日时分别代表的空间层次",
+            "分析资源是否属于我、是否只是我能接触但未真正拥有",
+            "构建主位、宾位和外部环境的解释框架时"
+          ],
+          "reasoning_path": [
+            "先把年月日时拆成外部环境、外部资源、本人核心和本人可调用范围",
+            "再判断目标资源落在哪一层、离我有多近",
+            "最后看这些层级之间是否真正发生作用与归属转移"
+          ],
+          "branch_conditions": [
+            "如果资源只在年月而未进入日时作用链，则按可见不可得处理",
+            "如果外部资源被我方拉入日时主线，则从外围机会升级为可掌控结果"
+          ],
+          "interpretation": "这套讲法把八字从抽象符号转成了空间归属模型。日时更偏我手里真正能调动的对象，年月更偏外界资源、机会和我认知范围内但尚未掌控的事物。后续判断能否得财、得官、得关系，要回到这些层级之间是否发生作用，而不是只看某个十神是否出现。",
+          "product_safe_advice": [
+            "内部分析时，可把日时解释为已掌控资源，把年月解释为外部机会和环境资源。",
+            "用户侧可转成内在主控区、可触达资源区和更大环境区，不直接讲术语。"
+          ],
+          "do_not_say": [
+            "年月一定都不属于自己。",
+            "日时出现的东西就保证永久拥有。"
+          ],
+          "confidence": "high",
+          "source": {
+            "lesson": "2.八字的时空、时间概念_ev.mp4",
+            "source_file": "data/raw-transcripts/文曾/2八字的时空时间概念-ev/20260308-213621-221d7b-2八字的时空时间概念-ev.txt",
+            "chunk_id": "course-summary"
+          }
+        },
+        {
+          "id": "wenzeng-rule-ke-priority-and-order-001",
+          "topic": "ke_priority_and_order",
+          "topic_family": "teacher_framework",
+          "claim": "文曾把克放进更大的层级和顺序模型里理解，强调先分主次、宾主、规律与周期，再谈某个克具体落在哪个对象上。",
+          "conditions": [
+            "分析克的作用顺序和优先级",
+            "需要把人物、事件和环境放到同一层级结构里",
+            "评估某个克到底是核心驱动力还是次级现象"
+          ],
+          "reasoning_path": [
+            "先排系统里的主客关系和大周期、小周期层级",
+            "再判断每个克是主矛盾还是附属现象",
+            "最后只把高优先级克点带入格局、用神和应期主线"
+          ],
+          "branch_conditions": [
+            "如果某个克只是次级现象，则不能抢占主线判断权",
+            "如果大周期和小周期冲突，则先以更高层级关系定主导"
+          ],
+          "interpretation": "这门课的重点不是再定义一次克，而是强调判断时要先找到系统里的中心与附属关系。若不先分清谁是主、谁是客、哪个周期更大、哪个关系更优先，就容易把次级作用误判成主导矛盾，导致后面取格、取用神和断应期全跑偏。",
+          "product_safe_advice": [
+            "知识库实现时，把主次、宾主、周期级别做成前置排序，不要平铺所有关系。",
+            "需要把每个作用标记成主驱动、辅助驱动或结果层表达。"
+          ],
+          "do_not_say": [
+            "看到克就可以直接下结论。",
+            "所有作用关系在同一层面上等权处理。"
+          ],
+          "confidence": "medium",
+          "source": {
+            "lesson": "3.克的原理_ev.mp4",
+            "source_file": "data/raw-transcripts/文曾/3克的原理-ev/20260308-213622-636bd5-3克的原理-ev.txt",
+            "chunk_id": "course-summary"
+          }
+        },
+        {
+          "id": "wenzeng-rule-ke-and-nested-cycles-001",
+          "topic": "ke_and_nested_cycles",
+          "topic_family": "teacher_framework",
+          "claim": "文曾把克与周期绑定：克出现，周期形成；克消失，周期结束；大小周期彼此嵌套，决定事件如何在运、年、月、日里层层展开。",
+          "conditions": [
+            "需要解释为什么同一结构会在不同时间层反复显现",
+            "分析大运、流年、流月、日时之间的嵌套效应",
+            "讨论事件触发的节律感和阶段性时"
+          ],
+          "reasoning_path": [
+            "先确认当前讨论的是哪一级周期，以及它套在哪个更大周期里",
+            "再看同一作用关系如何在大运、流年、流月和日时重复映射",
+            "最后按周期层级拆出长期背景、中期推进和短期触发"
+          ],
+          "branch_conditions": [
+            "如果小周期现象违背大周期主线，则按短期波动处理，不改大背景",
+            "如果多层周期同向共振，则把应事强度上调，不只按单层周期判断"
+          ],
+          "interpretation": "在这套模型里，周期不是附属概念，而是克作用的时间外壳。只要存在运动，就存在更大和更小的周期；同一作用关系会在不同层级重复映射，所以不能孤立地看一年或一个月，而要看它落在更大周期链上的哪一段。",
+          "product_safe_advice": [
+            "后端生成时，把长期、中期、短期趋势拆开，不要把所有判断压成一个结论。",
+            "面向用户可转成阶段节律、窗口期与回调期，而不是直接讲三元九运。"
+          ],
+          "do_not_say": [
+            "一个应期点可以脱离大周期单独理解。",
+            "周期只对应大运，不影响日常层面。"
+          ],
+          "confidence": "high",
+          "source": {
+            "lesson": "4.克与周期_ev.mp4",
+            "source_file": "data/raw-transcripts/文曾/4克与周期-ev/20260308-213622-d44dab-4克与周期-ev.txt",
+            "chunk_id": "course-summary"
+          }
+        },
+        {
+          "id": "wenzeng-rule-sheng-as-capacity-transform-001",
+          "topic": "sheng_as_capacity_transform",
+          "topic_family": "teacher_framework",
+          "claim": "文曾把五行相生定义为能力和能量的转化过程，不是机械的木生火口诀，而是要满足转化条件才能真正生出结果。",
+          "conditions": [
+            "分析五行相生是否成立",
+            "判断生的过程是否具备温度、媒介、场景等转化条件",
+            "需要解释为什么有些局里看似相生却不落地"
+          ],
+          "reasoning_path": [
+            "先确认局面里是否真的具备相生的对象关系",
+            "再检查温度、媒介和场景是否支持转化发生",
+            "最后判断这股生是停留在概念层，还是已经能落成资源传递"
+          ],
+          "branch_conditions": [
+            "如果环境不支持转化，就不把表面相生当成有效生化链",
+            "如果相生只停留在潜势层，则降为背景支持，不直接推现实结果"
+          ],
+          "interpretation": "在这套讲法里，相生必须带着条件理解。比如金生水，不是见金就一定生水，而要有足够的能量变化和转化前提。核心不是口诀，而是资源如何被转换、释放和传递，所以能否生，取决于环境是否允许能力从一种状态切到另一种状态。",
+          "product_safe_advice": [
+            "内部建模时，把相生视作资源转化链，而不是单点加分项。",
+            "对外可转成支持、传导和转化条件成熟度。"
+          ],
+          "do_not_say": [
+            "五行只要按顺序出现就必然相生。",
+            "相生一定带来结果，不需要环境条件。"
+          ],
+          "confidence": "high",
+          "source": {
+            "lesson": "5.五行相生_ev.mp4",
+            "source_file": "data/raw-transcripts/文曾/5五行相生-ev/20260308-213622-aefe50-5五行相生-ev.txt",
+            "chunk_id": "course-summary"
+          }
+        },
+        {
+          "id": "wenzeng-rule-ke-as-governance-state-001",
+          "topic": "ke_as_governance_state",
+          "topic_family": "teacher_framework",
+          "claim": "文曾把五行相克理解成主动对被动的驾驭、统治、压制与支配关系，并进一步区分克的不同状态，而不是把克降成简单的攻击动作。",
+          "conditions": [
+            "分析谁在主动控制、谁在被动承受",
+            "需要区分克的强弱、质量和结果形态",
+            "判断克是有效管理、过度毁伤还是反被制衡时"
+          ],
+          "reasoning_path": [
+            "先分清主动控制方和被动承受方",
+            "再看这道克是可控管理、过度打压还是已经失衡",
+            "最后把结果落到掌控、压力、损伤或反噬"
+          ],
+          "branch_conditions": [
+            "如果主动方并无真实驾驭能力，则退出有效克主线，改按失控处理",
+            "如果被动方可承受并被规范，则保留治理含义，不直接转成损伤"
+          ],
+          "interpretation": "这门课把克抬到了控制论的层面。克可以表现为约束、管理、统御，也可能因为失衡转成毁坏或反噬。关键不是看有没有冲突画面，而是看主动方是否真正有驾驭能力、被动方是否可承受、以及双方关系最后落成了资源、压力还是损伤。",
+          "product_safe_advice": [
+            "分析输出时把克先翻译成掌控、约束和压力，而不是默认负面。",
+            "需要把克的状态区分为可控、过度、失效三档。"
+          ],
+          "do_not_say": [
+            "克就是坏事。",
+            "所有克都等于破坏。"
+          ],
+          "confidence": "high",
+          "source": {
+            "lesson": "6.五行相克_ev.mp4",
+            "source_file": "data/raw-transcripts/文曾/6五行相克-ev/20260308-213622-99f7f5-6五行相克-ev.txt",
+            "chunk_id": "course-summary"
+          }
+        },
+        {
+          "id": "wenzeng-rule-sheng-ke-macro-laws-001",
+          "topic": "sheng_ke_macro_laws",
+          "topic_family": "teacher_framework",
+          "claim": "文曾用“一生万物变，一克万物动”概括生克的大规律：生更偏生成、演化和形态变化，克更偏驱动、触发和官财关系的成立。",
+          "conditions": [
+            "需要解释生克的宏观作用分工",
+            "分析为什么某些结构更像生成背景，另一些更像事件触发器",
+            "为后续官财、体用、事件分析建立总纲时"
+          ],
+          "reasoning_path": [
+            "先把生和克拆成不同层级的宏观任务",
+            "再判断当前结构更偏背景孕育还是偏事件触发",
+            "最后把后续官财、体用和事件规则挂回这条总纲"
+          ],
+          "branch_conditions": [
+            "如果当前只是生的铺底，则不提前下事件结论",
+            "如果克已经成触发点，则把结果判断优先级上调"
+          ],
+          "interpretation": "这两门课合起来强调，生让事物发生变化、延展和成形，克让局面产生动能和结果导向。文曾甚至把官财的成立和克绑定，认为一旦克真正发生，支配关系和得失关系就随之出现；因此生更像铺底，克更像点火。",
+          "product_safe_advice": [
+            "后端策略可把生理解成孕育和转化，把克理解成触发和落地。",
+            "面对用户时用“变化趋势”和“行动触发”这类词，不直接上术语。"
+          ],
+          "do_not_say": [
+            "生永远比克好。",
+            "克一出现就只会带来冲突。"
+          ],
+          "confidence": "high",
+          "source": {
+            "lesson": "7.一生万物变_ev.mp4 / 8.一克万物动_ev.mp4",
+            "source_file": "data/raw-transcripts/文曾/7一生万物变-ev/20260308-213622-57043f-7一生万物变-ev.txt",
+            "chunk_id": "course-summary"
+          }
+        },
+        {
+          "id": "wenzeng-rule-si-jue-si-zheng-boundaries-001",
+          "topic": "si_jue_si_zheng_boundaries",
+          "topic_family": "blind_school_rules",
+          "claim": "四绝无情、四正不生强调的是关系边界：不是所有五行都能顺利生化，某些天敌式结构会形成绝与不生，说明关系虽然相接，却不具备正常转化条件。",
+          "conditions": [
+            "判断结构里是否存在特殊的不生或相绝关系",
+            "需要解释为何某些看似相邻的五行并未完成生化",
+            "识别天敌式对抗和边界性阻断时"
+          ],
+          "reasoning_path": [
+            "先确认这组关系是否处在四绝、四正等边界位置",
+            "再看它们表面接触下有没有真实完成生化条件",
+            "最后把结果落成阻断、僵持还是可继续转换"
+          ],
+          "branch_conditions": [
+            "如果只看相邻而不看边界性质，就暂停顺生判断",
+            "如果底层是天敌式对抗，则从转化路径切回高摩擦边界路径"
+          ],
+          "interpretation": "这门课把“绝”和“不生”从口诀升级成边界理论。某些组合在表面上有接触，但底层条件并不允许正常生化，反而更容易形成僵持、对峙或你来我往的天敌关系。它提醒我们不能把所有相邻五行都按顺生处理。",
+          "product_safe_advice": [
+            "模型里把这类组合视为转化阻断或高摩擦边界。",
+            "用户侧可转成有接触但难顺畅协同、关系消耗偏大。"
+          ],
+          "do_not_say": [
+            "只要见绝就一定极凶。",
+            "四正之间永远完全没有生机。"
+          ],
+          "confidence": "medium",
+          "source": {
+            "lesson": "9.四绝无情，四正不生_ev.mp4",
+            "source_file": "data/raw-transcripts/文曾/9四绝无情四正不生-ev/20260308-213623-dc3423-9四绝无情四正不生-ev.txt",
+            "chunk_id": "course-summary"
+          }
+        },
+        {
+          "id": "wenzeng-rule-sanhe-sanhui-force-destination-001",
+          "topic": "sanhe_sanhui_force_destination",
+          "topic_family": "blind_school_rules",
+          "claim": "三合局、三会局的关键不只是效率提升，还要看合会之后力量最终汇向哪里；文曾强调“两头减力，中间得利”，资源最后会集中到局眼上。",
+          "conditions": [
+            "判断三合局、三会局是否成立",
+            "需要分析力量最终流向哪个支、哪个位置或哪个人",
+            "评估我方是否真正坐在受益中心时"
+          ],
+          "reasoning_path": [
+            "先判断三合三会是否真的成局，而不是只看名称齐不齐",
+            "再追踪合会后的力量最终汇向哪里",
+            "最后确认受益中心是不是我方坐下或我能掌控的位置"
+          ],
+          "branch_conditions": [
+            "如果汇流中心在外而不在我位，则不按我方直接受益处理",
+            "如果局未成，只保留合作趋势，不上升到强汇流结论"
+          ],
+          "interpretation": "这门课修正了把三合三会只当“变旺”的简单理解。三方合作会提升效率，但同时也会把两端的资源向中心汇拢，因此真正受益的是汇聚点。若受益点在外面，不在我坐下或我能掌控的位置，即便局成，也可能成了别人得利。",
+          "product_safe_advice": [
+            "自动分析时，把合会后的受益落点单独建模，不只统计旺衰。",
+            "用户侧可转成资源汇流点、合作中心位和受益归属。"
+          ],
+          "do_not_say": [
+            "三合三会一成就所有人都 equally 受益。",
+            "见合会只代表变旺，不需要看落点。"
+          ],
+          "confidence": "high",
+          "source": {
+            "lesson": "10.合会力量_ev.mp4",
+            "source_file": "data/raw-transcripts/文曾/10合会力量-ev/20260308-213623-197305-10合会力量-ev.txt",
+            "chunk_id": "course-summary"
+          }
+        },
+        {
+          "id": "wenzeng-rule-muku-cycle-and-access-001",
+          "topic": "muku_cycle_and_access",
+          "topic_family": "blind_school_rules",
+          "knowledge_priority": "foundational",
+          "repetition_signal": {
+            "status": "repeated",
+            "meaning": "墓库进退、开合和出入条件在多门课里反复出现",
+            "weight": "high"
+          },
+          "claim": "文曾把墓库看成随季节和场域变化而开合的动态容器，不是静态仓库；判断墓库，要同时看其所藏之物、所处时令和能否被引动。",
+          "conditions": [
+            "分析辰戌丑未等墓库是否真正参与当前结构",
+            "判断库中之物在当下是被收住、被封存还是可被调用",
+            "需要结合时令和场域说明库为何开、为何闭时"
+          ],
+          "reasoning_path": [
+            "先判断墓库有没有真实参与当前结构",
+            "再看库中之物现在处于封存、休眠还是可调用状态",
+            "最后结合时令和场域解释库为什么开合变化"
+          ],
+          "branch_conditions": [
+            "如果墓库只是背景信息而未参与主线，则不要过度放大其象义",
+            "如果时令转换或场域改变，则同步切换资源可用性判断"
+          ],
+          "interpretation": "这门课强调，墓库的本质是动态收纳与阶段性关闭。某个五行在一个时令里能活，在另一个时令里可能只能归库；因此库不是死象，而是说明资源进入封存、休眠、过渡或等待激活的状态。脱离时序讲墓库，会把很多动态变化误判成静态标签。",
+          "product_safe_advice": [
+            "知识库实现时，把墓库理解成资源可用性的开关，而不是单一属性。",
+            "用户侧可转成阶段收束、资源封存、能力暂未外放。"
+          ],
+          "do_not_say": [
+            "墓库就是仓库，永远不变。",
+            "见墓库就直接下凶断。"
+          ],
+          "confidence": "high",
+          "source": {
+            "lesson": "11.关于墓库_ev.mp4",
+            "source_file": "data/raw-transcripts/文曾/11关于墓库-ev/20260308-213623-5b49fb-11关于墓库-ev.txt",
+            "chunk_id": "course-summary"
+          }
+        },
+        {
+          "id": "wenzeng-rule-muku-release-conditions-001",
+          "topic": "muku_release_conditions",
+          "topic_family": "blind_school_rules",
+          "knowledge_priority": "core_emphasis",
+          "repetition_signal": {
+            "status": "repeated",
+            "meaning": "出库条件是墓库规则中的重点细则，讲师多次强调",
+            "weight": "medium"
+          },
+          "claim": "墓库的判断不能停在“入库”二字，文曾更强调透干、露支和对应天干出现时的出库条件，也就是库中资源何时从封存转成可调用。",
+          "conditions": [
+            "需要判断某个库中之物是否透干、透支或被引动",
+            "分析辰戌丑未与相关天干出现时是否构成出库",
+            "解释资源为何突然外放、落地或被重新调用时"
+          ],
+          "reasoning_path": [
+            "先找库中之物有没有透干、露支或被点名引动",
+            "再核辰戌丑未与相关天干是否形成真正出库条件",
+            "最后判断出库后是短暂显化还是持续可调用"
+          ],
+          "branch_conditions": [
+            "如果只是入库而没有透出引动，就继续按封存状态处理",
+            "如果透出后又受制或回流，则从出库切回阶段性显化判断"
+          ],
+          "interpretation": "这门课把墓库从静态知识推进到操作层。库里的东西不是永远埋着不动，透干、露支、对应要素出现后，原本收着的资源会被提取出来，形成出库、现形和可用。这对判断财官食伤为何阶段性出现、消失或切换场景很关键。",
+          "product_safe_advice": [
+            "内部分析要把入库、出库、透出拆成三个不同状态，不要混写。",
+            "用户侧可转成隐藏资源被唤醒、沉淀能力开始显化。"
+          ],
+          "do_not_say": [
+            "库里的东西永远不能用。",
+            "只要见库就代表被压死。"
+          ],
+          "confidence": "high",
+          "source": {
+            "lesson": "12.墓库用法_ev.mp4",
+            "source_file": "data/raw-transcripts/文曾/12墓库用法-ev/20260308-213623-f75619-12墓库用法-ev.txt",
+            "chunk_id": "course-summary"
+          }
+        },
+        {
+          "id": "wenzeng-rule-tongqi-lianzhi-resource-sharing-001",
+          "topic": "tongqi_lianzhi_resource_sharing",
+          "topic_family": "blind_school_rules",
+          "knowledge_priority": "foundational",
+          "repetition_signal": {
+            "status": "repeated",
+            "meaning": "通气连支是讲师处理资源共享和连动的基础规则",
+            "weight": "medium"
+          },
+          "claim": "通气连支讲的是关系借力和份额分配：天干通气更像借他人之光，地支连支更像共享同一资源池，干支连体则把关联推到更深层的一体化表达。",
+          "conditions": [
+            "分析相同天干或相同地支相邻出现时的关系性质",
+            "判断是借力、分份额还是形成更深的一体联动",
+            "需要解释谁拥有主份额、谁只是跟着受益时"
+          ],
+          "reasoning_path": [
+            "先分这是天干通气、地支连支还是干支连体",
+            "再判断关系是借力、分份额还是深绑定",
+            "最后落实主份额归谁、谁只是跟随受益"
+          ],
+          "branch_conditions": [
+            "如果只有通气而没有连体，不按资源归属处理，只按借力处理",
+            "如果连支连体程度加深，则从份额共享升级为强绑定联动判断"
+          ],
+          "interpretation": "这门课给“重复出现”赋予了结构意义。天干通气不等于那个资源属于我，而是我能借到力；地支连支说明我在同一个资源池里有份额，但前后有大小之分；若干支完全连体，说明关系更紧、绑定更深，受益和牵连都会更明显。",
+          "product_safe_advice": [
+            "系统里把借力、共有份额和一体绑定做成三种不同关系强度。",
+            "用户侧可转成可借资源、共享资源和强绑定资源。"
+          ],
+          "do_not_say": [
+            "通气就等于资源已经归我。",
+            "连支的双方一定完全平均分配。"
+          ],
+          "confidence": "high",
+          "source": {
+            "lesson": "13.通气连支_ev.mp4",
+            "source_file": "data/raw-transcripts/文曾/13通气连支-ev/20260308-213623-26a966-13通气连支-ev.txt",
+            "chunk_id": "course-summary"
+          }
+        },
+        {
+          "id": "wenzeng-rule-geju-analysis-flow-001",
+          "topic": "geju_analysis_flow",
+          "topic_family": "teacher_framework",
+          "claim": "文曾的格局分析先看月令与时支这两个力量源泉，再画力量流通图，之后才落到取格局、取用神和判断吉凶层次。",
+          "conditions": [
+            "需要建立格局分析的标准步骤",
+            "面对复杂命局需要先找到力量源头和流向",
+            "准备进入用神和体用判断前"
+          ],
+          "reasoning_path": [
+            "先抓月令和时支这两个力量源头",
+            "再画出生克合化的流向图，确认主线如何运转",
+            "最后在流向明确后才进入格局、用神和吉凶判断"
+          ],
+          "branch_conditions": [
+            "如果力量流向还没看清，就暂停取格取用，避免方法错位",
+            "如果月令未给出清晰入口，则转回体用和主线结构判断"
+          ],
+          "interpretation": "这门课给高级班断格局提供了流程图：先抓月令和时支的源泉性，再看它们生谁、克谁、合谁，画出力量流通方向；只有在流向明确后，格局和用神才不至于乱取。文曾把“断准格局、取准用神、断准吉凶”看作一条连续链，而不是三个分开的步骤。",
+          "product_safe_advice": [
+            "后端检索时可强制先做力量源泉识别，再进入用神模块。",
+            "不要把格局判断做成平铺规则匹配，应先跑流向图。"
+          ],
+          "do_not_say": [
+            "只靠月令一个点就能定完整格局。",
+            "先取用神再回头看流通没有问题。"
+          ],
+          "confidence": "high",
+          "source": {
+            "lesson": "14.格局的分析思路_ev.mp4",
+            "source_file": "data/raw-transcripts/文曾/14格局的分析思路-ev/20260308-213624-d96317-14格局的分析思路-ev.txt",
+            "chunk_id": "course-summary"
+          }
+        },
+        {
+          "id": "wenzeng-rule-genji-chuchu-001",
+          "topic": "genji_chuchu",
+          "topic_family": "blind_school_rules",
+          "claim": "文曾把根基与出处视为体用判断的底盘：先搞清每个五行的根在哪里、从哪里出来，才能判定它是真的能用，还是只是表面出现。",
+          "conditions": [
+            "分析体用、力量来源和可调用性",
+            "需要判断某个五行或十神是否有根、有出处",
+            "面对看似透出但根基不稳的结构时"
+          ],
+          "reasoning_path": [
+            "先看这个五行或十神有没有真实根基站住",
+            "再追它的出处和输送路径是否连到当前结构",
+            "最后才决定它是可调用资源，还是浮在表面的假强"
+          ],
+          "branch_conditions": [
+            "如果有透出无根基，则降为表层信号，不直接按强资源处理",
+            "如果根在外而路径未连到我位，则按可见未可用处理"
+          ],
+          "interpretation": "根基说明资源的落脚点和支撑度，出处说明它从哪里被提取、如何被送到当前结构中。没有根基和出处，就容易把虚浮的透出当成真资源。文曾把这门课放在格局课之后，实际上是在补取体用的底层证据链。",
+          "product_safe_advice": [
+            "内部实现时，把根基强度和出处路径做成单独字段，不要只统计出现次数。",
+            "用户侧可转成资源是否有底、有来源、是否站得住。"
+          ],
+          "do_not_say": [
+            "只要透干就是强。",
+            "有一个字出现就说明根基充分。"
+          ],
+          "confidence": "high",
+          "source": {
+            "lesson": "15.根基、出处_ev.mp4",
+            "source_file": "data/raw-transcripts/文曾/15根基出处-ev/20260308-213624-050803-15根基出处-ev.txt",
+            "chunk_id": "course-summary"
+          }
+        },
+        {
+          "id": "wenzeng-rule-xu-shi-model-001",
+          "topic": "xu_shi_model",
+          "topic_family": "teacher_framework",
+          "claim": "文曾把“有即是实、无必无穷”作为虚实判断核心：出现并落在命局中的东西偏实、可量化；未直接出现但持续作用的东西偏虚、可抽象且潜力更大。",
+          "conditions": [
+            "需要解释命局中的虚实概念",
+            "分析某个信息是具体已现还是抽象潜藏",
+            "判断体、用、命局、岁运在虚实上的层级时"
+          ],
+          "reasoning_path": [
+            "先判断当前信号是已落地的实象，还是未显化的虚象",
+            "再看这个虚实状态落在哪一层：体、用、原局还是岁运",
+            "最后决定它是作为事实条件使用，还是作为潜在场使用"
+          ],
+          "branch_conditions": [
+            "如果只是虚象而未被引动，就不当成立即兑现条件",
+            "如果虚象被运势转实，则从潜力判断切入现实事件判断"
+          ],
+          "interpretation": "这门课把虚实从玄学词变成了信息状态。实是有时间、地点、人物、事件支撑的具体存在；虚虽不可直接见，却能持续作用于有，因此具有扩展性和无穷性。文曾还把天干、地支、体用、命局、岁运放进虚实坐标，说明有些信号更像潜在场，有些更像已落地事实。",
+          "product_safe_advice": [
+            "系统里把虚信号当潜在能力或隐性驱动力，把实信号当已落地条件。",
+            "对外可转成显性条件与隐性潜力，不必出现虚神术语。"
+          ],
+          "do_not_say": [
+            "虚就等于不存在。",
+            "实就一定比分层中的虚更高级。"
+          ],
+          "confidence": "high",
+          "source": {
+            "lesson": "16.不完整的论法_ev.mp4",
+            "source_file": "data/raw-transcripts/文曾/16不完整的论法-ev/20260308-213624-ae1f9e-16不完整的论法-ev.txt",
+            "chunk_id": "course-summary"
+          }
+        },
+        {
+          "id": "wenzeng-rule-xushen-usage-001",
+          "topic": "xushen_usage",
+          "topic_family": "blind_school_rules",
+          "claim": "虚神不是空谈，而是有源头、有逻辑、能放大潜力的抽象力量；文曾更看重其引动方式，如拱、夹、暗引、暗冲等无形结构。",
+          "conditions": [
+            "分析命局中的潜在结构和未显化力量",
+            "判断拱、夹、暗引、暗冲等是否形成有效虚神",
+            "需要解释为何某些人潜力大但当下不显时"
+          ],
+          "reasoning_path": [
+            "先确认虚神是被拱、夹、暗引还是暗冲出来的",
+            "再判断这股潜在力量有没有后续运势把它转实",
+            "最后把它落成隐性潜力、后发优势或暂未兑现的结构"
+          ],
+          "branch_conditions": [
+            "如果虚神没有后续引动条件，则只保留潜势，不推进现实结论",
+            "如果虚神转实，则把判断重心从潜力改为兑现路径"
+          ],
+          "interpretation": "这门课把虚神当成隐藏的动力网络。虚虽不具体，却并非无根之水，而是由特定结构拱出来、夹出来、暗中引出来；一旦运势配合，就会把潜力迅速放大。所以文曾把“局中有虚”视作高潜空间，但也强调要看大运能否把虚转实。",
+          "product_safe_advice": [
+            "可把虚神建成潜力放大器，而非即时兑现项。",
+            "用户侧只转成隐性潜力、后发优势或尚未显化的通道。"
+          ],
+          "do_not_say": [
+            "有虚神就一定大成。",
+            "虚神可以脱离源头单独成立。"
+          ],
+          "confidence": "high",
+          "source": {
+            "lesson": "17.虚神的用法_ev.mp4",
+            "source_file": "data/raw-transcripts/文曾/17虚神的用法-ev/20260308-213624-dc6e67-17虚神的用法-ev.txt",
+            "chunk_id": "course-summary"
+          }
+        },
+        {
+          "id": "wenzeng-rule-shishen-functional-usage-001",
+          "topic": "shishen_functional_usage",
+          "topic_family": "blind_school_rules",
+          "claim": "十神在文曾体系里不是固定性格标签，而是“我手里的牌”：官杀能克身、生印、制比劫；印能生身、制食伤；比劫能帮身、生食伤、扛官杀；食伤能泄身、生财；财能耗印、制印并牵动资源交换。",
+          "conditions": [
+            "需要从主体视角解释十神的功能",
+            "判断某个十神在当前局里到底是帮我、耗我还是替我做事",
+            "避免把十神只当静态性格词时"
+          ],
+          "reasoning_path": [
+            "先回到主体视角，问这个十神现在在为谁做事",
+            "再判断它是在帮我、耗我、约束我还是替我出手",
+            "最后才把它翻译成功能角色，而不是静态标签"
+          ],
+          "branch_conditions": [
+            "如果十神归属不在我方，就不直接按我的能力或性格解释",
+            "如果十神任务发生切换，则同步切换解释口径，不固守单一定义"
+          ],
+          "interpretation": "这门课把十神从名词课推回功能课。文曾反复强调，要看十神能对“我”做什么，而不是只背它天然代表什么。于是十神的价值来自它在当前结构里承担的任务，例如官杀不只代表压力，也可能是替我制比劫的工具；印不只代表保护，也可能是把食伤重新管住的控制件。",
+          "product_safe_advice": [
+            "后端分析时，把十神按功能任务建模，不按性格标签硬编码。",
+            "对外可转成支持、约束、表达、资源、协作等功能词。"
+          ],
+          "do_not_say": [
+            "某个十神只代表一种性格。",
+            "见到十神名称就能直接等同吉凶。"
+          ],
+          "confidence": "high",
+          "source": {
+            "lesson": "18.十神的用法_ev.mp4",
+            "source_file": "data/raw-transcripts/文曾/18十神的用法-ev/20260308-213625-1a9f05-18十神的用法-ev.txt",
+            "chunk_id": "course-summary"
+          }
+        },
+        {
+          "id": "wenzeng-rule-tiangan-work-intent-001",
+          "topic": "tiangan_work_intent",
+          "topic_family": "blind_school_rules",
+          "claim": "文曾把天干看成人的无形追求、思维和行动目标，强调“十天干做工”其实是在看一个活体如何通过天干的生克合去完成自己的追求。",
+          "conditions": [
+            "分析命主的主动目标、想法和追求如何外显",
+            "需要解释天干为何能代表做事方向和工作方式",
+            "判断天干之间的生克合如何转成行为路径时"
+          ],
+          "reasoning_path": [
+            "先把天干层视作主体目标、意向和做事方式",
+            "再看天干之间的生克合如何改变出手路径",
+            "最后把结果落成追求方式、借力方式和工作风格"
+          ],
+          "branch_conditions": [
+            "如果天干层和地支层表达冲突，则保留意图与落地分离的判断",
+            "如果天干只见意图未见承接，则不把目标直接当成结果"
+          ],
+          "interpretation": "这门课把天干从单纯符号拉回主体行为。天干代表无形目标和意向，所以天干的生、克、合不只是元素互动，更是这个人如何追求、如何借力、如何出手做工。理解天干做工，等于把命主从机器模型还原成有目标、有想法的活体模型。",
+          "product_safe_advice": [
+            "内部分析可把天干层更多用于意图、目标和表达方式识别。",
+            "用户侧可转成做事驱动、表现方式和出手策略。"
+          ],
+          "do_not_say": [
+            "天干只代表表面现象，不影响行为逻辑。",
+            "做工只看地支，不用看天干追求。"
+          ],
+          "confidence": "high",
+          "source": {
+            "lesson": "19.十天干的做工_ev.mp4",
+            "source_file": "data/raw-transcripts/文曾/19十天干的做工-ev/20260308-213625-7e4997-19十天干的做工-ev.txt",
+            "chunk_id": "course-summary"
+          }
+        },
+        {
+          "id": "wenzeng-rule-bijie-controls-wealth-ownership-001",
+          "topic": "bijie_controls_wealth_ownership",
+          "topic_family": "blind_school_rules",
+          "claim": "比劫制财最核心的不是“比劫强不强”，而是先分清财和比劫分别归谁所有，再看谁的根更旺、谁真正主导争财过程。",
+          "conditions": [
+            "分析比劫制财、争财、破财或发财结构时",
+            "需要区分家里家外、我的财还是别人的财、我的比劫还是别人的比劫",
+            "判断争财双方谁根更稳、谁在旺点上时"
+          ],
+          "reasoning_path": [
+            "先分清财的归属和比劫的归属",
+            "再比较双方根气、旺点和控制权谁更稳",
+            "最后决定这是亲自取财、团队协作、争财冲突还是越界取财"
+          ],
+          "branch_conditions": [
+            "如果财归属不清或带国家份额，则先上风险判断，不按正常取财处理",
+            "如果我方根弱且不在旺点，则从得财路径切到争财受损路径"
+          ],
+          "interpretation": "文曾把比劫制财讲成所有权和控制权问题。财代表一切有价值且有归属的东西，所以不能把“看到财就能拿”当成默认前提；如果我的比劫去制国家的财、别人的财，或者混着国家份额一起制，就更容易表现为违规、官司、破财。反过来，若我的根更稳、财的归属也清晰可取，比劫才可能转成团队协作、亲力亲为式取财。",
+          "product_safe_advice": [
+            "系统里要把财的归属和比劫的归属拆开建模，再叠加旺点强弱。",
+            "用户侧可转成争资源、资源边界不清、亲自上手型求财或合作型求财。"
+          ],
+          "do_not_say": [
+            "比劫见财就一定发财。",
+            "身弱用比劫制财一定成立。"
+          ],
+          "confidence": "high",
+          "source": {
+            "lesson": "20.比劫制财（上）_ev.mp4 / 21.比劫制财（下）_ev.mp4",
+            "source_file": "data/raw-transcripts/文曾/20比劫制财上-ev/20260308-213625-882bc2-20比劫制财上-ev.txt",
+            "chunk_id": "course-summary"
+          }
+        },
+        {
+          "id": "wenzeng-rule-shishang-four-functions-001",
+          "topic": "shishang_four_functions",
+          "topic_family": "blind_school_rules",
+          "claim": "文曾把食伤的判断压缩成四个功能问题：它有没有生财、合了什么、制了什么、以及在被印制时能否当财看；食伤只有被我的印制时，才从体转成可当用的财源。",
+          "conditions": [
+            "分析食伤在局中的任务和角色转换时",
+            "需要判断食伤是体还是用、是我的还是别人的",
+            "面对食伤生财、合印、制官杀、被印制等结构时"
+          ],
+          "reasoning_path": [
+            "先确定食伤当前是体、用，还是别人的工具",
+            "再看它是在生财、合印、制官杀还是被印重新约束",
+            "最后把它落成表达、创造、变现或受规范的功能角色"
+          ],
+          "branch_conditions": [
+            "如果食伤被我印有效制住，则从体切换到财源或被规范角色",
+            "如果食伤只是别人的工具，则不直接按我的创造力解释"
+          ],
+          "interpretation": "这组课程把食伤从泛泛的“表达星”拉回结构功能。文曾强调，食伤一出现先不要急着贴标签，而要看它到底在干什么：若食伤生财、合印、制官杀，多半仍按体看；若食伤被我的印制，这时它才可转作财看。再叠加根在家里还是家外，才能判断它到底是我的创造力、别人的工具，还是我暂借来的一股表达和技术力量。",
+          "product_safe_advice": [
+            "后端实现时，把食伤的四类行为做成独立判断节点，不要只按五行属性解释。",
+            "用户侧可转成表达、创造、变现、打破规则和被规范约束几种状态。"
+          ],
+          "do_not_say": [
+            "食伤只代表叛逆和说话。",
+            "食伤永远是体，不会转成用。"
+          ],
+          "confidence": "high",
+          "source": {
+            "lesson": "22.食伤用法（上）_ev.mp4 / 23.食伤用法（下））_ev.mp4",
+            "source_file": "data/raw-transcripts/文曾/23食伤用法下-ev/20260308-213626-985eae-23食伤用法下-ev.txt",
+            "chunk_id": "course-summary"
+          }
+        },
+        {
+          "id": "wenzeng-rule-caizhiyin-vs-huaiyin-001",
+          "topic": "caizhiyin_vs_huaiyin",
+          "topic_family": "blind_school_rules",
+          "claim": "财制印和坏印要分开看：我的财制外面的印，可表现为取位、取权、取资源；外财或纠缠不清的财坏我的印，则更像被骗、破财、学历受损或规则越界。",
+          "conditions": [
+            "分析财与印发生克制关系时",
+            "需要区分财是谁的、印是谁的、身强还是身弱",
+            "判断是取印成功、瞎折腾还是坏印伤身时"
+          ],
+          "reasoning_path": [
+            "先定财和印分别归谁，身强还是身弱",
+            "再看这道财制印是在取位、取资源，还是在破坏支持系统",
+            "最后把结果分到制印成功、坏印失衡或反复折腾"
+          ],
+          "branch_conditions": [
+            "如果是外财乱来坏我印，则优先走失衡受损分支",
+            "如果是我的财制外印且结构清楚，则保留策略取资源路径"
+          ],
+          "interpretation": "文曾把财制印解释成带有谋略、投机和以小博大的取资源手法，但这并不自动等于坏事。关键是财和印的归属关系：若我的财去制外面的印，可能表现为取得位置、公众资源或商业能力；若外财、混合财或纠缠不清的财反来坏我的印，尤其对身弱者，就更容易落成被骗、破财、学历受损，甚至与房产买卖、门店折腾等事件挂钩。",
+          "product_safe_advice": [
+            "系统里要把‘制印成功’与‘坏印失衡’拆成不同分支，并叠加身强身弱。",
+            "用户侧可转成用资源换位、策略性取利、资源边界混乱和基础支持受损。"
+          ],
+          "do_not_say": [
+            "财制印一定违法。",
+            "只要见财制印就一定发财。"
+          ],
+          "confidence": "high",
+          "source": {
+            "lesson": "24.制印与坏印（上）_ev.mp4 / 25.制印与坏印（下）_ev.mp4",
+            "source_file": "data/raw-transcripts/文曾/24制印与坏印上-ev/20260308-213626-d30a81-24制印与坏印上-ev.txt",
+            "chunk_id": "course-summary"
+          }
+        },
+        {
+          "id": "wenzeng-rule-shishen-controls-guansha-001",
+          "topic": "shishen_controls_guansha",
+          "topic_family": "blind_school_rules",
+          "claim": "食神制官杀和伤官制官杀都属于“以技取权”，但两者门槛不同：食神更偏情商、谋略和润物式取官，伤官则更偏强技术和硬实力，弱了就制不住。",
+          "conditions": [
+            "分析食神制官杀、伤官制官杀或伤官见官时",
+            "需要判断食伤类型、强弱和官杀归属",
+            "识别是否形成体用明确的以技能换地位结构时"
+          ],
+          "reasoning_path": [
+            "先分食神还是伤官，以及官杀归谁所有",
+            "再看食伤强弱够不够承担制官杀这项任务",
+            "最后把结果分到技能换位、谋略取权，还是冲撞失衡"
+          ],
+          "branch_conditions": [
+            "如果伤官不够强，则不按制官成立，转到伤官见官风险路径",
+            "如果官杀并不归我可取，则降为借位或擦边权力判断"
+          ],
+          "interpretation": "在文曾体系里，官杀代表权力、地位和更高层级的财富，而食伤是我取官杀的手段。食神偏柔、偏润、偏谋略，弱一点仍可能成立；伤官偏技艺、偏刚、偏突破，若不够强就难以真正制住官杀，反而容易滑向伤官见官的冲撞。成格与否，不只看有没有食伤，更看它能否承担制官杀的工具角色。",
+          "product_safe_advice": [
+            "模型里区分食神和伤官的取权方式，不要混成同一标签。",
+            "用户侧可转成靠技能、靠谋略或靠专业表达换取位置与话语权。"
+          ],
+          "do_not_say": [
+            "所有食伤制官杀都一样。",
+            "看到伤官就一定能压住官杀。"
+          ],
+          "confidence": "high",
+          "source": {
+            "lesson": "26.食神制官杀_ev.mp4",
+            "source_file": "data/raw-transcripts/文曾/26食神制官杀-ev/20260308-213627-0a4a1b-26食神制官杀-ev.txt",
+            "chunk_id": "course-summary"
+          }
+        },
+        {
+          "id": "wenzeng-rule-yinlu-xiangsui-001",
+          "topic": "yinlu_xiangsui",
+          "topic_family": "blind_school_rules",
+          "claim": "印禄相随的核心不是单纯有印有禄，而是国家之印能稳定生我、禄也与我扯上关系，且印与禄都不能被坏、被化、被劈；成立时更像被制度稳定托举。",
+          "conditions": [
+            "分析印禄相随、体制路径或受生型格局时",
+            "需要判断印是否具国家属性，禄是否归我或与我有稳定关系",
+            "检查印禄是否被坏、化掉、劈开时"
+          ],
+          "reasoning_path": [
+            "先看印是不是稳定地生我，禄是不是跟着我走",
+            "再判断这条受生链是国家托举、平台供养还是私人支持",
+            "最后检查印禄链有没有被坏、化掉或劈开"
+          ],
+          "branch_conditions": [
+            "如果印禄链被破坏，则从稳定供养转向支撑中断判断",
+            "如果印不具公权属性，则保留受生舒适，但不直推体制路径"
+          ],
+          "interpretation": "这门课把印禄相随讲成一种不靠蛮力、而靠被稳定供养和托举的路径。若国家之印持续生我，禄也跟着我走，就容易形成“躺赢”式受生结构；但一旦印坏、化掉或被劈，支撑链就断了。印若只是自己的，也仍是舒服受生，只是不再直接指向体制和公权托举。",
+          "product_safe_advice": [
+            "内部分析时把印禄相随视为稳定供养、体制承接或资源托举信号。",
+            "用户侧可转成被体系扶持、靠平台获得稳定增长。"
+          ],
+          "do_not_say": [
+            "有印禄相随就一定当官。",
+            "只要见印和禄同现就算成立。"
+          ],
+          "confidence": "high",
+          "source": {
+            "lesson": "27.印禄相随_ev.mp4",
+            "source_file": "data/raw-transcripts/文曾/27印禄相随-ev/20260308-213627-f5e2c2-27印禄相随-ev.txt",
+            "chunk_id": "course-summary"
+          }
+        },
+        {
+          "id": "wenzeng-rule-guansha-sheng-yin-001",
+          "topic": "guansha_sheng_yin",
+          "topic_family": "blind_school_rules",
+          "claim": "官杀生印是一条顺用路径：官杀代表位置和责任，印代表承官、化官和德配位；看见官先找印，看见印也要回头找官，两者是成体系的配套关系。",
+          "conditions": [
+            "分析官印相生、化官生印或顺用官杀时",
+            "需要判断官和印的归属、是否真正生到我家里",
+            "解释为什么有些人能担得住位置、有些人粘边但不入公门时"
+          ],
+          "reasoning_path": [
+            "先看官杀是否真的通过印生到我这里",
+            "再判断这条链是公权托举、平台管理还是只让我沾边",
+            "最后再定我是在承位、借位还是只是贴边受益"
+          ],
+          "branch_conditions": [
+            "如果官印链没生到我位，就不按正式承位处理",
+            "如果印能消化官杀压力，则保留稳定承接，不直接按压身处理"
+          ],
+          "interpretation": "文曾把官杀生印看成权力责任向品德能力的转化链。官杀不仅是大位置，也是大责任；印则是消化、承接和配位的工具。所以看到官先找印，是在看这个人能不能把位置真正接住。若只是国家官生国家印，我只能沾边，往往更像私企管理；若印真正生到我这里，才更接近‘吃皇粮’或稳定承位。",
+          "product_safe_advice": [
+            "系统里把官印关系做成承接链，而不是只算‘官多印多’。",
+            "用户侧可转成责任升级、位置承接、名望与能力匹配。"
+          ],
+          "do_not_say": [
+            "有官就一定是好事。",
+            "官印同现就自动属于体制。"
+          ],
+          "confidence": "high",
+          "source": {
+            "lesson": "28.官杀生印_ev.mp4",
+            "source_file": "data/raw-transcripts/文曾/28官杀生印-ev/20260308-213627-e1916e-28官杀生印-ev.txt",
+            "chunk_id": "course-summary"
+          }
+        },
+        {
+          "id": "wenzeng-rule-shishang-yinxiao-switching-001",
+          "topic": "shishang_yinxiao_switching",
+          "topic_family": "blind_school_rules",
+          "claim": "食伤与印枭的组合本质是方向切换：以食伤为体制印枭时，印枭可转作官名地位；以印枭为体制食伤时，食伤可转作大财源，但前提是价值观和规则系统不能完全失守。",
+          "conditions": [
+            "分析食伤与印枭互制、伤官配印、枭神夺食等组合时",
+            "需要判断谁为体、谁被制、制后转成什么功能",
+            "评估是否存在道德边界模糊、规则被打穿时"
+          ],
+          "reasoning_path": [
+            "先定食伤和印枭谁是体、谁在出手制谁",
+            "再看被制之后原有功能转成了什么新角色",
+            "最后补一道边界判断，确认规则有没有被打穿"
+          ],
+          "branch_conditions": [
+            "如果食伤过强而无印约束，则从创造路径转到越界风险路径",
+            "如果印枭只是重新管住食伤，则保留转向作用，不直接当成压死表达"
+          ],
+          "interpretation": "文曾把这组关系讲成换向装置。食伤为体时，制住印枭可以把印枭看成名誉、官位和社会认可；印枭为体时，制住食伤则把食伤转作财的源头。之所以伤官配印常被视为佳配，是因为印给食伤加了价值观和边界，否则食伤太强就容易滑向不守规矩、道德模糊和越界表达。",
+          "product_safe_advice": [
+            "模型里把食伤-印枭关系建成‘转向规则’，并加上道德边界校验。",
+            "用户侧可转成创造力被规范、表达被赋予更高用途，或思路与规则互相拉扯。"
+          ],
+          "do_not_say": [
+            "印枭和食伤互见一定不好。",
+            "伤官配印一定天然高贵。"
+          ],
+          "confidence": "high",
+          "source": {
+            "lesson": "29.食伤印枭_ev.mp4",
+            "source_file": "data/raw-transcripts/文曾/29食伤印枭-ev/20260308-213627-d707dc-29食伤印枭-ev.txt",
+            "chunk_id": "course-summary"
+          }
+        },
+        {
+          "id": "wenzeng-rule-yongshen-as-deficiency-filler-001",
+          "topic": "yongshen_as_deficiency_filler",
+          "topic_family": "teacher_framework",
+          "knowledge_priority": "core_emphasis",
+          "repetition_signal": {
+            "status": "repeated",
+            "meaning": "用神作为补缺逻辑在多门取用课中重复出现",
+            "weight": "medium"
+          },
+          "claim": "文曾把用神定义成让原局更舒服、补上原局关键缺口的力量；好命不是原局毫无缺陷，而是缺口能在运岁中被恰到好处地补齐。",
+          "conditions": [
+            "需要解释用神的目的而不是只给出答案",
+            "分析为什么同一命局对某些运有反应、对另一些运无反应",
+            "评估格局配置后要继续判断喜忌时"
+          ],
+          "reasoning_path": [
+            "先找原局真正缺的那一口气或那一段结构",
+            "再看岁运来的东西是不是正好补到这个缺口",
+            "最后判断补强之后是更顺、更稳还是反而过满失衡"
+          ],
+          "branch_conditions": [
+            "如果原局已经过满，则新来的支持不按补缺处理，可能反成负担",
+            "如果运岁只补到边角而没补到主缺口，则不按强用神应期处理"
+          ],
+          "interpretation": "这套找用神思路不是追求一个绝对完美的静态盘，而是承认原局有缺口。用神的价值就在于补缺、调顺和让原局运行得更舒服。若原局已经过满，运来反而未必有用；而真正好的命局，常常是关键结构在运里被及时补强，于是人生出现明显上升窗口。",
+          "product_safe_advice": [
+            "后端生成时把用神转成补位力量、关键支持和提升条件。",
+            "不要把用神只输出成一个五行答案，最好附带它在补什么。"
+          ],
+          "do_not_say": [
+            "用神就是唯一的幸运元素。",
+            "原局越完美越好。"
+          ],
+          "confidence": "high",
+          "source": {
+            "lesson": "30.第三章、找准用神.找用神（上））_ev.mp4",
+            "source_file": "data/raw-transcripts/文曾/30第三章找准用神找用神上-ev/20260308-213628-3e6dde-30第三章找准用神找用神上-ev.txt",
+            "chunk_id": "course-summary"
+          }
+        },
+        {
+          "id": "wenzeng-rule-yongshen-mainline-vs-interference-001",
+          "topic": "yongshen_mainline_vs_interference",
+          "topic_family": "teacher_framework",
+          "knowledge_priority": "core_emphasis",
+          "repetition_signal": {
+            "status": "repeated",
+            "meaning": "主线与干扰线区分是讲师反复提醒的取用重点",
+            "weight": "high"
+          },
+          "claim": "找用神时最怕被干扰带跑。文曾强调，遇到家里家外相悖、天干地支相悖、双流通并行时，要先抓主线，再把其余看成干扰或阶段性信息。",
+          "conditions": [
+            "分析复杂命局、双循环命局或天地相悖结构时",
+            "需要判断前半生和后半生、天干和地支哪个是长期主线",
+            "寻找用神时面对大量看似冲突的信息"
+          ],
+          "reasoning_path": [
+            "先抓我的体到底在做什么，确定长期主线",
+            "再把其他流通区分成辅助、干扰还是阶段性分支",
+            "最后按长期主线优先、阶段主线其次的顺序确认用神"
+          ],
+          "branch_conditions": [
+            "如果前后半生主线不同，则拆成阶段判断，不强求一个答案管到底",
+            "如果某条信息只在局部成立但不改主线，则降为干扰项"
+          ],
+          "interpretation": "这门课是找用神的纠偏规则。文曾认为，复杂命局不等于没有主线，关键是先抓‘我的体在做什么’，然后再看其他流通是辅助、干扰还是阶段性分支。家里家外各成一套循环时，前半生和后半生的用神甚至可能不同；但长期判断仍应以后半生和主线流通为核心。",
+          "product_safe_advice": [
+            "系统实现时要给每条作用关系标注主线、干扰、阶段性三个层级。",
+            "用户侧可转成主节奏、阶段分流和外部噪音，不直接讲相悖术语。"
+          ],
+          "do_not_say": [
+            "命局一乱就没有用神。",
+            "所有冲突信息都要平权纳入。"
+          ],
+          "confidence": "high",
+          "source": {
+            "lesson": "31.找用神（下）_ev.mp4",
+            "source_file": "data/raw-transcripts/文曾/31找用神下-ev/20260308-213628-d7500f-31找用神下-ev.txt",
+            "chunk_id": "course-summary"
+          }
+        },
+        {
+          "id": "wenzeng-rule-xingchongpohai-breaks-completeness-001",
+          "topic": "xingchongpohai_breaks_completeness",
+          "topic_family": "blind_school_rules",
+          "claim": "刑冲破害的重点不只是“动”，而是它会让原本能得到的东西变得不完整，破坏体用、墓库或关系结构的完整交付。",
+          "conditions": [
+            "分析刑、冲、破、害落在体用、墓库或关键关系位上时",
+            "需要判断某个资源、关系或结果为何只能得到一部分",
+            "解释原局本可成立的结构为何最终打折、破损或阶段性失真时"
+          ],
+          "reasoning_path": [
+            "先找刑冲破害落在了哪个关键位置",
+            "再判断它破坏的是归属、过程还是最终交付完整性",
+            "最后把结果落成阶段反复、打折兑现或局部失真"
+          ],
+          "branch_conditions": [
+            "如果破坏只在外围，则保留主线，只下调兑现完整度",
+            "如果落在关键承接位，则从局部波动升级为结构性折损"
+          ],
+          "interpretation": "从这门课能稳定提炼出的核心，是文曾把刑冲破害视作“完整性交付”的破坏器。结构里本来可能有财、有官、有学业或职业路径，但一旦关键位置被刑冲破害介入，得到的结果就更容易变成不完整、带缺口、要靠折腾才能落地，甚至前后阶段出现明显挫折感。",
+          "product_safe_advice": [
+            "内部分析时，把刑冲破害建成完整性折损因子，而不是只标‘有冲’。",
+            "用户侧可转成推进过程反复、结果打折、路径不够平顺。"
+          ],
+          "do_not_say": [
+            "见刑冲破害就一定大灾。",
+            "所有刑冲破害都只代表坏事，不可能带来调整价值。"
+          ],
+          "confidence": "medium",
+          "source": {
+            "lesson": "02、高级班3集：刑冲破害各种关系代表.mp4",
+            "source_file": "data/raw-transcripts/文曾/02高级班3集刑冲破害各种关系代表/20260309-215403-db1ee8-02高级班3集刑冲破害各种关系代表.txt",
+            "chunk_id": "course-summary"
+          }
+        },
+        {
+          "id": "wenzeng-rule-use-geju-when-formed-001",
+          "topic": "use_geju_when_formed",
+          "topic_family": "teacher_framework",
+          "claim": "文曾强调，命局已经成格时要优先按格局法看；没有清晰成格时，再回到体用法。月令上的真格，是格局判断的第一入口。",
+          "conditions": [
+            "分析已成格的命局时",
+            "需要在格局法和体用法之间选方法时",
+            "判断月令是否已经给出清晰格局入口时"
+          ],
+          "reasoning_path": [
+            "先判断月令是否已经把格局入口交代清楚",
+            "若成格，先沿格局法走完整条主线",
+            "若格不成，再回到体用和能量流去找主线"
+          ],
+          "branch_conditions": [
+            "如果格局已成却继续硬拆体用，会把结构打乱，应保持格局法优先",
+            "如果格不成或入口不清，则切回体用法，不强套格局名目"
+          ],
+          "interpretation": "这门官印课里能稳稳落下来的方法论，是先判有没有格。若月令已经给出清晰格局，继续用体用法硬拆反而容易把结构看乱；相反，若格不成、局不清，再回到体用、意识流和能量流去找主线。它本质上是在规定分析顺序，避免方法错位。",
+          "product_safe_advice": [
+            "系统实现时先跑‘是否成格’判断，再决定调用格局规则还是体用规则。",
+            "用户侧无需讲方法名，只体现为结构很清晰或结构较混杂。"
+          ],
+          "do_not_say": [
+            "任何八字都必须先用体用法。",
+            "只要看月令一个字就能跳过全局。"
+          ],
+          "confidence": "high",
+          "source": {
+            "lesson": "10、高级班11集：官印.mp4",
+            "source_file": "data/raw-transcripts/文曾/10高级班11集官印/20260309-215422-2af8dd-10高级班11集官印.txt",
+            "chunk_id": "course-summary"
+          }
+        },
+        {
+          "id": "wenzeng-rule-health-body-vs-yong-001",
+          "topic": "health_body_vs_yong",
+          "topic_family": "life_event_rules",
+          "claim": "文曾把健康判断的起点放在体与用的分工上：体受制更偏健康与灾病，用受制更偏事业与资源；但家里的财官若直接牵到我身上，也能转成身体层面的健康信号。",
+          "conditions": [
+            "分析健康、疾病、灾病或意外时",
+            "需要区分体受制还是用受制",
+            "判断家里财官是否已转成与身体相关的承载位时"
+          ],
+          "reasoning_path": [
+            "先判断被伤的是体，还是只是用受损",
+            "再看家里的财官有没有转成压在身上的承载位",
+            "最后才把事件落到健康、事业代价或混合负担"
+          ],
+          "branch_conditions": [
+            "如果只是用受制且未连到身上，则不直接按健康事件处理",
+            "如果外部财官已经强连我身，则从事业受损切到身体承压判断"
+          ],
+          "interpretation": "这组课先把健康判断从五花八门的病名里抽离出来，回到体用逻辑。只要和我这个体直接相关的部分被制、被夹、被天地同向地伤到，就要优先考虑健康和身体事件；而看似代表事业和外部资源的财官，只要落在家里并与我身发生强连接，同样可能转成身体负担和健康代价。",
+          "product_safe_advice": [
+            "后端输出时可转成身体承压、恢复力下降、负担上身，不直接诊断病名。",
+            "要把健康风险和事业受损分开描述，不要混成一句话。"
+          ],
+          "do_not_say": [
+            "某个字受制就能直接诊断具体疾病。",
+            "用受制永远和身体无关。"
+          ],
+          "confidence": "high",
+          "source": {
+            "lesson": "34.健康的断法（上）_ev.mp4",
+            "source_file": "data/raw-transcripts/文曾/34健康的断法上-ev/20260308-213629-0259ff-34健康的断法上-ev.txt",
+            "chunk_id": "course-summary"
+          }
+        },
+        {
+          "id": "wenzeng-rule-health-severity-thresholds-001",
+          "topic": "health_severity_thresholds",
+          "topic_family": "life_event_rules",
+          "claim": "文曾把健康风险分成可量化的层级：两倍以上力量克体，基本已入病灾；三倍以上则进入极凶临界区。化、入墓、用神尽、虚藏透出受制、独根受制、夹制，都是高危触发器。",
+          "conditions": [
+            "评估健康事件的轻重级别时",
+            "需要判断是否出现被化、入墓、用神尽、独根受制、夹制等结构",
+            "分析慢性病、手术、碰撞伤或极端风险时"
+          ],
+          "reasoning_path": [
+            "先看体被压制到什么程度，是否还保有反抗空间",
+            "再检查化、入墓、用神尽、独根受制、夹制等高危触发器",
+            "最后把事件分到慢耗、手术、碰撞伤或极端高危等级"
+          ],
+          "branch_conditions": [
+            "如果只是局部受制而未伤及核心体根，则保留中低风险判断",
+            "如果流年把潜在高危点彻底引爆，则升级为事件级风险"
+          ],
+          "interpretation": "这门课把健康专题推进到了风险分级。文曾不追求穷尽病种，而是看体是否被压到无法承受、是否完全失去反抗力量，以及流年是否把潜藏问题彻底引爆。刑、冲、穿、破、克也被分别映射到开口手术、碰撞车灾、取物式处理、小破伤和慢性消耗等不同事件形态。",
+          "product_safe_advice": [
+            "这类规则仅用于内部风险评分，不用于给用户下医学结论。",
+            "用户侧只可转成近期恢复力弱、注意体检与作息、避免高风险操作。"
+          ],
+          "do_not_say": [
+            "三倍受制就一定会去世。",
+            "任何高风险结构都等于同一种疾病。"
+          ],
+          "confidence": "high",
+          "source": {
+            "lesson": "35.健康的断法（下）_ev.mp4",
+            "source_file": "data/raw-transcripts/文曾/35健康的断法下-ev/20260308-213629-78fe89-35健康的断法下-ev.txt",
+            "chunk_id": "course-summary"
+          }
+        },
+        {
+          "id": "wenzeng-rule-marriage-stars-and-lines-001",
+          "topic": "marriage_stars_and_lines",
+          "topic_family": "life_event_rules",
+          "claim": "婚姻判断先找夫妻星，再画情感线。男命通常以财为妻、官也可幻象为妻；女命通常以官为夫、财也可幻象为夫。若官财都不显，就回到体用关系里找配偶位。",
+          "conditions": [
+            "分析婚姻、伴侣类型、正缘和情感线时",
+            "需要从官财之间灵活提取夫妻星",
+            "面对官财不显、只能靠体用换象的命局时"
+          ],
+          "reasoning_path": [
+            "先从官财或体用换象里找出真正的夫妻星",
+            "再画出伴侣从外到内进入我方结构的情感线",
+            "最后分开判断配偶质量、婚姻状态和互动方式"
+          ],
+          "branch_conditions": [
+            "如果官财不显，就切换到体用换象，不停在空白状态",
+            "如果夫妻星存在但没进家里主线，则不按婚姻已落地处理"
+          ],
+          "interpretation": "这门课把婚姻专题的入口说清楚了：先不是问‘吉不吉’，而是先找命局里谁能代表配偶，再看外面的那个人如何跑到家里来，与我的体发生了几次作用。夫妻宫看婚姻状态，夫妻星看配偶质量，而体与夫妻星的生克合决定双方关系是扶持、耗损、和睦还是添乱。",
+          "product_safe_advice": [
+            "系统里把伴侣识别分成‘夫妻星提取’和‘情感线连接’两步。",
+            "用户侧可转成关系机会、伴侣类型和情感互动方式。"
+          ],
+          "do_not_say": [
+            "男命永远只看财，女命永远只看官。",
+            "出现一个夫妻星就等于婚姻已经成立。"
+          ],
+          "confidence": "high",
+          "source": {
+            "lesson": "36.婚姻的断法（上）_ev.mp4",
+            "source_file": "data/raw-transcripts/文曾/36婚姻的断法上-ev/20260308-213630-53c7a8-36婚姻的断法上-ev.txt",
+            "chunk_id": "course-summary"
+          }
+        },
+        {
+          "id": "wenzeng-rule-marriage-competition-and-divorce-001",
+          "topic": "marriage_competition_and_divorce",
+          "topic_family": "life_event_rules",
+          "claim": "文曾把婚姻里的第三者、离婚和多段关系都放回三角争夺模型：我、比劫、夫妻星谁力量大，谁就可能在关系里胜出；离婚常见于财官被比劫抢走，或自己多次去合外面的财官。",
+          "conditions": [
+            "分析第三者、离婚、多段婚姻时",
+            "需要判断比劫与我争夺夫妻星的胜负",
+            "识别夫妻星被外拉、被多重合、或被严重受制的结构时"
+          ],
+          "reasoning_path": [
+            "先建立我、比劫、夫妻星三角争夺模型",
+            "再看谁力量大、谁先得手、夫妻星被谁拉走",
+            "最后把结果分成竞争、边界松动、多段缘分或离婚风险"
+          ],
+          "branch_conditions": [
+            "如果没有真正第三方线路，就不把单一合象升级成婚外情判断",
+            "如果多次作用只是反复接触而未落地，不直接按多次婚姻处理"
+          ],
+          "interpretation": "这门课把婚姻问题从抽象桃花，落到了竞争模型。比劫像情感竞争者，夫妻星像被争夺的关系资源；谁力量大、谁先得手、夫妻星是否被外面抢走，决定了关系的稳定性。多次作用多半对应多段缘分，而婚外情则要求原局或运岁里真的出现第三方线路，不是看见一个合就下断。",
+          "product_safe_advice": [
+            "用户侧可以转成关系竞争、边界松动、关系反复和需要处理第三方干扰。",
+            "不要把这类规则直接说成必然出轨或必然离婚。"
+          ],
+          "do_not_say": [
+            "比劫一出现就一定离婚。",
+            "多次作用一定等于多次结婚。"
+          ],
+          "confidence": "high",
+          "source": {
+            "lesson": "37.婚姻的断法（下）_ev.mp4",
+            "source_file": "data/raw-transcripts/文曾/37婚姻的断法下-ev/20260308-213630-ba5f2d-37婚姻的断法下-ev.txt",
+            "chunk_id": "course-summary"
+          }
+        },
+        {
+          "id": "wenzeng-rule-education-four-factors-001",
+          "topic": "education_four_factors",
+          "topic_family": "life_event_rules",
+          "claim": "文曾判断学历先看四大因素：原局格局配置、印与食伤等学业核心点、护卫是否充分、以及大运流年有没有把基础名额往上抬或往下压。",
+          "conditions": [
+            "分析学历层次、考试表现、升学上限时",
+            "需要从原局先定基础盘，再叠加运岁修正",
+            "判断印、食伤、官杀与护卫关系是否支撑学业时"
+          ],
+          "reasoning_path": [
+            "先用原局定学业基础盘和名额上限",
+            "再看印、食伤、官杀和护卫关系是否撑得住这个上限",
+            "最后再让运岁把层级往上抬或往下压"
+          ],
+          "branch_conditions": [
+            "如果原局基础盘不足，则运岁只做修正，不直接翻天覆地改层次",
+            "如果护卫不足，则保留能力但下调实际发挥和结果"
+          ],
+          "interpretation": "这套学历规则强调，学历不是靠一个文昌或一颗印来拍脑袋判断。原局决定基础名额，印与食伤构成核心学习能力与输出能力，护卫决定这些能力能否稳定发挥，而大运流年会把原本可能的学校层级明显往上拉或往下拉，甚至拉出上百分的差距。",
+          "product_safe_advice": [
+            "用户侧可转成学习基础、考试发挥空间和阶段助推，不直接承诺学校档次。",
+            "适合用于长期规划建议，不适合单次下注式断言。"
+          ],
+          "do_not_say": [
+            "见印就一定高学历。",
+            "原局一差就完全没有学习机会。"
+          ],
+          "confidence": "high",
+          "source": {
+            "lesson": "38.学历的断法（上）_ev.mp4",
+            "source_file": "data/raw-transcripts/文曾/38学历的断法上-ev/20260308-213630-8bbb59-38学历的断法上-ev.txt",
+            "chunk_id": "course-summary"
+          }
+        },
+        {
+          "id": "wenzeng-rule-education-drop-signals-001",
+          "topic": "education_drop_signals",
+          "topic_family": "life_event_rules",
+          "claim": "学历下滑常见于几个组合：满局食伤不生财、官杀攻身无制化、印星太旺不见财、一体多用不专注、天地相悖或护卫不足；这些都会让学业成绩和最终层次明显打折。",
+          "conditions": [
+            "分析学业为何降层、发挥不稳或专注力不足时",
+            "需要识别一体多用、天地相悖、护卫不足等结构",
+            "评估高学历潜力为何最终只落到普通层次时"
+          ],
+          "reasoning_path": [
+            "先找下降是出在食伤乱跑、官杀压身、印过重还是一体多用",
+            "再看天地相悖和护卫不足有没有把原局优势打折",
+            "最后把结果落成专注分流、发挥波动或层次下滑"
+          ],
+          "branch_conditions": [
+            "如果只是阶段波动而主盘仍稳，则保留潜力不直接下低层结论",
+            "如果护卫和主线都受损，则从发挥问题升级为层次下滑判断"
+          ],
+          "interpretation": "这门课更关注‘为什么没上去’。同样有七杀、有印、有食伤，不代表就一定高学历；若食伤乱跑、官杀压身无人化、印太重反而糊涂，或一体多用导致注意力四散，学业层次就会明显降档。文曾还特别强调天地相悖和护卫不足，这会让本来不错的配置在现实表现上打折。",
+          "product_safe_advice": [
+            "内部分析时把学业下降因素单独做成扣分项，而不是只算正面结构。",
+            "用户侧可转成专注分流、发挥波动、学习结构需要被扶正。"
+          ],
+          "do_not_say": [
+            "这些组合出现就注定低学历。",
+            "学历差只由命局决定，后天努力没意义。"
+          ],
+          "confidence": "high",
+          "source": {
+            "lesson": "39.学历的断法（下）_ev.mp4",
+            "source_file": "data/raw-transcripts/文曾/39学历的断法下-ev/20260308-213631-41746e-39学历的断法下-ev.txt",
+            "chunk_id": "course-summary"
+          }
+        },
+        {
+          "id": "wenzeng-rule-dayun-four-functions-001",
+          "topic": "dayun_four_functions",
+          "topic_family": "teacher_framework",
+          "claim": "文曾把大运概括成四个作用：应期排序、加强或干扰、补权增根、以及十年基调。大运像时代背景或战略，不直接等于具体事件，但决定哪些剧情先登场、哪些力量被长期放大。",
+          "conditions": [
+            "分析十年阶段主题、先后顺序和长期基调时",
+            "需要判断某个命局配置何时才真正兑现",
+            "区分大运和流年在事件判断中的分工时"
+          ],
+          "reasoning_path": [
+            "先把命局里可能发生的几条主线列出来",
+            "再看大运先让哪条主线上场、哪条主线退场",
+            "最后把这十年的长期基调交给流年来做具体落点"
+          ],
+          "branch_conditions": [
+            "如果大运长期加持某一结构，则阶段判断以该结构为主",
+            "如果流年只短暂触发但违背大运主线，则按短期事件处理，不改十年基调"
+          ],
+          "interpretation": "这门课把大运从抽象好坏感，拉回到剧本调度器。命局里可能同时有很多关系，但先上场谁、后上场谁，要看大运排序；同一大运还能像 buff 一样长期加持或干扰某股力量，让十年里整体偏向某一类主题。它不直接决定具体事件细节，却决定了这十年更容易在哪个方向出事或出成果。",
+          "product_safe_advice": [
+            "生成趋势建议时，可把大运翻成十年主主题、长期环境和主战场。",
+            "不要把大运直接说成单一吉凶，要说明它在放大什么。"
+          ],
+          "do_not_say": [
+            "大运本身就等于具体事件。",
+            "一个大运十年只会发生一种事。"
+          ],
+          "confidence": "high",
+          "source": {
+            "lesson": "40.看应期（上）_ev.mp4",
+            "source_file": "data/raw-transcripts/文曾/40看应期上-ev/20260308-213631-d1aebc-40看应期上-ev.txt",
+            "chunk_id": "course-summary"
+          }
+        },
+        {
+          "id": "wenzeng-rule-liunian-trigger-and-attribution-001",
+          "topic": "liunian_trigger_and_attribution",
+          "topic_family": "teacher_framework",
+          "claim": "流年主具体动应，但看流年不能先看作用关系，必须先找归属和出处。流年干支是谁引动出来的、认领给谁，决定了这一年具体是谁的事、谁在主动、谁在被动。",
+          "conditions": [
+            "分析某年具体发生什么、谁触发了事件时",
+            "需要区分流年是体到位还是用到位",
+            "判断某个流年干支是原局延伸还是近亲引动时"
+          ],
+          "reasoning_path": [
+            "先给流年找归属，弄清它是原局哪条线的延伸",
+            "再区分这年是体到位还是用到位",
+            "最后据此判断是我主动发起，还是外部条件先触发我"
+          ],
+          "branch_conditions": [
+            "如果流年归属不明，就先不落具体事件，只保留方向性判断",
+            "如果体来则偏主动应事，如果用来则偏环境和他人先动"
+          ],
+          "interpretation": "这门课把应期判断的关键点讲透了。流年像每一集的具体剧情，但剧情不是凭空掉下来的，而是命局与外界作用后的组合产物；因此先找归属，才能看动应。流年是体来，多半是我主动去做；流年是用来，多半是外部条件或他人先来引我。找到出处以后，事件因果链才真正清楚。",
+          "product_safe_advice": [
+            "后端应期分析时，强制先跑‘归属识别’，再跑生克合冲判断。",
+            "用户侧可转成这一年是主动出击型，还是机会/压力从外部找上门。"
+          ],
+          "do_not_say": [
+            "流年只看天干地支碰撞就够了。",
+            "某个流年字出现就与原局归属无关。"
+          ],
+          "confidence": "high",
+          "source": {
+            "lesson": "41.看应期（下）_ev.mp4",
+            "source_file": "data/raw-transcripts/文曾/41看应期下-ev/20260308-213631-cfa51d-41看应期下-ev.txt",
+            "chunk_id": "course-summary"
+          }
+        },
+        {
+          "id": "wenzeng-rule-health-and-longevity-separate-track-001",
+          "topic": "health_and_longevity_separate_track",
+          "topic_family": "life_event_rules",
+          "claim": "文曾强调，健康、寿元和六亲寿源要单独成体系判断，不能简单从“好大运 / 坏大运”或一般用神喜忌直接推导；关键是先找到与本人或六亲直接关联的寿源信息，再看何时被制尽、入墓或被引动。",
+          "conditions": [
+            "分析寿元、健康极限或六亲寿源时",
+            "需要区分一般好坏运和健康寿元体系",
+            "准备从命局中提取直接关联的寿源星时"
+          ],
+          "reasoning_path": [
+            "先把寿源判断从一般格局好坏里单独拆出来",
+            "再找直接关联本人或六亲的寿源信息",
+            "最后看它何时受制、入墓或被运岁引爆"
+          ],
+          "branch_conditions": [
+            "如果只是一般不顺而未伤及寿源线，则不升级到寿元风险判断",
+            "如果六亲寿源被引动，则换星后再断，不直接套本人寿源模板"
+          ],
+          "interpretation": "这门课能稳定落下来的方法论是：寿源不是一般格局好坏的附属结论，而是单独的一条判断线。即便大运整体不错，也可能在健康寿元线上出严重问题；因此要先找准直接关联的寿源信息，再判断何时受制、何时入墓、何时被运岁引爆。它也把六亲寿源纳入同一思路，只是先换星再断。",
+          "product_safe_advice": [
+            "内部可作为高风险健康规则，但不要直接对用户输出寿命判断。",
+            "用户侧只转成恢复力、身体承压期和需要谨慎照护长辈/家人的窗口。"
+          ],
+          "do_not_say": [
+            "好大运就一定健康长寿。",
+            "可以直接根据这类规则告诉用户具体寿命。"
+          ],
+          "confidence": "medium",
+          "source": {
+            "lesson": "20、文曾易学21集：从格，看六亲，健康，寿元.mp4",
+            "source_file": "data/raw-transcripts/文曾/20文曾易学21集从格看六亲健康寿元/20260311-015706-17ff90-20文曾易学21集从格看六亲健康寿元.txt",
+            "chunk_id": "course-summary"
+          }
+        },
+        {
+          "id": "wenzeng-rule-one-structure-multiple-uses-001",
+          "topic": "one_structure_multiple_uses",
+          "topic_family": "teacher_framework",
+          "claim": "文曾提醒，一格二用并不天然更高级，反而常常意味着同一结构承担多个任务，容易带来分流、降层次和不专注；判断时要先分清哪一部分是事业性、哪一部分是能力性。",
+          "conditions": [
+            "分析一格二用、财库官库、体用交叠时",
+            "需要判断同一结构是否承担了多重用途",
+            "评估为何看起来配置很大，现实层次却打折时"
+          ],
+          "reasoning_path": [
+            "先看同一结构到底被分派了几种用途",
+            "再判断这些用途是协同还是互相分流",
+            "最后比较资源集中度，决定它是放大结构还是降层结构"
+          ],
+          "branch_conditions": [
+            "如果一个结构被多头调用但分工不清，则按分流降层处理",
+            "如果多重用途仍围绕同一主线协同，则保留放大效果，不直接判降层"
+          ],
+          "interpretation": "这门课里最稳的结论，是不要把一格二用误解成万能格局。文曾更看重事业性和能力性的分工是否清楚；若一个结构既要做事业、又要做能力、又想兼顾多个目标，往往会分流、降层次，甚至表现成什么都想要、什么都不够专。它更像资源被多头调用，而不是单一路径被极致放大。",
+          "product_safe_advice": [
+            "内部分析时，把一格二用视作分流和降层风险，而不是加分项。",
+            "用户侧可转成方向较多、资源分散、需要聚焦主线。"
+          ],
+          "do_not_say": [
+            "一格二用一定大富大贵。",
+            "只要结构多用途就说明能力更强。"
+          ],
+          "confidence": "medium",
+          "source": {
+            "lesson": "22、文曾易学23集：一格二用，财库官库，学历，体用.mp4",
+            "source_file": "data/raw-transcripts/文曾/22文曾易学23集一格二用财库官库学历体用/20260311-015711-24469c-22文曾易学23集一格二用财库官库学历体用.txt",
+            "chunk_id": "course-summary"
+          }
+        },
+        {
+          "id": "wenzeng-rule-car-accident-tripod-001",
+          "topic": "car_accident_tripod",
+          "topic_family": "life_event_rules",
+          "claim": "文曾把车灾拆成三个要素同时成立才可定论：车、人、冲撞方式。辰戌丑未、申酉金、亥子水、驿马和金舆可作车象；木、比劫、食伤可作人身象；多冲一、多穿一、金木/木土/火金等实象交战才更像车祸。",
+          "conditions": [
+            "分析车祸、交通伤害或出行碰撞风险时",
+            "需要同时看到车象、人象和冲撞触发方式",
+            "判断是普通出行、车象环境，还是具体车灾时"
+          ],
+          "reasoning_path": [
+            "先确认车象、人象、冲撞触发这三件套是不是同时成立",
+            "再看冲穿受制是否真正打在身体延伸位上",
+            "最后才把结果落成普通出行、机械环境还是具体车灾风险"
+          ],
+          "branch_conditions": [
+            "如果只有车象或只有金木交战，则不直接升到车灾判断",
+            "如果三件套齐全且打中身体延伸位，则升级为高风险事件提醒"
+          ],
+          "interpretation": "这门课给了车灾一个很明确的三件套：先有车，再有人，再有碰撞触发。单有辰戌丑未不够，那可能只是房产、工厂或场地；单有金木交战也不一定是车祸。只有车象、人象和冲撞结构同时成立，尤其比劫、食伤这些身体延伸被冲穿受制时，车灾才更像真正落地。",
+          "product_safe_advice": [
+            "这类规则只适合内部风险提醒，不适合给用户做确定性事故预言。",
+            "用户侧最多表达为交通与出行风险偏高，注意驾驶和机械环境。"
+          ],
+          "do_not_say": [
+            "看到一个车象就一定车祸。",
+            "任何冲都等于交通事故。"
+          ],
+          "confidence": "high",
+          "source": {
+            "lesson": "53.车灾的论法.mp4",
+            "source_file": "data/raw-transcripts/文曾/53车灾的论法/20260308-223939-72041c-53车灾的论法.txt",
+            "chunk_id": "course-summary"
+          }
+        },
+        {
+          "id": "wenzeng-rule-imprisonment-three-conditions-001",
+          "topic": "imprisonment_three_conditions",
+          "topic_family": "sensitive_internal_rules",
+          "claim": "文曾判断牢狱之灾要求三类条件同步出现：体被限制、存在违法信息、并具牢狱象；单独出现官克比劫或印制食伤，最多只是严管、教育或封闭训练，不足以下牢狱结论。",
+          "conditions": [
+            "分析牢狱、羁押、被限制自由等高风险事件时",
+            "需要同时看到受制、违法和牢狱象三类信息",
+            "区分严格管理与真正牢狱风险时"
+          ],
+          "reasoning_path": [
+            "先分别确认自由受限、违法路径、牢狱环境三类信息",
+            "再判断这三条线是否真的同时落在同一事件链上",
+            "最后只把三条件并发的情况送进内部高风险复核"
+          ],
+          "branch_conditions": [
+            "如果三条件缺一，则降为严格管理、封闭训练或规则压力，不按牢狱处理",
+            "如果只是违法信号而无环境落点，则保留越线风险，不上升到羁押结论"
+          ],
+          "interpretation": "这门课的价值在于把牢狱判断从‘看着像被管’推进到三条件并发。体被制是自由受限，违法信息说明触法路径，牢狱象则提供环境和落点；三个条件缺一，常常只是军事化管理、封闭式教育、领导严管或专业训练，而不是入狱。文曾还把比劫克财、伤官见官、枭神夺食、财破国家印等列为高风险违法信号。",
+          "product_safe_advice": [
+            "仅用于内部高风险复核，不进入用户可见判断。",
+            "用户侧最多转成规则风险、边界风险、避免越线。"
+          ],
+          "do_not_say": [
+            "某个单一结构就足以断牢狱。",
+            "直接对普通用户输出会坐牢。"
+          ],
+          "confidence": "high",
+          "source": {
+            "lesson": "57.牢狱之灾的论法.mp4",
+            "source_file": "data/raw-transcripts/文曾/57牢狱之灾的论法/20260308-223939-6af5f5-57牢狱之灾的论法.txt",
+            "chunk_id": "course-summary"
+          }
+        },
+        {
+          "id": "wenzeng-rule-career-structure-break-loss-001",
+          "topic": "career_structure_break_loss",
+          "topic_family": "life_event_rules",
+          "claim": "文曾把丢职和破产都放回“事业性 + 能力性”的组合是否被破坏来理解：当事业模型本身被打断，或用神路径反过来伤到事业结构，就容易表现成丢职、失去收入、项目崩盘或破产。",
+          "conditions": [
+            "分析丢职、失业、项目崩塌、破产时",
+            "需要先识别事业性和能力性分别落在哪个结构里",
+            "判断是化用结构还是制用结构被破坏时"
+          ],
+          "reasoning_path": [
+            "先识别事业性结构和能力性结构分别落在哪里",
+            "再看破坏打在了制用链、化用链还是承接位上",
+            "最后把结果落成丢职、失业、项目崩塌或收入模型失稳"
+          ],
+          "branch_conditions": [
+            "如果只是短期收入受损而事业模型还在，则不直接升级为破产路径",
+            "如果核心事业模型被反向做功或断链，则转入结构性失业失稳判断"
+          ],
+          "interpretation": "这门课把事业灾难从‘没钱了’往前推到了事业模型本身。财官常是事业性核心，体与事业性的组合是能力模型；当这个模型被破坏、被反向做功、或走到不喜制的路径上时，丢职和破产就不再是偶发，而是原有事业结构无法继续维持的结果。文曾还明确把常见职业格局压缩成若干事业模型，强调先识别模型，再判断它何时断裂。",
+          "product_safe_advice": [
+            "用户侧可转成职业结构受压、收入模型失稳、需要提前降杠杆和调整策略。",
+            "不要直接预告破产或失业结局。"
+          ],
+          "do_not_say": [
+            "结构一破就必然破产。",
+            "只要财受制就一定失业。"
+          ],
+          "confidence": "high",
+          "source": {
+            "lesson": "61.论丟职破产（上）.mp4",
+            "source_file": "data/raw-transcripts/文曾/61论丟职破产上/20260308-223942-d1eaa3-61论丟职破产上.txt",
+            "chunk_id": "course-summary"
+          }
+        },
+        {
+          "id": "wenzeng-rule-binzhu-body-use-001",
+          "topic": "host_guest_body_use",
+          "topic_family": "blind_school_rules",
+          "knowledge_priority": "foundational",
+          "repetition_signal": {
+            "status": "repeated",
+            "meaning": "宾主、体用、宫位层级是讲师断局的基础骨架，反复回讲",
+            "weight": "high"
+          },
+          "claim": "宾主体用要求把年、月、日、时拆成大环境、小环境、我与家内空间来读：年柱偏远方与竞争对手，月令偏身边平台与群体，日时偏我和家内掌控范围；体用落在不同宫位时，其得到难易和成就大小完全不同。",
+          "conditions": [
+            "分析宾主关系与体用混合结构时",
+            "区分年柱、月令、日时分别代表的环境层级时",
+            "判断事业成就、平台空间和得到难易时"
+          ],
+          "reasoning_path": [
+            "先拆年、月、日、时四个位置的层级意义",
+            "再判断体和用分别落在哪个位置",
+            "最后推演资源到手难易、平台大小与主导权归属"
+          ],
+          "branch_conditions": [
+            "如果月令为体，优先判断自己是否属于该群体并受其托举",
+            "如果年上被有效制住，则转向更高层级平台和竞争结果分析"
+          ],
+          "interpretation": "这套方法强调位置先于抽象十神。年上之用通常更大也更难得，往往要靠制年上之物来获取更高层级的社会结果；月令是我所处的平台和群体气候，决定一个人能不能在环境中被托举；日时是家内资源和可直接支配范围，得之最容易。若月令为体，表示我是这个群体的一部分；若年上被制得力，则常常表现为压住竞争对手、整合客户或获得更大的社会资源。",
+          "product_safe_advice": [
+            "可转译为你当前更适合先稳住近身资源，还是去争取更高层级的平台机会。",
+            "用户层面强调环境匹配和资源到手难度，不直接讲宫位术语。"
+          ],
+          "do_not_say": [
+            "年柱永远比日时更重要。",
+            "月令为体就一定成功。"
+          ],
+          "confidence": "high",
+          "source": {
+            "lesson": "下册文曾公字高级班.pdf",
+            "source_file": "data/raw-documents/文曾/下册文曾公字高级班_combined.txt",
+            "chunk_id": "宾主体用"
+          }
+        },
+        {
+          "id": "wenzeng-rule-zhengzhi-fanzhi-001",
+          "topic": "direct_control_vs_reverse_control",
+          "topic_family": "blind_school_rules",
+          "claim": "正制与反制不仅看谁制谁，还要看党派方向、叛党情况和制是否干净；制住者得富贵，制不住者就容易落到纠缠、贫困或结果走偏。",
+          "conditions": [
+            "分析制用结构、会党成势与叛党并发时",
+            "判断一个格局的制是顺着主体方向还是反向走时",
+            "区分制得成与制不清时"
+          ],
+          "reasoning_path": [
+            "先确认当前制点站在哪个阵营，方向是否顺着主体主线",
+            "再检查叛党和转向生扶有没有把制的质量打乱",
+            "最后把结果分成正制成事、反制拖累或制而不清"
+          ],
+          "branch_conditions": [
+            "如果制点虽存在但阵营反向，就从成事路径切到拖累路径",
+            "如果叛党持续续气给对立方，则不按清纯结构处理"
+          ],
+          "interpretation": "这条规则把原本抽象的‘制’分成方向和质量。即便存在制，也要看它是否站在正确阵营、是否有内外党转向、是否把对方真正压住。若制的路径中出现叛党、变向生扶对立方，结果就会从成事变成拖累。它适合和会党成势规则一起使用，用来判断结构是否真正清纯。",
+          "product_safe_advice": [
+            "可转成当前推进方式是否顺势，是否存在内部拖累或资源反向消耗。",
+            "适合用于解释为什么同样有资源，有的人推进顺，有的人越做越乱。"
+          ],
+          "do_not_say": [
+            "见制就一定成。",
+            "反制必然比正制差。"
+          ],
+          "confidence": "high",
+          "source": {
+            "lesson": "下册文曾公字高级班.pdf",
+            "source_file": "data/raw-documents/文曾/下册文曾公字高级班_combined.txt",
+            "chunk_id": "正制反制"
+          }
+        },
+        {
+          "id": "wenzeng-rule-parent-star-location-001",
+          "topic": "parent_star_location",
+          "topic_family": "family_relation_rules",
+          "claim": "文曾判断父母，先在年月定位父母星，再看对应印星与根基出处；母亲定准了，父亲才容易定准，局中父母信息往往同时挂在父母星本身和生父母之印上。",
+          "conditions": [
+            "分析父母关系、父母状态或克父母结构时",
+            "需要先定位母亲星再找父亲星时",
+            "判断父母信息落在年月还是被其它星换相承接时"
+          ],
+          "interpretation": "这条规则把父母判断从单纯看印，推进到‘先定位六亲，再看印与油灯关系’。年月是定局基础，父母星本身体现角色，印星体现其生机和能否持续。若父母星受损、其印也受损，就比单纯父母星受克更危险。文曾用‘油尽灯枯’来说明这个逻辑：灯灭不只看灯被吹灭，也看油是否耗尽。",
+          "product_safe_advice": [
+            "系统内部可用于家庭支持度、长辈关系质量和原生家庭压力判断。",
+            "用户侧宜转成父母沟通、长辈支持或家庭牵扯，不直接断生死。"
+          ],
+          "do_not_say": [
+            "看到父母星受克就直接断父母去世。",
+            "所有父母问题都只看印星。"
+          ],
+          "confidence": "high",
+          "source": {
+            "lesson": "下册文曾公字高级班.pdf",
+            "source_file": "data/raw-documents/文曾/下册文曾公字高级班_combined.txt",
+            "chunk_id": "找父母星，克父母断法"
+          }
+        },
+        {
+          "id": "wenzeng-rule-wealth-health-position-001",
+          "topic": "wealth_position_and_health",
+          "topic_family": "life_event_rules",
+          "claim": "富位和健康并非完全独立。文曾在下册里把富位、身体结构、十神身体象和健康风险拉在一起看，强调财富位的得失、体的受损和健康承载力之间存在联动。",
+          "conditions": [
+            "分析财富积累与健康代价是否同步出现时",
+            "判断身体结构象与十神结构象时",
+            "识别局中富位是否建立在耗身或损体之上时"
+          ],
+          "reasoning_path": [
+            "先看财富上升点落在哪个位置和哪条结构上",
+            "再检查这个位点是不是同时承担身体承压或耗身角色",
+            "最后把结果落成高回报高消耗，还是可持续累积"
+          ],
+          "branch_conditions": [
+            "如果财富位与身体承压位重叠，则降低激进建议和扩张判断",
+            "如果富位和健康位分离，则保留扩张空间，不强行附会代价"
+          ],
+          "interpretation": "这条规则适合放在风险平衡层。一个结构可能很能出财，但如果承担财富的位点同时也是身体承压点，那么得到和消耗会一起出现。它不是简单地说‘有钱伤身’，而是提醒系统在做财富向输出时，要同步检查体、印、健康相关结构是否承受得住。",
+          "product_safe_advice": [
+            "适合转译为回报和消耗同时变大，需要用节奏管理来换稳定。",
+            "当财富和健康信号冲突时，降低建议激进度。"
+          ],
+          "do_not_say": [
+            "富就一定伤身。",
+            "财旺的人身体一定差。"
+          ],
+          "confidence": "medium",
+          "source": {
+            "lesson": "下册文曾公字高级班.pdf",
+            "source_file": "data/raw-documents/文曾/下册文曾公字高级班_combined.txt",
+            "chunk_id": "富位和健康的关系"
+          }
+        },
+        {
+          "id": "wenzeng-rule-wood-fire-bureau-001",
+          "topic": "wood_fire_bureau",
+          "topic_family": "bureau_rules",
+          "claim": "木火局的核心不是单看木火多，而是看木火能否成清势、燥土是否加入同党，以及是否存在金水来打断气势；得势时重在泄秀、发用和向上表达。",
+          "conditions": [
+            "局中木火为主体力量时",
+            "木火燥土形成一党并具持续流通时",
+            "判断木火局是成势还是被金水打断时"
+          ],
+          "interpretation": "木火局偏向向外表达、发散、明朗和推动。若木火一路流通而无严重叛党，结构往往更适合做输出、传播、才艺、管理和显化类事情；若被金水湿土强力打断，就要回到会党成势和反制逻辑里重看。它不是单纯的五行偏好，而是局法层面的功势组合。",
+          "product_safe_advice": [
+            "用户侧可转成适合主动表达、曝光、传播、发起和带节奏。",
+            "若局不清，建议强调先整合内部资源再放大动作。"
+          ],
+          "do_not_say": [
+            "木火多就一定富贵。",
+            "任何木火结构都适合高调。"
+          ],
+          "confidence": "medium",
+          "source": {
+            "lesson": "下册文曾公字高级班.pdf",
+            "source_file": "data/raw-documents/文曾/下册文曾公字高级班_combined.txt",
+            "chunk_id": "木火局要点"
+          }
+        },
+        {
+          "id": "wenzeng-rule-water-earth-bureau-001",
+          "topic": "water_earth_bureau",
+          "topic_family": "bureau_rules",
+          "claim": "水土局看的是水土相抗时以制水为重点，见水盛常为反局；土旺水弱偏喜火土，土弱水旺则更强调火土来定局与收束。",
+          "conditions": [
+            "局中水土对抗成为主轴时",
+            "判断应以制水、护土还是借火转局时",
+            "分析土旺水弱与土弱水旺两类分支时"
+          ],
+          "interpretation": "这条规则把水土局从抽象五行冲突落到处理路径。关键不在于水土都有，而在于谁占主导、谁需要被收束、火能不能把散乱的局面重新定型。对产品层来说，它更像‘承载与流动的矛盾’：流动过强就散，土过强又堵，最好的处理是找到能让承载和节律重新平衡的发力点。",
+          "product_safe_advice": [
+            "适合转译为节奏和承载的拉扯，需要先稳框架再谈扩张。",
+            "面对反局信号时，降低冒进建议。"
+          ],
+          "do_not_say": [
+            "水土局一定差。",
+            "见水就一定坏局。"
+          ],
+          "confidence": "medium",
+          "source": {
+            "lesson": "下册文曾公字高级班.pdf",
+            "source_file": "data/raw-documents/文曾/下册文曾公字高级班_combined.txt",
+            "chunk_id": "水土局要点"
+          }
+        },
+        {
+          "id": "wenzeng-rule-fire-metal-bureau-001",
+          "topic": "fire_metal_bureau",
+          "topic_family": "bureau_rules",
+          "claim": "火金局的要领是追求火与金之间的平衡，既不能火过头毁金，也不能金过重灭火；平衡得好时，常能显出执行、打造、精炼和名器之象。",
+          "conditions": [
+            "局中火金两种力量相抗成主轴时",
+            "判断是火太过、金太过还是两者均衡时",
+            "分析金神入火乡、火金成象类组合时"
+          ],
+          "interpretation": "火金局不是谁压死谁，而是谁把谁炼成器。火能给金以成形和价值，金也能让火的作用有承载物和落点。若失衡，则容易走向过度打磨、冲突升级或结果变脆；若平衡，则更利执行力、精加工、技术品质、管理和结果兑现。",
+          "product_safe_advice": [
+            "适合转译为需要拿捏力度和标准，越精准越容易出成绩。",
+            "可用于提醒用户在高强度推进中保留缓冲，避免过刚。"
+          ],
+          "do_not_say": [
+            "火金相战就一定有灾。",
+            "只要见火金就是金神入火乡。"
+          ],
+          "confidence": "medium",
+          "source": {
+            "lesson": "下册文曾公字高级班.pdf",
+            "source_file": "data/raw-documents/文曾/下册文曾公字高级班_combined.txt",
+            "chunk_id": "火金局要点"
+          }
+        },
+        {
+          "id": "wenzeng-rule-metal-wood-bureau-001",
+          "topic": "metal_wood_bureau",
+          "topic_family": "bureau_rules",
+          "claim": "金木局以护木为主，常见两种路径：木火制金，或金水相生再生木；若处理不好，金木对抗会把生机和秩序同时打散。",
+          "conditions": [
+            "局中金木为主体力量时",
+            "判断护木应走木火制金还是金水生木时",
+            "识别水火交战是否破坏护木路径时"
+          ],
+          "interpretation": "金木局的关键是保住生机。文曾强调护木不是盲目帮木，而是要选对路径：要么以火来解金木之战，要么让金水生木成更柔和的转化。若一边护木一边水火乱战，结构反而更脆。这条规则很适合用在成长、项目孵化、教育和需要‘先保活再壮大’的场景上。",
+          "product_safe_advice": [
+            "可转译为当前更适合保住核心生机，而不是急着对抗所有外部压力。",
+            "在建议里强调先保护关键资源和主线。"
+          ],
+          "do_not_say": [
+            "金木相战一定失败。",
+            "护木就只能用火。"
+          ],
+          "confidence": "medium",
+          "source": {
+            "lesson": "下册文曾公字高级班.pdf",
+            "source_file": "data/raw-documents/文曾/下册文曾公字高级班_combined.txt",
+            "chunk_id": "金木局要点"
+          }
+        },
+        {
+          "id": "wenzeng-rule-earth-wood-bureau-001",
+          "topic": "earth_wood_bureau",
+          "topic_family": "bureau_rules",
+          "claim": "木土局重在区分湿土与燥土对木的不同作用：湿土能养木，燥土易焚木；木多宜火，水多宜土，燥土木局多要借金来修整结构。",
+          "conditions": [
+            "局中木土为主体力量时",
+            "需要区分湿土与燥土的承载方式时",
+            "判断木土局应借火、借土还是借金调整时"
+          ],
+          "interpretation": "木土局比表面上更讲究土性。湿土和木的关系偏承载与生养，燥土则可能压木、焚木，使原本可以成长的结构变得焦裂。文曾把这类局法做成了公式化处理路径，适合系统内部做风险分流：是继续养、还是修、还是先止损。",
+          "product_safe_advice": [
+            "用户层可转成当前更需要修整结构和恢复土壤，而不是只追求增长。",
+            "当燥土过重时，建议偏向降温和修复。"
+          ],
+          "do_not_say": [
+            "木土局一定压抑。",
+            "土多就一定坏木。"
+          ],
+          "confidence": "medium",
+          "source": {
+            "lesson": "下册文曾公字高级班.pdf",
+            "source_file": "data/raw-documents/文曾/下册文曾公字高级班_combined.txt",
+            "chunk_id": "木土局要点"
+          }
+        },
+        {
+          "id": "wenzeng-rule-fortune-cycle-reading-001",
+          "topic": "fortune_cycle_reading",
+          "topic_family": "timing_rules",
+          "claim": "文曾把大运流年拆成阶段背景与年度触发两层，强调先看大运给出的长期舞台，再看流年如何在这个舞台上落事，不能把时间判断压缩成单一年份的冲合。",
+          "conditions": [
+            "分析阶段走势与年度应事时",
+            "需要区分大运和流年的层级分工时",
+            "判断长期背景与短期触发如何叠加时"
+          ],
+          "interpretation": "大运更像几年到十年的环境底色，流年更像一年内的具体触发器。只抓流年容易把波动夸大，只抓大运又会漏掉真实应期。文曾把二者的区别、关系、通看与分看都单独拆开，说明时间判断的前提是先看底盘，再看触发方式。",
+          "product_safe_advice": [
+            "可转译为阶段趋势和年度触发分开看。",
+            "用户层适合表达成‘今年触发的是你这几年一直在酝酿的主题’。"
+          ],
+          "do_not_say": [
+            "一个流年就决定全部命运。",
+            "大运不好就什么都不能做。"
+          ],
+          "confidence": "high",
+          "source": {
+            "lesson": "文曾易学实操教学.docx",
+            "source_file": "data/raw-documents/文曾/文曾易学实操教学.txt",
+            "chunk_id": "第七十一节大运流年"
+          }
+        },
+        {
+          "id": "wenzeng-rule-marriage-timing-and-matching-001",
+          "topic": "marriage_timing_and_matching",
+          "topic_family": "life_event_rules",
+          "claim": "在婚姻专题之外，文曾还把结婚条件、离婚条件、合婚与择日拆成独立层，强调关系成立、关系匹配和关系落地不是一件事。",
+          "conditions": [
+            "分析婚期、合婚、关系落地时",
+            "需要区分关系存在、关系匹配和关系执行三层时",
+            "面对用户询问何时推进婚恋决定时"
+          ],
+          "reasoning_path": [
+            "先确认关系本身是否已经成立",
+            "再看双方匹配度和结构执行条件是否跟得上",
+            "最后才落到推进窗口、婚期和择日层"
+          ],
+          "branch_conditions": [
+            "如果关系未成立，就不直接进入婚期判断",
+            "如果匹配度和时间窗口冲突，则优先保留观察与沟通，不硬推落地"
+          ],
+          "interpretation": "这套逻辑避免把婚姻判断压缩成一个‘能不能结’。红鸾天喜、结婚条件、离婚条件、合婚和择日是一条完整链条：关系先要成立，再看双方是否匹配，最后才落到具体时间窗口和执行日子。系统里适合把它作为婚恋推进节奏的补充层，而不是替代夫妻星主线。",
+          "product_safe_advice": [
+            "可转成关系成熟度、匹配度和推进窗口。",
+            "当匹配和时间冲突时，优先给出沟通与观察建议。"
+          ],
+          "do_not_say": [
+            "一个红鸾天喜就代表必婚。",
+            "合婚结果能代替双方经营。"
+          ],
+          "confidence": "medium",
+          "source": {
+            "lesson": "文曾易学实操教学.docx",
+            "source_file": "data/raw-documents/文曾/文曾易学实操教学.txt",
+            "chunk_id": "第七十三节看婚姻-第七十五节八字合婚"
+          }
+        },
+        {
+          "id": "wenzeng-rule-child-line-001",
+          "topic": "child_line_and_outcome",
+          "topic_family": "family_relation_rules",
+          "claim": "文曾看子女会同时区分男命、女命、子女个数、子女星入墓和子女成就，不把子女问题简化成一个十神符号。",
+          "conditions": [
+            "分析子女缘分、子女数量、子女发展时",
+            "需要区分男命和女命的判断入口时",
+            "判断子女星是否入墓或受严重限制时"
+          ],
+          "interpretation": "这条规则把子女判断拆成多层：先看有没有子女线，再看是数量问题、关系问题还是成就问题。子女星入墓不只代表阻滞，也可能代表延后、隐伏或需要特殊条件才启动。因此它更适合作为家庭主题、传承感和未来规划的内部推断层。",
+          "product_safe_advice": [
+            "用户层可转译为亲子主题、下一代规划和家庭延展性。",
+            "面对不确定信号时，输出观察和耐心，而不是绝对判断。"
+          ],
+          "do_not_say": [
+            "子女星入墓就一定无子。",
+            "男命女命的子女判断完全一样。"
+          ],
+          "confidence": "medium",
+          "source": {
+            "lesson": "文曾易学实操教学.docx",
+            "source_file": "data/raw-documents/文曾/文曾易学实操教学.txt",
+            "chunk_id": "第七十六节看子女"
+          }
+        },
+        {
+          "id": "wenzeng-rule-career-talent-mapping-001",
+          "topic": "career_talent_mapping",
+          "topic_family": "career_rules",
+          "claim": "文曾把事业判断拆成天赋、五行品质、十神品质和案例验证四层，不先贴行业标签，而是先看一个人凭什么成事。",
+          "conditions": [
+            "分析事业方向、发展潜力、职业适配时",
+            "需要把天赋、五行和十神联动起来时",
+            "判断更适合靠输出、管理、技术还是整合时"
+          ],
+          "interpretation": "这条规则比职业象法更底层。五行偏功能和气质，十神偏行为方式和资源通道，二者结合之后，才能判断一个人更适合在哪种环境下发力。它很适合做产品里的个性化路径建议，而不是唯一职业结论。",
+          "product_safe_advice": [
+            "可转译为你的优势发挥方式和更顺手的事业路径。",
+            "避免把职业建议说成唯一正确答案。"
+          ],
+          "do_not_say": [
+            "一个十神就能决定职业。",
+            "五行像什么就只能做什么。"
+          ],
+          "confidence": "high",
+          "source": {
+            "lesson": "文曾易学实操教学.docx",
+            "source_file": "data/raw-documents/文曾/文曾易学实操教学.txt",
+            "chunk_id": "第七十七节看事业"
+          }
+        },
+        {
+          "id": "wenzeng-rule-study-signals-001",
+          "topic": "study_signals",
+          "topic_family": "life_event_rules",
+          "claim": "学业判断要同时看学业星、食神表现、印星承接、受制情况和高学历特征，不能只靠‘有印就是读书好’这种简化说法。",
+          "conditions": [
+            "分析学习能力、升学表现、学历层次时",
+            "需要同时看食神和印星的承接关系时",
+            "判断学业是否受制或能否向高学历发展时"
+          ],
+          "reasoning_path": [
+            "先分开看学习状态的食神线和承接体系的印星线",
+            "再判断是哪一条线被制、被打断或被放大",
+            "最后把结果落成学习节奏、考试发挥或长期进修潜力"
+          ],
+          "branch_conditions": [
+            "如果只是食神受扰而印仍稳，则更偏发挥波动，不直接降学历层次",
+            "如果印和食神双双受损，则从状态问题升级为长期学业受限判断"
+          ],
+          "interpretation": "文曾把‘学得进去’和‘能不能拿到学历结果’分开。食神偏学习状态和吸收表现，印星偏承接、记忆和体系性；二者被制的方式不同，落到结果上也不同。系统里适合把它用在学习节奏、考试压力和长期进修潜力上。",
+          "product_safe_advice": [
+            "可转译为学习专注度、考试发挥和长期进修潜力。",
+            "面对受制信号时，建议给出学习策略和节奏调整。"
+          ],
+          "do_not_say": [
+            "没有印就读不好书。",
+            "学业受制就一定低学历。"
+          ],
+          "confidence": "high",
+          "source": {
+            "lesson": "文曾易学实操教学.docx",
+            "source_file": "data/raw-documents/文曾/文曾易学实操教学.txt",
+            "chunk_id": "第八十节看学业"
+          }
+        },
+        {
+          "id": "wenzeng-rule-remedy-layer-001",
+          "topic": "remedy_layer",
+          "topic_family": "product_safety_rules",
+          "claim": "文曾把化解分成两种方式，并强调化解不是凭空逆转，而是顺着原局功势和不良格局的着力点去调整运用。",
+          "conditions": [
+            "需要从命理结论转向行动建议时",
+            "面对用户询问如何改善、如何趋吉避凶时",
+            "系统要把结构判断转成可执行建议时"
+          ],
+          "interpretation": "这条规则对产品最重要，因为它给了从内部命理到外部建议的过渡桥。化解不是重新造命，而是沿着已有结构做节奏、取舍、环境和行为上的调整。它天然适合作为 daily guidance 的后端过渡层，用来把风险或机会翻译成更稳的做法。",
+          "product_safe_advice": [
+            "可直接作为建议生成层的内部规则来源。",
+            "用户侧只输出调整方向，不输出神秘化的固定化解术。"
+          ],
+          "do_not_say": [
+            "化解后问题就一定消失。",
+            "任何格局都能靠同一种方法化解。"
+          ],
+          "confidence": "high",
+          "source": {
+            "lesson": "文曾易学实操教学.docx",
+            "source_file": "data/raw-documents/文曾/文曾易学实操教学.txt",
+            "chunk_id": "第八十一节化解"
+          }
+        },
+        {
+          "id": "wenzeng-rule-special-patterns-001",
+          "topic": "special_patterns",
+          "topic_family": "blind_school_rules",
+          "knowledge_priority": "core_emphasis",
+          "repetition_signal": {
+            "status": "repeated",
+            "meaning": "特殊格局是高门槛重点内容，讲师多次提醒不可乱套",
+            "weight": "medium"
+          },
+          "claim": "特殊格局不能脱离整体功势单独贴标签。文曾在这部分重点落在从格和一字连珠，强调先看结构是否真的从、是否真正成线，再决定能否按特殊格局处理。",
+          "conditions": [
+            "分析从格、一字连珠等特殊结构时",
+            "判断是否满足真正从势或成线时",
+            "防止把普通偏势误判成特殊格局时"
+          ],
+          "reasoning_path": [
+            "先把普通结构、功势和作用关系看清楚",
+            "再核是否真的从势、成线或纯到可以单列特殊格局",
+            "最后只在高度一致时才启用特殊格局判断"
+          ],
+          "branch_conditions": [
+            "如果只是偏势而非纯势，则退回普通结构分析，不套特殊格局",
+            "如果特殊信号和主线作用关系冲突，则以主线普通结构为先"
+          ],
+          "interpretation": "特殊格局的价值在于少数真正纯粹结构，而风险也在于最容易被滥用。文曾把它放在取用神总结之前，实际上是在提醒：只有先把普通结构、功势和作用关系吃透，特殊格局才不会看花。系统里应把它作为高门槛规则，仅在信号高度一致时启用。",
+          "product_safe_advice": [
+            "内部作为高置信度加分规则，不作为默认入口。",
+            "用户侧可只转成结构比较特殊，需要按非常规路径理解。"
+          ],
+          "do_not_say": [
+            "看着像从格就一定从格。",
+            "一字连珠一定代表大贵。"
+          ],
+          "confidence": "medium",
+          "source": {
+            "lesson": "文曾易学实操教学.docx",
+            "source_file": "data/raw-documents/文曾/文曾易学实操教学.txt",
+            "chunk_id": "第六十九节特殊格局"
+          }
+        },
+        {
+          "id": "wenzeng-rule-star-palace-root-strength-001",
+          "topic": "star_palace_root_strength",
+          "topic_family": "blind_school_rules",
+          "knowledge_priority": "foundational",
+          "repetition_signal": {
+            "status": "repeated",
+            "meaning": "星、宫、根基、力量是断象时的基础分析框架，反复出现",
+            "weight": "high"
+          },
+          "claim": "星宫位分析不能只看‘这个字像什么’，还要同时看星、宫、根基出处和力量大小；同一个象在不同宫位、不同根基条件下，落点和强弱会明显不同。",
+          "conditions": [
+            "分析类象、人物、事件落点时",
+            "需要区分星本身和宫位容器时",
+            "判断某个象到底有没有根、有没有力量时"
+          ],
+          "reasoning_path": [
+            "先看星代表什么功能和性质",
+            "再看宫位决定它落在何处、关乎谁",
+            "最后回到根基出处与力量大小，判断它能否真实成事"
+          ],
+          "branch_conditions": [
+            "如果星有而宫弱，则保留象但降低落地强度",
+            "如果宫在而星虚或无根，则视为场景存在但实际结果偏弱"
+          ],
+          "interpretation": "文曾把星宫位案例解析放在取用之后，说明类象不是独立系统，而是取用之后的落地工具。星是功能和性质，宫是落点和场景，根基出处决定这个象从哪里来，力量大小决定它能不能真正成事。系统里适合把它作为事件定位和人物映射的精修层。",
+          "product_safe_advice": [
+            "内部用于细化事件落点和人物角色，不直接展示术语。",
+            "当星有而宫弱，或宫在而星虚时，降低结论强度。"
+          ],
+          "do_not_say": [
+            "看到一个类象就能直接断实事。",
+            "宫位能代替全部结构分析。"
+          ],
+          "confidence": "high",
+          "source": {
+            "lesson": "文曾易学实操教学.docx",
+            "source_file": "data/raw-documents/文曾/文曾易学实操教学.txt",
+            "chunk_id": "第六十三节星宫位案例解析-第六十四节星宫位解析"
+          }
+        },
+        {
+          "id": "wenzeng-rule-root-source-network-001",
+          "topic": "root_source_network",
+          "topic_family": "blind_school_rules",
+          "knowledge_priority": "foundational",
+          "repetition_signal": {
+            "status": "repeated",
+            "meaning": "根基、出处、脉络是讲师反复强调的推理链基础",
+            "weight": "high"
+          },
+          "claim": "位像解析把根基、出处、脉络、生帮克泄耗和合会刑冲穿破连成一条网络，强调任何一个信号都要放回其来源、流向和连接路径里看。",
+          "conditions": [
+            "分析结构脉络和信号传播路径时",
+            "需要判断一个象从哪里起、经过谁、落到哪里时",
+            "面对多重合会刑冲穿破并发时"
+          ],
+          "reasoning_path": [
+            "先找根基，判断站不站得住",
+            "再找出处，确认它从哪里来",
+            "再看脉络与生帮克泄耗、合会刑冲穿破如何改变流向"
+          ],
+          "branch_conditions": [
+            "如果根基不稳，则整个链路降权，不按强主线处理",
+            "如果脉络中断或被多重冲破切断，则转入干扰线或断裂路径"
+          ],
+          "interpretation": "这条规则把命局从静态图变成动态网络。根基回答‘站不站得住’，出处回答‘从哪来’，脉络回答‘怎么连’，生帮克泄耗与合会刑冲穿破则决定网络中的方向和阻力。对系统来说，它很适合做内部推理链，比单点判断稳得多。",
+          "product_safe_advice": [
+            "可转译为当前事情并不是单点问题，而是整条链路是否顺畅。",
+            "当链路断裂多时，建议偏保守。"
+          ],
+          "do_not_say": [
+            "只看一个冲或一个合就足够。",
+            "根基和出处可以忽略。"
+          ],
+          "confidence": "high",
+          "source": {
+            "lesson": "文曾易学实操教学.docx",
+            "source_file": "data/raw-documents/文曾/文曾易学实操教学.txt",
+            "chunk_id": "第六十七节位像解析-第六十八节位像解析下"
+          }
+        },
+        {
+          "id": "wenzeng-rule-yongshen-decoding-order-001",
+          "topic": "yongshen_decoding_order",
+          "topic_family": "blind_school_rules",
+          "knowledge_priority": "foundational",
+          "repetition_signal": {
+            "status": "repeated",
+            "meaning": "解盘顺序和用神校验在多门课程中作为重点反复强调",
+            "weight": "high"
+          },
+          "claim": "取用神总结的重点不是再找一个固定答案，而是先按解盘顺序拆层，再看作用关系，确保用神建立在真正的主线结构上，而不是局部漂亮点上。",
+          "conditions": [
+            "总结用神判断时",
+            "需要把解盘顺序和作用关系结合时",
+            "面对多个看似都能当用神的信号时"
+          ],
+          "reasoning_path": [
+            "先按解盘顺序识别主线结构",
+            "再按作用关系筛掉只是漂亮但不主导的信号",
+            "最后才在剩余主线里确认用神位置"
+          ],
+          "branch_conditions": [
+            "如果主线和局部亮点冲突，以主线优先",
+            "如果多个候选点同时存在，则优先保留真正改变结果的那一条"
+          ],
+          "interpretation": "这条规则是前面取用方法与特殊格局的收束层。文曾强调‘顺序’和‘作用关系’，本质上是在防止见到一个亮点就误判整局主线。系统里适合把它作为用神模块的最后一层校验：先问主线，后问细节；先问作用关系，后问单点喜忌。",
+          "product_safe_advice": [
+            "内部用于降低误判率，不直接给用户展示。",
+            "当主线和局部信号冲突时，以主线为先。"
+          ],
+          "do_not_say": [
+            "局部最亮的五行就是用神。",
+            "用神可以脱离解盘顺序单独判断。"
+          ],
+          "confidence": "high",
+          "source": {
+            "lesson": "文曾易学实操教学.docx",
+            "source_file": "data/raw-documents/文曾/文曾易学实操教学.txt",
+            "chunk_id": "第七十节取用神总结"
+          }
+        },
+        {
+          "id": "wenzeng-rule-number-selection-001",
+          "topic": "number_selection",
+          "topic_family": "applied_selection_rules",
+          "claim": "文曾把选数字放在大运流年之后，说明数字选择不应脱离当下时运和结构主线，更多是做顺势微调，而不是凭单独喜好改变大方向。",
+          "conditions": [
+            "分析数字偏好、编号选择、符号性配置时",
+            "需要把数字选择放回当前时运背景时",
+            "面对用户想要微调运势而非重构人生时"
+          ],
+          "interpretation": "这条规则对产品的意义不在于给神秘号码，而在于控制建议强度。数字、编号、顺序这类东西最多是顺势微调，不能替代结构判断。若系统以后做轻量生活建议，这类规则可以作为低权重装饰层，而不是核心决策层。",
+          "product_safe_advice": [
+            "仅作为低权重微调建议，不作为主判断依据。",
+            "用户侧避免给出过度神秘化的数字断言。"
+          ],
+          "do_not_say": [
+            "换个数字就能改命。",
+            "数字选择比结构主线更重要。"
+          ],
+          "confidence": "medium",
+          "source": {
+            "lesson": "文曾易学实操教学.docx",
+            "source_file": "data/raw-documents/文曾/文曾易学实操教学.txt",
+            "chunk_id": "第七十二节选数字"
+          }
+        },
+        {
+          "id": "wenzeng-rule-date-selection-001",
+          "topic": "date_selection",
+          "topic_family": "applied_selection_rules",
+          "claim": "选日子要同时看时间信息、黄道日、建星和具体运用，择日不是单点好坏，而是让执行时间与原本要做的事更匹配。",
+          "conditions": [
+            "分析推进窗口、签约日期、见面时机、启动时间时",
+            "需要把择日放回具体事项类型时",
+            "面对用户询问何时更适合落地动作时"
+          ],
+          "interpretation": "文曾把择日放在婚恋和子女之间，说明它本质是应用层技巧。关键不是挑一个‘绝对好日子’，而是看这件事属于什么类型、需要什么气，再用时间信息、黄道日和建星去匹配。系统里可把它转译成更适合推进或落地的时间窗口，而不是传统择日术语堆砌。",
+          "product_safe_advice": [
+            "可转译为更适合安排重要动作的时间窗口。",
+            "用户层避免输出绝对吉凶和封闭式日期判断。"
+          ],
+          "do_not_say": [
+            "某一天对所有人都绝对吉。",
+            "选对日子就能覆盖所有结构问题。"
+          ],
+          "confidence": "medium",
+          "source": {
+            "lesson": "文曾易学实操教学.docx",
+            "source_file": "data/raw-documents/文曾/文曾易学实操教学.txt",
+            "chunk_id": "第七十四节选日子"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Daily Guidance Response",
+  "type": "object",
+  "required": [
+    "date",
+    "timezone",
+    "energyScore",
+    "theme",
+    "wear",
+    "go",
+    "do",
+    "avoid",
+    "riskWatch",
+    "bestTimeWindows",
+    "disclaimer"
+  ],
+  "properties": {
+    "date": { "type": "string", "format": "date" },
+    "timezone": { "type": "string" },
+    "energyScore": { "type": "integer", "minimum": 0, "maximum": 100 },
+    "theme": { "type": "string", "maxLength": 120 },
+    "scores": {
+      "type": "object",
+      "properties": {
+        "action": { "type": "integer", "minimum": 0, "maximum": 100 },
+        "social": { "type": "integer", "minimum": 0, "maximum": 100 },
+        "focus": { "type": "integer", "minimum": 0, "maximum": 100 },
+        "stability": { "type": "integer", "minimum": 0, "maximum": 100 },
+        "risk": { "type": "integer", "minimum": 0, "maximum": 100 }
+      },
+      "required": ["action", "social", "focus", "stability", "risk"]
+    },
+    "wear": {
+      "type": "object",
+      "required": ["colors", "style", "avoid"],
+      "properties": {
+        "colors": { "type": "array", "items": { "type": "string" }, "minItems": 1, "maxItems": 3 },
+        "style": { "type": "string", "maxLength": 120 },
+        "avoid": { "type": "string", "maxLength": 120 }
+      }
+    },
+    "go": {
+      "type": "object",
+      "required": ["recommended", "avoid"],
+      "properties": {
+        "recommended": { "type": "array", "items": { "type": "string" }, "minItems": 1, "maxItems": 3 },
+        "avoid": { "type": "array", "items": { "type": "string" }, "minItems": 1, "maxItems": 3 }
+      }
+    },
+    "do": {
+      "type": "array",
+      "items": { "type": "string", "maxLength": 120 },
+      "minItems": 3,
+      "maxItems": 3
+    },
+    "avoid": {
+      "type": "array",
+      "items": { "type": "string", "maxLength": 120 },
+      "minItems": 2,
+      "maxItems": 3
+    },
+    "riskWatch": {
+      "type": "object",
+      "required": ["category", "message"],
+      "properties": {
+        "category": {
+          "type": "string",
+          "enum": ["communication", "travel", "money", "health-routine", "relationship", "none"]
+        },
+        "message": { "type": "string", "maxLength": 180 }
+      }
+    },
+    "bestTimeWindows": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["start", "end", "purpose"],
+        "properties": {
+          "start": { "type": "string", "pattern": "^([01]\\d|2[0-3]):[0-5]\\d$" },
+          "end": { "type": "string", "pattern": "^([01]\\d|2[0-3]):[0-5]\\d$" },
+          "purpose": { "type": "string", "maxLength": 80 }
+        }
+      },
+      "minItems": 2,
+      "maxItems": 2
+    },
+    "masterUpsell": {
+      "type": "object",
+      "properties": {
+        "enabled": { "type": "boolean" },
+        "cta": { "type": "string", "maxLength": 80 },
+        "priceUsd": { "type": "number" }
+      }
+    },
+    "disclaimer": {
+      "type": "string",
+      "const": "For entertainment and self-reflection only. Not medical, legal, financial, or emergency advice."
+    }
+  }
+}

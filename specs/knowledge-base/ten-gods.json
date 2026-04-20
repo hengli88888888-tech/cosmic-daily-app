@@ -1,0 +1,106 @@
+{
+  "version": 1,
+  "description": "Product-safe summaries for ten gods. Keep these as interpretive hints, not deterministic claims.",
+  "items": [
+    {
+      "key": "direct_officer",
+      "label_zh": "正官",
+      "themes": ["order", "responsibility", "discipline"],
+      "positive_expression": ["credibility", "measured action", "respect for structure"],
+      "shadow_expression": ["pressure", "fear of mistakes", "self-suppression"],
+      "functional_switches": ["supports stable leadership when structure is clear", "turns into burden when standards outrun real capacity"],
+      "shadow_turn_conditions": ["rigid rules override context", "responsibility rises faster than support"],
+      "daily_guidance_bias": ["planning", "compliance", "measured communication"]
+    },
+    {
+      "key": "seven_killings",
+      "label_zh": "七杀",
+      "themes": ["pressure", "edge", "decisive force"],
+      "positive_expression": ["courage", "fast response", "competitive energy"],
+      "shadow_expression": ["conflict", "reactivity", "stress overload"],
+      "functional_switches": ["becomes breakthrough force when well-aimed", "becomes threat pressure when unchecked or ownerless"],
+      "shadow_turn_conditions": ["urgency outruns judgment", "conflict has no containment"],
+      "daily_guidance_bias": ["protect boundaries", "avoid escalation", "channel urgency carefully"]
+    },
+    {
+      "key": "direct_resource",
+      "label_zh": "正印",
+      "themes": ["support", "learning", "restoration"],
+      "positive_expression": ["stability", "recovery", "insight"],
+      "shadow_expression": ["passivity", "overdependence", "delay"],
+      "functional_switches": ["restores and shelters when pressure is real", "slows progress when it becomes comfort dependence"],
+      "shadow_turn_conditions": ["protection replaces action", "recovery mode never exits"],
+      "daily_guidance_bias": ["study", "rest", "quiet planning"]
+    },
+    {
+      "key": "indirect_resource",
+      "label_zh": "偏印",
+      "themes": ["unconventional thinking", "instinct", "detachment"],
+      "positive_expression": ["pattern recognition", "independent insight", "strategic distance"],
+      "shadow_expression": ["isolation", "over-analysis", "emotional coldness"],
+      "functional_switches": ["sharpens hidden pattern reading in uncertain situations", "turns detached when insight loses connection to reality"],
+      "shadow_turn_conditions": ["strategy replaces contact", "analysis loops without landing"],
+      "daily_guidance_bias": ["review assumptions", "work alone when needed", "avoid mental spirals"]
+    },
+    {
+      "key": "hurting_officer",
+      "label_zh": "伤官",
+      "themes": ["expression", "challenge", "creative disruption"],
+      "positive_expression": ["originality", "sharp articulation", "bold output"],
+      "shadow_expression": ["rebellion", "verbal excess", "conflict with structure"],
+      "functional_switches": ["creates edge when structure needs reform", "turns abrasive when expression loses boundary and purpose"],
+      "shadow_turn_conditions": ["provocation outruns contribution", "critique has no constructive target"],
+      "daily_guidance_bias": ["create", "speak carefully", "avoid needless provocation"]
+    },
+    {
+      "key": "eating_god",
+      "label_zh": "食神",
+      "themes": ["nourishment", "talent", "steady output"],
+      "positive_expression": ["craft", "ease", "healthy expression"],
+      "shadow_expression": ["comfort-seeking", "slowness", "overindulgence"],
+      "functional_switches": ["nourishes skill when rhythm is steady", "turns lax when comfort replaces discipline"],
+      "shadow_turn_conditions": ["routine loses edge", "pleasure outruns purpose"],
+      "daily_guidance_bias": ["learn", "refine skills", "prefer sustainable pacing"]
+    },
+    {
+      "key": "direct_wealth",
+      "label_zh": "正财",
+      "themes": ["practical gain", "management", "responsible exchange"],
+      "positive_expression": ["reliability", "resource handling", "measured accumulation"],
+      "shadow_expression": ["overwork", "material pressure", "over-calculation"],
+      "functional_switches": ["grounds value when exchange is orderly", "narrows life when gain becomes the only metric"],
+      "shadow_turn_conditions": ["resource fear drives every choice", "management turns into depletion"],
+      "daily_guidance_bias": ["budget", "prioritize essentials", "build tangible results"]
+    },
+    {
+      "key": "indirect_wealth",
+      "label_zh": "偏财",
+      "themes": ["mobility", "opportunity", "external resources"],
+      "positive_expression": ["networked gain", "timing sense", "commercial instinct"],
+      "shadow_expression": ["scattered focus", "speculation", "unstable appetite"],
+      "functional_switches": ["opens doors when movement and timing align", "scatters value when appetite outruns control"],
+      "shadow_turn_conditions": ["opportunity chasing replaces selection", "external gain lacks anchoring"],
+      "daily_guidance_bias": ["scan opportunities", "stay flexible", "avoid impulsive bets"]
+    },
+    {
+      "key": "peer",
+      "label_zh": "比肩",
+      "themes": ["self-stance", "parallel strength", "shared identity"],
+      "positive_expression": ["independence", "self-trust", "consistency"],
+      "shadow_expression": ["stubbornness", "resource competition", "self-enclosure"],
+      "functional_switches": ["stabilizes identity when self-position is clear", "hardens into rivalry when sameness becomes competition"],
+      "shadow_turn_conditions": ["holding the line becomes refusing adjustment", "shared strength turns into zero-sum comparison"],
+      "daily_guidance_bias": ["hold your line", "compare less", "protect energy"]
+    },
+    {
+      "key": "rob_wealth",
+      "label_zh": "劫财",
+      "themes": ["competition", "grabbing force", "high-pressure exchange"],
+      "positive_expression": ["decisiveness", "drive", "survival instinct"],
+      "shadow_expression": ["conflict", "resource leakage", "social friction"],
+      "functional_switches": ["cuts through hesitation when resources must be contested", "turns corrosive when grabbing replaces rightful boundary"],
+      "shadow_turn_conditions": ["competition becomes identity", "short-term gain burns long-term trust"],
+      "daily_guidance_bias": ["set boundaries", "avoid power struggles", "reduce reactive spending"]
+    }
+  ]
+}

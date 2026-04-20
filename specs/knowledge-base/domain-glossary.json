@@ -1,0 +1,681 @@
+{
+  "version": 2,
+  "description": "Preferred terminology and common ASR misrecognitions for Yi Jing, Si Zhu Ba Zi, and related metaphysics courses.",
+  "whisper_hint_terms": [
+    "易经",
+    "周易",
+    "四柱八字",
+    "八字",
+    "命理",
+    "命盘",
+    "排盘",
+    "四柱",
+    "年柱",
+    "月柱",
+    "日柱",
+    "时柱",
+    "天干",
+    "地支",
+    "十神",
+    "藏干",
+    "纳音",
+    "神煞",
+    "大运",
+    "流年",
+    "流月",
+    "流日",
+    "日主",
+    "日元",
+    "用神",
+    "喜神",
+    "忌神",
+    "仇神",
+    "闲神",
+    "格局",
+    "调候",
+    "通关",
+    "扶抑",
+    "病药",
+    "身强",
+    "身弱",
+    "从强",
+    "从弱",
+    "从格",
+    "专旺",
+    "财星",
+    "官星",
+    "七杀",
+    "官杀",
+    "印星",
+    "正印",
+    "偏印",
+    "食神",
+    "伤官",
+    "比肩",
+    "劫财",
+    "正财",
+    "偏财",
+    "正官",
+    "偏官",
+    "七杀格",
+    "伤官见官",
+    "食神生财",
+    "杀印相生",
+    "财官印",
+    "官印相生",
+    "财滋杀",
+    "食伤生财",
+    "伤官配印",
+    "财旺生官",
+    "官旺用印",
+    "印比帮身",
+    "比劫夺财",
+    "身杀两停",
+    "官杀混杂",
+    "食伤泄秀",
+    "枭神夺食",
+    "伤官佩印",
+    "财多身弱",
+    "身强财旺",
+    "财旺身弱",
+    "身弱官杀旺",
+    "伤官驾杀",
+    "阳刃驾杀",
+    "金白水清",
+    "木火通明",
+    "水火既济",
+    "火土燥烈",
+    "寒木向阳",
+    "调候用神",
+    "扶抑用神",
+    "病药用神",
+    "通关用神",
+    "三合",
+    "三会",
+    "六合",
+    "六冲",
+    "刑冲合害",
+    "自刑",
+    "相刑",
+    "六害",
+    "相破",
+    "破",
+    "墓库",
+    "空亡",
+    "桃花",
+    "驿马",
+    "华盖",
+    "文昌",
+    "天乙贵人",
+    "月德贵人",
+    "天德贵人",
+    "太极贵人",
+    "国印贵人",
+    "将星",
+    "金舆",
+    "红鸾",
+    "天喜",
+    "孤辰",
+    "寡宿",
+    "亡神",
+    "劫煞",
+    "灾煞",
+    "天罗地网",
+    "童子煞",
+    "阴差阳错",
+    "孤鸾煞",
+    "羊刃",
+    "魁罡",
+    "透干",
+    "通根",
+    "得令",
+    "失令",
+    "得地",
+    "失地",
+    "得势",
+    "司令",
+    "月令",
+    "本气",
+    "中气",
+    "余气",
+    "清浊",
+    "寒暖燥湿",
+    "子平真诠",
+    "滴天髓",
+    "穷通宝鉴",
+    "渊海子平",
+    "三命通会",
+    "盲派",
+    "子平派",
+    "格局派",
+    "旺衰派",
+    "甲乙丙丁戊己庚辛壬癸",
+    "子丑寅卯辰巳午未申酉戌亥",
+    "甲子",
+    "乙丑",
+    "丙寅",
+    "丁卯",
+    "戊辰",
+    "己巳",
+    "庚午",
+    "辛未",
+    "壬申",
+    "癸酉",
+    "甲戌",
+    "乙亥",
+    "丙子",
+    "丁丑",
+    "戊寅",
+    "己卯",
+    "庚辰",
+    "辛巳",
+    "壬午",
+    "癸未",
+    "甲申",
+    "乙酉",
+    "丙戌",
+    "丁亥",
+    "戊子",
+    "己丑",
+    "庚寅",
+    "辛卯",
+    "壬辰",
+    "癸巳",
+    "甲午",
+    "乙未",
+    "丙申",
+    "丁酉",
+    "戊戌",
+    "己亥",
+    "庚子",
+    "辛丑",
+    "壬寅",
+    "癸卯",
+    "甲辰",
+    "乙巳",
+    "丙午",
+    "丁未",
+    "戊申",
+    "己酉",
+    "庚戌",
+    "辛亥",
+    "壬子",
+    "癸丑",
+    "甲寅",
+    "乙卯",
+    "丙辰",
+    "丁巳",
+    "戊午",
+    "己未",
+    "庚申",
+    "辛酉",
+    "壬戌",
+    "癸亥"
+  ],
+  "canonical_terms": [
+    {
+      "canonical": "易经",
+      "aliases": ["周易"]
+    },
+    {
+      "canonical": "四柱八字",
+      "aliases": ["四柱", "八字命理", "四柱命理", "子平命理"]
+    },
+    {
+      "canonical": "命盘",
+      "aliases": ["八字盘", "四柱盘"]
+    },
+    {
+      "canonical": "排盘",
+      "aliases": ["起盘"]
+    },
+    {
+      "canonical": "日主",
+      "aliases": ["日元"]
+    },
+    {
+      "canonical": "十神",
+      "aliases": ["十神系统"]
+    },
+    {
+      "canonical": "正印",
+      "aliases": ["印星", "印绶"]
+    },
+    {
+      "canonical": "偏印",
+      "aliases": ["枭神", "枭印"]
+    },
+    {
+      "canonical": "正官",
+      "aliases": ["官星"]
+    },
+    {
+      "canonical": "七杀",
+      "aliases": ["偏官", "杀星"]
+    },
+    {
+      "canonical": "官杀",
+      "aliases": ["官煞"]
+    },
+    {
+      "canonical": "正财",
+      "aliases": ["财星"]
+    },
+    {
+      "canonical": "偏财",
+      "aliases": []
+    },
+    {
+      "canonical": "食神",
+      "aliases": []
+    },
+    {
+      "canonical": "伤官",
+      "aliases": []
+    },
+    {
+      "canonical": "比肩",
+      "aliases": []
+    },
+    {
+      "canonical": "劫财",
+      "aliases": []
+    },
+    {
+      "canonical": "用神",
+      "aliases": []
+    },
+    {
+      "canonical": "喜神",
+      "aliases": ["喜用神"]
+    },
+    {
+      "canonical": "忌神",
+      "aliases": []
+    },
+    {
+      "canonical": "仇神",
+      "aliases": []
+    },
+    {
+      "canonical": "闲神",
+      "aliases": []
+    },
+    {
+      "canonical": "身强",
+      "aliases": ["旺"]
+    },
+    {
+      "canonical": "身弱",
+      "aliases": ["弱"]
+    },
+    {
+      "canonical": "从格",
+      "aliases": ["从强", "从弱", "专旺"]
+    },
+    {
+      "canonical": "刑冲合害",
+      "aliases": ["刑冲", "合害"]
+    },
+    {
+      "canonical": "六合",
+      "aliases": []
+    },
+    {
+      "canonical": "三合",
+      "aliases": []
+    },
+    {
+      "canonical": "三会",
+      "aliases": []
+    },
+    {
+      "canonical": "六冲",
+      "aliases": []
+    },
+    {
+      "canonical": "空亡",
+      "aliases": ["旬空"]
+    },
+    {
+      "canonical": "天乙贵人",
+      "aliases": ["天乙"]
+    },
+    {
+      "canonical": "月德贵人",
+      "aliases": ["月德"]
+    },
+    {
+      "canonical": "天德贵人",
+      "aliases": ["天德"]
+    },
+    {
+      "canonical": "太极贵人",
+      "aliases": ["太极"]
+    },
+    {
+      "canonical": "文昌",
+      "aliases": ["文昌贵人"]
+    },
+    {
+      "canonical": "羊刃",
+      "aliases": ["阳刃"]
+    },
+    {
+      "canonical": "魁罡",
+      "aliases": []
+    },
+    {
+      "canonical": "伤官见官",
+      "aliases": []
+    },
+    {
+      "canonical": "食神生财",
+      "aliases": ["食伤生财"]
+    },
+    {
+      "canonical": "杀印相生",
+      "aliases": []
+    },
+    {
+      "canonical": "伤官配印",
+      "aliases": ["伤官佩印"]
+    },
+    {
+      "canonical": "官印相生",
+      "aliases": []
+    },
+    {
+      "canonical": "官杀混杂",
+      "aliases": []
+    },
+    {
+      "canonical": "枭神夺食",
+      "aliases": []
+    },
+    {
+      "canonical": "比劫夺财",
+      "aliases": []
+    },
+    {
+      "canonical": "调候用神",
+      "aliases": ["调候"]
+    },
+    {
+      "canonical": "扶抑用神",
+      "aliases": ["扶抑"]
+    },
+    {
+      "canonical": "病药用神",
+      "aliases": ["病药"]
+    },
+    {
+      "canonical": "通关用神",
+      "aliases": ["通关"]
+    },
+    {
+      "canonical": "透干",
+      "aliases": []
+    },
+    {
+      "canonical": "通根",
+      "aliases": []
+    },
+    {
+      "canonical": "月令",
+      "aliases": ["司令"]
+    },
+    {
+      "canonical": "寒暖燥湿",
+      "aliases": []
+    },
+    {
+      "canonical": "子平真诠",
+      "aliases": []
+    },
+    {
+      "canonical": "滴天髓",
+      "aliases": []
+    },
+    {
+      "canonical": "穷通宝鉴",
+      "aliases": []
+    },
+    {
+      "canonical": "渊海子平",
+      "aliases": []
+    },
+    {
+      "canonical": "三命通会",
+      "aliases": []
+    },
+    {
+      "canonical": "盲派",
+      "aliases": []
+    },
+    {
+      "canonical": "格局派",
+      "aliases": []
+    },
+    {
+      "canonical": "旺衰派",
+      "aliases": []
+    }
+  ],
+  "common_corrections": [
+    { "wrong": "易精", "correct": "易经" },
+    { "wrong": "易筋", "correct": "易经" },
+    { "wrong": "周一", "correct": "周易" },
+    { "wrong": "四住八字", "correct": "四柱八字" },
+    { "wrong": "四注八字", "correct": "四柱八字" },
+    { "wrong": "四主八字", "correct": "四柱八字" },
+    { "wrong": "八字命里", "correct": "八字命理" },
+    { "wrong": "命里", "correct": "命理" },
+    { "wrong": "命牌", "correct": "命盘" },
+    { "wrong": "派盘", "correct": "排盘" },
+    { "wrong": "年住", "correct": "年柱" },
+    { "wrong": "月住", "correct": "月柱" },
+    { "wrong": "日住", "correct": "日柱" },
+    { "wrong": "时住", "correct": "时柱" },
+    { "wrong": "天甘", "correct": "天干" },
+    { "wrong": "天杆", "correct": "天干" },
+    { "wrong": "天干地知", "correct": "天干地支" },
+    { "wrong": "地枝", "correct": "地支" },
+    { "wrong": "地知", "correct": "地支" },
+    { "wrong": "十深", "correct": "十神" },
+    { "wrong": "十成", "correct": "十神" },
+    { "wrong": "十神系统", "correct": "十神" },
+    { "wrong": "藏甘", "correct": "藏干" },
+    { "wrong": "那音", "correct": "纳音" },
+    { "wrong": "纳因", "correct": "纳音" },
+    { "wrong": "深煞", "correct": "神煞" },
+    { "wrong": "神刹", "correct": "神煞" },
+    { "wrong": "大孕", "correct": "大运" },
+    { "wrong": "大运流连", "correct": "大运流年" },
+    { "wrong": "留年", "correct": "流年" },
+    { "wrong": "榴年", "correct": "流年" },
+    { "wrong": "留月", "correct": "流月" },
+    { "wrong": "榴月", "correct": "流月" },
+    { "wrong": "留日", "correct": "流日" },
+    { "wrong": "日住", "correct": "日主" },
+    { "wrong": "日元", "correct": "日主" },
+    { "wrong": "用深", "correct": "用神" },
+    { "wrong": "喜用神", "correct": "喜神" },
+    { "wrong": "纪神", "correct": "忌神" },
+    { "wrong": "仇深", "correct": "仇神" },
+    { "wrong": "闲深", "correct": "闲神" },
+    { "wrong": "格局派盘", "correct": "格局排盘" },
+    { "wrong": "调后", "correct": "调候" },
+    { "wrong": "通换", "correct": "通关" },
+    { "wrong": "病要", "correct": "病药" },
+    { "wrong": "深强", "correct": "身强" },
+    { "wrong": "深弱", "correct": "身弱" },
+    { "wrong": "重格", "correct": "从格" },
+    { "wrong": "从强格局", "correct": "从强" },
+    { "wrong": "从弱格局", "correct": "从弱" },
+    { "wrong": "专望", "correct": "专旺" },
+    { "wrong": "正印新", "correct": "正印星" },
+    { "wrong": "音绶", "correct": "印绶" },
+    { "wrong": "枭深", "correct": "枭神" },
+    { "wrong": "官心", "correct": "官星" },
+    { "wrong": "官沙", "correct": "官杀" },
+    { "wrong": "官煞", "correct": "官杀" },
+    { "wrong": "七刹", "correct": "七杀" },
+    { "wrong": "偏关", "correct": "偏官" },
+    { "wrong": "财心", "correct": "财星" },
+    { "wrong": "正才", "correct": "正财" },
+    { "wrong": "偏才", "correct": "偏财" },
+    { "wrong": "时神", "correct": "食神" },
+    { "wrong": "食深", "correct": "食神" },
+    { "wrong": "伤关", "correct": "伤官" },
+    { "wrong": "比尖", "correct": "比肩" },
+    { "wrong": "比间", "correct": "比肩" },
+    { "wrong": "节财", "correct": "劫财" },
+    { "wrong": "比肩接财", "correct": "比肩劫财" },
+    { "wrong": "食神生才", "correct": "食神生财" },
+    { "wrong": "食伤生才", "correct": "食伤生财" },
+    { "wrong": "伤官见关", "correct": "伤官见官" },
+    { "wrong": "杀印相声", "correct": "杀印相生" },
+    { "wrong": "财官音", "correct": "财官印" },
+    { "wrong": "官印相声", "correct": "官印相生" },
+    { "wrong": "财滋啥", "correct": "财滋杀" },
+    { "wrong": "伤官配音", "correct": "伤官配印" },
+    { "wrong": "伤官佩音", "correct": "伤官佩印" },
+    { "wrong": "比节夺财", "correct": "比劫夺财" },
+    { "wrong": "身杀两庭", "correct": "身杀两停" },
+    { "wrong": "官杀混杂", "correct": "官杀混杂" },
+    { "wrong": "食伤泻秀", "correct": "食伤泄秀" },
+    { "wrong": "枭神夺时", "correct": "枭神夺食" },
+    { "wrong": "财多深弱", "correct": "财多身弱" },
+    { "wrong": "深强财旺", "correct": "身强财旺" },
+    { "wrong": "财旺深弱", "correct": "财旺身弱" },
+    { "wrong": "深弱官杀旺", "correct": "身弱官杀旺" },
+    { "wrong": "伤官架杀", "correct": "伤官驾杀" },
+    { "wrong": "阳任驾杀", "correct": "阳刃驾杀" },
+    { "wrong": "金白水青", "correct": "金白水清" },
+    { "wrong": "木火通名", "correct": "木火通明" },
+    { "wrong": "水火即济", "correct": "水火既济" },
+    { "wrong": "火土燥裂", "correct": "火土燥烈" },
+    { "wrong": "寒木向阳", "correct": "寒木向阳" },
+    { "wrong": "调后用神", "correct": "调候用神" },
+    { "wrong": "扶意用神", "correct": "扶抑用神" },
+    { "wrong": "病要用神", "correct": "病药用神" },
+    { "wrong": "通换用神", "correct": "通关用神" },
+    { "wrong": "三河", "correct": "三合" },
+    { "wrong": "三汇", "correct": "三会" },
+    { "wrong": "六合冲", "correct": "六合" },
+    { "wrong": "六重", "correct": "六冲" },
+    { "wrong": "行冲合害", "correct": "刑冲合害" },
+    { "wrong": "自行", "correct": "自刑" },
+    { "wrong": "相行", "correct": "相刑" },
+    { "wrong": "六亥", "correct": "六害" },
+    { "wrong": "相配", "correct": "相破" },
+    { "wrong": "木库", "correct": "墓库" },
+    { "wrong": "空王", "correct": "空亡" },
+    { "wrong": "旬王", "correct": "旬空" },
+    { "wrong": "逃花", "correct": "桃花" },
+    { "wrong": "一马", "correct": "驿马" },
+    { "wrong": "花盖", "correct": "华盖" },
+    { "wrong": "文仓", "correct": "文昌" },
+    { "wrong": "天乙贵着", "correct": "天乙贵人" },
+    { "wrong": "月德贵着", "correct": "月德贵人" },
+    { "wrong": "天德贵着", "correct": "天德贵人" },
+    { "wrong": "太极贵着", "correct": "太极贵人" },
+    { "wrong": "国印贵着", "correct": "国印贵人" },
+    { "wrong": "将心", "correct": "将星" },
+    { "wrong": "金鱼", "correct": "金舆" },
+    { "wrong": "红銮", "correct": "红鸾" },
+    { "wrong": "天洗", "correct": "天喜" },
+    { "wrong": "孤晨", "correct": "孤辰" },
+    { "wrong": "寡诉", "correct": "寡宿" },
+    { "wrong": "王神", "correct": "亡神" },
+    { "wrong": "结煞", "correct": "劫煞" },
+    { "wrong": "灾啥", "correct": "灾煞" },
+    { "wrong": "天罗地往", "correct": "天罗地网" },
+    { "wrong": "童子啥", "correct": "童子煞" },
+    { "wrong": "阴差阳坐", "correct": "阴差阳错" },
+    { "wrong": "孤鸾啥", "correct": "孤鸾煞" },
+    { "wrong": "羊任", "correct": "羊刃" },
+    { "wrong": "魁刚", "correct": "魁罡" },
+    { "wrong": "透杆", "correct": "透干" },
+    { "wrong": "通根", "correct": "通根" },
+    { "wrong": "得令", "correct": "得令" },
+    { "wrong": "失令", "correct": "失令" },
+    { "wrong": "得地", "correct": "得地" },
+    { "wrong": "失地", "correct": "失地" },
+    { "wrong": "得势", "correct": "得势" },
+    { "wrong": "司另", "correct": "司令" },
+    { "wrong": "月另", "correct": "月令" },
+    { "wrong": "本器", "correct": "本气" },
+    { "wrong": "中器", "correct": "中气" },
+    { "wrong": "余器", "correct": "余气" },
+    { "wrong": "清浊", "correct": "清浊" },
+    { "wrong": "寒暖燥湿", "correct": "寒暖燥湿" },
+    { "wrong": "子平真泉", "correct": "子平真诠" },
+    { "wrong": "滴天随", "correct": "滴天髓" },
+    { "wrong": "穷通宝剑", "correct": "穷通宝鉴" },
+    { "wrong": "渊海子评", "correct": "渊海子平" },
+    { "wrong": "三命通汇", "correct": "三命通会" },
+    { "wrong": "忙派", "correct": "盲派" },
+    { "wrong": "子平派", "correct": "子平派" },
+    { "wrong": "格局派", "correct": "格局派" },
+    { "wrong": "旺衰派", "correct": "旺衰派" },
+    { "wrong": "甲子乙丑丙寅丁卯戊辰己巳庚午辛未壬申癸酉", "correct": "甲子乙丑丙寅丁卯戊辰己巳庚午辛未壬申癸酉" },
+    { "wrong": "甲乙丙丁戊己庚辛任癸", "correct": "甲乙丙丁戊己庚辛壬癸" },
+    { "wrong": "子丑银卯辰巳午未申酉戌亥", "correct": "子丑寅卯辰巳午未申酉戌亥" }
+  ],
+  "regex_corrections": [],
+  "context_corrections": [
+    {
+      "pattern": "離工|离工",
+      "replace": "离宫",
+      "requires_any": ["门", "宫", "落", "值符", "值使", "年命", "天盘", "地盘", "转", "在"]
+    },
+    {
+      "pattern": "坎工",
+      "replace": "坎宫",
+      "requires_any": ["门", "宫", "落", "值符", "值使", "年命", "天盘", "地盘", "转", "在"]
+    },
+    {
+      "pattern": "震工",
+      "replace": "震宫",
+      "requires_any": ["门", "宫", "落", "值符", "值使", "年命", "天盘", "地盘", "转", "在"]
+    },
+    {
+      "pattern": "中工",
+      "replace": "中宫",
+      "requires_any": ["门", "宫", "落", "值符", "值使", "年命", "天盘", "地盘", "转", "在"]
+    },
+    {
+      "pattern": "更工",
+      "replace": "艮宫",
+      "requires_any": ["门", "宫", "落", "值符", "值使", "年命", "天盘", "地盘", "转", "在"]
+    },
+    {
+      "pattern": "訓工|训工",
+      "replace": "巽宫",
+      "requires_any": ["门", "宫", "落", "值符", "值使", "年命", "天盘", "地盘", "转", "在"]
+    },
+    {
+      "pattern": "前工",
+      "replace": "乾宫",
+      "requires_any": ["门", "宫", "落", "值符", "值使", "年命", "天盘", "地盘", "转", "在"],
+      "forbids_any": ["目前工作", "对工作", "工作状态"]
+    },
+    {
+      "pattern": "昆弓",
+      "replace": "坤宫",
+      "requires_any": ["门", "宫", "落", "值符", "值使", "年命", "天盘", "地盘", "转", "在"]
+    },
+    {
+      "pattern": "落工",
+      "replace": "落宫",
+      "requires_any": ["门", "宫", "值符", "值使", "年命", "天盘", "地盘", "开门", "休门", "生门", "伤门", "杜门", "景门", "死门", "惊门"]
+    },
+    {
+      "pattern": "兑工",
+      "replace": "兑宫",
+      "requires_any": ["门", "宫", "落", "值符", "值使", "年命", "天盘", "地盘", "转", "在"]
+    }
+  ]
+}

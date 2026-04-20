@@ -1,0 +1,166 @@
+{
+  "version": 1,
+  "description": "Baseline profiles for each day master. Keep these broad and reusable.",
+  "profiles": [
+    {
+      "key": "jia_wood",
+      "label_zh": "甲木",
+      "element": "wood",
+      "polarity": "yang",
+      "core_traits": ["direct", "growth-oriented", "protective"],
+      "strengths": ["initiative", "vision", "moral drive"],
+      "watchouts": ["rigidity", "overextension", "impatience"],
+      "daily_bias": {
+        "action": 8,
+        "focus": 2,
+        "social": 1,
+        "stability": -1,
+        "risk": 2
+      }
+    },
+    {
+      "key": "yi_wood",
+      "label_zh": "乙木",
+      "element": "wood",
+      "polarity": "yin",
+      "core_traits": ["adaptable", "refined", "sensitive"],
+      "strengths": ["relationship awareness", "creativity", "subtle judgment"],
+      "watchouts": ["hesitation", "emotional drift", "people-pleasing"],
+      "daily_bias": {
+        "action": 1,
+        "focus": 3,
+        "social": 5,
+        "stability": 0,
+        "risk": 1
+      }
+    },
+    {
+      "key": "bing_fire",
+      "label_zh": "丙火",
+      "element": "fire",
+      "polarity": "yang",
+      "core_traits": ["expressive", "visible", "energetic"],
+      "strengths": ["motivation", "leadership", "momentum"],
+      "watchouts": ["impulsiveness", "ego heat", "burnout"],
+      "daily_bias": {
+        "action": 7,
+        "focus": 0,
+        "social": 6,
+        "stability": -2,
+        "risk": 4
+      }
+    },
+    {
+      "key": "ding_fire",
+      "label_zh": "丁火",
+      "element": "fire",
+      "polarity": "yin",
+      "core_traits": ["refined", "perceptive", "warm in a focused way"],
+      "strengths": ["taste", "precision", "emotional sensitivity"],
+      "watchouts": ["fragility under pressure", "mood swings", "over-reading signals"],
+      "daily_bias": {
+        "action": 2,
+        "focus": 4,
+        "social": 4,
+        "stability": -1,
+        "risk": 1
+      }
+    },
+    {
+      "key": "wu_earth",
+      "label_zh": "戊土",
+      "element": "earth",
+      "polarity": "yang",
+      "core_traits": ["steady", "protective", "load-bearing"],
+      "strengths": ["reliability", "containment", "long-term planning"],
+      "watchouts": ["stubbornness", "heaviness", "slow adjustment"],
+      "daily_bias": {
+        "action": 1,
+        "focus": 5,
+        "social": 0,
+        "stability": 6,
+        "risk": -1
+      }
+    },
+    {
+      "key": "ji_earth",
+      "label_zh": "己土",
+      "element": "earth",
+      "polarity": "yin",
+      "core_traits": ["careful", "nurturing", "detail-attentive"],
+      "strengths": ["maintenance", "practical care", "process awareness"],
+      "watchouts": ["overworry", "self-burdening", "over-accommodation"],
+      "daily_bias": {
+        "action": 0,
+        "focus": 4,
+        "social": 1,
+        "stability": 5,
+        "risk": -2
+      }
+    },
+    {
+      "key": "geng_metal",
+      "label_zh": "庚金",
+      "element": "metal",
+      "polarity": "yang",
+      "core_traits": ["decisive", "straightforward", "hard-edged"],
+      "strengths": ["execution", "boundary-setting", "courage under pressure"],
+      "watchouts": ["bluntness", "conflict tendency", "over-hardness"],
+      "daily_bias": {
+        "action": 5,
+        "focus": 3,
+        "social": -1,
+        "stability": 2,
+        "risk": 3
+      }
+    },
+    {
+      "key": "xin_metal",
+      "label_zh": "辛金",
+      "element": "metal",
+      "polarity": "yin",
+      "core_traits": ["precise", "selective", "high-standard"],
+      "strengths": ["discernment", "quality control", "tasteful judgment"],
+      "watchouts": ["over-criticism", "distance", "perfectionism"],
+      "daily_bias": {
+        "action": 1,
+        "focus": 5,
+        "social": -1,
+        "stability": 2,
+        "risk": 0
+      }
+    },
+    {
+      "key": "ren_water",
+      "label_zh": "壬水",
+      "element": "water",
+      "polarity": "yang",
+      "core_traits": ["broad-minded", "adaptive", "strategic"],
+      "strengths": ["vision", "range", "situational awareness"],
+      "watchouts": ["drift", "inconsistency", "hidden overwhelm"],
+      "daily_bias": {
+        "action": 2,
+        "focus": 2,
+        "social": 1,
+        "stability": -1,
+        "risk": 2
+      }
+    },
+    {
+      "key": "gui_water",
+      "label_zh": "癸水",
+      "element": "water",
+      "polarity": "yin",
+      "core_traits": ["subtle", "intuitive", "internally observant"],
+      "strengths": ["insight", "empathy", "fine-grained perception"],
+      "watchouts": ["withdrawal", "overthinking", "unclear boundaries"],
+      "daily_bias": {
+        "action": -1,
+        "focus": 4,
+        "social": 2,
+        "stability": 0,
+        "risk": 0
+      }
+    }
+  ]
+}

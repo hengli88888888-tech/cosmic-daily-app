@@ -1,0 +1,764 @@
+{
+  "version": 1,
+  "notes": [
+    "All expected values in this file come from the user-provided golden cases.",
+    "These cases are authoritative product acceptance targets, not inferred from the current implementation."
+  ],
+  "cases": [
+    {
+      "id": "001",
+      "type": "standard",
+      "label": "普通男命（2024）",
+      "input": {
+        "dob": "2024-02-10",
+        "tob": "12:00",
+        "gender": "male",
+        "birthplace": "Beijing, China",
+        "timezone": "Asia/Shanghai"
+      },
+      "expected": {
+        "pillars": { "year": "甲辰", "month": "丙寅", "day": "己卯", "hour": "庚午" },
+        "dayunDisplayAge": "8岁",
+        "twelveLifeDay": "病",
+        "kongWang": "申酉",
+        "nayin": { "year": "覆灯火", "month": "炉中火", "day": "城墙土", "hour": "路旁土" },
+        "shenShaByPillar": {
+          "year": ["太极贵人"],
+          "month": ["天乙贵人"],
+          "day": ["福星贵人"],
+          "hour": ["桃花"]
+        }
+      }
+    },
+    {
+      "id": "002",
+      "type": "standard",
+      "label": "普通女命（2023）",
+      "input": {
+        "dob": "2023-08-15",
+        "tob": "14:30",
+        "gender": "female",
+        "birthplace": "Shanghai, China",
+        "timezone": "Asia/Shanghai"
+      },
+      "expected": {
+        "pillars": { "year": "癸卯", "month": "庚申", "day": "乙亥", "hour": "癸未" },
+        "dayunDisplayAge": "6岁4个月",
+        "twelveLifeDay": "死",
+        "kongWang": "申酉",
+        "nayin": { "year": "金箔金", "month": "石榴木", "day": "山头火", "hour": "杨柳木" },
+        "shenShaByPillar": {
+          "year": ["文昌贵人"],
+          "month": ["桃花"],
+          "day": ["天乙贵人"],
+          "hour": ["华盖"]
+        }
+      }
+    },
+    {
+      "id": "003",
+      "type": "boundary",
+      "label": "立春前",
+      "input": {
+        "dob": "2024-02-03",
+        "tob": "08:00",
+        "gender": "male",
+        "birthplace": "Guangzhou, China",
+        "timezone": "Asia/Shanghai"
+      },
+      "expected": {
+        "pillars": { "year": "癸卯", "month": "乙丑", "day": "壬申", "hour": "甲辰" },
+        "dayunDisplayAge": "9岁2个月",
+        "twelveLifeDay": "长生",
+        "kongWang": "戌亥",
+        "nayin": { "year": "金箔金", "month": "海中金", "day": "剑锋金", "hour": "覆灯火" },
+        "shenShaByPillar": {
+          "year": ["太极贵人"],
+          "month": ["华盖"],
+          "day": ["驿马"],
+          "hour": ["天乙贵人"]
+        }
+      }
+    },
+    {
+      "id": "004",
+      "type": "boundary",
+      "label": "立春后",
+      "input": {
+        "dob": "2024-02-05",
+        "tob": "08:00",
+        "gender": "female",
+        "birthplace": "Chengdu, China",
+        "timezone": "Asia/Shanghai"
+      },
+      "expected": {
+        "pillars": { "year": "甲辰", "month": "丙寅", "day": "甲戌", "hour": "戊辰" },
+        "dayunDisplayAge": "7岁8个月",
+        "twelveLifeDay": "养",
+        "kongWang": "申酉",
+        "nayin": { "year": "覆灯火", "month": "炉中火", "day": "山头火", "hour": "大林木" },
+        "shenShaByPillar": {
+          "year": ["太极贵人"],
+          "month": ["文昌贵人"],
+          "day": ["华盖"],
+          "hour": ["金舆"]
+        }
+      }
+    },
+    {
+      "id": "005",
+      "type": "boundary",
+      "label": "23:30 子时换日",
+      "input": {
+        "dob": "2024-03-05",
+        "tob": "23:30",
+        "gender": "male",
+        "birthplace": "Hong Kong, China",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "expected": {
+        "pillars": { "year": "甲辰", "month": "丁卯", "day": "癸卯", "hour": "壬子" },
+        "dayunDisplayAge": "8岁",
+        "twelveLifeDay": "长生",
+        "kongWang": "辰巳",
+        "nayin": { "year": "覆灯火", "month": "炉中火", "day": "金箔金", "hour": "桑柘木" },
+        "shenShaByPillar": {
+          "year": ["天乙贵人"],
+          "month": ["桃花"],
+          "day": ["文昌贵人"],
+          "hour": ["禄神"]
+        }
+      }
+    },
+    {
+      "id": "006",
+      "type": "boundary",
+      "label": "00:15 子时",
+      "input": {
+        "dob": "2024-04-01",
+        "tob": "00:15",
+        "gender": "female",
+        "birthplace": "Taipei, Taiwan",
+        "timezone": "Asia/Taipei"
+      },
+      "expected": {
+        "pillars": { "year": "甲辰", "month": "丁卯", "day": "庚午", "hour": "丙子" },
+        "dayunDisplayAge": "6岁",
+        "twelveLifeDay": "沐浴",
+        "kongWang": "戌亥",
+        "nayin": { "year": "覆灯火", "month": "炉中火", "day": "路旁土", "hour": "涧下水" },
+        "shenShaByPillar": {
+          "year": ["文昌贵人"],
+          "month": ["天乙贵人"],
+          "day": ["桃花"],
+          "hour": ["劫煞"]
+        }
+      }
+    },
+    {
+      "id": "007",
+      "type": "standard",
+      "label": "春节当日",
+      "input": {
+        "dob": "2024-02-10",
+        "tob": "10:00",
+        "gender": "male",
+        "birthplace": "Beijing, China",
+        "timezone": "Asia/Shanghai"
+      },
+      "expected": {
+        "pillars": { "year": "甲辰", "month": "丙寅", "day": "己卯", "hour": "己巳" },
+        "dayunDisplayAge": "8岁",
+        "twelveLifeDay": "病",
+        "kongWang": "申酉",
+        "nayin": { "year": "覆灯火", "month": "炉中火", "day": "城墙土", "hour": "大林木" },
+        "shenShaByPillar": {
+          "year": ["太极贵人"],
+          "month": ["天乙贵人"],
+          "day": ["驿马"],
+          "hour": ["华盖"]
+        }
+      }
+    },
+    {
+      "id": "008",
+      "type": "standard",
+      "label": "除夕当日",
+      "input": {
+        "dob": "2024-02-09",
+        "tob": "20:00",
+        "gender": "female",
+        "birthplace": "Shanghai, China",
+        "timezone": "Asia/Shanghai"
+      },
+      "expected": {
+        "pillars": { "year": "甲辰", "month": "丙寅", "day": "戊寅", "hour": "壬戌" },
+        "dayunDisplayAge": "7岁4个月",
+        "twelveLifeDay": "长生",
+        "kongWang": "申酉",
+        "nayin": { "year": "覆灯火", "month": "炉中火", "day": "城墙土", "hour": "大海水" },
+        "shenShaByPillar": {
+          "year": ["太极贵人"],
+          "month": ["文昌贵人"],
+          "day": ["禄神"],
+          "hour": ["华盖"]
+        }
+      }
+    },
+    {
+      "id": "009",
+      "type": "standard",
+      "label": "闰月出生",
+      "input": {
+        "dob": "2023-03-22",
+        "tob": "15:00",
+        "gender": "male",
+        "birthplace": "Guangzhou, China",
+        "timezone": "Asia/Shanghai"
+      },
+      "expected": {
+        "pillars": { "year": "癸卯", "month": "乙卯", "day": "辛亥", "hour": "丙申" },
+        "dayunDisplayAge": "9岁",
+        "twelveLifeDay": "沐浴",
+        "kongWang": "寅卯",
+        "nayin": { "year": "金箔金", "month": "大溪水", "day": "钗钏金", "hour": "山下火" },
+        "shenShaByPillar": {
+          "year": ["文昌贵人"],
+          "month": ["桃花"],
+          "day": ["天乙贵人"],
+          "hour": ["驿马"]
+        }
+      }
+    },
+    {
+      "id": "010",
+      "type": "standard",
+      "label": "月末最后一天",
+      "input": {
+        "dob": "2024-01-31",
+        "tob": "09:00",
+        "gender": "female",
+        "birthplace": "Chengdu, China",
+        "timezone": "Asia/Shanghai"
+      },
+      "expected": {
+        "pillars": { "year": "癸卯", "month": "乙丑", "day": "壬寅", "hour": "乙巳" },
+        "dayunDisplayAge": "8岁2个月",
+        "twelveLifeDay": "病",
+        "kongWang": "辰巳",
+        "nayin": { "year": "金箔金", "month": "海中金", "day": "金箔金", "hour": "覆灯火" },
+        "shenShaByPillar": {
+          "year": ["天乙贵人"],
+          "month": ["华盖"],
+          "day": ["文昌贵人"],
+          "hour": ["桃花"]
+        }
+      }
+    },
+    {
+      "id": "011",
+      "type": "solar_term_boundary",
+      "label": "立春前 16:00",
+      "input": {
+        "dob": "2024-02-04",
+        "tob": "16:00",
+        "gender": "male",
+        "birthplace": "Beijing, China",
+        "timezone": "Asia/Shanghai"
+      },
+      "expected": {
+        "pillars": { "year": "癸卯", "month": "乙丑", "day": "甲戌", "hour": "壬申" },
+        "dayunDisplayAge": "9岁",
+        "twelveLifeDay": "养",
+        "kongWang": "申酉",
+        "nayin": { "year": "金箔金", "month": "海中金", "day": "山头火", "hour": "剑锋金" },
+        "shenShaByPillar": {
+          "year": ["太极贵人"],
+          "month": ["华盖"],
+          "day": ["十恶大败"],
+          "hour": ["驿马"]
+        }
+      }
+    },
+    {
+      "id": "012",
+      "type": "solar_term_boundary",
+      "label": "立春后 16:30",
+      "input": {
+        "dob": "2024-02-04",
+        "tob": "16:30",
+        "gender": "female",
+        "birthplace": "Beijing, China",
+        "timezone": "Asia/Shanghai"
+      },
+      "expected": {
+        "pillars": { "year": "甲辰", "month": "丙寅", "day": "甲戌", "hour": "壬申" },
+        "dayunDisplayAge": "7岁8个月",
+        "twelveLifeDay": "养",
+        "kongWang": "申酉",
+        "nayin": { "year": "覆灯火", "month": "炉中火", "day": "山头火", "hour": "剑锋金" },
+        "shenShaByPillar": {
+          "year": ["太极贵人"],
+          "month": ["文昌贵人"],
+          "day": ["十恶大败"],
+          "hour": ["天乙贵人"]
+        }
+      }
+    },
+    {
+      "id": "013",
+      "type": "solar_term_boundary",
+      "label": "惊蛰前 10:00",
+      "input": {
+        "dob": "2024-03-05",
+        "tob": "10:00",
+        "gender": "male",
+        "birthplace": "Shanghai, China",
+        "timezone": "Asia/Shanghai"
+      },
+      "expected": {
+        "pillars": { "year": "甲辰", "month": "丙寅", "day": "癸卯", "hour": "丁巳" },
+        "dayunDisplayAge": "8岁",
+        "twelveLifeDay": "长生",
+        "kongWang": "辰巳",
+        "nayin": { "year": "覆灯火", "month": "炉中火", "day": "金箔金", "hour": "沙中土" },
+        "shenShaByPillar": {
+          "year": ["文昌贵人"],
+          "month": ["天乙贵人"],
+          "day": ["禄神"],
+          "hour": ["桃花"]
+        }
+      }
+    },
+    {
+      "id": "014",
+      "type": "solar_term_boundary",
+      "label": "惊蛰后 10:30",
+      "input": {
+        "dob": "2024-03-05",
+        "tob": "10:30",
+        "gender": "female",
+        "birthplace": "Shanghai, China",
+        "timezone": "Asia/Shanghai"
+      },
+      "expected": {
+        "pillars": { "year": "甲辰", "month": "丁卯", "day": "癸卯", "hour": "丁巳" },
+        "dayunDisplayAge": "6岁4个月",
+        "twelveLifeDay": "长生",
+        "kongWang": "辰巳",
+        "nayin": { "year": "覆灯火", "month": "炉中火", "day": "金箔金", "hour": "沙中土" },
+        "shenShaByPillar": {
+          "year": ["文昌贵人"],
+          "month": ["桃花"],
+          "day": ["禄神"],
+          "hour": ["天乙贵人"]
+        }
+      }
+    },
+    {
+      "id": "015",
+      "type": "boundary",
+      "label": "23:59 子时换日",
+      "input": {
+        "dob": "2024-06-01",
+        "tob": "23:59",
+        "gender": "male",
+        "birthplace": "Guangzhou, China",
+        "timezone": "Asia/Shanghai"
+      },
+      "expected": {
+        "pillars": { "year": "甲辰", "month": "己巳", "day": "壬寅", "hour": "庚子" },
+        "dayunDisplayAge": "8岁",
+        "twelveLifeDay": "病",
+        "kongWang": "辰巳",
+        "nayin": { "year": "覆灯火", "month": "大林木", "day": "金箔金", "hour": "壁上土" },
+        "shenShaByPillar": {
+          "year": ["天乙贵人"],
+          "month": ["华盖"],
+          "day": ["文昌贵人"],
+          "hour": ["禄神"]
+        }
+      }
+    },
+    {
+      "id": "016",
+      "type": "solar_term",
+      "label": "夏至当日",
+      "input": {
+        "dob": "2024-06-21",
+        "tob": "12:00",
+        "gender": "female",
+        "birthplace": "Beijing, China",
+        "timezone": "Asia/Shanghai"
+      },
+      "expected": {
+        "pillars": { "year": "甲辰", "month": "庚午", "day": "癸丑", "hour": "戊午" },
+        "dayunDisplayAge": "7岁",
+        "twelveLifeDay": "冠带",
+        "kongWang": "寅卯",
+        "nayin": { "year": "覆灯火", "month": "路旁土", "day": "桑柘木", "hour": "天上火" },
+        "shenShaByPillar": {
+          "year": ["文昌贵人"],
+          "month": ["桃花"],
+          "day": ["太极贵人"],
+          "hour": ["天乙贵人"]
+        }
+      }
+    },
+    {
+      "id": "017",
+      "type": "solar_term",
+      "label": "冬至当日",
+      "input": {
+        "dob": "2023-12-22",
+        "tob": "08:00",
+        "gender": "male",
+        "birthplace": "Chengdu, China",
+        "timezone": "Asia/Shanghai"
+      },
+      "expected": {
+        "pillars": { "year": "癸卯", "month": "甲子", "day": "乙酉", "hour": "庚辰" },
+        "dayunDisplayAge": "9岁2个月",
+        "twelveLifeDay": "绝",
+        "kongWang": "午未",
+        "nayin": { "year": "金箔金", "month": "海中金", "day": "泉中水", "hour": "白蜡金" },
+        "shenShaByPillar": {
+          "year": ["文昌贵人"],
+          "month": ["天乙贵人"],
+          "day": ["桃花"],
+          "hour": ["华盖"]
+        }
+      }
+    },
+    {
+      "id": "018",
+      "type": "solar_term",
+      "label": "秋分当日",
+      "input": {
+        "dob": "2023-09-23",
+        "tob": "14:00",
+        "gender": "female",
+        "birthplace": "Shanghai, China",
+        "timezone": "Asia/Shanghai"
+      },
+      "expected": {
+        "pillars": { "year": "癸卯", "month": "辛酉", "day": "戊申", "hour": "己未" },
+        "dayunDisplayAge": "6岁8个月",
+        "twelveLifeDay": "病",
+        "kongWang": "寅卯",
+        "nayin": { "year": "金箔金", "month": "石榴木", "day": "大驿土", "hour": "天上火" },
+        "shenShaByPillar": {
+          "year": ["太极贵人"],
+          "month": ["桃花"],
+          "day": ["驿马"],
+          "hour": ["华盖"]
+        }
+      }
+    },
+    {
+      "id": "019",
+      "type": "solar_term",
+      "label": "春分当日",
+      "input": {
+        "dob": "2024-03-20",
+        "tob": "10:00",
+        "gender": "male",
+        "birthplace": "Guangzhou, China",
+        "timezone": "Asia/Shanghai"
+      },
+      "expected": {
+        "pillars": { "year": "甲辰", "month": "丁卯", "day": "戊午", "hour": "丁巳" },
+        "dayunDisplayAge": "8岁",
+        "twelveLifeDay": "帝旺",
+        "kongWang": "子丑",
+        "nayin": { "year": "覆灯火", "month": "炉中火", "day": "天上火", "hour": "沙中土" },
+        "shenShaByPillar": {
+          "year": ["太极贵人"],
+          "month": ["天乙贵人"],
+          "day": ["羊刃"],
+          "hour": ["禄神"]
+        }
+      }
+    },
+    {
+      "id": "020",
+      "type": "solar_term",
+      "label": "立冬当日",
+      "input": {
+        "dob": "2023-11-08",
+        "tob": "16:00",
+        "gender": "female",
+        "birthplace": "Beijing, China",
+        "timezone": "Asia/Shanghai"
+      },
+      "expected": {
+        "pillars": { "year": "癸卯", "month": "癸亥", "day": "壬申", "hour": "戊申" },
+        "dayunDisplayAge": "7岁4个月",
+        "twelveLifeDay": "长生",
+        "kongWang": "戌亥",
+        "nayin": { "year": "金箔金", "month": "大海水", "day": "剑锋金", "hour": "大驿土" },
+        "shenShaByPillar": {
+          "year": ["文昌贵人"],
+          "month": ["桃花"],
+          "day": ["驿马"],
+          "hour": ["天乙贵人"]
+        }
+      }
+    },
+    {
+      "id": "021",
+      "type": "special",
+      "label": "魁罡格（庚辰日）",
+      "input": {
+        "dob": "2024-05-15",
+        "tob": "08:00",
+        "gender": "male",
+        "birthplace": "Hong Kong, China",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "expected": {
+        "pillars": { "year": "甲辰", "month": "己巳", "day": "庚辰", "hour": "庚辰" },
+        "dayunDisplayAge": "8岁",
+        "twelveLifeDay": "养",
+        "kongWang": "申酉",
+        "nayin": { "year": "覆灯火", "month": "大林木", "day": "白蜡金", "hour": "白蜡金" },
+        "chartLevelShenSha": ["魁罡"],
+        "shenShaByPillar": {
+          "year": ["太极贵人"],
+          "month": ["华盖"],
+          "day": ["魁罡"],
+          "hour": ["魁罡"]
+        }
+      }
+    },
+    {
+      "id": "022",
+      "type": "special",
+      "label": "魁罡格（戊戌日）",
+      "input": {
+        "dob": "2023-11-20",
+        "tob": "14:00",
+        "gender": "female",
+        "birthplace": "Taipei, Taiwan",
+        "timezone": "Asia/Taipei"
+      },
+      "expected": {
+        "pillars": { "year": "癸卯", "month": "癸亥", "day": "戊戌", "hour": "己未" },
+        "dayunDisplayAge": "7岁",
+        "twelveLifeDay": "墓",
+        "kongWang": "辰巳",
+        "nayin": { "year": "金箔金", "month": "大海水", "day": "平地木", "hour": "天上火" },
+        "chartLevelShenSha": ["魁罡"],
+        "shenShaByPillar": {
+          "year": ["文昌贵人"],
+          "month": ["桃花"],
+          "day": ["魁罡"],
+          "hour": ["华盖"]
+        }
+      }
+    },
+    {
+      "id": "023",
+      "type": "special",
+      "label": "十恶大败（甲辰日）",
+      "input": {
+        "dob": "2024-02-10",
+        "tob": "12:00",
+        "gender": "male",
+        "birthplace": "Beijing, China",
+        "timezone": "Asia/Shanghai"
+      },
+      "expected": {
+        "pillars": { "year": "甲辰", "month": "丙寅", "day": "甲辰", "hour": "庚午" },
+        "dayunDisplayAge": "8岁",
+        "twelveLifeDay": "衰",
+        "kongWang": "寅卯",
+        "nayin": { "year": "覆灯火", "month": "炉中火", "day": "覆灯火", "hour": "路旁土" },
+        "chartLevelShenSha": ["十恶大败"],
+        "shenShaByPillar": {
+          "year": ["太极贵人"],
+          "month": ["文昌贵人"],
+          "day": ["十恶大败"],
+          "hour": ["桃花"]
+        }
+      }
+    },
+    {
+      "id": "024",
+      "type": "special",
+      "label": "十恶大败（乙巳日）",
+      "input": {
+        "dob": "2023-09-18",
+        "tob": "10:00",
+        "gender": "female",
+        "birthplace": "Shanghai, China",
+        "timezone": "Asia/Shanghai"
+      },
+      "expected": {
+        "pillars": { "year": "癸卯", "month": "辛酉", "day": "乙巳", "hour": "辛巳" },
+        "dayunDisplayAge": "6岁6个月",
+        "twelveLifeDay": "沐浴",
+        "kongWang": "寅卯",
+        "nayin": { "year": "金箔金", "month": "石榴木", "day": "覆灯火", "hour": "白蜡金" },
+        "chartLevelShenSha": ["十恶大败"],
+        "shenShaByPillar": {
+          "year": ["文昌贵人"],
+          "month": ["桃花"],
+          "day": ["十恶大败"],
+          "hour": ["劫煞"]
+        }
+      }
+    },
+    {
+      "id": "025",
+      "type": "special",
+      "label": "三奇贵人（甲戊庚）",
+      "input": {
+        "dob": "2024-03-15",
+        "tob": "08:00",
+        "gender": "male",
+        "birthplace": "Chengdu, China",
+        "timezone": "Asia/Shanghai"
+      },
+      "expected": {
+        "pillars": { "year": "甲辰", "month": "丁卯", "day": "戊戌", "hour": "庚申" },
+        "dayunDisplayAge": "8岁2个月",
+        "twelveLifeDay": "墓",
+        "kongWang": "辰巳",
+        "nayin": { "year": "覆灯火", "month": "炉中火", "day": "平地木", "hour": "石榴木" },
+        "chartLevelShenSha": ["天上三奇"],
+        "shenShaByPillar": {
+          "year": ["三奇贵人"],
+          "month": ["天乙贵人"],
+          "day": ["三奇贵人"],
+          "hour": ["三奇贵人"]
+        }
+      }
+    },
+    {
+      "id": "026",
+      "type": "international",
+      "label": "美国纽约（夏令时）",
+      "input": {
+        "dob": "2024-06-01",
+        "tob": "12:00",
+        "gender": "male",
+        "birthplace": "New York, New York, USA",
+        "timezone": "America/New_York"
+      },
+      "expected": {
+        "pillars": { "year": "甲辰", "month": "己巳", "day": "癸巳", "hour": "戊午" },
+        "dayunDisplayAge": "8岁",
+        "twelveLifeDay": "绝",
+        "kongWang": "午未",
+        "nayin": { "year": "覆灯火", "month": "大林木", "day": "长流水", "hour": "天上火" },
+        "shenShaByPillar": {
+          "year": ["天乙贵人"],
+          "month": ["华盖"],
+          "day": ["文昌贵人"],
+          "hour": ["禄神"]
+        }
+      }
+    },
+    {
+      "id": "027",
+      "type": "international",
+      "label": "英国伦敦",
+      "input": {
+        "dob": "2023-12-25",
+        "tob": "10:00",
+        "gender": "female",
+        "birthplace": "London, England, UK",
+        "timezone": "Europe/London"
+      },
+      "expected": {
+        "pillars": { "year": "癸卯", "month": "甲子", "day": "戊午", "hour": "丁巳" },
+        "dayunDisplayAge": "7岁",
+        "twelveLifeDay": "帝旺",
+        "kongWang": "子丑",
+        "nayin": { "year": "金箔金", "month": "海中金", "day": "天上火", "hour": "沙中土" },
+        "shenShaByPillar": {
+          "year": ["太极贵人"],
+          "month": ["文昌贵人"],
+          "day": ["羊刃"],
+          "hour": ["禄神"]
+        }
+      }
+    },
+    {
+      "id": "028",
+      "type": "international",
+      "label": "澳大利亚悉尼（夏令时）",
+      "input": {
+        "dob": "2024-01-15",
+        "tob": "14:00",
+        "gender": "male",
+        "birthplace": "Sydney, NSW, Australia",
+        "timezone": "Australia/Sydney"
+      },
+      "expected": {
+        "pillars": { "year": "癸卯", "month": "乙丑", "day": "丁巳", "hour": "丁未" },
+        "dayunDisplayAge": "9岁",
+        "twelveLifeDay": "帝旺",
+        "kongWang": "子丑",
+        "nayin": { "year": "金箔金", "month": "海中金", "day": "沙中土", "hour": "天河水" },
+        "shenShaByPillar": {
+          "year": ["文昌贵人"],
+          "month": ["华盖"],
+          "day": ["羊刃"],
+          "hour": ["天乙贵人"]
+        }
+      }
+    },
+    {
+      "id": "029",
+      "type": "international",
+      "label": "巴西里约",
+      "input": {
+        "dob": "2023-07-07",
+        "tob": "08:00",
+        "gender": "female",
+        "birthplace": "Rio de Janeiro, Brazil",
+        "timezone": "America/Sao_Paulo"
+      },
+      "expected": {
+        "pillars": { "year": "癸卯", "month": "戊午", "day": "壬戌", "hour": "甲辰" },
+        "dayunDisplayAge": "7岁4个月",
+        "twelveLifeDay": "冠带",
+        "kongWang": "子丑",
+        "nayin": { "year": "金箔金", "month": "天上火", "day": "大海水", "hour": "覆灯火" },
+        "shenShaByPillar": {
+          "year": ["文昌贵人"],
+          "month": ["桃花"],
+          "day": ["华盖"],
+          "hour": ["天乙贵人"]
+        }
+      }
+    },
+    {
+      "id": "030",
+      "type": "international",
+      "label": "南非开普敦",
+      "input": {
+        "dob": "2024-08-08",
+        "tob": "16:00",
+        "gender": "male",
+        "birthplace": "Cape Town, South Africa",
+        "timezone": "Africa/Johannesburg"
+      },
+      "expected": {
+        "pillars": { "year": "甲辰", "month": "壬申", "day": "辛亥", "hour": "丙申" },
+        "dayunDisplayAge": "8岁",
+        "twelveLifeDay": "沐浴",
+        "kongWang": "寅卯",
+        "nayin": { "year": "覆灯火", "month": "剑锋金", "day": "钗钏金", "hour": "山下火" },
+        "shenShaByPillar": {
+          "year": ["太极贵人"],
+          "month": ["驿马"],
+          "day": ["天乙贵人"],
+          "hour": ["文昌贵人"]
+        }
+      }
+    }
+  ]
+}

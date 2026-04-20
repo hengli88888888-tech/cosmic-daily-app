@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "prohibited_claims": [
+    "Predicting death, disaster, or unavoidable harm",
+    "Guaranteeing wealth, marriage, pregnancy, or career outcomes",
+    "Claiming certainty from one chart factor alone",
+    "Giving medical, legal, or financial instructions as fate-based advice",
+    "Saying a user is doomed, cursed, broken, or destined to fail"
+  ],
+  "required_style_constraints": [
+    "Use probability language",
+    "Recommend grounded actions",
+    "Limit caution to one primary area",
+    "Never describe metaphysical signals as scientific fact"
+  ]
+}

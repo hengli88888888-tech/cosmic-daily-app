@@ -1,0 +1,54 @@
+{
+  "source_app": "mQimen.app",
+  "source_bundle_id": "com.stapplers.mqimen",
+  "observed_version": "6.1.0",
+  "packaging": "cordova_wrapper",
+  "primary_assets": {
+    "database": "Wrapper/mQimen.app/www/mqmfree.db",
+    "index": "Wrapper/mQimen.app/www/index.html",
+    "database_js": "Wrapper/mQimen.app/www/js/database.js",
+    "engine_js": "Wrapper/mQimen.app/www/js/script.min.js"
+  },
+  "database_summary": {
+    "tables": [
+      "ecliptic",
+      "setting"
+    ],
+    "ecliptic_coverage": {
+      "row_count": 5786,
+      "min_edate": "1823-12-30 00:00:00",
+      "max_edate": "2065-01-05 00:00:00"
+    }
+  },
+  "observed_engine_traits": {
+    "input_time_model": "local_civil_time_plus_manual_zone_offset",
+    "location_capture": "not_observed_in_bundle_ui",
+    "season_source": "bundled_ecliptic_sqlite_table",
+    "supported_systems": [
+      "拆补",
+      "置闰",
+      "阴盘"
+    ],
+    "zi_hour_rollover": "23:00 increments day stem and branch",
+    "day_pillar_baseline_note": "Observed JavaScript references Date.UTC(1823,10,31) as day-cycle anchor",
+    "duty_markers_present": [
+      "旬首",
+      "值符",
+      "值使",
+      "空亡",
+      "驿马"
+    ]
+  },
+  "use_policy": {
+    "preferred_use": [
+      "oracle_validation",
+      "season_boundary_reference",
+      "behavior_comparison"
+    ],
+    "avoid": [
+      "direct_code_copy",
+      "embedding_vendor_assets",
+      "treating_minified_vendor_js_as_our_primary_engine"
+    ]
+  }
+}

@@ -1,0 +1,98 @@
+project_id = "cosmic-daily-app"
+
+[auth]
+enable_signup = true
+enable_anonymous_sign_ins = true
+
+[functions.daily-guidance]
+verify_jwt = false
+
+[functions.master-reply-submit]
+verify_jwt = false
+
+[functions.save-profile-and-chart]
+verify_jwt = false
+
+[functions.master-reply-sla-check]
+verify_jwt = false
+
+[functions.revenuecat-webhook]
+verify_jwt = false
+
+[functions.user-wallet]
+verify_jwt = false
+
+[functions.share-oraya]
+verify_jwt = false
+
+[functions.question-threads]
+verify_jwt = false
+
+[functions.chart-preview]
+verify_jwt = false
+
+[functions.qimen-preview]
+verify_jwt = false
+
+[functions.first-impression]
+verify_jwt = false
+
+[functions.first-impression-debug]
+verify_jwt = false
+
+[functions.admin-dashboard]
+verify_jwt = false
+
+[functions.admin-users-search]
+verify_jwt = false
+
+[functions.admin-user-detail]
+verify_jwt = false
+
+[functions.admin-readings-list]
+verify_jwt = false
+
+[functions.admin-reading-detail]
+verify_jwt = false
+
+[functions.admin-incidents]
+verify_jwt = false
+
+[functions.admin-coins-adjust]
+verify_jwt = false
+
+[functions.admin-first-impression-rerun]
+verify_jwt = false
+
+[functions.admin-import-runs]
+verify_jwt = false
+
+[functions.admin-qimen-feedback]
+verify_jwt = false
+
+[functions.admin-dev-bootstrap]
+verify_jwt = false
+
+[functions.member-daily-messages]
+verify_jwt = false
+
+[functions.member-qimen-feedback]
+verify_jwt = false
+
+[functions.member-client-incidents]
+verify_jwt = false
+
+[functions.subscription-coin-grant]
+verify_jwt = false
+
+[functions.daily-member-messages-fanout]
+verify_jwt = false
+
+[functions.master-reply-queue]
+verify_jwt = false
+
+[functions.master-reply-deliver]
+verify_jwt = false
+
+[functions.master-reply-assign]
+verify_jwt = false

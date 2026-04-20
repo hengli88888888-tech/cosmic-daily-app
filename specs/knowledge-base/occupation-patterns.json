@@ -1,0 +1,220 @@
+{
+  "version": 1,
+  "source_teacher": "文曾",
+  "occupations": [
+    {
+      "id": "accounting_finance_staff",
+      "label": "Accounting / Finance Staff",
+      "core_signals": [
+        "water emphasis",
+        "metal-water or water-fire data pattern",
+        "shi_shang_sheng_cai or hua_guan_sheng_yin",
+        "wealth-resource interaction"
+      ],
+      "secondary_signals": [
+        "zi water for calculation and analysis",
+        "hai water for flow, vouchers, circulation",
+        "official star raises management level",
+        "women are more stable-fit than men in this pattern"
+      ],
+      "notes": "文曾把财务会计类归到数据、规章、票据与统计管理。金水更偏规范化数据，水火更偏无形数据与信息流；官星与印星介入时，岗位更偏管理与审控。",
+      "product_safe_framing": "Suitable for structured data, compliance, reporting, finance operations, and detail-heavy management work.",
+      "source_courses": [
+        "21.职业象法-会计",
+        "40.专论职业与行业"
+      ]
+    },
+    {
+      "id": "teacher_education",
+      "label": "Teacher / Education",
+      "core_signals": [
+        "wu or ji earth as platform or field",
+        "resource controls output",
+        "resource or output storage",
+        "public-sector linkage is common"
+      ],
+      "secondary_signals": [
+        "metal-water often points to science",
+        "wood-fire often points to humanities",
+        "resource store or output store raises probability",
+        "public institution linkage points to formal teaching roles"
+      ],
+      "notes": "文曾把教师象法放在场所、知识传递与学生承载上。印制食伤是核心模型，戊己土体现讲台、田地和承载学生的场域感。",
+      "product_safe_framing": "Better suited to teaching, training, mentoring, content explanation, and structured knowledge transfer.",
+      "source_courses": [
+        "30.职业象法—教师",
+        "40.专论职业与行业"
+      ]
+    },
+    {
+      "id": "military_policing",
+      "label": "Military / Police / Discipline Systems",
+      "core_signals": [
+        "official controls peer group",
+        "yang ren or peer-group control",
+        "strong body and enforcement pattern",
+        "law-and-discipline orientation"
+      ],
+      "secondary_signals": [
+        "seven killings raises enforcement flavor",
+        "peer store or blade pattern strengthens discipline path",
+        "public institution linkage increases certainty"
+      ],
+      "notes": "文曾把军警象法集中在官制比劫、制阳刃、执法属性和强身体能上。能走出名堂与否，关键看是否真能制服同类竞争者与冲动之气。",
+      "product_safe_framing": "Better aligned with rule enforcement, command structures, disciplined training, and high-pressure team roles.",
+      "source_courses": [
+        "31.职业象法—军警_ev",
+        "7.墓库的高级象法"
+      ]
+    },
+    {
+      "id": "metaphysics_practitioner",
+      "label": "Metaphysics / Divination Practitioner",
+      "core_signals": [
+        "partial resource emphasis",
+        "resource-output mix",
+        "xuanxue or yi-learning symbolism",
+        "common spiritual stars"
+      ],
+      "secondary_signals": [
+        "chou, shen, zi, hai often recur",
+        "hua gai, tai ji, tian yi increase symbolic flavor",
+        "calculation and analysis markers strengthen practice"
+      ],
+      "notes": "文曾把命理师常见象法放在偏印、神煞、玄学场域与计算分析能力上，但不主张只靠神煞下判断，仍要回到格局与能力链条。",
+      "product_safe_framing": "Fits advisory, pattern-reading, symbolic analysis, and interpretation-heavy guidance roles.",
+      "source_courses": [
+        "33.职业象法—命理师_ev",
+        "23.重要神煞_ev",
+        "9.四墓库高级象法（辰、戌）"
+      ]
+    },
+    {
+      "id": "athlete_sports_star",
+      "label": "Athlete / Sports Star",
+      "core_signals": [
+        "strong peer group or body markers",
+        "output and official-killings involvement",
+        "high-status pattern required",
+        "body-skill driven achievement"
+      ],
+      "secondary_signals": [
+        "yang ren or strong peer support",
+        "output controls authority or competition",
+        "fame and wealth require strong chart level"
+      ],
+      "notes": "文曾把体育明星的核心放在身体、竞争、技术输出和成名格局上。不是单有运动象就行，还得有足够层次支撑名利结果。",
+      "product_safe_framing": "Stronger fit for performance, competition, stamina-driven work, and fields where physical execution matters.",
+      "source_courses": [
+        "34.职业象法—体育明星_ev_ev",
+        "40.专论职业与行业"
+      ]
+    },
+    {
+      "id": "film_entertainment_star",
+      "label": "Entertainment / Film / Public Figure",
+      "core_signals": [
+        "peach-blossom style attractiveness markers",
+        "output, wealth, or official visibility",
+        "public-facing chart expression",
+        "appearance and popularity cues"
+      ],
+      "secondary_signals": [
+        "strong charm markers increase visibility",
+        "output raises expression and performance",
+        "wealth and official stars raise fame-commercialization link"
+      ],
+      "notes": "文曾把影视明星象法放在外形、桃花、表达、曝光和商业转化能力上，强调能红的前提仍然是格局层次足够高。",
+      "product_safe_framing": "More suited to visibility, media, performance, audience work, and image-based careers.",
+      "source_courses": [
+        "35.职业象法—影视明星_ev",
+        "40.专论职业与行业"
+      ]
+    },
+    {
+      "id": "tcm_practitioner",
+      "label": "Traditional Chinese Medicine",
+      "core_signals": [
+        "water-wood-earth emphasis",
+        "healing and nourishment symbolism",
+        "resource and official support",
+        "yi-learning overlap is possible"
+      ],
+      "secondary_signals": [
+        "water-wood flow suggests medicine and bodily balance",
+        "earth adds cultivation and prescription grounding",
+        "resource stars improve learning lineage"
+      ],
+      "notes": "文曾把中医象法放在水木土的生养格局上，偏向汤药、身体调理、生命力恢复和传统理法融合的路径。",
+      "product_safe_framing": "Stronger fit for healing, regulation, diagnosis, and long-cycle body-care work.",
+      "source_courses": [
+        "36.职业象法—中医行业_ev",
+        "9.四墓库高级象法（辰、戌）"
+      ]
+    },
+    {
+      "id": "clinical_doctor",
+      "label": "Clinical Doctor / Surgery-oriented Medicine",
+      "core_signals": [
+        "fire and metal involvement",
+        "water-wood-earth medical base",
+        "tool-and-blood symbolism",
+        "more complete five-element support"
+      ],
+      "secondary_signals": [
+        "fire suggests blood, heat, operation process",
+        "metal suggests blade, instruments, procedures",
+        "fuller chart support improves diagnostic range"
+      ],
+      "notes": "文曾把医生与中医区分开来，认为医生更偏火金，尤其是动刀、输血、器械和操作层面的象更强，但也提醒不要把医生断得过于绝对。",
+      "product_safe_framing": "Better fit for hands-on clinical, procedural, surgical, or intervention-heavy medical work.",
+      "source_courses": [
+        "37.职业象法—医生_ev",
+        "22.干支象法_ev"
+      ]
+    },
+    {
+      "id": "restaurant_hospitality",
+      "label": "Restaurant / Hospitality",
+      "core_signals": [
+        "fire-water core",
+        "earth as venue, meat, container",
+        "output, wealth, and resource all participate",
+        "wealth-resource linkage for storefront operations"
+      ],
+      "secondary_signals": [
+        "fire-earth leans roast, barbecue, dry-heat dining",
+        "water-fire leans hotpot, soup, fast-moving food service",
+        "output-heavy charts often change lines before settling"
+      ],
+      "notes": "文曾把餐饮行业拆成火、水、土三要素。火是烹饪，水是流动与快消，土是肉、场所、承载；真正能把店做起来，常见食伤、财、印三类都要能串起来。",
+      "product_safe_framing": "More suited to service, food operations, storefront management, and high-turnover customer work.",
+      "source_courses": [
+        "38.职业象法—餐饮行业_ev",
+        "27.买房、卖房与搬家_ev"
+      ]
+    },
+    {
+      "id": "finance_investment",
+      "label": "Finance / Investment",
+      "core_signals": [
+        "metal-centric pattern",
+        "metal-water, fire-metal, or metal-wood combinations",
+        "strong chart level",
+        "rule or control structure remains intact"
+      ],
+      "secondary_signals": [
+        "metal-water suggests circulation and stored flow",
+        "fire-metal suggests internet finance or investment operations",
+        "metal-wood suggests harvesting or aggressive financial extraction",
+        "seal controls output or official controls peers can indicate leadership or investment strategy"
+      ],
+      "notes": "文曾把金融行业看作高层级行业，通常不建议在格局乱弱时硬往金融上断。能做大做强的，往往还要有统局、制尽或较完整的控制结构。",
+      "product_safe_framing": "More aligned with capital flow, investment, financial strategy, institutional money work, and high-structure commercial roles.",
+      "source_courses": [
+        "39.职业象法—金融行业_ev",
+        "40.专论职业与行业"
+      ]
+    }
+  ]
+}

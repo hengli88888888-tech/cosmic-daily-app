@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "palaces": [
+    { "index": 1, "label": "坎一宫", "lo_shu": 1 },
+    { "index": 2, "label": "坤二宫", "lo_shu": 2 },
+    { "index": 3, "label": "震三宫", "lo_shu": 3 },
+    { "index": 4, "label": "巽四宫", "lo_shu": 4 },
+    { "index": 5, "label": "中五宫", "lo_shu": 5 },
+    { "index": 6, "label": "乾六宫", "lo_shu": 6 },
+    { "index": 7, "label": "兑七宫", "lo_shu": 7 },
+    { "index": 8, "label": "艮八宫", "lo_shu": 8 },
+    { "index": 9, "label": "离九宫", "lo_shu": 9 }
+  ]
+}
