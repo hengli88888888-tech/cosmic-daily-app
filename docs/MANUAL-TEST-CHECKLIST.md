@@ -1,203 +1,142 @@
 # Manual Test Checklist
 
-This checklist is for pre-launch manual QA of the Oraya consumer app after the latest
-security hardening pass.
+Use this checklist for pre-launch QA on the current Oraya app flow.
 
-## Environment prerequisites
+## Setup
 
-- Apply the latest `/backend/schema.sql` to Supabase.
-- Deploy the latest edge functions:
-  - `save-profile-and-chart`
-  - `first-impression`
-  - `daily-guidance`
-  - `member-daily-messages`
-  - `daily-member-messages-fanout`
-  - `user-wallet`
-  - `question-threads`
-  - `master-reply-submit`
-  - `master-reply-assign`
-  - `master-reply-queue`
-  - `master-reply-deliver`
-- Confirm anonymous auth is enabled in Supabase.
-- Use a clean test account/session for each major scenario.
-- For mobile device testing:
-  - Android SDK must be installed and configured.
-  - iOS target must be configured if testing on iPhone or Simulator.
+- Use the cloud path, not local functions:
 
-## Consumer flow
+```bash
+./scripts/run_oraya_cloud.sh
+```
 
-### 1. Welcome -> Onboarding -> First Impression
+- Confirm `.env.cloud` points to `https://...supabase.co`.
+- Confirm `supabase functions serve` is not running.
+- Use a clean app install or clear simulator state for fresh-user tests.
+- Keep the admin dashboard open in another browser so submitted questions and incidents can be checked.
 
-- Launch app fresh.
-- Confirm welcome page loads without admin/internal wording.
-- Confirm the brand reads `Oraya`.
-- Tap `Create your energy profile`.
-- Confirm onboarding explains:
-  - real birth details affect accuracy
-  - data is encrypted
-  - setup data is minimized after chart creation
-- Submit valid birth date, optional time, and city.
+## Fresh User Flow
+
+- Open the app.
 - Expected:
-  - no error
-  - navigation lands on First Impression page
-  - no `daily guidance` wording is visible
-  - page shows hero summary + 3 insight cards + question CTA
-  - no `Cosmic Daily` branding remains in the visible consumer flow
-  - response source is the formal `first-impression` chain, not a visual fallback
-
-### 1a. Legacy fallback profile recovery
-
-- Use an older account with a historical fallback chart.
-- Open the First Impression page.
+  - App lands on `Ask a question`.
+  - User is not forced to fill birth details first.
+  - The intro steps are visible before question entry.
+  - For first-time users, intro steps animate slowly enough to read.
+  - For returning users, intro steps are visible without animation.
+  - Topic dropdown defaults to no selected topic.
+- Enter a clear first question.
 - Expected:
-  - no insight cards are shown
-  - page clearly blocks with a rebuild/update state
-  - CTA routes to onboarding in rebuild mode
-- Re-enter the same birth details once.
+  - Button says first/opening question is free.
+  - No immediate paywall.
+  - Question submits successfully.
+  - Answer starts with a clear short answer.
+  - Answer includes a practical action plan.
+  - No Chinese text appears in the English flow.
+  - No Qimen/Bazi professional terms appear in the consumer answer.
+
+## Routing Cases
+
+Run these examples and check the answer category and opening judgment:
+
+- Love/third-party: `Does my wife have an affair with the guy in her office?`
+  - Expected: relationship supplement appears before submit.
+  - Expected: partner birth year label says `Her birth year`.
+  - Expected: answer gives a clear confirmed / not confirmed / likely judgment.
+- Partial relationship text: `does my wife`
+  - Expected: no relationship supplement yet.
+- School: `Will I get into this school this year?`
+  - Expected: answer speaks about admission/school outcome, not work.
+- Work: `Will I get this job offer after this interview?`
+  - Expected: answer speaks about the offer/interview.
+- Money/project: `Should I invest more in my stock account right now?`
+  - Expected: answer starts with a direct invest / wait / avoid / reduce-risk judgment.
+
+## Thread Flow
+
+- Submit a first question.
+- Ask a missing-detail clarification if the system asks for one.
 - Expected:
-  - profile rebuild succeeds
-  - return to First Impression page
-  - three formal insight cards now appear
-
-### 1b. Broken profile / incomplete chart guard
-
-- Trigger or simulate a chart setup failure.
+  - Clarification reply is free.
+  - User is not sent to the coin purchase page before the first issue is resolved.
+- Ask a normal same-thread follow-up.
 - Expected:
-  - onboarding shows a real error message
-  - First Impression does not show “fake” insight cards
-  - page shows a preparing/rebuild state instead of a content fallback
-
-### 2. Free first question
-
-- From First Impression, open question screen.
+  - Follow-up remains inside the same thread.
+  - Cost messaging is clear.
+  - Thread history shows user question and answer text.
+- Tap `Start a different topic`.
 - Expected:
-  - page says first deep reading is unlocked
-  - no immediate paywall
-- Ask a deep question.
-- Expected:
-  - submission succeeds
-  - first question is treated as free
-  - thread becomes active
-  - wallet remains valid and app does not force a paywall
+  - New-topic cost is shown before spending.
+  - Insufficient balance routes to coins page only for paid new-topic flow.
 
-### 3. Same-thread follow-up
+## Saved Readings
 
-- In the active thread, ask a follow-up question.
-- Expected:
-  - follow-up submits in the same thread
-  - thread history shows both user messages and actual answer text
-  - cost messaging says follow-up is `1 coin`
 - Open `Saved Readings`.
 - Expected:
-  - the thread appears there
-  - tapping it returns to the same thread
-
-### 4. New topic -> coins flow
-
-- From the active thread, choose `Start a different topic`.
-- Confirm the UI now offers:
-  - `Deep reading · 5 coins`
-  - `Quick answer · 2 coins`
-- Submit a new topic with enough balance.
+  - Back navigation works.
+  - Active conversations appear.
+  - Unhandled member messages appear.
+  - Read or submitted feedback messages do not remain in the unhandled member messages list.
+  - Feedback invitation card appears only after an eligible delivered answer.
+  - Feedback card is not shown inside the active answer page.
+- Submit feedback for an eligible reading.
 - Expected:
-  - balance decreases correctly
-  - new thread appears
-- Repeat with insufficient balance.
+  - Coins are returned once.
+  - Reading marks feedback as saved.
+  - Feedback invite disappears from member messages.
+
+## Birth Details Upsell
+
+- After a Qimen answer, tap the birth-details prompt.
 - Expected:
-  - app redirects to `Coins & Membership`
+  - Copy explains why birth details improve personal insight.
+  - First-time user sees `Update and Sign Up`.
+  - First-time submit routes to the sign-up/login education page.
+  - Existing profile user sees update behavior and does not get forced through sign-up.
+  - Google/Apple buttons are only preview UI unless real OAuth is enabled.
 
-### 5. Wallet / membership
+## Wallet And Paywall
 
-- Open `Coins & Membership`.
-- Confirm:
-  - current balance is displayed
-  - `coins never expire` wording is visible
-  - first-question state matches reality
-  - plans and coin packs show correct pricing
-  - first-share bonus card is visible
-  - first share awards `5 coins`
-  - second and later shares do not award more coins
-
-### 6. Saved Readings
-
-- Open `Saved Readings`.
-- Confirm:
-  - member messages appear for subscribed members
-  - unread messages can be opened and marked read
-  - bookmarked messages remain available beyond 3 days
-  - active conversations appear from backend threads
-  - no old `daily guidance` history section remains
-
-### 6b. Annual report preview
-
-- Open `Annual Insight Report`.
+- Open coins/membership.
 - Expected:
-  - page clearly states that payment and fulfillment are not enabled in this build
-  - no fake purchase success flow appears
-  - no local “processing” report is created
+  - Current balance is visible.
+  - First question state matches backend wallet state.
+  - No fake purchase success appears.
+  - If RevenueCat is not configured for production, purchase CTAs are hidden or safely disabled.
+  - First-share bonus can only grant once.
 
-### 6a. Daily member guidance
+## Admin Checks
 
-- Create or use an active `Basic` subscription test user.
-- Open `Saved Readings`.
+- Log in with the configured admin Google account.
 - Expected:
-  - a brief daily member message appears
-  - title/summary are concise
-- Create or use an active `Advanced` subscription test user.
-- Open `Saved Readings`.
+  - Dashboard loads.
+  - Newly submitted questions appear in readings.
+  - Reading detail includes answer, messages, vector matches, and feedback status.
+  - Incidents page shows app/backend errors.
+  - Non-admin sessions cannot access admin data.
+
+## Security Checks
+
+- Run:
+
+```bash
+python3 scripts/audit_supabase_rls_isolation.py
+```
+
 - Expected:
-  - a deeper daily member message appears
-  - expanded content includes more context than the basic version
-- Bookmark a daily message.
-- Confirm it remains visible after its normal 3-day expiry window.
+  - One anonymous user cannot read another user's `profiles`.
+  - One anonymous user cannot read another user's `coin_wallets`.
+  - One anonymous user cannot read another user's `master_questions`.
+  - Feedback table is not directly exposed through client REST.
 
-## Security smoke checks
+## Release Verification
 
-### 7. Privacy minimization
+- Run:
 
-- After onboarding, inspect DB records for the test user.
+```bash
+./scripts/prelaunch_verify.sh
+```
+
 - Expected:
-  - `bazi_charts.chart_text`, `pillars`, `analysis` exist
-  - raw `dob`, `tob`, `birthplace`, coordinates are null or removed from long-term records
-  - `raw_payload` is null
-
-### 7a. First impression diagnostics
-
-- For an admin test user, call `first-impression-debug`.
-- Expected:
-  - returns profile
-  - returns chart
-  - returns first-impression state
-  - returns internal factors / raw top3 structure
-  - indicates whether a historical fallback profile was detected
-
-### 8. Direct data access
-
-- Using anon/authenticated user credentials, attempt to access tables directly via Supabase REST.
-- Expected:
-  - user can never read another user’s `profiles`, `bazi_charts`, `coin_wallets`, `coin_ledger`, `master_questions`
-  - direct insert/update to protected workflow tables is rejected by RLS
-
-### 9. Admin endpoints
-
-- Without JWT, call:
-  - `master-reply-queue`
-  - `master-reply-deliver`
-- Expected:
-  - request is rejected
-- With non-admin JWT, call:
-  - `master-reply-queue`
-  - `master-reply-assign`
-  - `master-reply-deliver`
-- Expected:
-  - returns `403`
-
-## Local verification already completed
-
-- `flutter analyze` for the consumer app: pass
-- `flutter test`: pass
-
-## Current local blockers
-
-- Android build cannot run here because no Android SDK is configured.
-- iOS build cannot run here because the project is not configured for iOS yet.
+  - All automated checks pass.
+  - Git working tree is clean or only contains intentional new changes.
