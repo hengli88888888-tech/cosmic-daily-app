@@ -8,6 +8,9 @@ cd "$ROOT_DIR"
 echo "== Git whitespace check =="
 git diff --check
 
+echo "== Production Supabase env =="
+python3 scripts/verify_production_env.py
+
 echo "== Flutter analyze =="
 (cd app && flutter analyze)
 

@@ -8,9 +8,10 @@ These are the non-code launch items that need a product/business owner decision 
   - Supabase service role / secret key
   - OpenAI key if it was ever enabled
   - DashScope/Qwen key if it was exposed outside your local machine
-- Decide production Supabase strategy:
-  - use the current cloud project after deleting test data, or
-  - create a clean production Supabase project and redeploy schema/functions/vector data.
+- Production Supabase strategy is decided:
+  - use current cloud project `lckhqitjvnszcojppnnh` as production.
+  - clean or archive obvious test data before public launch.
+  - keep vector knowledge tables and admin users intact.
 - Create legal/support pages:
   - Privacy Policy URL
   - Terms URL
@@ -50,6 +51,11 @@ These are the non-code launch items that need a product/business owner decision 
 - Confirm the admin dashboard can see submitted questions.
 - Confirm incidents are recorded for backend/app failures.
 - Confirm feedback reward behavior with at least one test reading.
+- Confirm production Supabase env verification passes:
+
+```bash
+python3 scripts/verify_production_env.py
+```
 
 ## Can Wait Until After TestFlight
 

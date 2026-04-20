@@ -12,6 +12,7 @@ This checklist matches the current Oraya launch path: users start with a Qimen q
 
 - Confirm these checks pass:
   - `git diff --check`
+  - production Supabase env points to `lckhqitjvnszcojppnnh`
   - `flutter analyze`
   - `flutter test`
   - `npm run build` in `admin-web`
@@ -21,6 +22,7 @@ This checklist matches the current Oraya launch path: users start with a Qimen q
 
 ## Backend
 
+- Production Supabase project is `lckhqitjvnszcojppnnh`.
 - Apply the latest [schema.sql](/Users/liheng/Desktop/cosmic-daily-app/backend/schema.sql) or migration set to the target Supabase project.
 - Deploy the current Edge Functions used by the consumer path:
   - `user-wallet`

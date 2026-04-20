@@ -8,6 +8,11 @@
 
 ## 1) 前提
 
+当前云项目已确定为 production：
+
+- Project ref: `lckhqitjvnszcojppnnh`
+- Project URL: `https://lckhqitjvnszcojppnnh.supabase.co`
+
 优先读取根目录 `.env.cloud`。如果不存在，才回退到 `.env`。
 
 建议把真实云端配置放在 `.env.cloud`，避免覆盖本地联调用的 `.env`。
