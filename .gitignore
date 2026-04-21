@@ -65,3 +65,5 @@ data/**
 !data/**/
 !data/**/.gitkeep
 !data/reviewed-rules/README.md
+.vercel
+.env*.local
