@@ -6,6 +6,14 @@ import { useRouter } from 'next/navigation'
 import { getSupabaseBrowser, isUsingLocalSupabase } from '@/lib/supabase-browser'
 import { adminApi } from '@/lib/admin-api'
 
+function getAdminRedirectUrl() {
+  if (typeof window === 'undefined') return undefined
+  const baseUrl =
+    process.env.NEXT_PUBLIC_ADMIN_BASE_URL ||
+    window.location.origin
+  return `${baseUrl.replace(/\/$/, '')}/dashboard`
+}
+
 function formatAuthError(err: unknown) {
   if (err instanceof Error) return err.message
   try {
@@ -64,7 +72,7 @@ export default function AuthPage() {
                   await getSupabaseBrowser().auth.signInWithOAuth({
                   provider: 'google',
                   options: {
-                    redirectTo: `${window.location.origin}/dashboard`,
+                    redirectTo: getAdminRedirectUrl(),
                   },
                 })
                 if (oauthError) throw oauthError
