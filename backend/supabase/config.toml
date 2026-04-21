@@ -1,6 +1,15 @@
 project_id = "cosmic-daily-app"
 
 [auth]
+site_url = "https://cosmic-daily-app.vercel.app"
+additional_redirect_urls = [
+  "https://cosmic-daily-app.vercel.app/auth",
+  "https://cosmic-daily-app.vercel.app/dashboard",
+  "https://oraya.ai-divination.com/auth",
+  "https://oraya.ai-divination.com/dashboard",
+  "http://127.0.0.1:3000/auth",
+  "http://127.0.0.1:3000/dashboard",
+]
 enable_signup = true
 enable_anonymous_sign_ins = true
 
