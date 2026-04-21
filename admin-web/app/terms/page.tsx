@@ -17,7 +17,7 @@ export default function TermsPage() {
       <article className="legal-card">
         <p className="legal-kicker">Oraya</p>
         <h1>Terms of Service</h1>
-        <p className="legal-updated">Last updated: April 20, 2026</p>
+        <p className="legal-updated">Last updated: April 21, 2026</p>
 
         <section className="legal-section">
           <h2>Using Oraya</h2>
@@ -30,6 +30,16 @@ export default function TermsPage() {
             Oraya is for entertainment and self-reflection only. It does not
             provide medical, legal, financial, emergency, or other professional
             advice.
+          </p>
+        </section>
+
+        <section className="legal-section">
+          <h2>AI-Generated Readings</h2>
+          <p>
+            Readings and follow-ups may be generated with automated,
+            AI-assisted, and knowledge-retrieval systems. They are interpretive
+            guidance for reflection, not factual proof about another person,
+            guaranteed prediction, or verification of real-world events.
           </p>
         </section>
 
@@ -97,6 +107,12 @@ export default function TermsPage() {
             under the store provider&apos;s policies unless required otherwise by
             law.
           </p>
+          <p>
+            If subscriptions are offered, they may renew automatically until you
+            cancel through your Apple account or the applicable app store
+            account. Oraya cannot directly issue App Store refunds from inside
+            the app.
+          </p>
         </section>
 
         <section className="legal-section">
@@ -121,7 +137,9 @@ export default function TermsPage() {
           <h2>Contact</h2>
           <p>
             Questions about these terms can be sent to{' '}
-            <a href="mailto:support@oraya.app">support@oraya.app</a>.
+            <a href="mailto:support@ai-divination.com">
+              support@ai-divination.com
+            </a>.
           </p>
         </section>
       </article>

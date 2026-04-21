@@ -26,8 +26,8 @@ export default function SupportPage() {
             or data requests, email us at:
           </p>
           <p>
-            <a className="support-email" href="mailto:support@oraya.app">
-              support@oraya.app
+            <a className="support-email" href="mailto:support@ai-divination.com">
+              support@ai-divination.com
             </a>
           </p>
         </section>
@@ -47,6 +47,26 @@ export default function SupportPage() {
           <p>
             Please do not send payment card numbers, government IDs, passwords,
             or highly sensitive personal information by email.
+          </p>
+        </section>
+
+        <section className="legal-section">
+          <h2>Billing and Purchases</h2>
+          <p>
+            For App Store purchases, include the purchase date, product name,
+            and the Apple account email if it is different from your Oraya
+            account. Refund requests may need to be submitted through Apple
+            because Apple processes iOS payments.
+          </p>
+        </section>
+
+        <section className="legal-section">
+          <h2>Data and Account Requests</h2>
+          <p>
+            You can use support to request account deletion, data deletion,
+            correction of profile details, or help with saved readings and
+            feedback rewards. We may ask for information needed to verify the
+            account before making changes.
           </p>
         </section>
 

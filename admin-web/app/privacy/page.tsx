@@ -17,7 +17,7 @@ export default function PrivacyPage() {
       <article className="legal-card">
         <p className="legal-kicker">Oraya</p>
         <h1>Privacy Policy</h1>
-        <p className="legal-updated">Last updated: April 20, 2026</p>
+        <p className="legal-updated">Last updated: April 21, 2026</p>
 
         <section className="legal-section">
           <h2>Overview</h2>
@@ -39,6 +39,10 @@ export default function PrivacyPage() {
             <li>
               Account and authentication information, such as user identifiers,
               sign-in provider data, and session records.
+            </li>
+            <li>
+              Contact and support information, such as your email address and
+              the content of messages you send to support.
             </li>
             <li>
               Questions, follow-ups, generated readings, saved conversations,
@@ -65,6 +69,10 @@ export default function PrivacyPage() {
           <h2>How We Use Information</h2>
           <ul className="legal-list">
             <li>Provide readings, follow-ups, saved history, and support.</li>
+            <li>
+              Process questions, optional profile details, and context with
+              AI-assisted systems and knowledge retrieval to generate responses.
+            </li>
             <li>Maintain coin balances, feedback rewards, and entitlements.</li>
             <li>Improve answer quality, product reliability, and safety.</li>
             <li>Detect abuse, debug incidents, and protect the service.</li>
@@ -81,8 +89,24 @@ export default function PrivacyPage() {
             as needed to support Oraya.
           </p>
           <p>
+            Payments and subscriptions may be processed by Apple, app store
+            providers, or payment infrastructure providers. Oraya does not
+            collect or store full payment card numbers.
+          </p>
+          <p>
             We do not sell your personal information. We do not share your
             private readings with other users.
+          </p>
+        </section>
+
+        <section className="legal-section">
+          <h2>AI-Assisted Readings</h2>
+          <p>
+            Oraya uses automated and AI-assisted systems to prepare readings,
+            follow-up responses, retrieval matches, and product quality
+            analysis. These outputs are for entertainment and self-reflection
+            only and are not used to make legal, employment, credit, medical, or
+            similarly significant decisions about you.
           </p>
         </section>
 
@@ -96,7 +120,37 @@ export default function PrivacyPage() {
           <p>
             You can request deletion of your account or personal data by
             contacting us at{' '}
-            <a href="mailto:support@oraya.app">support@oraya.app</a>.
+            <a href="mailto:support@ai-divination.com">
+              support@ai-divination.com
+            </a>.
+          </p>
+        </section>
+
+        <section className="legal-section">
+          <h2>Your Choices</h2>
+          <p>
+            You can choose not to provide optional profile details, such as birth
+            time or birth city, although some personalized features may be
+            limited. You may also request access, correction, deletion, or
+            export of personal information associated with your account.
+          </p>
+          <p>
+            To make a privacy request or withdraw consent for optional data
+            processing, contact{' '}
+            <a href="mailto:support@ai-divination.com">
+              support@ai-divination.com
+            </a>. We may keep limited records when required for security,
+            billing, fraud prevention, dispute handling, or legal compliance.
+          </p>
+        </section>
+
+        <section className="legal-section">
+          <h2>Security</h2>
+          <p>
+            We use reasonable technical and organizational safeguards designed
+            to protect personal information. No online service can guarantee
+            absolute security, so you should avoid submitting information that
+            is not needed for your use of Oraya.
           </p>
         </section>
 
@@ -131,7 +185,9 @@ export default function PrivacyPage() {
           <h2>Contact</h2>
           <p>
             Questions or requests can be sent to{' '}
-            <a href="mailto:support@oraya.app">support@oraya.app</a>.
+            <a href="mailto:support@ai-divination.com">
+              support@ai-divination.com
+            </a>.
           </p>
         </section>
       </article>

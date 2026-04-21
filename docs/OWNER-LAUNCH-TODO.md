@@ -16,7 +16,7 @@ These are the non-code launch items that need a product/business owner decision 
   - `/privacy`
   - `/terms`
   - `/support`
-- Before public launch, deploy these pages to `oraya.ai-divination.com` and activate or replace `support@oraya.app`.
+- Before public launch, activate `support@ai-divination.com` and confirm it receives test email.
 - Apple Developer setup:
   - final Bundle ID
   - signing team

@@ -35,12 +35,10 @@ Environment variables:
 ```text
 NEXT_PUBLIC_SUPABASE_URL=https://lckhqitjvnszcojppnnh.supabase.co
 NEXT_PUBLIC_SUPABASE_ANON_KEY=<production anon/publishable key>
-NEXT_PUBLIC_ADMIN_BASE_URL=https://cosmic-daily-app.vercel.app
+NEXT_PUBLIC_ADMIN_BASE_URL=https://oraya.ai-divination.com
 ```
 
 Do not add service role keys to Vercel for this web app.
-After `oraya.ai-divination.com` is live, change `NEXT_PUBLIC_ADMIN_BASE_URL`
-to `https://oraya.ai-divination.com` and redeploy.
 
 ## Domain Setup
 
@@ -67,7 +65,7 @@ In Supabase Dashboard, update:
 
 ```text
 Authentication > URL Configuration > Site URL
-https://cosmic-daily-app.vercel.app
+https://oraya.ai-divination.com
 ```
 
 Add redirect URLs:
@@ -109,5 +107,5 @@ Terms URL:          https://oraya.ai-divination.com/terms
 Support URL:        https://oraya.ai-divination.com/support
 ```
 
-Before public launch, confirm `support@oraya.app` on the support page is either
-active or replaced with an active support mailbox.
+Before public launch, confirm `support@ai-divination.com` is active and receives
+test email.
