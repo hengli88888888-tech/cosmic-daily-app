@@ -1,7 +1,7 @@
 project_id = "cosmic-daily-app"
 
 [auth]
-site_url = "https://cosmic-daily-app.vercel.app"
+site_url = "https://oraya.ai-divination.com"
 additional_redirect_urls = [
   "https://cosmic-daily-app.vercel.app/auth",
   "https://cosmic-daily-app.vercel.app/dashboard",
