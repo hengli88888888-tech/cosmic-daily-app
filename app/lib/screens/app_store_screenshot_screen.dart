@@ -107,84 +107,203 @@ class _AppStoreScreenshotPagerState extends State<_AppStoreScreenshotPager> {
       data: MediaQuery.of(context).copyWith(
         textScaler: TextScaler.noScaling,
       ),
-      child: Scaffold(
-        backgroundColor: CosmicPalette.paper,
-        body: SafeArea(
-          child: SingleChildScrollView(
-            physics: const NeverScrollableScrollPhysics(),
-            padding: const EdgeInsets.fromLTRB(18, 24, 18, 28),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                const Row(
-                  children: [
-                    _AppMark(),
-                    SizedBox(width: 12),
-                    Expanded(
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Text(
-                            'Oraya Insight',
-                            style: TextStyle(
-                              color: CosmicPalette.ink,
-                              fontSize: 18,
-                              fontWeight: FontWeight.w800,
-                              letterSpacing: -0.2,
-                            ),
-                          ),
-                          SizedBox(height: 2),
-                          Text(
-                            'Timing-based insight readings',
-                            style: TextStyle(
-                              color: CosmicPalette.fog,
-                              fontSize: 12.5,
-                              fontWeight: FontWeight.w600,
-                            ),
-                          ),
-                        ],
-                      ),
-                    ),
-                  ],
-                ),
-                const SizedBox(height: 34),
-                Text(
-                  page.eyebrow,
-                  style: const TextStyle(
-                    color: CosmicPalette.sage,
-                    fontSize: 12,
-                    fontWeight: FontWeight.w800,
-                    letterSpacing: 2.4,
-                  ),
-                ),
-                const SizedBox(height: 12),
-                Text(
-                  page.title,
-                  style: const TextStyle(
-                    color: CosmicPalette.ink,
-                    fontSize: 43,
-                    height: 1.04,
-                    fontWeight: FontWeight.w800,
-                    letterSpacing: -1.8,
-                  ),
-                ),
-                const SizedBox(height: 14),
-                Text(
-                  page.body,
-                  style: const TextStyle(
-                    color: CosmicPalette.fog,
-                    fontSize: 18,
-                    height: 1.45,
-                    fontWeight: FontWeight.w500,
-                  ),
-                ),
-                const SizedBox(height: 28),
-                page.child,
-              ],
-            ),
+      child: LayoutBuilder(
+        builder: (context, constraints) {
+          if (constraints.maxWidth >= 760) {
+            return _TabletScreenshotFrame(page: page);
+          }
+          return _PhoneScreenshotFrame(page: page);
+        },
+      ),
+    );
+  }
+}
+
+class _PhoneScreenshotFrame extends StatelessWidget {
+  const _PhoneScreenshotFrame({required this.page});
+
+  final _ScreenshotPage page;
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: CosmicPalette.paper,
+      body: SafeArea(
+        child: SingleChildScrollView(
+          physics: const NeverScrollableScrollPhysics(),
+          padding: const EdgeInsets.fromLTRB(18, 24, 18, 28),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              const _BrandHeader(),
+              const SizedBox(height: 34),
+              _PageIntro(page: page, titleSize: 43, bodySize: 18),
+              const SizedBox(height: 28),
+              page.child,
+            ],
           ),
         ),
       ),
+    );
+  }
+}
+
+class _TabletScreenshotFrame extends StatelessWidget {
+  const _TabletScreenshotFrame({required this.page});
+
+  final _ScreenshotPage page;
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: CosmicPalette.paper,
+      body: SafeArea(
+        child: Padding(
+          padding: const EdgeInsets.fromLTRB(56, 54, 56, 56),
+          child: Row(
+            children: [
+              Expanded(
+                flex: 9,
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    const _BrandHeader(large: true),
+                    const Spacer(),
+                    _PageIntro(page: page, titleSize: 64, bodySize: 24),
+                    const SizedBox(height: 32),
+                    const Text(
+                      'Private, focused, and built for one clear question at a time.',
+                      style: TextStyle(
+                        color: CosmicPalette.sage,
+                        fontSize: 19,
+                        height: 1.45,
+                        fontWeight: FontWeight.w700,
+                      ),
+                    ),
+                    const Spacer(flex: 2),
+                  ],
+                ),
+              ),
+              const SizedBox(width: 54),
+              Expanded(
+                flex: 8,
+                child: Align(
+                  alignment: Alignment.center,
+                  child: Container(
+                    constraints: const BoxConstraints(maxWidth: 560),
+                    padding: const EdgeInsets.all(22),
+                    decoration: BoxDecoration(
+                      color: const Color(0x99FCF9FF),
+                      borderRadius: BorderRadius.circular(34),
+                      border: Border.all(color: CosmicPalette.line),
+                      boxShadow: const [
+                        BoxShadow(
+                          color: Color(0x16120F28),
+                          blurRadius: 38,
+                          offset: Offset(0, 18),
+                        ),
+                      ],
+                    ),
+                    child: page.child,
+                  ),
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+class _BrandHeader extends StatelessWidget {
+  const _BrandHeader({this.large = false});
+
+  final bool large;
+
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      children: [
+        _AppMark(size: large ? 64 : 46),
+        SizedBox(width: large ? 16 : 12),
+        Expanded(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Text(
+                'Oraya Insight',
+                style: TextStyle(
+                  color: CosmicPalette.ink,
+                  fontSize: large ? 27 : 18,
+                  fontWeight: FontWeight.w800,
+                  letterSpacing: -0.2,
+                ),
+              ),
+              SizedBox(height: large ? 4 : 2),
+              Text(
+                'Timing-based insight readings',
+                style: TextStyle(
+                  color: CosmicPalette.fog,
+                  fontSize: large ? 16 : 12.5,
+                  fontWeight: FontWeight.w600,
+                ),
+              ),
+            ],
+          ),
+        ),
+      ],
+    );
+  }
+}
+
+class _PageIntro extends StatelessWidget {
+  const _PageIntro({
+    required this.page,
+    required this.titleSize,
+    required this.bodySize,
+  });
+
+  final _ScreenshotPage page;
+  final double titleSize;
+  final double bodySize;
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Text(
+          page.eyebrow,
+          style: const TextStyle(
+            color: CosmicPalette.sage,
+            fontSize: 12,
+            fontWeight: FontWeight.w800,
+            letterSpacing: 2.4,
+          ),
+        ),
+        const SizedBox(height: 12),
+        Text(
+          page.title,
+          style: TextStyle(
+            color: CosmicPalette.ink,
+            fontSize: titleSize,
+            height: 1.04,
+            fontWeight: FontWeight.w800,
+            letterSpacing: -1.8,
+          ),
+        ),
+        const SizedBox(height: 14),
+        Text(
+          page.body,
+          style: TextStyle(
+            color: CosmicPalette.fog,
+            fontSize: bodySize,
+            height: 1.45,
+            fontWeight: FontWeight.w500,
+          ),
+        ),
+      ],
     );
   }
 }
@@ -204,15 +323,17 @@ class _ScreenshotPage {
 }
 
 class _AppMark extends StatelessWidget {
-  const _AppMark();
+  const _AppMark({this.size = 46});
+
+  final double size;
 
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: 46,
-      height: 46,
+      width: size,
+      height: size,
       decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(15),
+        borderRadius: BorderRadius.circular(size * 0.326),
         gradient: const RadialGradient(
           center: Alignment(-0.18, -0.24),
           radius: 0.95,
