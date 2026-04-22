@@ -21,17 +21,6 @@ class _AuthUpgradeScreenState extends State<AuthUpgradeScreen> {
     return route.isEmpty ? '/today' : route;
   }
 
-  void _showPreviewMessage(String providerLabel) {
-    ScaffoldMessenger.of(context).showSnackBar(
-      SnackBar(
-        content: Text(
-          '$providerLabel sign-in is still in preview. We will turn it on before launch.',
-        ),
-        behavior: SnackBarBehavior.floating,
-      ),
-    );
-  }
-
   @override
   Widget build(BuildContext context) {
     final canGoBack = context.canPop();
@@ -95,25 +84,13 @@ class _AuthUpgradeScreenState extends State<AuthUpgradeScreen> {
             ],
           ),
           const SizedBox(height: 16),
-          FilledButton.icon(
-            onPressed: () => _showPreviewMessage('Apple'),
-            icon: const Icon(Icons.apple),
-            label: const Text('Continue with Apple'),
-          ),
-          const SizedBox(height: 10),
-          OutlinedButton.icon(
-            onPressed: () => _showPreviewMessage('Google'),
-            icon: const Icon(Icons.g_mobiledata_rounded),
-            label: const Text('Continue with Google'),
-          ),
-          const SizedBox(height: 12),
-          TextButton(
+          FilledButton(
             onPressed: () => context.go(_returnRoute),
-            child: const Text('Continue for now'),
+            child: const Text('Continue without sign-in'),
           ),
           const SizedBox(height: 8),
           const Text(
-            'Preview only for now. We only use sign-in to attach your saved chart and readings to you.',
+            'Account sign-in is coming later. For now, Oraya keeps your profile and readings attached to this app session.',
             style: TextStyle(
               fontSize: 12,
               height: 1.45,

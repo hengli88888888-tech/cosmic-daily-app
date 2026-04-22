@@ -624,15 +624,6 @@ class _TodayScreenState extends State<TodayScreen> {
           ),
         ),
         const SizedBox(height: 18),
-        FilledButton(
-          style: FilledButton.styleFrom(
-            backgroundColor: CosmicPalette.dusk,
-            foregroundColor: Colors.white,
-          ),
-          onPressed: () => context.push('/paywall'),
-          child: const Text('Open Coins & Membership'),
-        ),
-        const SizedBox(height: 10),
         Card(
           child: ListTile(
             leading: const Icon(Icons.notifications_active_outlined),
@@ -659,17 +650,6 @@ class _TodayScreenState extends State<TodayScreen> {
             onTap: () => context.push('/my-folder'),
           ),
         ),
-        const SizedBox(height: 10),
-        Card(
-          child: ListTile(
-            title: const Text('Annual Insight Report'),
-            subtitle: const Text(
-              'This is still in preview. Payment and delivery will show up here once it is fully enabled.',
-            ),
-            trailing: const Icon(Icons.chevron_right),
-            onTap: () => context.push('/annual-report'),
-          ),
-        ),
         const SizedBox(height: 80),
       ],
     );
@@ -684,8 +664,8 @@ class _TodayScreenState extends State<TodayScreen> {
           : (_statusState == 'preparing_profile')
               ? const SizedBox.shrink()
               : _data == null || !_isVerifiedReady
-              ? _statusScreen(context)
-              : _readyScreen(context),
+                  ? _statusScreen(context)
+                  : _readyScreen(context),
       bottomNavigationBar: SafeArea(
         minimum: const EdgeInsets.fromLTRB(12, 6, 12, 12),
         child: Row(
