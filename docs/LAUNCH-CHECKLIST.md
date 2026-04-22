@@ -103,7 +103,8 @@ python3 scripts/audit_supabase_rls_isolation.py
 
 - Apple Developer account is active.
 - Bundle ID and signing team are final.
-- App name is `Oraya`.
+- App Store metadata is prepared in `docs/APP-STORE-METADATA.md`.
+- App name is `Oraya Insight`.
 - App icon and launch assets are final.
 - App Store screenshots are prepared.
 - Privacy Policy URL is live: `https://oraya.ai-divination.com/privacy`.
