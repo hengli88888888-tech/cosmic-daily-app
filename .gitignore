@@ -58,6 +58,7 @@ backend/supabase/.temp/
 .playwright-cli/
 .codex_tmp_*
 tmp/
+output/
 
 # Raw/imported knowledge source files are too large and not needed for release builds.
 data/**

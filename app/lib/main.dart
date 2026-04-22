@@ -5,6 +5,7 @@ import 'package:supabase_flutter/supabase_flutter.dart';
 
 import 'screens/welcome_screen.dart';
 import 'screens/auth_upgrade_screen.dart';
+import 'screens/app_store_screenshot_screen.dart';
 import 'screens/onboarding_screen.dart';
 import 'screens/today_screen.dart';
 import 'screens/paywall_screen.dart';
@@ -19,6 +20,8 @@ import 'theme/cosmic_theme.dart';
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
+  const appStoreScreenshotMode =
+      bool.fromEnvironment('APP_STORE_SCREENSHOT_MODE');
   const configuredSupabaseUrl = String.fromEnvironment('SUPABASE_URL');
   const configuredSupabaseAnonKey = String.fromEnvironment('SUPABASE_ANON_KEY');
 
@@ -37,6 +40,7 @@ Future<void> main() async {
     OrayaBootstrapApp(
       supabaseUrl: supabaseUrl,
       supabaseAnonKey: supabaseAnonKey,
+      skipSupabaseBootstrap: appStoreScreenshotMode,
     ),
   );
 }
@@ -46,10 +50,12 @@ class OrayaBootstrapApp extends StatefulWidget {
     super.key,
     required this.supabaseUrl,
     required this.supabaseAnonKey,
+    required this.skipSupabaseBootstrap,
   });
 
   final String supabaseUrl;
   final String supabaseAnonKey;
+  final bool skipSupabaseBootstrap;
 
   @override
   State<OrayaBootstrapApp> createState() => _OrayaBootstrapAppState();
@@ -59,6 +65,10 @@ class _OrayaBootstrapAppState extends State<OrayaBootstrapApp> {
   late final Future<void> _bootstrapFuture = _bootstrap();
 
   Future<void> _bootstrap() async {
+    if (widget.skipSupabaseBootstrap) {
+      return;
+    }
+
     if (widget.supabaseUrl.isEmpty || widget.supabaseAnonKey.isEmpty) {
       throw StateError(
         'Supabase configuration is missing. Provide SUPABASE_URL and SUPABASE_ANON_KEY for this build.',
@@ -196,9 +206,26 @@ class OrayaApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    const appStoreScreenshotMode =
+        bool.fromEnvironment('APP_STORE_SCREENSHOT_MODE');
+    const appStoreScreenshotPage =
+        int.fromEnvironment('APP_STORE_SCREENSHOT_PAGE');
+    const appStoreScreenshotAutoPlay =
+        bool.fromEnvironment('APP_STORE_SCREENSHOT_AUTOPLAY');
     final router = GoRouter(
-      initialLocation: '/master-reply',
+      initialLocation:
+          appStoreScreenshotMode ? '/app-store-screenshot' : '/master-reply',
       routes: [
+        GoRoute(
+          path: '/app-store-screenshot',
+          pageBuilder: (_, state) => _animatedPage(
+            state,
+            const AppStoreScreenshotScreen(
+              pageIndex: appStoreScreenshotPage,
+              autoPlay: appStoreScreenshotAutoPlay,
+            ),
+          ),
+        ),
         GoRoute(
           path: '/welcome',
           pageBuilder: (_, state) =>
