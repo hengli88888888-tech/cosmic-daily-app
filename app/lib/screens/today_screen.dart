@@ -147,7 +147,7 @@ class _TodayScreenState extends State<TodayScreen> {
         SnackBar(
           content: Text(
             rewarded
-                ? 'Thanks for sharing Oraya. You earned $rewardCoins coins.'
+                ? 'Thanks for sharing Oraya. You earned $rewardCoins free coins.'
                 : 'Thanks for sharing Oraya. Your first-share bonus was already used.',
           ),
         ),
@@ -263,7 +263,7 @@ class _TodayScreenState extends State<TodayScreen> {
           Text(
             claimed
                 ? 'You can keep sharing Oraya anytime through Messages, WhatsApp, Instagram, Snapchat, or wherever you usually talk to people. Your first-share bonus is already unlocked.'
-                : 'Share Oraya with a friend or to the apps you already use. Your first share unlocks $rewardCoins coins.',
+                : 'Share Oraya with a friend or to the apps you already use. Your first share unlocks $rewardCoins free coins.',
             style: const TextStyle(
               height: 1.5,
               color: CosmicPalette.fog,
@@ -288,7 +288,7 @@ class _TodayScreenState extends State<TodayScreen> {
                   ? 'Opening share...'
                   : claimed
                       ? 'Share again'
-                      : 'Share and unlock 5 coins',
+                      : 'Share and unlock 5 free coins',
             ),
           ),
         ],

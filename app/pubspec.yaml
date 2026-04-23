@@ -1,7 +1,7 @@
 name: cosmic_daily_app
 description: Oraya app for personal insight, timing guidance, and question-based readings
 publish_to: 'none'
-version: 1.0.0+1
+version: 1.0.0+2
 
 environment:
   sdk: '>=3.3.0 <4.0.0'

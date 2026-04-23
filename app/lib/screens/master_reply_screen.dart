@@ -303,12 +303,12 @@ class _MasterReplyScreenState extends State<MasterReplyScreen> {
       'createdAt': (baseThread?['createdAt'] ?? createdAt).toString(),
       'updatedAt': deliveredAt,
       'lastCostLabel': questionKind == 'followup'
-          ? (coinCost == 0 ? 'Free clarification' : '1 coin')
+          ? (coinCost == 0 ? 'Free clarification' : '1 free coin')
           : coinCost == 2
-              ? '2 coins'
+              ? '2 free coins'
               : coinCost == 0
                   ? 'Free opening reading'
-                  : '5 coins',
+                  : '5 free coins',
       'feedback': feedbackState,
       'messages': messages,
     };
@@ -947,7 +947,7 @@ class _MasterReplyScreenState extends State<MasterReplyScreen> {
           Text(
             awaitingInfo
                 ? 'I need one more detail before I give you the strongest answer. Reply in this thread and that clarification will not cost an extra coin.'
-                : 'Stay in this thread to go deeper into the same concern. A follow-up costs 1 coin.',
+                : 'Stay in this thread to go deeper into the same concern. A follow-up uses 1 free coin.',
             style: const TextStyle(height: 1.45, color: CosmicPalette.fog),
           ),
         ],
@@ -964,12 +964,12 @@ class _MasterReplyScreenState extends State<MasterReplyScreen> {
     final actionLabel = hasThread
         ? awaitingInfo
             ? 'Reply with details · free'
-            : 'Continue this thread · 1 coin'
+            : 'Continue this thread · 1 free coin'
         : _freeFirstQuestionAvailable
             ? 'Ask your free opening question'
             : _newTopicKind == 'quick'
-                ? 'Start a new quick reading · 2 coins'
-                : 'Start a new deep reading · 5 coins';
+                ? 'Start a new quick reading · 2 free coins'
+                : 'Start a new deep reading · 5 free coins';
 
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,

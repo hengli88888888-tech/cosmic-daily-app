@@ -135,7 +135,7 @@ class _PaywallScreenState extends State<PaywallScreen> {
         SnackBar(
           content: Text(
             rewarded
-                ? 'Thanks for sharing Oraya. You earned $rewardCoins coins.'
+                ? 'Thanks for sharing Oraya. You earned $rewardCoins free coins.'
                 : 'Thanks for sharing Oraya. Your first-share bonus was already used.',
           ),
         ),
@@ -330,7 +330,16 @@ class _PaywallScreenState extends State<PaywallScreen> {
     final shareClaimed =
         (shareBonus['firstShareRewardClaimed'] as bool?) ?? false;
     final catalog = _catalog;
+    final purchasesAvailable = catalog?.available == true;
     final purchaseNote = catalog?.reason;
+    final pageTitle = purchasesAvailable ? 'Coins & Membership' : 'Free coins';
+    final heroBadge = purchasesAvailable ? 'MEMBERSHIP' : 'FREE CREDITS';
+    final heroTitle = purchasesAvailable
+        ? 'Keep the conversation going.'
+        : 'Free credits for this version.';
+    final heroBody = purchasesAvailable
+        ? 'Coins never expire. Use them for deep readings, quick answers, and low-cost follow-ups in the same thread.'
+        : 'Coins in this version are free promotional credits only. Purchases are not enabled in this build.';
 
     return Scaffold(
       appBar: AppBar(
@@ -340,7 +349,7 @@ class _PaywallScreenState extends State<PaywallScreen> {
                 icon: const Icon(Icons.arrow_back_ios_new_rounded),
               )
             : null,
-        title: const Text('Coins & Membership'),
+        title: Text(pageTitle),
       ),
       body: _loading
           ? const Center(child: CircularProgressIndicator())
@@ -360,9 +369,9 @@ class _PaywallScreenState extends State<PaywallScreen> {
                           color: Colors.white.withValues(alpha: 0.10),
                           borderRadius: BorderRadius.circular(999),
                         ),
-                        child: const Text(
-                          'MEMBERSHIP',
-                          style: TextStyle(
+                        child: Text(
+                          heroBadge,
+                          style: const TextStyle(
                             color: Color(0xFFD7CFF4),
                             fontSize: 11,
                             fontWeight: FontWeight.w700,
@@ -371,9 +380,9 @@ class _PaywallScreenState extends State<PaywallScreen> {
                         ),
                       ),
                       const SizedBox(height: 14),
-                      const Text(
-                        'Keep the conversation going.',
-                        style: TextStyle(
+                      Text(
+                        heroTitle,
+                        style: const TextStyle(
                           color: Colors.white,
                           fontSize: 28,
                           height: 1.15,
@@ -381,9 +390,9 @@ class _PaywallScreenState extends State<PaywallScreen> {
                         ),
                       ),
                       const SizedBox(height: 10),
-                      const Text(
-                        'Coins never expire. Use them for deep readings, quick answers, and low-cost follow-ups in the same thread.',
-                        style: TextStyle(
+                      Text(
+                        heroBody,
+                        style: const TextStyle(
                           color: Color(0xFFD7CFF4),
                           height: 1.45,
                         ),
@@ -417,7 +426,9 @@ class _PaywallScreenState extends State<PaywallScreen> {
                       if (purchaseNote != null) ...[
                         const SizedBox(height: 12),
                         Text(
-                          purchaseNote,
+                          purchasesAvailable
+                              ? purchaseNote
+                              : 'Paid purchases are not enabled in this version. Coins shown here are free promotional credits only.',
                           style: const TextStyle(
                             color: Color(0xFFD7CFF4),
                             height: 1.35,
@@ -453,14 +464,14 @@ class _PaywallScreenState extends State<PaywallScreen> {
                         ),
                       ),
                       const SizedBox(height: 8),
-                      const Text('Deep reading · 5 coins'),
-                      const Text('Quick answer · 2 coins'),
-                      const Text('Follow-up in the same thread · 1 coin'),
+                      const Text('Deep reading · 5 free coins'),
+                      const Text('Quick answer · 2 free coins'),
+                      const Text('Follow-up in the same thread · 1 free coin'),
                       const SizedBox(height: 8),
                       Text(
                         freeFirstQuestionAvailable
-                            ? 'Your opening deep question is still available, so you can experience the flow before deciding to upgrade.'
-                            : 'Your opening question has already been used. Use coins to keep the conversation moving across new topics and follow-ups.',
+                            ? 'Your opening deep question is still available. Additional coins in this version are earned through free promotional actions.'
+                            : 'Your opening question has already been used. Use free promotional coins to keep the conversation moving across new topics and follow-ups.',
                         style: const TextStyle(
                           fontSize: 12,
                           height: 1.4,
@@ -499,7 +510,7 @@ class _PaywallScreenState extends State<PaywallScreen> {
                       Text(
                         shareClaimed
                             ? 'Your first-share bonus is already unlocked. You can still share Oraya through Messages, WhatsApp, Instagram, Snapchat, or any app in your system share sheet.'
-                            : 'Your first share unlocks 5 coins. After that, you can still share Oraya anytime, but the bonus only happens once.',
+                            : 'Your first share unlocks 5 free coins. After that, you can still share Oraya anytime, but the bonus only happens once.',
                         style: const TextStyle(
                           fontSize: 12,
                           height: 1.45,
@@ -514,72 +525,74 @@ class _PaywallScreenState extends State<PaywallScreen> {
                               ? 'Opening share...'
                               : shareClaimed
                                   ? 'Share again'
-                                  : 'Share and unlock 5 coins',
+                                  : 'Share and unlock 5 free coins',
                         ),
                       ),
                     ],
                   ),
                 ),
-                const SizedBox(height: 18),
-                const Text(
-                  'Membership',
-                  style: TextStyle(fontSize: 20, fontWeight: FontWeight.w700),
-                ),
-                const SizedBox(height: 10),
-                _planCard(
-                  name: 'Basic',
-                  price: '\$7.99 / month',
-                  coins: '20 coins every week',
-                  detail:
-                      'Good if you want a steady amount of guidance and occasional deep readings.',
-                  product: catalog?[RevenueCatProductKind.basicMonthly],
-                ),
-                _planCard(
-                  name: 'Advanced',
-                  price: '\$19.99 / month',
-                  coins: '70 coins every week',
-                  detail:
-                      'Built for daily use, deeper follow-up, and multiple live questions across the week.',
-                  featured: true,
-                  product: catalog?[RevenueCatProductKind.proMonthly],
-                ),
-                _planCard(
-                  name: 'Advanced Yearly',
-                  price: '\$199 / year',
-                  coins: '70 coins every week',
-                  detail:
-                      'Best long-term value if you plan to use the app as an ongoing personal guidance tool.',
-                  product: catalog?[RevenueCatProductKind.proYearly],
-                ),
-                const SizedBox(height: 12),
-                const Text(
-                  'Coin packs',
-                  style: TextStyle(fontSize: 20, fontWeight: FontWeight.w700),
-                ),
-                const SizedBox(height: 10),
-                _shopCard(
-                  title: '5 coins · \$2.99',
-                  subtitle: 'A light top-up for a single deep reading.',
-                  product: catalog?[RevenueCatProductKind.coins5Pack],
-                ),
-                _shopCard(
-                  title: '15 coins · \$6.99',
-                  subtitle:
-                      'A flexible pack for several quick answers or a few follow-ups.',
-                  product: catalog?[RevenueCatProductKind.coins15Pack],
-                ),
-                _shopCard(
-                  title: '50 coins · \$19.99',
-                  subtitle:
-                      'Best if you want to unlock multiple new topics without committing to a plan yet.',
-                  product: catalog?[RevenueCatProductKind.coins50Pack],
-                ),
-                const SizedBox(height: 8),
-                OutlinedButton(
-                  onPressed: _restoring ? null : _restore,
-                  child:
-                      Text(_restoring ? 'Restoring...' : 'Restore purchases'),
-                ),
+                if (purchasesAvailable) ...[
+                  const SizedBox(height: 18),
+                  const Text(
+                    'Membership',
+                    style: TextStyle(fontSize: 20, fontWeight: FontWeight.w700),
+                  ),
+                  const SizedBox(height: 10),
+                  _planCard(
+                    name: 'Basic',
+                    price: '\$7.99 / month',
+                    coins: '20 coins every week',
+                    detail:
+                        'Good if you want a steady amount of guidance and occasional deep readings.',
+                    product: catalog?[RevenueCatProductKind.basicMonthly],
+                  ),
+                  _planCard(
+                    name: 'Advanced',
+                    price: '\$19.99 / month',
+                    coins: '70 coins every week',
+                    detail:
+                        'Built for daily use, deeper follow-up, and multiple live questions across the week.',
+                    featured: true,
+                    product: catalog?[RevenueCatProductKind.proMonthly],
+                  ),
+                  _planCard(
+                    name: 'Advanced Yearly',
+                    price: '\$199 / year',
+                    coins: '70 coins every week',
+                    detail:
+                        'Best long-term value if you plan to use the app as an ongoing personal guidance tool.',
+                    product: catalog?[RevenueCatProductKind.proYearly],
+                  ),
+                  const SizedBox(height: 12),
+                  const Text(
+                    'Coin packs',
+                    style: TextStyle(fontSize: 20, fontWeight: FontWeight.w700),
+                  ),
+                  const SizedBox(height: 10),
+                  _shopCard(
+                    title: '5 coins',
+                    subtitle: 'A light top-up for a single deep reading.',
+                    product: catalog?[RevenueCatProductKind.coins5Pack],
+                  ),
+                  _shopCard(
+                    title: '15 coins',
+                    subtitle:
+                        'A flexible pack for several quick answers or a few follow-ups.',
+                    product: catalog?[RevenueCatProductKind.coins15Pack],
+                  ),
+                  _shopCard(
+                    title: '50 coins',
+                    subtitle:
+                        'Best if you want to unlock multiple new topics without committing to a plan yet.',
+                    product: catalog?[RevenueCatProductKind.coins50Pack],
+                  ),
+                  const SizedBox(height: 8),
+                  OutlinedButton(
+                    onPressed: _restoring ? null : _restore,
+                    child:
+                        Text(_restoring ? 'Restoring...' : 'Restore purchases'),
+                  ),
+                ],
                 const SizedBox(height: 16),
                 FilledButton(
                   onPressed: () => context.canPop()
